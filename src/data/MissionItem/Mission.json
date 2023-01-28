@@ -259,7 +259,7 @@
         "pk": 33,
         "mission_set": 3,
         "name": "A Long Distance Relation",
-        "objectives": "<ul><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> from more than 150m using the <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\"> .308 Ansch�tz Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> from more than 150m using the <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\"> .308 Anschütz Rifle</a>.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -731,7 +731,7 @@
         "pk": 92,
         "mission_set": 8,
         "name": "Surgical Precision",
-        "objectives": "<ul><li>Harvest female <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a> with a heart shot.</li></ul>",
+        "objectives": "<ul><li>Harvest female <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a> with a heart shot.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -763,7 +763,7 @@
         "pk": 96,
         "mission_set": 8,
         "name": "Leaving The Nest",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> of at least 200 points using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\">.308 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> of at least 200 points using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -1035,7 +1035,7 @@
         "pk": 130,
         "mission_set": 12,
         "name": "Foul Play",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a> from a minimum of 100 meters (approx. 328ft).</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> from a minimum of 100 meters (approx. 328ft).</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -1139,7 +1139,7 @@
         "pk": 143,
         "mission_set": 13,
         "name": "Far-fetched",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> using a scoped <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a> at a minimum distance of 100 meters (approx. 328 ft).</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> using a scoped <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a> at a minimum distance of 100 meters (approx. 328 ft).</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3571,7 +3571,7 @@
         "pk": 447,
         "mission_set": 44,
         "name": "Roe For Starters",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\">.308 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\">.308 Ansch�tz 1780 D FL Bolt Action Rifle</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\">.308 Ansch�tz 1780 D FL Bolt Action Rifle</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a> during the same hunt.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -3579,7 +3579,7 @@
         "pk": 448,
         "mission_set": 44,
         "name": "Everything Is Coming Up Mule Deer",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> with a heart or lung shot using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\">.308 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> with a heart or lung shot using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -3587,7 +3587,7 @@
         "pk": 449,
         "mission_set": 44,
         "name": "Blacktail From Afar",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a> from a minimum of 100 meters (approx. 328 ft).</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a> from a minimum of 120 meters (approx. 328 ft) during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a> from a minimum of 140 meters (approx. 459 ft.) during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> from a minimum of 100 meters (approx. 328 ft).</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> from a minimum of 120 meters (approx. 328 ft) during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> from a minimum of 140 meters (approx. 459 ft.) during the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3595,7 +3595,7 @@
         "pk": 450,
         "mission_set": 44,
         "name": "Whitetail Up Close",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a> without a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a> without a scope in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> without a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> without a scope in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3603,7 +3603,7 @@
         "pk": 451,
         "mission_set": 44,
         "name": "Chunky Red Deer",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -3611,7 +3611,7 @@
         "pk": 452,
         "mission_set": 44,
         "name": "Big Boned Roosevelt Elk",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -3619,7 +3619,7 @@
         "pk": 453,
         "mission_set": 44,
         "name": "Mighty Moose",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> with at least 16 typical points using either a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\"> .308</a>, <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\"> 8x57</a> or a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\"> 9.3x62</a> Ansch�tz Rifle.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> with at least 16 typical points using either a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\"> .308</a>, <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\"> 8x57</a> or a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\"> 9.3x62</a> Anschütz Rifle.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3627,7 +3627,7 @@
         "pk": 454,
         "mission_set": 44,
         "name": "Wild Boar Galore",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> with both tusks at least 4 inches in length using either a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\"> .308</a>, <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\"> 8x57</a> or a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\"> 9.3x62</a> Ansch�tz Rifle.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> with both tusks at least 4 inches in length using either a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\"> .308</a>, <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\"> 8x57</a> or a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\"> 9.3x62</a> Anschütz Rifle.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3635,7 +3635,7 @@
         "pk": 455,
         "mission_set": 44,
         "name": "Rather Far Away",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> from a minimum of 180 meters using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> from a minimum of 180 meters using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -3643,7 +3643,7 @@
         "pk": 456,
         "mission_set": 44,
         "name": "Eyes of the Hawk",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from a minimum of 80 meters using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Ansch�tz 1780 D FL Bolt Action Rifle\"> .308 Ansch�tz 1780 D FL Bolt Action Rifle</a> without using a scope.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from a minimum of 80 meters using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\"> .308 Anschütz 1780 D FL Bolt Action Rifle</a> without using a scope.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -4027,7 +4027,7 @@
         "pk": 504,
         "mission_set": 51,
         "name": "Big Game Hunting",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> at a 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle\">9.3x62 Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> at a 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -4035,7 +4035,7 @@
         "pk": 505,
         "mission_set": 51,
         "name": "Saved From Extinction",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> from at least 100 meters (approx. 328 ft.) using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> from at least 100 meters (approx. 328 ft.) using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -4203,7 +4203,7 @@
         "pk": 526,
         "mission_set": 60,
         "name": "Caring For The Weak",
-        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 2 (x -13389, y 4024).</li><li>Then arrive at Tower 6 (x -14478, y 5114).</li><li>Then arrive at Tower 17 (x -13928, y 6285).</li><li>Then arrive at Tower 12 (x -13836, y 5038).</li><li>At any point while in Whitehart Island, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point while in Whitehart Island, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 380kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Ansch�tz rifle</a>.</li><li>At any point while in Whitehart Island, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Ansch�tz rifle</a>.</li><li>At any point while in Whitehart Island, harvest another female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Ansch�tz rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 2 (x -13389, y 4024).</li><li>Then arrive at Tower 6 (x -14478, y 5114).</li><li>Then arrive at Tower 17 (x -13928, y 6285).</li><li>Then arrive at Tower 12 (x -13836, y 5038).</li><li>At any point while in Whitehart Island, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point while in Whitehart Island, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 380kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li><li>At any point while in Whitehart Island, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li><li>At any point while in Whitehart Island, harvest another female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li></ul>",
         "reward": 1000,
         "order": 6
     },
@@ -4219,7 +4219,7 @@
         "pk": 528,
         "mission_set": 60,
         "name": "Check For A Northern Return",
-        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 5 (x -13651, y 3412) in the same hunt.</li><li>Then arrive at Tower 1 (x -13888, y 3352) in the same hunt.</li><li>Then arrive at Tower 11 (x -14437, y 3334) in the same hunt.</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>Then arrive at the <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island#Awi.27Usdi_Stones\" title=\"Whitehart Island\"> Awi'Usdi Stones</a> in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID more tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 380 killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Ansch�tz rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 5 (x -13651, y 3412) in the same hunt.</li><li>Then arrive at Tower 1 (x -13888, y 3352) in the same hunt.</li><li>Then arrive at Tower 11 (x -14437, y 3334) in the same hunt.</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>Then arrive at the <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island#Awi.27Usdi_Stones\" title=\"Whitehart Island\"> Awi'Usdi Stones</a> in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID more tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 380 killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li></ul>",
         "reward": 1600,
         "order": 8
     },
@@ -4379,7 +4379,7 @@
         "pk": 548,
         "mission_set": 55,
         "name": "Mixing It Up",
-        "objectives": "<ul><li>Start at Mullerwaldh�tte in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Then arrive at Tower 7 (x 9992, y -50) during the same hunt.</li><li>Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.</li><li>Then arrive at Tower 3 (x 9075, y 248) during the same hunt.</li><li>Then arrive at Tower 4 (x 8504, y -25) during the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> killed with a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Ansch�tz 1780 D FL Bolt Action Rifle\">8x57_IS_Ansch�tz_1780_D_FL_Bolt_Action_Rifle</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a>.</li></ul>",
+        "objectives": "<ul><li>Start at Mullerwaldh�tte in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Then arrive at Tower 7 (x 9992, y -50) during the same hunt.</li><li>Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.</li><li>Then arrive at Tower 3 (x 9075, y 248) during the same hunt.</li><li>Then arrive at Tower 4 (x 8504, y -25) during the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> killed with a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57_IS_Anschütz_1780_D_FL_Bolt_Action_Rifle</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },

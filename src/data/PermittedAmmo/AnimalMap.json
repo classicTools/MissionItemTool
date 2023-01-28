@@ -1,406 +1,325 @@
 [
     {
-        "pk": 4,
         "animal": 12,
         "map": 1
     },
     {
-        "pk": 5,
         "animal": 13,
         "map": 1
     },
     {
-        "pk": 6,
         "animal": 5,
         "map": 1
     },
     {
-        "pk": 7,
         "animal": 28,
         "map": 1
     },
     {
-        "pk": 8,
         "animal": 31,
         "map": 1
     },
     {
-        "pk": 9,
         "animal": 34,
         "map": 1
     },
     {
-        "pk": 10,
         "animal": 28,
         "map": 2
     },
     {
-        "pk": 11,
         "animal": 31,
         "map": 2
     },
     {
-        "pk": 12,
         "animal": 12,
         "map": 2
     },
     {
-        "pk": 13,
         "animal": 11,
         "map": 2
     },
     {
-        "pk": 14,
         "animal": 26,
         "map": 2
     },
     {
-        "pk": 15,
         "animal": 38,
         "map": 2
     },
     {
-        "pk": 16,
         "animal": 44,
         "map": 2
     },
     {
-        "pk": 17,
         "animal": 12,
         "map": 3
     },
     {
-        "pk": 18,
         "animal": 5,
         "map": 3
     },
     {
-        "pk": 19,
         "animal": 26,
         "map": 3
     },
     {
-        "pk": 20,
         "animal": 24,
         "map": 3
     },
     {
-        "pk": 21,
         "animal": 31,
         "map": 3
     },
     {
-        "pk": 22,
         "animal": 34,
         "map": 3
     },
     {
-        "pk": 23,
         "animal": 44,
         "map": 3
     },
     {
-        "pk": 24,
         "animal": 12,
         "map": 4
     },
     {
-        "pk": 25,
         "animal": 13,
         "map": 4
     },
     {
-        "pk": 26,
         "animal": 4,
         "map": 4
     },
     {
-        "pk": 27,
         "animal": 5,
         "map": 4
     },
     {
-        "pk": 28,
         "animal": 24,
         "map": 4
     },
     {
-        "pk": 29,
         "animal": 7,
         "map": 5
     },
     {
-        "pk": 30,
         "animal": 15,
         "map": 5
     },
     {
-        "pk": 31,
         "animal": 25,
         "map": 5
     },
     {
-        "pk": 32,
         "animal": 32,
         "map": 5
     },
     {
-        "pk": 33,
         "animal": 38,
         "map": 5
     },
     {
-        "pk": 34,
         "animal": 35,
         "map": 5
     },
     {
-        "pk": 35,
         "animal": 4,
         "map": 6
     },
     {
-        "pk": 36,
         "animal": 30,
         "map": 6
     },
     {
-        "pk": 37,
         "animal": 8,
         "map": 6
     },
     {
-        "pk": 38,
         "animal": 15,
         "map": 6
     },
     {
-        "pk": 39,
         "animal": 22,
         "map": 6
     },
     {
-        "pk": 40,
         "animal": 32,
         "map": 6
     },
     {
-        "pk": 41,
         "animal": 46,
         "map": 6
     },
     {
-        "pk": 42,
         "animal": 12,
         "map": 7
     },
     {
-        "pk": 43,
         "animal": 24,
         "map": 7
     },
     {
-        "pk": 44,
         "animal": 26,
         "map": 7
     },
     {
-        "pk": 45,
         "animal": 31,
         "map": 7
     },
     {
-        "pk": 46,
         "animal": 39,
         "map": 7
     },
     {
-        "pk": 47,
         "animal": 40,
         "map": 7
     },
     {
-        "pk": 48,
         "animal": 41,
         "map": 7
     },
     {
-        "pk": 49,
         "animal": 42,
         "map": 7
     },
     {
-        "pk": 50,
         "animal": 7,
         "map": 8
     },
     {
-        "pk": 51,
         "animal": 15,
         "map": 8
     },
     {
-        "pk": 52,
         "animal": 22,
         "map": 8
     },
     {
-        "pk": 53,
         "animal": 18,
         "map": 8
     },
     {
-        "pk": 54,
         "animal": 32,
         "map": 8
     },
     {
-        "pk": 55,
         "animal": 47,
         "map": 8
     },
     {
-        "pk": 56,
         "animal": 43,
         "map": 8
     },
     {
-        "pk": 57,
         "animal": 26,
         "map": 9
     },
     {
-        "pk": 58,
         "animal": 19,
         "map": 9
     },
     {
-        "pk": 59,
         "animal": 20,
         "map": 9
     },
     {
-        "pk": 60,
         "animal": 32,
         "map": 9
     },
     {
-        "pk": 61,
         "animal": 43,
         "map": 9
     },
     {
-        "pk": 62,
         "animal": 14,
         "map": 10
     },
     {
-        "pk": 63,
         "animal": 4,
         "map": 10
     },
     {
-        "pk": 64,
         "animal": 21,
         "map": 10
     },
     {
-        "pk": 65,
         "animal": 3,
         "map": 10
     },
     {
-        "pk": 66,
         "animal": 17,
         "map": 10
     },
     {
-        "pk": 67,
         "animal": 33,
         "map": 10
     },
     {
-        "pk": 68,
         "animal": 36,
         "map": 10
     },
     {
-        "pk": 69,
         "animal": 45,
         "map": 10
     },
     {
-        "pk": 70,
         "animal": 11,
         "map": 11
     },
     {
-        "pk": 71,
         "animal": 6,
         "map": 11
     },
     {
-        "pk": 72,
         "animal": 23,
         "map": 11
     },
     {
-        "pk": 73,
         "animal": 16,
         "map": 11
     },
     {
-        "pk": 74,
         "animal": 27,
         "map": 11
     },
     {
-        "pk": 75,
         "animal": 29,
         "map": 11
     },
     {
-        "pk": 76,
         "animal": 48,
         "map": 11
     },
     {
-        "pk": 77,
         "animal": 9,
         "map": 12
     },
     {
-        "pk": 78,
         "animal": 10,
         "map": 12
     },
     {
-        "pk": 79,
         "animal": 26,
         "map": 12
     },
     {
-        "pk": 80,
         "animal": 1,
         "map": 12
     },
     {
-        "pk": 81,
         "animal": 2,
         "map": 12
     },
     {
-        "pk": 82,
         "animal": 37,
         "map": 12
     },
     {
-        "pk": 83,
         "animal": 49,
         "map": 9
     },
     {
-        "pk": 84,
         "animal": 50,
         "map": 5
     }
