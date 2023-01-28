@@ -1,0 +1,379 @@
+[
+    {
+        "model": "permitted_ammo.ammotype",
+        "pk": 1,
+        "name": "Rifle",
+        "order": 10
+    },
+    {
+        "model": "permitted_ammo.ammotype",
+        "pk": 2,
+        "name": "Handgun",
+        "order": 20
+    },
+    {
+        "model": "permitted_ammo.ammotype",
+        "pk": 3,
+        "name": "Shotgun",
+        "order": 30
+    },
+    {
+        "model": "permitted_ammo.ammotype",
+        "pk": 4,
+        "name": "Bow & Crossbow",
+        "order": 40
+    },
+    {
+        "model": "permitted_ammo.ammotype",
+        "pk": 5,
+        "name": "Muzzleloader",
+        "order": 50
+    },
+    {
+        "pk": 3,
+        "name": ".308 Nosler Partition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 4,
+        "name": "7mm-08 Ammunition (HP)",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 5,
+        "name": "7mm-08 Ammunition (HV)",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 6,
+        "name": ".17 HMR HV",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 7,
+        "name": "7x64mm Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 8,
+        "name": "9.3x74R Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 9,
+        "name": ".405 Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 10,
+        "name": ".30 R Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 11,
+        "name": ".17 HMR",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 12,
+
+        "name": ".340 Weatherby Magnum Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 13,
+
+        "name": ".30-06 Round Nose Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 14,
+        "name": "7.62x54R SP Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 15,
+        "name": ".45-70 Government",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 16,
+        "name": ".303 British Ammunition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 17,
+        "name": "7mm Magnum",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 18,
+        "name": ".30-30 Nosler Partition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 19,
+        "name": ".22 Air Rifle Pellet",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 20,
+        "name": "6.5x55 Nosler AccuBond",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 21,
+        "name": ".223 Nosler Ballistic Tip",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 22,
+        "name": "9.3x62 Nosler Partition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 23,
+        "name": "8x57 IS Nosler Partition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 24,
+        "name": ".270 Nosler Ballistic Tip",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 25,
+        "name": ".30-06 Nosler Partition",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 26,
+        "name": ".300 Nosler AccuBond",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 27,
+        "name": ".243 Nosler Ballistic Tip",
+        "order": 0,
+        "ammotype": 1
+    },
+    {
+        "pk": 28,
+        "name": "10mm Auto Ammunition",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 29,
+        "name": ".45 Long Colt Handgun",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 30,
+        "name": ".22 LR Ammunition",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 31,
+
+        "name": ".454 Nosler Custom Handgun",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 33,
+        "name": ".308 Nosler Partition",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 34,
+
+        "name": ".44 Nosler Sporting Handgun",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 35,
+
+        "name": ".357 Nosler Sporting Handgun",
+        "order": 0,
+        "ammotype": 2
+    },
+    {
+        "pk": 36,
+        "name": "10 GA Slug Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 37,
+        "name": "10 GA Buckshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 38,
+        "name": "10 GA Birdshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 39,
+        "name": "16 GA Birdshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 40,
+        "name": "16 GA Buckshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 41,
+        "name": "16 GA Slug Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 42,
+        "name": "20 GA Birdshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 43,
+        "name": "12 GA Slug Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 44,
+        "name": "12 GA Buckshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 45,
+        "name": "12 GA Birdshot Shells",
+        "order": 0,
+        "ammotype": 3
+    },
+    {
+        "pk": 46,
+        "name": "Crossbow Bolts",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 47,
+        "name": "Cable Backed Bow Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 48,
+        "name": "Longbow Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 49,
+        "name": "Crossbow Tracer Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 50,
+        "name": "Cupid Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 51,
+        "name": "Compound Tracer Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 52,
+        "name": "Recurve Tracer Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 53,
+        "name": "Recurve Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 54,
+        "name": "Crossbow Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 55,
+        "name": "Compound Arrows",
+        "order": 0,
+        "ammotype": 4
+    },
+    {
+        "pk": 56,
+        "name": ".45 Copper Bullet",
+        "order": 0,
+        "ammotype": 5
+    },
+    {
+        "pk": 57,
+        "name": ".50 Lead Bullet",
+        "order": 0,
+        "ammotype": 5
+    },
+    {
+        "pk": 58,
+        "name": ".45 Saboted Bullet",
+        "order": 0,
+        "ammotype": 5
+    },
+    {
+        "pk": 59,
+        "name": ".50 Conical Bullet",
+        "order": 0,
+        "ammotype": 5
+    },
+    {
+        "pk": 60,
+        "name": ".50 Patched Round Ball",
+        "order": 0,
+        "ammotype": 5
+    }
+]

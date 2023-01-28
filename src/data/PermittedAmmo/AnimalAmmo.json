@@ -1,0 +1,7317 @@
+[
+    {
+        "pk": 1,
+        "animal": 18,
+        "ammo": 3
+    },
+    {
+        "pk": 2,
+        "animal": 16,
+        "ammo": 3
+    },
+    {
+        "pk": 3,
+        "animal": 24,
+        "ammo": 3
+    },
+    {
+        "pk": 4,
+        "animal": 13,
+        "ammo": 3
+    },
+    {
+        "pk": 5,
+        "animal": 22,
+        "ammo": 3
+    },
+    {
+        "pk": 6,
+        "animal": 28,
+        "ammo": 3
+    },
+    {
+        "pk": 7,
+        "animal": 17,
+        "ammo": 3
+    },
+    {
+        "pk": 8,
+        "animal": 19,
+        "ammo": 3
+    },
+    {
+        "pk": 9,
+        "animal": 26,
+        "ammo": 3
+    },
+    {
+        "pk": 10,
+        "animal": 27,
+        "ammo": 3
+    },
+    {
+        "pk": 11,
+        "animal": 23,
+        "ammo": 3
+    },
+    {
+        "pk": 12,
+        "animal": 4,
+        "ammo": 3
+    },
+    {
+        "pk": 13,
+        "animal": 11,
+        "ammo": 3
+    },
+    {
+        "pk": 14,
+        "animal": 21,
+        "ammo": 3
+    },
+    {
+        "pk": 15,
+        "animal": 29,
+        "ammo": 3
+    },
+    {
+        "pk": 16,
+        "animal": 7,
+        "ammo": 3
+    },
+    {
+        "pk": 17,
+        "animal": 20,
+        "ammo": 3
+    },
+    {
+        "pk": 18,
+        "animal": 8,
+        "ammo": 3
+    },
+    {
+        "pk": 19,
+        "animal": 6,
+        "ammo": 3
+    },
+    {
+        "pk": 20,
+        "animal": 15,
+        "ammo": 3
+    },
+    {
+        "pk": 21,
+        "animal": 5,
+        "ammo": 3
+    },
+    {
+        "pk": 22,
+        "animal": 10,
+        "ammo": 3
+    },
+    {
+        "pk": 23,
+        "animal": 9,
+        "ammo": 3
+    },
+    {
+        "pk": 24,
+        "animal": 14,
+        "ammo": 3
+    },
+    {
+        "pk": 25,
+        "animal": 12,
+        "ammo": 3
+    },
+    {
+        "pk": 26,
+        "animal": 25,
+        "ammo": 3
+    },
+    {
+        "pk": 27,
+        "animal": 18,
+        "ammo": 4
+    },
+    {
+        "pk": 28,
+        "animal": 16,
+        "ammo": 4
+    },
+    {
+        "pk": 29,
+        "animal": 24,
+        "ammo": 4
+    },
+    {
+        "pk": 30,
+        "animal": 13,
+        "ammo": 4
+    },
+    {
+        "pk": 31,
+        "animal": 22,
+        "ammo": 4
+    },
+    {
+        "pk": 32,
+        "animal": 17,
+        "ammo": 4
+    },
+    {
+        "pk": 33,
+        "animal": 19,
+        "ammo": 4
+    },
+    {
+        "pk": 34,
+        "animal": 26,
+        "ammo": 4
+    },
+    {
+        "pk": 35,
+        "animal": 27,
+        "ammo": 4
+    },
+    {
+        "pk": 36,
+        "animal": 23,
+        "ammo": 4
+    },
+    {
+        "pk": 37,
+        "animal": 4,
+        "ammo": 4
+    },
+    {
+        "pk": 38,
+        "animal": 11,
+        "ammo": 4
+    },
+    {
+        "pk": 39,
+        "animal": 21,
+        "ammo": 4
+    },
+    {
+        "pk": 40,
+        "animal": 29,
+        "ammo": 4
+    },
+    {
+        "pk": 41,
+        "animal": 7,
+        "ammo": 4
+    },
+    {
+        "pk": 42,
+        "animal": 20,
+        "ammo": 4
+    },
+    {
+        "pk": 43,
+        "animal": 8,
+        "ammo": 4
+    },
+    {
+        "pk": 44,
+        "animal": 6,
+        "ammo": 4
+    },
+    {
+        "pk": 45,
+        "animal": 15,
+        "ammo": 4
+    },
+    {
+        "pk": 46,
+        "animal": 5,
+        "ammo": 4
+    },
+    {
+        "pk": 47,
+        "animal": 10,
+        "ammo": 4
+    },
+    {
+        "pk": 48,
+        "animal": 9,
+        "ammo": 4
+    },
+    {
+        "pk": 49,
+        "animal": 14,
+        "ammo": 4
+    },
+    {
+        "pk": 50,
+        "animal": 12,
+        "ammo": 4
+    },
+    {
+        "pk": 51,
+        "animal": 25,
+        "ammo": 4
+    },
+    {
+        "pk": 52,
+        "animal": 18,
+        "ammo": 5
+    },
+    {
+        "pk": 53,
+        "animal": 33,
+        "ammo": 5
+    },
+    {
+        "pk": 54,
+        "animal": 16,
+        "ammo": 5
+    },
+    {
+        "pk": 55,
+        "animal": 24,
+        "ammo": 5
+    },
+    {
+        "pk": 56,
+        "animal": 13,
+        "ammo": 5
+    },
+    {
+        "pk": 57,
+        "animal": 31,
+        "ammo": 5
+    },
+    {
+        "pk": 58,
+        "animal": 28,
+        "ammo": 5
+    },
+    {
+        "pk": 59,
+        "animal": 17,
+        "ammo": 5
+    },
+    {
+        "pk": 60,
+        "animal": 30,
+        "ammo": 5
+    },
+    {
+        "pk": 61,
+        "animal": 19,
+        "ammo": 5
+    },
+    {
+        "pk": 62,
+        "animal": 26,
+        "ammo": 5
+    },
+    {
+        "pk": 63,
+        "animal": 27,
+        "ammo": 5
+    },
+    {
+        "pk": 64,
+        "animal": 11,
+        "ammo": 5
+    },
+    {
+        "pk": 65,
+        "animal": 29,
+        "ammo": 5
+    },
+    {
+        "pk": 66,
+        "animal": 7,
+        "ammo": 5
+    },
+    {
+        "pk": 67,
+        "animal": 32,
+        "ammo": 5
+    },
+    {
+        "pk": 68,
+        "animal": 20,
+        "ammo": 5
+    },
+    {
+        "pk": 69,
+        "animal": 8,
+        "ammo": 5
+    },
+    {
+        "pk": 70,
+        "animal": 15,
+        "ammo": 5
+    },
+    {
+        "pk": 71,
+        "animal": 10,
+        "ammo": 5
+    },
+    {
+        "pk": 72,
+        "animal": 9,
+        "ammo": 5
+    },
+    {
+        "pk": 73,
+        "animal": 14,
+        "ammo": 5
+    },
+    {
+        "pk": 74,
+        "animal": 12,
+        "ammo": 5
+    },
+    {
+        "pk": 75,
+        "animal": 25,
+        "ammo": 5
+    },
+    {
+        "pk": 76,
+        "animal": 33,
+        "ammo": 6
+    },
+    {
+        "pk": 77,
+        "animal": 31,
+        "ammo": 6
+    },
+    {
+        "pk": 78,
+        "animal": 35,
+        "ammo": 6
+    },
+    {
+        "pk": 79,
+        "animal": 28,
+        "ammo": 6
+    },
+    {
+        "pk": 80,
+        "animal": 30,
+        "ammo": 6
+    },
+    {
+        "pk": 81,
+        "animal": 37,
+        "ammo": 6
+    },
+    {
+        "pk": 82,
+        "animal": 32,
+        "ammo": 6
+    },
+    {
+        "pk": 83,
+        "animal": 36,
+        "ammo": 6
+    },
+    {
+        "pk": 84,
+        "animal": 34,
+        "ammo": 6
+    },
+    {
+        "pk": 85,
+        "animal": 18,
+        "ammo": 7
+    },
+    {
+        "pk": 86,
+        "animal": 16,
+        "ammo": 7
+    },
+    {
+        "pk": 87,
+        "animal": 24,
+        "ammo": 7
+    },
+    {
+        "pk": 88,
+        "animal": 13,
+        "ammo": 7
+    },
+    {
+        "pk": 89,
+        "animal": 22,
+        "ammo": 7
+    },
+    {
+        "pk": 90,
+        "animal": 28,
+        "ammo": 7
+    },
+    {
+        "pk": 91,
+        "animal": 17,
+        "ammo": 7
+    },
+    {
+        "pk": 92,
+        "animal": 19,
+        "ammo": 7
+    },
+    {
+        "pk": 93,
+        "animal": 26,
+        "ammo": 7
+    },
+    {
+        "pk": 94,
+        "animal": 27,
+        "ammo": 7
+    },
+    {
+        "pk": 95,
+        "animal": 23,
+        "ammo": 7
+    },
+    {
+        "pk": 96,
+        "animal": 4,
+        "ammo": 7
+    },
+    {
+        "pk": 97,
+        "animal": 11,
+        "ammo": 7
+    },
+    {
+        "pk": 98,
+        "animal": 21,
+        "ammo": 7
+    },
+    {
+        "pk": 99,
+        "animal": 29,
+        "ammo": 7
+    },
+    {
+        "pk": 100,
+        "animal": 7,
+        "ammo": 7
+    },
+    {
+        "pk": 101,
+        "animal": 20,
+        "ammo": 7
+    },
+    {
+        "pk": 102,
+        "animal": 8,
+        "ammo": 7
+    },
+    {
+        "pk": 103,
+        "animal": 6,
+        "ammo": 7
+    },
+    {
+        "pk": 104,
+        "animal": 15,
+        "ammo": 7
+    },
+    {
+        "pk": 105,
+        "animal": 5,
+        "ammo": 7
+    },
+    {
+        "pk": 106,
+        "animal": 10,
+        "ammo": 7
+    },
+    {
+        "pk": 107,
+        "animal": 9,
+        "ammo": 7
+    },
+    {
+        "pk": 108,
+        "animal": 14,
+        "ammo": 7
+    },
+    {
+        "pk": 109,
+        "animal": 12,
+        "ammo": 7
+    },
+    {
+        "pk": 110,
+        "animal": 25,
+        "ammo": 7
+    },
+    {
+        "pk": 111,
+        "animal": 18,
+        "ammo": 8
+    },
+    {
+        "pk": 112,
+        "animal": 2,
+        "ammo": 8
+    },
+    {
+        "pk": 113,
+        "animal": 16,
+        "ammo": 8
+    },
+    {
+        "pk": 114,
+        "animal": 3,
+        "ammo": 8
+    },
+    {
+        "pk": 115,
+        "animal": 24,
+        "ammo": 8
+    },
+    {
+        "pk": 116,
+        "animal": 13,
+        "ammo": 8
+    },
+    {
+        "pk": 117,
+        "animal": 22,
+        "ammo": 8
+    },
+    {
+        "pk": 118,
+        "animal": 28,
+        "ammo": 8
+    },
+    {
+        "pk": 119,
+        "animal": 17,
+        "ammo": 8
+    },
+    {
+        "pk": 120,
+        "animal": 19,
+        "ammo": 8
+    },
+    {
+        "pk": 121,
+        "animal": 26,
+        "ammo": 8
+    },
+    {
+        "pk": 122,
+        "animal": 27,
+        "ammo": 8
+    },
+    {
+        "pk": 123,
+        "animal": 23,
+        "ammo": 8
+    },
+    {
+        "pk": 124,
+        "animal": 4,
+        "ammo": 8
+    },
+    {
+        "pk": 125,
+        "animal": 11,
+        "ammo": 8
+    },
+    {
+        "pk": 126,
+        "animal": 21,
+        "ammo": 8
+    },
+    {
+        "pk": 127,
+        "animal": 29,
+        "ammo": 8
+    },
+    {
+        "pk": 128,
+        "animal": 7,
+        "ammo": 8
+    },
+    {
+        "pk": 129,
+        "animal": 20,
+        "ammo": 8
+    },
+    {
+        "pk": 130,
+        "animal": 8,
+        "ammo": 8
+    },
+    {
+        "pk": 131,
+        "animal": 6,
+        "ammo": 8
+    },
+    {
+        "pk": 132,
+        "animal": 15,
+        "ammo": 8
+    },
+    {
+        "pk": 133,
+        "animal": 5,
+        "ammo": 8
+    },
+    {
+        "pk": 134,
+        "animal": 10,
+        "ammo": 8
+    },
+    {
+        "pk": 135,
+        "animal": 9,
+        "ammo": 8
+    },
+    {
+        "pk": 136,
+        "animal": 14,
+        "ammo": 8
+    },
+    {
+        "pk": 137,
+        "animal": 1,
+        "ammo": 8
+    },
+    {
+        "pk": 138,
+        "animal": 12,
+        "ammo": 8
+    },
+    {
+        "pk": 139,
+        "animal": 25,
+        "ammo": 8
+    },
+    {
+        "pk": 140,
+        "animal": 2,
+        "ammo": 9
+    },
+    {
+        "pk": 141,
+        "animal": 3,
+        "ammo": 9
+    },
+    {
+        "pk": 142,
+        "animal": 24,
+        "ammo": 9
+    },
+    {
+        "pk": 143,
+        "animal": 22,
+        "ammo": 9
+    },
+    {
+        "pk": 144,
+        "animal": 26,
+        "ammo": 9
+    },
+    {
+        "pk": 145,
+        "animal": 23,
+        "ammo": 9
+    },
+    {
+        "pk": 146,
+        "animal": 4,
+        "ammo": 9
+    },
+    {
+        "pk": 147,
+        "animal": 21,
+        "ammo": 9
+    },
+    {
+        "pk": 148,
+        "animal": 7,
+        "ammo": 9
+    },
+    {
+        "pk": 149,
+        "animal": 6,
+        "ammo": 9
+    },
+    {
+        "pk": 150,
+        "animal": 5,
+        "ammo": 9
+    },
+    {
+        "pk": 151,
+        "animal": 9,
+        "ammo": 9
+    },
+    {
+        "pk": 152,
+        "animal": 1,
+        "ammo": 9
+    },
+    {
+        "pk": 153,
+        "animal": 25,
+        "ammo": 9
+    },
+    {
+        "pk": 154,
+        "animal": 18,
+        "ammo": 10
+    },
+    {
+        "pk": 155,
+        "animal": 16,
+        "ammo": 10
+    },
+    {
+        "pk": 156,
+        "animal": 24,
+        "ammo": 10
+    },
+    {
+        "pk": 157,
+        "animal": 13,
+        "ammo": 10
+    },
+    {
+        "pk": 158,
+        "animal": 22,
+        "ammo": 10
+    },
+    {
+        "pk": 159,
+        "animal": 17,
+        "ammo": 10
+    },
+    {
+        "pk": 160,
+        "animal": 19,
+        "ammo": 10
+    },
+    {
+        "pk": 161,
+        "animal": 26,
+        "ammo": 10
+    },
+    {
+        "pk": 162,
+        "animal": 27,
+        "ammo": 10
+    },
+    {
+        "pk": 163,
+        "animal": 23,
+        "ammo": 10
+    },
+    {
+        "pk": 164,
+        "animal": 4,
+        "ammo": 10
+    },
+    {
+        "pk": 165,
+        "animal": 11,
+        "ammo": 10
+    },
+    {
+        "pk": 166,
+        "animal": 21,
+        "ammo": 10
+    },
+    {
+        "pk": 167,
+        "animal": 29,
+        "ammo": 10
+    },
+    {
+        "pk": 168,
+        "animal": 7,
+        "ammo": 10
+    },
+    {
+        "pk": 169,
+        "animal": 20,
+        "ammo": 10
+    },
+    {
+        "pk": 170,
+        "animal": 8,
+        "ammo": 10
+    },
+    {
+        "pk": 171,
+        "animal": 6,
+        "ammo": 10
+    },
+    {
+        "pk": 172,
+        "animal": 15,
+        "ammo": 10
+    },
+    {
+        "pk": 173,
+        "animal": 5,
+        "ammo": 10
+    },
+    {
+        "pk": 174,
+        "animal": 10,
+        "ammo": 10
+    },
+    {
+        "pk": 175,
+        "animal": 9,
+        "ammo": 10
+    },
+    {
+        "pk": 176,
+        "animal": 14,
+        "ammo": 10
+    },
+    {
+        "pk": 177,
+        "animal": 12,
+        "ammo": 10
+    },
+    {
+        "pk": 178,
+        "animal": 25,
+        "ammo": 10
+    },
+    {
+        "pk": 179,
+        "animal": 40,
+        "ammo": 11
+    },
+    {
+        "pk": 180,
+        "animal": 44,
+        "ammo": 11
+    },
+    {
+        "pk": 181,
+        "animal": 43,
+        "ammo": 11
+    },
+    {
+        "pk": 182,
+        "animal": 42,
+        "ammo": 11
+    },
+    {
+        "pk": 183,
+        "animal": 39,
+        "ammo": 11
+    },
+    {
+        "pk": 184,
+        "animal": 41,
+        "ammo": 11
+    },
+    {
+        "pk": 185,
+        "animal": 38,
+        "ammo": 11
+    },
+    {
+        "pk": 186,
+        "animal": 47,
+        "ammo": 11
+    },
+    {
+        "pk": 187,
+        "animal": 45,
+        "ammo": 11
+    },
+    {
+        "pk": 188,
+        "animal": 48,
+        "ammo": 11
+    },
+    {
+        "pk": 189,
+        "animal": 46,
+        "ammo": 11
+    },
+    {
+        "pk": 190,
+        "animal": 2,
+        "ammo": 12
+    },
+    {
+        "pk": 191,
+        "animal": 3,
+        "ammo": 12
+    },
+    {
+        "pk": 192,
+        "animal": 24,
+        "ammo": 12
+    },
+    {
+        "pk": 193,
+        "animal": 22,
+        "ammo": 12
+    },
+    {
+        "pk": 194,
+        "animal": 26,
+        "ammo": 12
+    },
+    {
+        "pk": 195,
+        "animal": 23,
+        "ammo": 12
+    },
+    {
+        "pk": 196,
+        "animal": 4,
+        "ammo": 12
+    },
+    {
+        "pk": 197,
+        "animal": 21,
+        "ammo": 12
+    },
+    {
+        "pk": 198,
+        "animal": 7,
+        "ammo": 12
+    },
+    {
+        "pk": 199,
+        "animal": 6,
+        "ammo": 12
+    },
+    {
+        "pk": 200,
+        "animal": 5,
+        "ammo": 12
+    },
+    {
+        "pk": 201,
+        "animal": 9,
+        "ammo": 12
+    },
+    {
+        "pk": 202,
+        "animal": 1,
+        "ammo": 12
+    },
+    {
+        "pk": 203,
+        "animal": 25,
+        "ammo": 12
+    },
+    {
+        "pk": 204,
+        "animal": 18,
+        "ammo": 13
+    },
+    {
+        "pk": 205,
+        "animal": 16,
+        "ammo": 13
+    },
+    {
+        "pk": 206,
+        "animal": 24,
+        "ammo": 13
+    },
+    {
+        "pk": 207,
+        "animal": 13,
+        "ammo": 13
+    },
+    {
+        "pk": 208,
+        "animal": 22,
+        "ammo": 13
+    },
+    {
+        "pk": 209,
+        "animal": 28,
+        "ammo": 13
+    },
+    {
+        "pk": 210,
+        "animal": 17,
+        "ammo": 13
+    },
+    {
+        "pk": 211,
+        "animal": 19,
+        "ammo": 13
+    },
+    {
+        "pk": 212,
+        "animal": 26,
+        "ammo": 13
+    },
+    {
+        "pk": 213,
+        "animal": 27,
+        "ammo": 13
+    },
+    {
+        "pk": 214,
+        "animal": 23,
+        "ammo": 13
+    },
+    {
+        "pk": 215,
+        "animal": 4,
+        "ammo": 13
+    },
+    {
+        "pk": 216,
+        "animal": 11,
+        "ammo": 13
+    },
+    {
+        "pk": 217,
+        "animal": 21,
+        "ammo": 13
+    },
+    {
+        "pk": 218,
+        "animal": 29,
+        "ammo": 13
+    },
+    {
+        "pk": 219,
+        "animal": 7,
+        "ammo": 13
+    },
+    {
+        "pk": 220,
+        "animal": 20,
+        "ammo": 13
+    },
+    {
+        "pk": 221,
+        "animal": 8,
+        "ammo": 13
+    },
+    {
+        "pk": 222,
+        "animal": 6,
+        "ammo": 13
+    },
+    {
+        "pk": 223,
+        "animal": 15,
+        "ammo": 13
+    },
+    {
+        "pk": 224,
+        "animal": 5,
+        "ammo": 13
+    },
+    {
+        "pk": 225,
+        "animal": 10,
+        "ammo": 13
+    },
+    {
+        "pk": 226,
+        "animal": 9,
+        "ammo": 13
+    },
+    {
+        "pk": 227,
+        "animal": 14,
+        "ammo": 13
+    },
+    {
+        "pk": 228,
+        "animal": 12,
+        "ammo": 13
+    },
+    {
+        "pk": 229,
+        "animal": 25,
+        "ammo": 13
+    },
+    {
+        "pk": 230,
+        "animal": 18,
+        "ammo": 14
+    },
+    {
+        "pk": 231,
+        "animal": 16,
+        "ammo": 14
+    },
+    {
+        "pk": 232,
+        "animal": 24,
+        "ammo": 14
+    },
+    {
+        "pk": 233,
+        "animal": 13,
+        "ammo": 14
+    },
+    {
+        "pk": 234,
+        "animal": 22,
+        "ammo": 14
+    },
+    {
+        "pk": 235,
+        "animal": 28,
+        "ammo": 14
+    },
+    {
+        "pk": 236,
+        "animal": 17,
+        "ammo": 14
+    },
+    {
+        "pk": 237,
+        "animal": 19,
+        "ammo": 14
+    },
+    {
+        "pk": 238,
+        "animal": 26,
+        "ammo": 14
+    },
+    {
+        "pk": 239,
+        "animal": 27,
+        "ammo": 14
+    },
+    {
+        "pk": 240,
+        "animal": 23,
+        "ammo": 14
+    },
+    {
+        "pk": 241,
+        "animal": 4,
+        "ammo": 14
+    },
+    {
+        "pk": 242,
+        "animal": 11,
+        "ammo": 14
+    },
+    {
+        "pk": 243,
+        "animal": 29,
+        "ammo": 14
+    },
+    {
+        "pk": 244,
+        "animal": 7,
+        "ammo": 14
+    },
+    {
+        "pk": 245,
+        "animal": 20,
+        "ammo": 14
+    },
+    {
+        "pk": 246,
+        "animal": 8,
+        "ammo": 14
+    },
+    {
+        "pk": 247,
+        "animal": 6,
+        "ammo": 14
+    },
+    {
+        "pk": 248,
+        "animal": 15,
+        "ammo": 14
+    },
+    {
+        "pk": 249,
+        "animal": 5,
+        "ammo": 14
+    },
+    {
+        "pk": 250,
+        "animal": 10,
+        "ammo": 14
+    },
+    {
+        "pk": 251,
+        "animal": 9,
+        "ammo": 14
+    },
+    {
+        "pk": 252,
+        "animal": 14,
+        "ammo": 14
+    },
+    {
+        "pk": 253,
+        "animal": 12,
+        "ammo": 14
+    },
+    {
+        "pk": 254,
+        "animal": 25,
+        "ammo": 14
+    },
+    {
+        "pk": 255,
+        "animal": 2,
+        "ammo": 15
+    },
+    {
+        "pk": 256,
+        "animal": 3,
+        "ammo": 15
+    },
+    {
+        "pk": 257,
+        "animal": 24,
+        "ammo": 15
+    },
+    {
+        "pk": 258,
+        "animal": 22,
+        "ammo": 15
+    },
+    {
+        "pk": 259,
+        "animal": 26,
+        "ammo": 15
+    },
+    {
+        "pk": 260,
+        "animal": 23,
+        "ammo": 15
+    },
+    {
+        "pk": 261,
+        "animal": 4,
+        "ammo": 15
+    },
+    {
+        "pk": 262,
+        "animal": 21,
+        "ammo": 15
+    },
+    {
+        "pk": 263,
+        "animal": 7,
+        "ammo": 15
+    },
+    {
+        "pk": 264,
+        "animal": 6,
+        "ammo": 15
+    },
+    {
+        "pk": 265,
+        "animal": 5,
+        "ammo": 15
+    },
+    {
+        "pk": 266,
+        "animal": 9,
+        "ammo": 15
+    },
+    {
+        "pk": 267,
+        "animal": 1,
+        "ammo": 15
+    },
+    {
+        "pk": 268,
+        "animal": 25,
+        "ammo": 15
+    },
+    {
+        "pk": 269,
+        "animal": 18,
+        "ammo": 16
+    },
+    {
+        "pk": 270,
+        "animal": 16,
+        "ammo": 16
+    },
+    {
+        "pk": 271,
+        "animal": 24,
+        "ammo": 16
+    },
+    {
+        "pk": 272,
+        "animal": 13,
+        "ammo": 16
+    },
+    {
+        "pk": 273,
+        "animal": 22,
+        "ammo": 16
+    },
+    {
+        "pk": 274,
+        "animal": 28,
+        "ammo": 16
+    },
+    {
+        "pk": 275,
+        "animal": 17,
+        "ammo": 16
+    },
+    {
+        "pk": 276,
+        "animal": 19,
+        "ammo": 16
+    },
+    {
+        "pk": 277,
+        "animal": 26,
+        "ammo": 16
+    },
+    {
+        "pk": 278,
+        "animal": 27,
+        "ammo": 16
+    },
+    {
+        "pk": 279,
+        "animal": 23,
+        "ammo": 16
+    },
+    {
+        "pk": 280,
+        "animal": 4,
+        "ammo": 16
+    },
+    {
+        "pk": 281,
+        "animal": 11,
+        "ammo": 16
+    },
+    {
+        "pk": 282,
+        "animal": 29,
+        "ammo": 16
+    },
+    {
+        "pk": 283,
+        "animal": 7,
+        "ammo": 16
+    },
+    {
+        "pk": 284,
+        "animal": 20,
+        "ammo": 16
+    },
+    {
+        "pk": 285,
+        "animal": 8,
+        "ammo": 16
+    },
+    {
+        "pk": 286,
+        "animal": 6,
+        "ammo": 16
+    },
+    {
+        "pk": 287,
+        "animal": 15,
+        "ammo": 16
+    },
+    {
+        "pk": 288,
+        "animal": 5,
+        "ammo": 16
+    },
+    {
+        "pk": 289,
+        "animal": 10,
+        "ammo": 16
+    },
+    {
+        "pk": 290,
+        "animal": 9,
+        "ammo": 16
+    },
+    {
+        "pk": 291,
+        "animal": 14,
+        "ammo": 16
+    },
+    {
+        "pk": 292,
+        "animal": 12,
+        "ammo": 16
+    },
+    {
+        "pk": 293,
+        "animal": 25,
+        "ammo": 16
+    },
+    {
+        "pk": 294,
+        "animal": 18,
+        "ammo": 17
+    },
+    {
+        "pk": 295,
+        "animal": 2,
+        "ammo": 17
+    },
+    {
+        "pk": 296,
+        "animal": 16,
+        "ammo": 17
+    },
+    {
+        "pk": 297,
+        "animal": 3,
+        "ammo": 17
+    },
+    {
+        "pk": 298,
+        "animal": 24,
+        "ammo": 17
+    },
+    {
+        "pk": 299,
+        "animal": 13,
+        "ammo": 17
+    },
+    {
+        "pk": 300,
+        "animal": 22,
+        "ammo": 17
+    },
+    {
+        "pk": 301,
+        "animal": 28,
+        "ammo": 17
+    },
+    {
+        "pk": 302,
+        "animal": 17,
+        "ammo": 17
+    },
+    {
+        "pk": 303,
+        "animal": 19,
+        "ammo": 17
+    },
+    {
+        "pk": 304,
+        "animal": 26,
+        "ammo": 17
+    },
+    {
+        "pk": 305,
+        "animal": 27,
+        "ammo": 17
+    },
+    {
+        "pk": 306,
+        "animal": 23,
+        "ammo": 17
+    },
+    {
+        "pk": 307,
+        "animal": 4,
+        "ammo": 17
+    },
+    {
+        "pk": 308,
+        "animal": 11,
+        "ammo": 17
+    },
+    {
+        "pk": 309,
+        "animal": 21,
+        "ammo": 17
+    },
+    {
+        "pk": 310,
+        "animal": 29,
+        "ammo": 17
+    },
+    {
+        "pk": 311,
+        "animal": 7,
+        "ammo": 17
+    },
+    {
+        "pk": 312,
+        "animal": 20,
+        "ammo": 17
+    },
+    {
+        "pk": 313,
+        "animal": 8,
+        "ammo": 17
+    },
+    {
+        "pk": 314,
+        "animal": 6,
+        "ammo": 17
+    },
+    {
+        "pk": 315,
+        "animal": 15,
+        "ammo": 17
+    },
+    {
+        "pk": 316,
+        "animal": 5,
+        "ammo": 17
+    },
+    {
+        "pk": 317,
+        "animal": 10,
+        "ammo": 17
+    },
+    {
+        "pk": 318,
+        "animal": 9,
+        "ammo": 17
+    },
+    {
+        "pk": 319,
+        "animal": 14,
+        "ammo": 17
+    },
+    {
+        "pk": 320,
+        "animal": 12,
+        "ammo": 17
+    },
+    {
+        "pk": 321,
+        "animal": 25,
+        "ammo": 17
+    },
+    {
+        "pk": 322,
+        "animal": 18,
+        "ammo": 18
+    },
+    {
+        "pk": 323,
+        "animal": 16,
+        "ammo": 18
+    },
+    {
+        "pk": 324,
+        "animal": 13,
+        "ammo": 18
+    },
+    {
+        "pk": 325,
+        "animal": 28,
+        "ammo": 18
+    },
+    {
+        "pk": 326,
+        "animal": 17,
+        "ammo": 18
+    },
+    {
+        "pk": 327,
+        "animal": 19,
+        "ammo": 18
+    },
+    {
+        "pk": 328,
+        "animal": 26,
+        "ammo": 18
+    },
+    {
+        "pk": 329,
+        "animal": 27,
+        "ammo": 18
+    },
+    {
+        "pk": 330,
+        "animal": 11,
+        "ammo": 18
+    },
+    {
+        "pk": 331,
+        "animal": 29,
+        "ammo": 18
+    },
+    {
+        "pk": 332,
+        "animal": 7,
+        "ammo": 18
+    },
+    {
+        "pk": 333,
+        "animal": 20,
+        "ammo": 18
+    },
+    {
+        "pk": 334,
+        "animal": 8,
+        "ammo": 18
+    },
+    {
+        "pk": 335,
+        "animal": 15,
+        "ammo": 18
+    },
+    {
+        "pk": 336,
+        "animal": 10,
+        "ammo": 18
+    },
+    {
+        "pk": 337,
+        "animal": 14,
+        "ammo": 18
+    },
+    {
+        "pk": 338,
+        "animal": 12,
+        "ammo": 18
+    },
+    {
+        "pk": 339,
+        "animal": 25,
+        "ammo": 18
+    },
+    {
+        "pk": 340,
+        "animal": 40,
+        "ammo": 19
+    },
+    {
+        "pk": 341,
+        "animal": 44,
+        "ammo": 19
+    },
+    {
+        "pk": 342,
+        "animal": 43,
+        "ammo": 19
+    },
+    {
+        "pk": 343,
+        "animal": 42,
+        "ammo": 19
+    },
+    {
+        "pk": 344,
+        "animal": 39,
+        "ammo": 19
+    },
+    {
+        "pk": 345,
+        "animal": 41,
+        "ammo": 19
+    },
+    {
+        "pk": 346,
+        "animal": 38,
+        "ammo": 19
+    },
+    {
+        "pk": 347,
+        "animal": 47,
+        "ammo": 19
+    },
+    {
+        "pk": 348,
+        "animal": 45,
+        "ammo": 19
+    },
+    {
+        "pk": 349,
+        "animal": 48,
+        "ammo": 19
+    },
+    {
+        "pk": 350,
+        "animal": 46,
+        "ammo": 19
+    },
+    {
+        "pk": 351,
+        "animal": 18,
+        "ammo": 20
+    },
+    {
+        "pk": 352,
+        "animal": 16,
+        "ammo": 20
+    },
+    {
+        "pk": 353,
+        "animal": 13,
+        "ammo": 20
+    },
+    {
+        "pk": 354,
+        "animal": 28,
+        "ammo": 20
+    },
+    {
+        "pk": 355,
+        "animal": 17,
+        "ammo": 20
+    },
+    {
+        "pk": 356,
+        "animal": 19,
+        "ammo": 20
+    },
+    {
+        "pk": 357,
+        "animal": 26,
+        "ammo": 20
+    },
+    {
+        "pk": 358,
+        "animal": 27,
+        "ammo": 20
+    },
+    {
+        "pk": 359,
+        "animal": 11,
+        "ammo": 20
+    },
+    {
+        "pk": 360,
+        "animal": 29,
+        "ammo": 20
+    },
+    {
+        "pk": 361,
+        "animal": 7,
+        "ammo": 20
+    },
+    {
+        "pk": 362,
+        "animal": 20,
+        "ammo": 20
+    },
+    {
+        "pk": 363,
+        "animal": 8,
+        "ammo": 20
+    },
+    {
+        "pk": 364,
+        "animal": 15,
+        "ammo": 20
+    },
+    {
+        "pk": 365,
+        "animal": 10,
+        "ammo": 20
+    },
+    {
+        "pk": 366,
+        "animal": 14,
+        "ammo": 20
+    },
+    {
+        "pk": 367,
+        "animal": 12,
+        "ammo": 20
+    },
+    {
+        "pk": 368,
+        "animal": 25,
+        "ammo": 20
+    },
+    {
+        "pk": 369,
+        "animal": 33,
+        "ammo": 21
+    },
+    {
+        "pk": 370,
+        "animal": 31,
+        "ammo": 21
+    },
+    {
+        "pk": 371,
+        "animal": 28,
+        "ammo": 21
+    },
+    {
+        "pk": 372,
+        "animal": 17,
+        "ammo": 21
+    },
+    {
+        "pk": 373,
+        "animal": 30,
+        "ammo": 21
+    },
+    {
+        "pk": 374,
+        "animal": 19,
+        "ammo": 21
+    },
+    {
+        "pk": 375,
+        "animal": 27,
+        "ammo": 21
+    },
+    {
+        "pk": 376,
+        "animal": 32,
+        "ammo": 21
+    },
+    {
+        "pk": 377,
+        "animal": 20,
+        "ammo": 21
+    },
+    {
+        "pk": 378,
+        "animal": 15,
+        "ammo": 21
+    },
+    {
+        "pk": 379,
+        "animal": 34,
+        "ammo": 21
+    },
+    {
+        "pk": 380,
+        "animal": 18,
+        "ammo": 22
+    },
+    {
+        "pk": 381,
+        "animal": 2,
+        "ammo": 22
+    },
+    {
+        "pk": 382,
+        "animal": 16,
+        "ammo": 22
+    },
+    {
+        "pk": 383,
+        "animal": 3,
+        "ammo": 22
+    },
+    {
+        "pk": 384,
+        "animal": 24,
+        "ammo": 22
+    },
+    {
+        "pk": 385,
+        "animal": 13,
+        "ammo": 22
+    },
+    {
+        "pk": 386,
+        "animal": 22,
+        "ammo": 22
+    },
+    {
+        "pk": 387,
+        "animal": 28,
+        "ammo": 22
+    },
+    {
+        "pk": 388,
+        "animal": 17,
+        "ammo": 22
+    },
+    {
+        "pk": 389,
+        "animal": 19,
+        "ammo": 22
+    },
+    {
+        "pk": 390,
+        "animal": 26,
+        "ammo": 22
+    },
+    {
+        "pk": 391,
+        "animal": 27,
+        "ammo": 22
+    },
+    {
+        "pk": 392,
+        "animal": 23,
+        "ammo": 22
+    },
+    {
+        "pk": 393,
+        "animal": 4,
+        "ammo": 22
+    },
+    {
+        "pk": 394,
+        "animal": 11,
+        "ammo": 22
+    },
+    {
+        "pk": 395,
+        "animal": 21,
+        "ammo": 22
+    },
+    {
+        "pk": 396,
+        "animal": 29,
+        "ammo": 22
+    },
+    {
+        "pk": 397,
+        "animal": 7,
+        "ammo": 22
+    },
+    {
+        "pk": 398,
+        "animal": 20,
+        "ammo": 22
+    },
+    {
+        "pk": 399,
+        "animal": 8,
+        "ammo": 22
+    },
+    {
+        "pk": 400,
+        "animal": 6,
+        "ammo": 22
+    },
+    {
+        "pk": 401,
+        "animal": 15,
+        "ammo": 22
+    },
+    {
+        "pk": 402,
+        "animal": 5,
+        "ammo": 22
+    },
+    {
+        "pk": 403,
+        "animal": 10,
+        "ammo": 22
+    },
+    {
+        "pk": 404,
+        "animal": 9,
+        "ammo": 22
+    },
+    {
+        "pk": 405,
+        "animal": 14,
+        "ammo": 22
+    },
+    {
+        "pk": 406,
+        "animal": 12,
+        "ammo": 22
+    },
+    {
+        "pk": 407,
+        "animal": 25,
+        "ammo": 22
+    },
+    {
+        "pk": 408,
+        "animal": 18,
+        "ammo": 23
+    },
+    {
+        "pk": 409,
+        "animal": 2,
+        "ammo": 23
+    },
+    {
+        "pk": 410,
+        "animal": 16,
+        "ammo": 23
+    },
+    {
+        "pk": 411,
+        "animal": 3,
+        "ammo": 23
+    },
+    {
+        "pk": 412,
+        "animal": 24,
+        "ammo": 23
+    },
+    {
+        "pk": 413,
+        "animal": 13,
+        "ammo": 23
+    },
+    {
+        "pk": 414,
+        "animal": 22,
+        "ammo": 23
+    },
+    {
+        "pk": 415,
+        "animal": 28,
+        "ammo": 23
+    },
+    {
+        "pk": 416,
+        "animal": 17,
+        "ammo": 23
+    },
+    {
+        "pk": 417,
+        "animal": 19,
+        "ammo": 23
+    },
+    {
+        "pk": 418,
+        "animal": 26,
+        "ammo": 23
+    },
+    {
+        "pk": 419,
+        "animal": 27,
+        "ammo": 23
+    },
+    {
+        "pk": 420,
+        "animal": 23,
+        "ammo": 23
+    },
+    {
+        "pk": 421,
+        "animal": 4,
+        "ammo": 23
+    },
+    {
+        "pk": 422,
+        "animal": 11,
+        "ammo": 23
+    },
+    {
+        "pk": 423,
+        "animal": 21,
+        "ammo": 23
+    },
+    {
+        "pk": 424,
+        "animal": 29,
+        "ammo": 23
+    },
+    {
+        "pk": 425,
+        "animal": 7,
+        "ammo": 23
+    },
+    {
+        "pk": 426,
+        "animal": 20,
+        "ammo": 23
+    },
+    {
+        "pk": 427,
+        "animal": 8,
+        "ammo": 23
+    },
+    {
+        "pk": 428,
+        "animal": 6,
+        "ammo": 23
+    },
+    {
+        "pk": 429,
+        "animal": 15,
+        "ammo": 23
+    },
+    {
+        "pk": 430,
+        "animal": 5,
+        "ammo": 23
+    },
+    {
+        "pk": 431,
+        "animal": 10,
+        "ammo": 23
+    },
+    {
+        "pk": 432,
+        "animal": 9,
+        "ammo": 23
+    },
+    {
+        "pk": 433,
+        "animal": 14,
+        "ammo": 23
+    },
+    {
+        "pk": 434,
+        "animal": 12,
+        "ammo": 23
+    },
+    {
+        "pk": 435,
+        "animal": 25,
+        "ammo": 23
+    },
+    {
+        "pk": 436,
+        "animal": 18,
+        "ammo": 24
+    },
+    {
+        "pk": 437,
+        "animal": 16,
+        "ammo": 24
+    },
+    {
+        "pk": 438,
+        "animal": 13,
+        "ammo": 24
+    },
+    {
+        "pk": 439,
+        "animal": 28,
+        "ammo": 24
+    },
+    {
+        "pk": 440,
+        "animal": 17,
+        "ammo": 24
+    },
+    {
+        "pk": 441,
+        "animal": 19,
+        "ammo": 24
+    },
+    {
+        "pk": 442,
+        "animal": 26,
+        "ammo": 24
+    },
+    {
+        "pk": 443,
+        "animal": 27,
+        "ammo": 24
+    },
+    {
+        "pk": 444,
+        "animal": 11,
+        "ammo": 24
+    },
+    {
+        "pk": 445,
+        "animal": 29,
+        "ammo": 24
+    },
+    {
+        "pk": 446,
+        "animal": 7,
+        "ammo": 24
+    },
+    {
+        "pk": 447,
+        "animal": 20,
+        "ammo": 24
+    },
+    {
+        "pk": 448,
+        "animal": 8,
+        "ammo": 24
+    },
+    {
+        "pk": 449,
+        "animal": 15,
+        "ammo": 24
+    },
+    {
+        "pk": 450,
+        "animal": 10,
+        "ammo": 24
+    },
+    {
+        "pk": 451,
+        "animal": 14,
+        "ammo": 24
+    },
+    {
+        "pk": 452,
+        "animal": 12,
+        "ammo": 24
+    },
+    {
+        "pk": 453,
+        "animal": 25,
+        "ammo": 24
+    },
+    {
+        "pk": 454,
+        "animal": 18,
+        "ammo": 25
+    },
+    {
+        "pk": 455,
+        "animal": 16,
+        "ammo": 25
+    },
+    {
+        "pk": 456,
+        "animal": 24,
+        "ammo": 25
+    },
+    {
+        "pk": 457,
+        "animal": 13,
+        "ammo": 25
+    },
+    {
+        "pk": 458,
+        "animal": 22,
+        "ammo": 25
+    },
+    {
+        "pk": 459,
+        "animal": 28,
+        "ammo": 25
+    },
+    {
+        "pk": 460,
+        "animal": 17,
+        "ammo": 25
+    },
+    {
+        "pk": 461,
+        "animal": 19,
+        "ammo": 25
+    },
+    {
+        "pk": 462,
+        "animal": 26,
+        "ammo": 25
+    },
+    {
+        "pk": 463,
+        "animal": 27,
+        "ammo": 25
+    },
+    {
+        "pk": 464,
+        "animal": 23,
+        "ammo": 25
+    },
+    {
+        "pk": 465,
+        "animal": 4,
+        "ammo": 25
+    },
+    {
+        "pk": 466,
+        "animal": 11,
+        "ammo": 25
+    },
+    {
+        "pk": 467,
+        "animal": 21,
+        "ammo": 25
+    },
+    {
+        "pk": 468,
+        "animal": 29,
+        "ammo": 25
+    },
+    {
+        "pk": 469,
+        "animal": 7,
+        "ammo": 25
+    },
+    {
+        "pk": 470,
+        "animal": 20,
+        "ammo": 25
+    },
+    {
+        "pk": 471,
+        "animal": 8,
+        "ammo": 25
+    },
+    {
+        "pk": 472,
+        "animal": 6,
+        "ammo": 25
+    },
+    {
+        "pk": 473,
+        "animal": 15,
+        "ammo": 25
+    },
+    {
+        "pk": 474,
+        "animal": 5,
+        "ammo": 25
+    },
+    {
+        "pk": 475,
+        "animal": 10,
+        "ammo": 25
+    },
+    {
+        "pk": 476,
+        "animal": 9,
+        "ammo": 25
+    },
+    {
+        "pk": 477,
+        "animal": 14,
+        "ammo": 25
+    },
+    {
+        "pk": 478,
+        "animal": 12,
+        "ammo": 25
+    },
+    {
+        "pk": 479,
+        "animal": 25,
+        "ammo": 25
+    },
+    {
+        "pk": 480,
+        "animal": 18,
+        "ammo": 26
+    },
+    {
+        "pk": 481,
+        "animal": 2,
+        "ammo": 26
+    },
+    {
+        "pk": 482,
+        "animal": 16,
+        "ammo": 26
+    },
+    {
+        "pk": 483,
+        "animal": 3,
+        "ammo": 26
+    },
+    {
+        "pk": 484,
+        "animal": 24,
+        "ammo": 26
+    },
+    {
+        "pk": 485,
+        "animal": 13,
+        "ammo": 26
+    },
+    {
+        "pk": 486,
+        "animal": 22,
+        "ammo": 26
+    },
+    {
+        "pk": 487,
+        "animal": 28,
+        "ammo": 26
+    },
+    {
+        "pk": 488,
+        "animal": 17,
+        "ammo": 26
+    },
+    {
+        "pk": 489,
+        "animal": 19,
+        "ammo": 26
+    },
+    {
+        "pk": 490,
+        "animal": 26,
+        "ammo": 26
+    },
+    {
+        "pk": 491,
+        "animal": 27,
+        "ammo": 26
+    },
+    {
+        "pk": 492,
+        "animal": 23,
+        "ammo": 26
+    },
+    {
+        "pk": 493,
+        "animal": 4,
+        "ammo": 26
+    },
+    {
+        "pk": 494,
+        "animal": 11,
+        "ammo": 26
+    },
+    {
+        "pk": 495,
+        "animal": 21,
+        "ammo": 26
+    },
+    {
+        "pk": 496,
+        "animal": 29,
+        "ammo": 26
+    },
+    {
+        "pk": 497,
+        "animal": 7,
+        "ammo": 26
+    },
+    {
+        "pk": 498,
+        "animal": 20,
+        "ammo": 26
+    },
+    {
+        "pk": 499,
+        "animal": 8,
+        "ammo": 26
+    },
+    {
+        "pk": 500,
+        "animal": 6,
+        "ammo": 26
+    },
+    {
+        "pk": 501,
+        "animal": 15,
+        "ammo": 26
+    },
+    {
+        "pk": 502,
+        "animal": 5,
+        "ammo": 26
+    },
+    {
+        "pk": 503,
+        "animal": 10,
+        "ammo": 26
+    },
+    {
+        "pk": 504,
+        "animal": 9,
+        "ammo": 26
+    },
+    {
+        "pk": 505,
+        "animal": 14,
+        "ammo": 26
+    },
+    {
+        "pk": 506,
+        "animal": 12,
+        "ammo": 26
+    },
+    {
+        "pk": 507,
+        "animal": 25,
+        "ammo": 26
+    },
+    {
+        "pk": 508,
+        "animal": 18,
+        "ammo": 27
+    },
+    {
+        "pk": 509,
+        "animal": 33,
+        "ammo": 27
+    },
+    {
+        "pk": 510,
+        "animal": 16,
+        "ammo": 27
+    },
+    {
+        "pk": 511,
+        "animal": 13,
+        "ammo": 27
+    },
+    {
+        "pk": 512,
+        "animal": 31,
+        "ammo": 27
+    },
+    {
+        "pk": 513,
+        "animal": 28,
+        "ammo": 27
+    },
+    {
+        "pk": 514,
+        "animal": 17,
+        "ammo": 27
+    },
+    {
+        "pk": 515,
+        "animal": 30,
+        "ammo": 27
+    },
+    {
+        "pk": 516,
+        "animal": 19,
+        "ammo": 27
+    },
+    {
+        "pk": 517,
+        "animal": 27,
+        "ammo": 27
+    },
+    {
+        "pk": 518,
+        "animal": 11,
+        "ammo": 27
+    },
+    {
+        "pk": 519,
+        "animal": 29,
+        "ammo": 27
+    },
+    {
+        "pk": 520,
+        "animal": 32,
+        "ammo": 27
+    },
+    {
+        "pk": 521,
+        "animal": 20,
+        "ammo": 27
+    },
+    {
+        "pk": 522,
+        "animal": 15,
+        "ammo": 27
+    },
+    {
+        "pk": 523,
+        "animal": 10,
+        "ammo": 27
+    },
+    {
+        "pk": 524,
+        "animal": 14,
+        "ammo": 27
+    },
+    {
+        "pk": 525,
+        "animal": 12,
+        "ammo": 27
+    },
+    {
+        "pk": 526,
+        "animal": 18,
+        "ammo": 28
+    },
+    {
+        "pk": 527,
+        "animal": 16,
+        "ammo": 28
+    },
+    {
+        "pk": 528,
+        "animal": 24,
+        "ammo": 28
+    },
+    {
+        "pk": 529,
+        "animal": 13,
+        "ammo": 28
+    },
+    {
+        "pk": 530,
+        "animal": 28,
+        "ammo": 28
+    },
+    {
+        "pk": 531,
+        "animal": 17,
+        "ammo": 28
+    },
+    {
+        "pk": 532,
+        "animal": 19,
+        "ammo": 28
+    },
+    {
+        "pk": 533,
+        "animal": 26,
+        "ammo": 28
+    },
+    {
+        "pk": 534,
+        "animal": 27,
+        "ammo": 28
+    },
+    {
+        "pk": 535,
+        "animal": 11,
+        "ammo": 28
+    },
+    {
+        "pk": 536,
+        "animal": 29,
+        "ammo": 28
+    },
+    {
+        "pk": 537,
+        "animal": 7,
+        "ammo": 28
+    },
+    {
+        "pk": 538,
+        "animal": 20,
+        "ammo": 28
+    },
+    {
+        "pk": 539,
+        "animal": 8,
+        "ammo": 28
+    },
+    {
+        "pk": 540,
+        "animal": 6,
+        "ammo": 28
+    },
+    {
+        "pk": 541,
+        "animal": 15,
+        "ammo": 28
+    },
+    {
+        "pk": 542,
+        "animal": 5,
+        "ammo": 28
+    },
+    {
+        "pk": 543,
+        "animal": 10,
+        "ammo": 28
+    },
+    {
+        "pk": 544,
+        "animal": 9,
+        "ammo": 28
+    },
+    {
+        "pk": 545,
+        "animal": 14,
+        "ammo": 28
+    },
+    {
+        "pk": 546,
+        "animal": 12,
+        "ammo": 28
+    },
+    {
+        "pk": 547,
+        "animal": 25,
+        "ammo": 28
+    },
+    {
+        "pk": 548,
+        "animal": 24,
+        "ammo": 29
+    },
+    {
+        "pk": 549,
+        "animal": 22,
+        "ammo": 29
+    },
+    {
+        "pk": 550,
+        "animal": 26,
+        "ammo": 29
+    },
+    {
+        "pk": 551,
+        "animal": 23,
+        "ammo": 29
+    },
+    {
+        "pk": 552,
+        "animal": 4,
+        "ammo": 29
+    },
+    {
+        "pk": 553,
+        "animal": 21,
+        "ammo": 29
+    },
+    {
+        "pk": 554,
+        "animal": 7,
+        "ammo": 29
+    },
+    {
+        "pk": 555,
+        "animal": 8,
+        "ammo": 29
+    },
+    {
+        "pk": 556,
+        "animal": 6,
+        "ammo": 29
+    },
+    {
+        "pk": 557,
+        "animal": 5,
+        "ammo": 29
+    },
+    {
+        "pk": 558,
+        "animal": 9,
+        "ammo": 29
+    },
+    {
+        "pk": 559,
+        "animal": 25,
+        "ammo": 29
+    },
+    {
+        "pk": 560,
+        "animal": 40,
+        "ammo": 30
+    },
+    {
+        "pk": 561,
+        "animal": 35,
+        "ammo": 30
+    },
+    {
+        "pk": 562,
+        "animal": 44,
+        "ammo": 30
+    },
+    {
+        "pk": 563,
+        "animal": 43,
+        "ammo": 30
+    },
+    {
+        "pk": 564,
+        "animal": 42,
+        "ammo": 30
+    },
+    {
+        "pk": 565,
+        "animal": 37,
+        "ammo": 30
+    },
+    {
+        "pk": 566,
+        "animal": 39,
+        "ammo": 30
+    },
+    {
+        "pk": 567,
+        "animal": 41,
+        "ammo": 30
+    },
+    {
+        "pk": 568,
+        "animal": 38,
+        "ammo": 30
+    },
+    {
+        "pk": 569,
+        "animal": 47,
+        "ammo": 30
+    },
+    {
+        "pk": 570,
+        "animal": 36,
+        "ammo": 30
+    },
+    {
+        "pk": 571,
+        "animal": 45,
+        "ammo": 30
+    },
+    {
+        "pk": 572,
+        "animal": 34,
+        "ammo": 30
+    },
+    {
+        "pk": 573,
+        "animal": 48,
+        "ammo": 30
+    },
+    {
+        "pk": 574,
+        "animal": 46,
+        "ammo": 30
+    },
+    {
+        "pk": 575,
+        "animal": 2,
+        "ammo": 31
+    },
+    {
+        "pk": 576,
+        "animal": 3,
+        "ammo": 31
+    },
+    {
+        "pk": 577,
+        "animal": 24,
+        "ammo": 31
+    },
+    {
+        "pk": 578,
+        "animal": 22,
+        "ammo": 31
+    },
+    {
+        "pk": 579,
+        "animal": 26,
+        "ammo": 31
+    },
+    {
+        "pk": 580,
+        "animal": 23,
+        "ammo": 31
+    },
+    {
+        "pk": 581,
+        "animal": 4,
+        "ammo": 31
+    },
+    {
+        "pk": 582,
+        "animal": 21,
+        "ammo": 31
+    },
+    {
+        "pk": 583,
+        "animal": 7,
+        "ammo": 31
+    },
+    {
+        "pk": 584,
+        "animal": 6,
+        "ammo": 31
+    },
+    {
+        "pk": 585,
+        "animal": 5,
+        "ammo": 31
+    },
+    {
+        "pk": 586,
+        "animal": 9,
+        "ammo": 31
+    },
+    {
+        "pk": 587,
+        "animal": 1,
+        "ammo": 31
+    },
+    {
+        "pk": 588,
+        "animal": 25,
+        "ammo": 31
+    },
+    {
+        "pk": 589,
+        "animal": 18,
+        "ammo": 33
+    },
+    {
+        "pk": 590,
+        "animal": 16,
+        "ammo": 33
+    },
+    {
+        "pk": 591,
+        "animal": 24,
+        "ammo": 33
+    },
+    {
+        "pk": 592,
+        "animal": 13,
+        "ammo": 33
+    },
+    {
+        "pk": 593,
+        "animal": 22,
+        "ammo": 33
+    },
+    {
+        "pk": 594,
+        "animal": 28,
+        "ammo": 33
+    },
+    {
+        "pk": 595,
+        "animal": 17,
+        "ammo": 33
+    },
+    {
+        "pk": 596,
+        "animal": 19,
+        "ammo": 33
+    },
+    {
+        "pk": 597,
+        "animal": 26,
+        "ammo": 33
+    },
+    {
+        "pk": 598,
+        "animal": 27,
+        "ammo": 33
+    },
+    {
+        "pk": 599,
+        "animal": 23,
+        "ammo": 33
+    },
+    {
+        "pk": 600,
+        "animal": 4,
+        "ammo": 33
+    },
+    {
+        "pk": 601,
+        "animal": 11,
+        "ammo": 33
+    },
+    {
+        "pk": 602,
+        "animal": 21,
+        "ammo": 33
+    },
+    {
+        "pk": 603,
+        "animal": 29,
+        "ammo": 33
+    },
+    {
+        "pk": 604,
+        "animal": 7,
+        "ammo": 33
+    },
+    {
+        "pk": 605,
+        "animal": 20,
+        "ammo": 33
+    },
+    {
+        "pk": 606,
+        "animal": 8,
+        "ammo": 33
+    },
+    {
+        "pk": 607,
+        "animal": 6,
+        "ammo": 33
+    },
+    {
+        "pk": 608,
+        "animal": 15,
+        "ammo": 33
+    },
+    {
+        "pk": 609,
+        "animal": 5,
+        "ammo": 33
+    },
+    {
+        "pk": 610,
+        "animal": 10,
+        "ammo": 33
+    },
+    {
+        "pk": 611,
+        "animal": 9,
+        "ammo": 33
+    },
+    {
+        "pk": 612,
+        "animal": 14,
+        "ammo": 33
+    },
+    {
+        "pk": 613,
+        "animal": 12,
+        "ammo": 33
+    },
+    {
+        "pk": 614,
+        "animal": 25,
+        "ammo": 33
+    },
+    {
+        "pk": 615,
+        "animal": 18,
+        "ammo": 34
+    },
+    {
+        "pk": 616,
+        "animal": 16,
+        "ammo": 34
+    },
+    {
+        "pk": 617,
+        "animal": 24,
+        "ammo": 34
+    },
+    {
+        "pk": 618,
+        "animal": 13,
+        "ammo": 34
+    },
+    {
+        "pk": 619,
+        "animal": 28,
+        "ammo": 34
+    },
+    {
+        "pk": 620,
+        "animal": 17,
+        "ammo": 34
+    },
+    {
+        "pk": 621,
+        "animal": 19,
+        "ammo": 34
+    },
+    {
+        "pk": 622,
+        "animal": 26,
+        "ammo": 34
+    },
+    {
+        "pk": 623,
+        "animal": 27,
+        "ammo": 34
+    },
+    {
+        "pk": 624,
+        "animal": 11,
+        "ammo": 34
+    },
+    {
+        "pk": 625,
+        "animal": 29,
+        "ammo": 34
+    },
+    {
+        "pk": 626,
+        "animal": 7,
+        "ammo": 34
+    },
+    {
+        "pk": 627,
+        "animal": 20,
+        "ammo": 34
+    },
+    {
+        "pk": 628,
+        "animal": 8,
+        "ammo": 34
+    },
+    {
+        "pk": 629,
+        "animal": 6,
+        "ammo": 34
+    },
+    {
+        "pk": 630,
+        "animal": 15,
+        "ammo": 34
+    },
+    {
+        "pk": 631,
+        "animal": 5,
+        "ammo": 34
+    },
+    {
+        "pk": 632,
+        "animal": 10,
+        "ammo": 34
+    },
+    {
+        "pk": 633,
+        "animal": 9,
+        "ammo": 34
+    },
+    {
+        "pk": 634,
+        "animal": 14,
+        "ammo": 34
+    },
+    {
+        "pk": 635,
+        "animal": 12,
+        "ammo": 34
+    },
+    {
+        "pk": 636,
+        "animal": 25,
+        "ammo": 34
+    },
+    {
+        "pk": 637,
+        "animal": 18,
+        "ammo": 35
+    },
+    {
+        "pk": 638,
+        "animal": 33,
+        "ammo": 35
+    },
+    {
+        "pk": 639,
+        "animal": 16,
+        "ammo": 35
+    },
+    {
+        "pk": 640,
+        "animal": 13,
+        "ammo": 35
+    },
+    {
+        "pk": 641,
+        "animal": 31,
+        "ammo": 35
+    },
+    {
+        "pk": 642,
+        "animal": 35,
+        "ammo": 35
+    },
+    {
+        "pk": 643,
+        "animal": 28,
+        "ammo": 35
+    },
+    {
+        "pk": 644,
+        "animal": 17,
+        "ammo": 35
+    },
+    {
+        "pk": 645,
+        "animal": 30,
+        "ammo": 35
+    },
+    {
+        "pk": 646,
+        "animal": 19,
+        "ammo": 35
+    },
+    {
+        "pk": 647,
+        "animal": 27,
+        "ammo": 35
+    },
+    {
+        "pk": 648,
+        "animal": 37,
+        "ammo": 35
+    },
+    {
+        "pk": 649,
+        "animal": 11,
+        "ammo": 35
+    },
+    {
+        "pk": 650,
+        "animal": 29,
+        "ammo": 35
+    },
+    {
+        "pk": 651,
+        "animal": 32,
+        "ammo": 35
+    },
+    {
+        "pk": 652,
+        "animal": 20,
+        "ammo": 35
+    },
+    {
+        "pk": 653,
+        "animal": 15,
+        "ammo": 35
+    },
+    {
+        "pk": 654,
+        "animal": 10,
+        "ammo": 35
+    },
+    {
+        "pk": 655,
+        "animal": 14,
+        "ammo": 35
+    },
+    {
+        "pk": 656,
+        "animal": 36,
+        "ammo": 35
+    },
+    {
+        "pk": 657,
+        "animal": 34,
+        "ammo": 35
+    },
+    {
+        "pk": 658,
+        "animal": 12,
+        "ammo": 35
+    },
+    {
+        "pk": 659,
+        "animal": 18,
+        "ammo": 36
+    },
+    {
+        "pk": 660,
+        "animal": 16,
+        "ammo": 36
+    },
+    {
+        "pk": 661,
+        "animal": 24,
+        "ammo": 36
+    },
+    {
+        "pk": 662,
+        "animal": 13,
+        "ammo": 36
+    },
+    {
+        "pk": 663,
+        "animal": 22,
+        "ammo": 36
+    },
+    {
+        "pk": 664,
+        "animal": 28,
+        "ammo": 36
+    },
+    {
+        "pk": 665,
+        "animal": 17,
+        "ammo": 36
+    },
+    {
+        "pk": 666,
+        "animal": 19,
+        "ammo": 36
+    },
+    {
+        "pk": 667,
+        "animal": 26,
+        "ammo": 36
+    },
+    {
+        "pk": 668,
+        "animal": 27,
+        "ammo": 36
+    },
+    {
+        "pk": 669,
+        "animal": 23,
+        "ammo": 36
+    },
+    {
+        "pk": 670,
+        "animal": 4,
+        "ammo": 36
+    },
+    {
+        "pk": 671,
+        "animal": 11,
+        "ammo": 36
+    },
+    {
+        "pk": 672,
+        "animal": 21,
+        "ammo": 36
+    },
+    {
+        "pk": 673,
+        "animal": 29,
+        "ammo": 36
+    },
+    {
+        "pk": 674,
+        "animal": 7,
+        "ammo": 36
+    },
+    {
+        "pk": 675,
+        "animal": 20,
+        "ammo": 36
+    },
+    {
+        "pk": 676,
+        "animal": 8,
+        "ammo": 36
+    },
+    {
+        "pk": 677,
+        "animal": 6,
+        "ammo": 36
+    },
+    {
+        "pk": 678,
+        "animal": 15,
+        "ammo": 36
+    },
+    {
+        "pk": 679,
+        "animal": 5,
+        "ammo": 36
+    },
+    {
+        "pk": 680,
+        "animal": 10,
+        "ammo": 36
+    },
+    {
+        "pk": 681,
+        "animal": 9,
+        "ammo": 36
+    },
+    {
+        "pk": 682,
+        "animal": 14,
+        "ammo": 36
+    },
+    {
+        "pk": 683,
+        "animal": 12,
+        "ammo": 36
+    },
+    {
+        "pk": 684,
+        "animal": 25,
+        "ammo": 36
+    },
+    {
+        "pk": 685,
+        "animal": 18,
+        "ammo": 37
+    },
+    {
+        "pk": 686,
+        "animal": 33,
+        "ammo": 37
+    },
+    {
+        "pk": 687,
+        "animal": 16,
+        "ammo": 37
+    },
+    {
+        "pk": 688,
+        "animal": 13,
+        "ammo": 37
+    },
+    {
+        "pk": 689,
+        "animal": 31,
+        "ammo": 37
+    },
+    {
+        "pk": 690,
+        "animal": 28,
+        "ammo": 37
+    },
+    {
+        "pk": 691,
+        "animal": 17,
+        "ammo": 37
+    },
+    {
+        "pk": 692,
+        "animal": 30,
+        "ammo": 37
+    },
+    {
+        "pk": 693,
+        "animal": 19,
+        "ammo": 37
+    },
+    {
+        "pk": 694,
+        "animal": 27,
+        "ammo": 37
+    },
+    {
+        "pk": 695,
+        "animal": 11,
+        "ammo": 37
+    },
+    {
+        "pk": 696,
+        "animal": 29,
+        "ammo": 37
+    },
+    {
+        "pk": 697,
+        "animal": 32,
+        "ammo": 37
+    },
+    {
+        "pk": 698,
+        "animal": 20,
+        "ammo": 37
+    },
+    {
+        "pk": 699,
+        "animal": 15,
+        "ammo": 37
+    },
+    {
+        "pk": 700,
+        "animal": 10,
+        "ammo": 37
+    },
+    {
+        "pk": 701,
+        "animal": 14,
+        "ammo": 37
+    },
+    {
+        "pk": 702,
+        "animal": 12,
+        "ammo": 37
+    },
+    {
+        "pk": 703,
+        "animal": 40,
+        "ammo": 38
+    },
+    {
+        "pk": 704,
+        "animal": 35,
+        "ammo": 38
+    },
+    {
+        "pk": 705,
+        "animal": 44,
+        "ammo": 38
+    },
+    {
+        "pk": 706,
+        "animal": 43,
+        "ammo": 38
+    },
+    {
+        "pk": 707,
+        "animal": 42,
+        "ammo": 38
+    },
+    {
+        "pk": 708,
+        "animal": 37,
+        "ammo": 38
+    },
+    {
+        "pk": 709,
+        "animal": 39,
+        "ammo": 38
+    },
+    {
+        "pk": 710,
+        "animal": 41,
+        "ammo": 38
+    },
+    {
+        "pk": 711,
+        "animal": 38,
+        "ammo": 38
+    },
+    {
+        "pk": 712,
+        "animal": 47,
+        "ammo": 38
+    },
+    {
+        "pk": 713,
+        "animal": 36,
+        "ammo": 38
+    },
+    {
+        "pk": 714,
+        "animal": 45,
+        "ammo": 38
+    },
+    {
+        "pk": 715,
+        "animal": 34,
+        "ammo": 38
+    },
+    {
+        "pk": 716,
+        "animal": 48,
+        "ammo": 38
+    },
+    {
+        "pk": 717,
+        "animal": 46,
+        "ammo": 38
+    },
+    {
+        "pk": 718,
+        "animal": 40,
+        "ammo": 39
+    },
+    {
+        "pk": 719,
+        "animal": 35,
+        "ammo": 39
+    },
+    {
+        "pk": 720,
+        "animal": 44,
+        "ammo": 39
+    },
+    {
+        "pk": 721,
+        "animal": 43,
+        "ammo": 39
+    },
+    {
+        "pk": 722,
+        "animal": 42,
+        "ammo": 39
+    },
+    {
+        "pk": 723,
+        "animal": 37,
+        "ammo": 39
+    },
+    {
+        "pk": 724,
+        "animal": 39,
+        "ammo": 39
+    },
+    {
+        "pk": 725,
+        "animal": 41,
+        "ammo": 39
+    },
+    {
+        "pk": 726,
+        "animal": 38,
+        "ammo": 39
+    },
+    {
+        "pk": 727,
+        "animal": 47,
+        "ammo": 39
+    },
+    {
+        "pk": 728,
+        "animal": 36,
+        "ammo": 39
+    },
+    {
+        "pk": 729,
+        "animal": 45,
+        "ammo": 39
+    },
+    {
+        "pk": 730,
+        "animal": 34,
+        "ammo": 39
+    },
+    {
+        "pk": 731,
+        "animal": 48,
+        "ammo": 39
+    },
+    {
+        "pk": 732,
+        "animal": 46,
+        "ammo": 39
+    },
+    {
+        "pk": 733,
+        "animal": 18,
+        "ammo": 40
+    },
+    {
+        "pk": 734,
+        "animal": 33,
+        "ammo": 40
+    },
+    {
+        "pk": 735,
+        "animal": 16,
+        "ammo": 40
+    },
+    {
+        "pk": 736,
+        "animal": 13,
+        "ammo": 40
+    },
+    {
+        "pk": 737,
+        "animal": 31,
+        "ammo": 40
+    },
+    {
+        "pk": 738,
+        "animal": 28,
+        "ammo": 40
+    },
+    {
+        "pk": 739,
+        "animal": 17,
+        "ammo": 40
+    },
+    {
+        "pk": 740,
+        "animal": 30,
+        "ammo": 40
+    },
+    {
+        "pk": 741,
+        "animal": 19,
+        "ammo": 40
+    },
+    {
+        "pk": 742,
+        "animal": 27,
+        "ammo": 40
+    },
+    {
+        "pk": 743,
+        "animal": 11,
+        "ammo": 40
+    },
+    {
+        "pk": 744,
+        "animal": 29,
+        "ammo": 40
+    },
+    {
+        "pk": 745,
+        "animal": 32,
+        "ammo": 40
+    },
+    {
+        "pk": 746,
+        "animal": 20,
+        "ammo": 40
+    },
+    {
+        "pk": 747,
+        "animal": 15,
+        "ammo": 40
+    },
+    {
+        "pk": 748,
+        "animal": 10,
+        "ammo": 40
+    },
+    {
+        "pk": 749,
+        "animal": 14,
+        "ammo": 40
+    },
+    {
+        "pk": 750,
+        "animal": 12,
+        "ammo": 40
+    },
+    {
+        "pk": 751,
+        "animal": 18,
+        "ammo": 41
+    },
+    {
+        "pk": 752,
+        "animal": 16,
+        "ammo": 41
+    },
+    {
+        "pk": 753,
+        "animal": 24,
+        "ammo": 41
+    },
+    {
+        "pk": 754,
+        "animal": 13,
+        "ammo": 41
+    },
+    {
+        "pk": 755,
+        "animal": 22,
+        "ammo": 41
+    },
+    {
+        "pk": 756,
+        "animal": 28,
+        "ammo": 41
+    },
+    {
+        "pk": 757,
+        "animal": 17,
+        "ammo": 41
+    },
+    {
+        "pk": 758,
+        "animal": 19,
+        "ammo": 41
+    },
+    {
+        "pk": 759,
+        "animal": 26,
+        "ammo": 41
+    },
+    {
+        "pk": 760,
+        "animal": 27,
+        "ammo": 41
+    },
+    {
+        "pk": 761,
+        "animal": 23,
+        "ammo": 41
+    },
+    {
+        "pk": 762,
+        "animal": 4,
+        "ammo": 41
+    },
+    {
+        "pk": 763,
+        "animal": 11,
+        "ammo": 41
+    },
+    {
+        "pk": 764,
+        "animal": 21,
+        "ammo": 41
+    },
+    {
+        "pk": 765,
+        "animal": 29,
+        "ammo": 41
+    },
+    {
+        "pk": 766,
+        "animal": 7,
+        "ammo": 41
+    },
+    {
+        "pk": 767,
+        "animal": 20,
+        "ammo": 41
+    },
+    {
+        "pk": 768,
+        "animal": 8,
+        "ammo": 41
+    },
+    {
+        "pk": 769,
+        "animal": 6,
+        "ammo": 41
+    },
+    {
+        "pk": 770,
+        "animal": 15,
+        "ammo": 41
+    },
+    {
+        "pk": 771,
+        "animal": 5,
+        "ammo": 41
+    },
+    {
+        "pk": 772,
+        "animal": 10,
+        "ammo": 41
+    },
+    {
+        "pk": 773,
+        "animal": 9,
+        "ammo": 41
+    },
+    {
+        "pk": 774,
+        "animal": 14,
+        "ammo": 41
+    },
+    {
+        "pk": 775,
+        "animal": 12,
+        "ammo": 41
+    },
+    {
+        "pk": 776,
+        "animal": 25,
+        "ammo": 41
+    },
+    {
+        "pk": 777,
+        "animal": 40,
+        "ammo": 42
+    },
+    {
+        "pk": 778,
+        "animal": 35,
+        "ammo": 42
+    },
+    {
+        "pk": 779,
+        "animal": 44,
+        "ammo": 42
+    },
+    {
+        "pk": 780,
+        "animal": 43,
+        "ammo": 42
+    },
+    {
+        "pk": 781,
+        "animal": 42,
+        "ammo": 42
+    },
+    {
+        "pk": 782,
+        "animal": 37,
+        "ammo": 42
+    },
+    {
+        "pk": 783,
+        "animal": 39,
+        "ammo": 42
+    },
+    {
+        "pk": 784,
+        "animal": 41,
+        "ammo": 42
+    },
+    {
+        "pk": 785,
+        "animal": 38,
+        "ammo": 42
+    },
+    {
+        "pk": 786,
+        "animal": 47,
+        "ammo": 42
+    },
+    {
+        "pk": 787,
+        "animal": 36,
+        "ammo": 42
+    },
+    {
+        "pk": 788,
+        "animal": 45,
+        "ammo": 42
+    },
+    {
+        "pk": 789,
+        "animal": 34,
+        "ammo": 42
+    },
+    {
+        "pk": 790,
+        "animal": 48,
+        "ammo": 42
+    },
+    {
+        "pk": 791,
+        "animal": 46,
+        "ammo": 42
+    },
+    {
+        "pk": 792,
+        "animal": 18,
+        "ammo": 43
+    },
+    {
+        "pk": 793,
+        "animal": 16,
+        "ammo": 43
+    },
+    {
+        "pk": 794,
+        "animal": 24,
+        "ammo": 43
+    },
+    {
+        "pk": 795,
+        "animal": 13,
+        "ammo": 43
+    },
+    {
+        "pk": 796,
+        "animal": 22,
+        "ammo": 43
+    },
+    {
+        "pk": 797,
+        "animal": 28,
+        "ammo": 43
+    },
+    {
+        "pk": 798,
+        "animal": 17,
+        "ammo": 43
+    },
+    {
+        "pk": 799,
+        "animal": 19,
+        "ammo": 43
+    },
+    {
+        "pk": 800,
+        "animal": 26,
+        "ammo": 43
+    },
+    {
+        "pk": 801,
+        "animal": 27,
+        "ammo": 43
+    },
+    {
+        "pk": 802,
+        "animal": 23,
+        "ammo": 43
+    },
+    {
+        "pk": 803,
+        "animal": 4,
+        "ammo": 43
+    },
+    {
+        "pk": 804,
+        "animal": 11,
+        "ammo": 43
+    },
+    {
+        "pk": 805,
+        "animal": 21,
+        "ammo": 43
+    },
+    {
+        "pk": 806,
+        "animal": 29,
+        "ammo": 43
+    },
+    {
+        "pk": 807,
+        "animal": 7,
+        "ammo": 43
+    },
+    {
+        "pk": 808,
+        "animal": 20,
+        "ammo": 43
+    },
+    {
+        "pk": 809,
+        "animal": 8,
+        "ammo": 43
+    },
+    {
+        "pk": 810,
+        "animal": 6,
+        "ammo": 43
+    },
+    {
+        "pk": 811,
+        "animal": 15,
+        "ammo": 43
+    },
+    {
+        "pk": 812,
+        "animal": 5,
+        "ammo": 43
+    },
+    {
+        "pk": 813,
+        "animal": 10,
+        "ammo": 43
+    },
+    {
+        "pk": 814,
+        "animal": 9,
+        "ammo": 43
+    },
+    {
+        "pk": 815,
+        "animal": 14,
+        "ammo": 43
+    },
+    {
+        "pk": 816,
+        "animal": 12,
+        "ammo": 43
+    },
+    {
+        "pk": 817,
+        "animal": 25,
+        "ammo": 43
+    },
+    {
+        "pk": 818,
+        "animal": 18,
+        "ammo": 44
+    },
+    {
+        "pk": 819,
+        "animal": 33,
+        "ammo": 44
+    },
+    {
+        "pk": 820,
+        "animal": 16,
+        "ammo": 44
+    },
+    {
+        "pk": 821,
+        "animal": 13,
+        "ammo": 44
+    },
+    {
+        "pk": 822,
+        "animal": 31,
+        "ammo": 44
+    },
+    {
+        "pk": 823,
+        "animal": 28,
+        "ammo": 44
+    },
+    {
+        "pk": 824,
+        "animal": 17,
+        "ammo": 44
+    },
+    {
+        "pk": 825,
+        "animal": 30,
+        "ammo": 44
+    },
+    {
+        "pk": 826,
+        "animal": 19,
+        "ammo": 44
+    },
+    {
+        "pk": 827,
+        "animal": 27,
+        "ammo": 44
+    },
+    {
+        "pk": 828,
+        "animal": 11,
+        "ammo": 44
+    },
+    {
+        "pk": 829,
+        "animal": 29,
+        "ammo": 44
+    },
+    {
+        "pk": 830,
+        "animal": 32,
+        "ammo": 44
+    },
+    {
+        "pk": 831,
+        "animal": 20,
+        "ammo": 44
+    },
+    {
+        "pk": 832,
+        "animal": 15,
+        "ammo": 44
+    },
+    {
+        "pk": 833,
+        "animal": 10,
+        "ammo": 44
+    },
+    {
+        "pk": 834,
+        "animal": 14,
+        "ammo": 44
+    },
+    {
+        "pk": 835,
+        "animal": 12,
+        "ammo": 44
+    },
+    {
+        "pk": 836,
+        "animal": 40,
+        "ammo": 45
+    },
+    {
+        "pk": 837,
+        "animal": 35,
+        "ammo": 45
+    },
+    {
+        "pk": 838,
+        "animal": 44,
+        "ammo": 45
+    },
+    {
+        "pk": 839,
+        "animal": 43,
+        "ammo": 45
+    },
+    {
+        "pk": 840,
+        "animal": 42,
+        "ammo": 45
+    },
+    {
+        "pk": 841,
+        "animal": 37,
+        "ammo": 45
+    },
+    {
+        "pk": 842,
+        "animal": 39,
+        "ammo": 45
+    },
+    {
+        "pk": 843,
+        "animal": 41,
+        "ammo": 45
+    },
+    {
+        "pk": 844,
+        "animal": 38,
+        "ammo": 45
+    },
+    {
+        "pk": 845,
+        "animal": 47,
+        "ammo": 45
+    },
+    {
+        "pk": 846,
+        "animal": 36,
+        "ammo": 45
+    },
+    {
+        "pk": 847,
+        "animal": 45,
+        "ammo": 45
+    },
+    {
+        "pk": 848,
+        "animal": 34,
+        "ammo": 45
+    },
+    {
+        "pk": 849,
+        "animal": 48,
+        "ammo": 45
+    },
+    {
+        "pk": 850,
+        "animal": 46,
+        "ammo": 45
+    },
+    {
+        "pk": 851,
+        "animal": 40,
+        "ammo": 46
+    },
+    {
+        "pk": 852,
+        "animal": 33,
+        "ammo": 46
+    },
+    {
+        "pk": 853,
+        "animal": 31,
+        "ammo": 46
+    },
+    {
+        "pk": 854,
+        "animal": 35,
+        "ammo": 46
+    },
+    {
+        "pk": 855,
+        "animal": 44,
+        "ammo": 46
+    },
+    {
+        "pk": 856,
+        "animal": 30,
+        "ammo": 46
+    },
+    {
+        "pk": 857,
+        "animal": 43,
+        "ammo": 46
+    },
+    {
+        "pk": 858,
+        "animal": 42,
+        "ammo": 46
+    },
+    {
+        "pk": 859,
+        "animal": 37,
+        "ammo": 46
+    },
+    {
+        "pk": 860,
+        "animal": 39,
+        "ammo": 46
+    },
+    {
+        "pk": 861,
+        "animal": 41,
+        "ammo": 46
+    },
+    {
+        "pk": 862,
+        "animal": 38,
+        "ammo": 46
+    },
+    {
+        "pk": 863,
+        "animal": 32,
+        "ammo": 46
+    },
+    {
+        "pk": 864,
+        "animal": 47,
+        "ammo": 46
+    },
+    {
+        "pk": 865,
+        "animal": 36,
+        "ammo": 46
+    },
+    {
+        "pk": 866,
+        "animal": 45,
+        "ammo": 46
+    },
+    {
+        "pk": 867,
+        "animal": 34,
+        "ammo": 46
+    },
+    {
+        "pk": 868,
+        "animal": 48,
+        "ammo": 46
+    },
+    {
+        "pk": 869,
+        "animal": 46,
+        "ammo": 46
+    },
+    {
+        "pk": 870,
+        "animal": 18,
+        "ammo": 47
+    },
+    {
+        "pk": 871,
+        "animal": 40,
+        "ammo": 47
+    },
+    {
+        "pk": 872,
+        "animal": 33,
+        "ammo": 47
+    },
+    {
+        "pk": 873,
+        "animal": 16,
+        "ammo": 47
+    },
+    {
+        "pk": 874,
+        "animal": 24,
+        "ammo": 47
+    },
+    {
+        "pk": 875,
+        "animal": 13,
+        "ammo": 47
+    },
+    {
+        "pk": 876,
+        "animal": 31,
+        "ammo": 47
+    },
+    {
+        "pk": 877,
+        "animal": 22,
+        "ammo": 47
+    },
+    {
+        "pk": 878,
+        "animal": 35,
+        "ammo": 47
+    },
+    {
+        "pk": 879,
+        "animal": 44,
+        "ammo": 47
+    },
+    {
+        "pk": 880,
+        "animal": 28,
+        "ammo": 47
+    },
+    {
+        "pk": 881,
+        "animal": 17,
+        "ammo": 47
+    },
+    {
+        "pk": 882,
+        "animal": 30,
+        "ammo": 47
+    },
+    {
+        "pk": 883,
+        "animal": 43,
+        "ammo": 47
+    },
+    {
+        "pk": 884,
+        "animal": 19,
+        "ammo": 47
+    },
+    {
+        "pk": 885,
+        "animal": 26,
+        "ammo": 47
+    },
+    {
+        "pk": 886,
+        "animal": 42,
+        "ammo": 47
+    },
+    {
+        "pk": 887,
+        "animal": 27,
+        "ammo": 47
+    },
+    {
+        "pk": 888,
+        "animal": 23,
+        "ammo": 47
+    },
+    {
+        "pk": 889,
+        "animal": 37,
+        "ammo": 47
+    },
+    {
+        "pk": 890,
+        "animal": 39,
+        "ammo": 47
+    },
+    {
+        "pk": 891,
+        "animal": 4,
+        "ammo": 47
+    },
+    {
+        "pk": 892,
+        "animal": 11,
+        "ammo": 47
+    },
+    {
+        "pk": 893,
+        "animal": 41,
+        "ammo": 47
+    },
+    {
+        "pk": 894,
+        "animal": 38,
+        "ammo": 47
+    },
+    {
+        "pk": 895,
+        "animal": 21,
+        "ammo": 47
+    },
+    {
+        "pk": 896,
+        "animal": 29,
+        "ammo": 47
+    },
+    {
+        "pk": 897,
+        "animal": 7,
+        "ammo": 47
+    },
+    {
+        "pk": 898,
+        "animal": 32,
+        "ammo": 47
+    },
+    {
+        "pk": 899,
+        "animal": 20,
+        "ammo": 47
+    },
+    {
+        "pk": 900,
+        "animal": 8,
+        "ammo": 47
+    },
+    {
+        "pk": 901,
+        "animal": 47,
+        "ammo": 47
+    },
+    {
+        "pk": 902,
+        "animal": 6,
+        "ammo": 47
+    },
+    {
+        "pk": 903,
+        "animal": 15,
+        "ammo": 47
+    },
+    {
+        "pk": 904,
+        "animal": 5,
+        "ammo": 47
+    },
+    {
+        "pk": 905,
+        "animal": 10,
+        "ammo": 47
+    },
+    {
+        "pk": 906,
+        "animal": 9,
+        "ammo": 47
+    },
+    {
+        "pk": 907,
+        "animal": 14,
+        "ammo": 47
+    },
+    {
+        "pk": 908,
+        "animal": 36,
+        "ammo": 47
+    },
+    {
+        "pk": 909,
+        "animal": 45,
+        "ammo": 47
+    },
+    {
+        "pk": 910,
+        "animal": 34,
+        "ammo": 47
+    },
+    {
+        "pk": 911,
+        "animal": 48,
+        "ammo": 47
+    },
+    {
+        "pk": 912,
+        "animal": 12,
+        "ammo": 47
+    },
+    {
+        "pk": 913,
+        "animal": 25,
+        "ammo": 47
+    },
+    {
+        "pk": 914,
+        "animal": 46,
+        "ammo": 47
+    },
+    {
+        "pk": 915,
+        "animal": 18,
+        "ammo": 48
+    },
+    {
+        "pk": 916,
+        "animal": 40,
+        "ammo": 48
+    },
+    {
+        "pk": 917,
+        "animal": 33,
+        "ammo": 48
+    },
+    {
+        "pk": 918,
+        "animal": 16,
+        "ammo": 48
+    },
+    {
+        "pk": 919,
+        "animal": 24,
+        "ammo": 48
+    },
+    {
+        "pk": 920,
+        "animal": 13,
+        "ammo": 48
+    },
+    {
+        "pk": 921,
+        "animal": 31,
+        "ammo": 48
+    },
+    {
+        "pk": 922,
+        "animal": 22,
+        "ammo": 48
+    },
+    {
+        "pk": 923,
+        "animal": 35,
+        "ammo": 48
+    },
+    {
+        "pk": 924,
+        "animal": 44,
+        "ammo": 48
+    },
+    {
+        "pk": 925,
+        "animal": 28,
+        "ammo": 48
+    },
+    {
+        "pk": 926,
+        "animal": 17,
+        "ammo": 48
+    },
+    {
+        "pk": 927,
+        "animal": 30,
+        "ammo": 48
+    },
+    {
+        "pk": 928,
+        "animal": 43,
+        "ammo": 48
+    },
+    {
+        "pk": 929,
+        "animal": 19,
+        "ammo": 48
+    },
+    {
+        "pk": 930,
+        "animal": 26,
+        "ammo": 48
+    },
+    {
+        "pk": 931,
+        "animal": 42,
+        "ammo": 48
+    },
+    {
+        "pk": 932,
+        "animal": 27,
+        "ammo": 48
+    },
+    {
+        "pk": 933,
+        "animal": 23,
+        "ammo": 48
+    },
+    {
+        "pk": 934,
+        "animal": 37,
+        "ammo": 48
+    },
+    {
+        "pk": 935,
+        "animal": 39,
+        "ammo": 48
+    },
+    {
+        "pk": 936,
+        "animal": 4,
+        "ammo": 48
+    },
+    {
+        "pk": 937,
+        "animal": 11,
+        "ammo": 48
+    },
+    {
+        "pk": 938,
+        "animal": 41,
+        "ammo": 48
+    },
+    {
+        "pk": 939,
+        "animal": 38,
+        "ammo": 48
+    },
+    {
+        "pk": 940,
+        "animal": 21,
+        "ammo": 48
+    },
+    {
+        "pk": 941,
+        "animal": 29,
+        "ammo": 48
+    },
+    {
+        "pk": 942,
+        "animal": 7,
+        "ammo": 48
+    },
+    {
+        "pk": 943,
+        "animal": 32,
+        "ammo": 48
+    },
+    {
+        "pk": 944,
+        "animal": 20,
+        "ammo": 48
+    },
+    {
+        "pk": 945,
+        "animal": 8,
+        "ammo": 48
+    },
+    {
+        "pk": 946,
+        "animal": 47,
+        "ammo": 48
+    },
+    {
+        "pk": 947,
+        "animal": 6,
+        "ammo": 48
+    },
+    {
+        "pk": 948,
+        "animal": 15,
+        "ammo": 48
+    },
+    {
+        "pk": 949,
+        "animal": 5,
+        "ammo": 48
+    },
+    {
+        "pk": 950,
+        "animal": 10,
+        "ammo": 48
+    },
+    {
+        "pk": 951,
+        "animal": 9,
+        "ammo": 48
+    },
+    {
+        "pk": 952,
+        "animal": 14,
+        "ammo": 48
+    },
+    {
+        "pk": 953,
+        "animal": 36,
+        "ammo": 48
+    },
+    {
+        "pk": 954,
+        "animal": 45,
+        "ammo": 48
+    },
+    {
+        "pk": 955,
+        "animal": 34,
+        "ammo": 48
+    },
+    {
+        "pk": 956,
+        "animal": 48,
+        "ammo": 48
+    },
+    {
+        "pk": 957,
+        "animal": 12,
+        "ammo": 48
+    },
+    {
+        "pk": 958,
+        "animal": 25,
+        "ammo": 48
+    },
+    {
+        "pk": 959,
+        "animal": 46,
+        "ammo": 48
+    },
+    {
+        "pk": 960,
+        "animal": 18,
+        "ammo": 49
+    },
+    {
+        "pk": 961,
+        "animal": 40,
+        "ammo": 49
+    },
+    {
+        "pk": 962,
+        "animal": 33,
+        "ammo": 49
+    },
+    {
+        "pk": 963,
+        "animal": 2,
+        "ammo": 49
+    },
+    {
+        "pk": 964,
+        "animal": 16,
+        "ammo": 49
+    },
+    {
+        "pk": 965,
+        "animal": 3,
+        "ammo": 49
+    },
+    {
+        "pk": 966,
+        "animal": 24,
+        "ammo": 49
+    },
+    {
+        "pk": 967,
+        "animal": 13,
+        "ammo": 49
+    },
+    {
+        "pk": 968,
+        "animal": 31,
+        "ammo": 49
+    },
+    {
+        "pk": 969,
+        "animal": 22,
+        "ammo": 49
+    },
+    {
+        "pk": 970,
+        "animal": 35,
+        "ammo": 49
+    },
+    {
+        "pk": 971,
+        "animal": 44,
+        "ammo": 49
+    },
+    {
+        "pk": 972,
+        "animal": 28,
+        "ammo": 49
+    },
+    {
+        "pk": 973,
+        "animal": 17,
+        "ammo": 49
+    },
+    {
+        "pk": 974,
+        "animal": 30,
+        "ammo": 49
+    },
+    {
+        "pk": 975,
+        "animal": 43,
+        "ammo": 49
+    },
+    {
+        "pk": 976,
+        "animal": 19,
+        "ammo": 49
+    },
+    {
+        "pk": 977,
+        "animal": 26,
+        "ammo": 49
+    },
+    {
+        "pk": 978,
+        "animal": 42,
+        "ammo": 49
+    },
+    {
+        "pk": 979,
+        "animal": 27,
+        "ammo": 49
+    },
+    {
+        "pk": 980,
+        "animal": 23,
+        "ammo": 49
+    },
+    {
+        "pk": 981,
+        "animal": 37,
+        "ammo": 49
+    },
+    {
+        "pk": 982,
+        "animal": 39,
+        "ammo": 49
+    },
+    {
+        "pk": 983,
+        "animal": 4,
+        "ammo": 49
+    },
+    {
+        "pk": 984,
+        "animal": 11,
+        "ammo": 49
+    },
+    {
+        "pk": 985,
+        "animal": 41,
+        "ammo": 49
+    },
+    {
+        "pk": 986,
+        "animal": 38,
+        "ammo": 49
+    },
+    {
+        "pk": 987,
+        "animal": 21,
+        "ammo": 49
+    },
+    {
+        "pk": 988,
+        "animal": 29,
+        "ammo": 49
+    },
+    {
+        "pk": 989,
+        "animal": 7,
+        "ammo": 49
+    },
+    {
+        "pk": 990,
+        "animal": 32,
+        "ammo": 49
+    },
+    {
+        "pk": 991,
+        "animal": 20,
+        "ammo": 49
+    },
+    {
+        "pk": 992,
+        "animal": 8,
+        "ammo": 49
+    },
+    {
+        "pk": 993,
+        "animal": 47,
+        "ammo": 49
+    },
+    {
+        "pk": 994,
+        "animal": 6,
+        "ammo": 49
+    },
+    {
+        "pk": 995,
+        "animal": 15,
+        "ammo": 49
+    },
+    {
+        "pk": 996,
+        "animal": 5,
+        "ammo": 49
+    },
+    {
+        "pk": 997,
+        "animal": 10,
+        "ammo": 49
+    },
+    {
+        "pk": 998,
+        "animal": 9,
+        "ammo": 49
+    },
+    {
+        "pk": 999,
+        "animal": 14,
+        "ammo": 49
+    },
+    {
+        "pk": 1000,
+        "animal": 36,
+        "ammo": 49
+    },
+    {
+        "pk": 1001,
+        "animal": 45,
+        "ammo": 49
+    },
+    {
+        "pk": 1002,
+        "animal": 34,
+        "ammo": 49
+    },
+    {
+        "pk": 1003,
+        "animal": 1,
+        "ammo": 49
+    },
+    {
+        "pk": 1004,
+        "animal": 48,
+        "ammo": 49
+    },
+    {
+        "pk": 1005,
+        "animal": 12,
+        "ammo": 49
+    },
+    {
+        "pk": 1006,
+        "animal": 25,
+        "ammo": 49
+    },
+    {
+        "pk": 1007,
+        "animal": 46,
+        "ammo": 49
+    },
+    {
+        "pk": 1008,
+        "animal": 18,
+        "ammo": 50
+    },
+    {
+        "pk": 1009,
+        "animal": 40,
+        "ammo": 50
+    },
+    {
+        "pk": 1010,
+        "animal": 33,
+        "ammo": 50
+    },
+    {
+        "pk": 1011,
+        "animal": 2,
+        "ammo": 50
+    },
+    {
+        "pk": 1012,
+        "animal": 16,
+        "ammo": 50
+    },
+    {
+        "pk": 1013,
+        "animal": 3,
+        "ammo": 50
+    },
+    {
+        "pk": 1014,
+        "animal": 24,
+        "ammo": 50
+    },
+    {
+        "pk": 1015,
+        "animal": 13,
+        "ammo": 50
+    },
+    {
+        "pk": 1016,
+        "animal": 31,
+        "ammo": 50
+    },
+    {
+        "pk": 1017,
+        "animal": 22,
+        "ammo": 50
+    },
+    {
+        "pk": 1018,
+        "animal": 35,
+        "ammo": 50
+    },
+    {
+        "pk": 1019,
+        "animal": 44,
+        "ammo": 50
+    },
+    {
+        "pk": 1020,
+        "animal": 28,
+        "ammo": 50
+    },
+    {
+        "pk": 1021,
+        "animal": 17,
+        "ammo": 50
+    },
+    {
+        "pk": 1022,
+        "animal": 30,
+        "ammo": 50
+    },
+    {
+        "pk": 1023,
+        "animal": 43,
+        "ammo": 50
+    },
+    {
+        "pk": 1024,
+        "animal": 19,
+        "ammo": 50
+    },
+    {
+        "pk": 1025,
+        "animal": 26,
+        "ammo": 50
+    },
+    {
+        "pk": 1026,
+        "animal": 42,
+        "ammo": 50
+    },
+    {
+        "pk": 1027,
+        "animal": 27,
+        "ammo": 50
+    },
+    {
+        "pk": 1028,
+        "animal": 23,
+        "ammo": 50
+    },
+    {
+        "pk": 1029,
+        "animal": 37,
+        "ammo": 50
+    },
+    {
+        "pk": 1030,
+        "animal": 39,
+        "ammo": 50
+    },
+    {
+        "pk": 1031,
+        "animal": 4,
+        "ammo": 50
+    },
+    {
+        "pk": 1032,
+        "animal": 11,
+        "ammo": 50
+    },
+    {
+        "pk": 1033,
+        "animal": 41,
+        "ammo": 50
+    },
+    {
+        "pk": 1034,
+        "animal": 38,
+        "ammo": 50
+    },
+    {
+        "pk": 1035,
+        "animal": 21,
+        "ammo": 50
+    },
+    {
+        "pk": 1036,
+        "animal": 29,
+        "ammo": 50
+    },
+    {
+        "pk": 1037,
+        "animal": 7,
+        "ammo": 50
+    },
+    {
+        "pk": 1038,
+        "animal": 32,
+        "ammo": 50
+    },
+    {
+        "pk": 1039,
+        "animal": 20,
+        "ammo": 50
+    },
+    {
+        "pk": 1040,
+        "animal": 8,
+        "ammo": 50
+    },
+    {
+        "pk": 1041,
+        "animal": 47,
+        "ammo": 50
+    },
+    {
+        "pk": 1042,
+        "animal": 6,
+        "ammo": 50
+    },
+    {
+        "pk": 1043,
+        "animal": 15,
+        "ammo": 50
+    },
+    {
+        "pk": 1044,
+        "animal": 5,
+        "ammo": 50
+    },
+    {
+        "pk": 1045,
+        "animal": 10,
+        "ammo": 50
+    },
+    {
+        "pk": 1046,
+        "animal": 9,
+        "ammo": 50
+    },
+    {
+        "pk": 1047,
+        "animal": 14,
+        "ammo": 50
+    },
+    {
+        "pk": 1048,
+        "animal": 36,
+        "ammo": 50
+    },
+    {
+        "pk": 1049,
+        "animal": 45,
+        "ammo": 50
+    },
+    {
+        "pk": 1050,
+        "animal": 34,
+        "ammo": 50
+    },
+    {
+        "pk": 1051,
+        "animal": 1,
+        "ammo": 50
+    },
+    {
+        "pk": 1052,
+        "animal": 48,
+        "ammo": 50
+    },
+    {
+        "pk": 1053,
+        "animal": 12,
+        "ammo": 50
+    },
+    {
+        "pk": 1054,
+        "animal": 25,
+        "ammo": 50
+    },
+    {
+        "pk": 1055,
+        "animal": 46,
+        "ammo": 50
+    },
+    {
+        "pk": 1056,
+        "animal": 18,
+        "ammo": 51
+    },
+    {
+        "pk": 1057,
+        "animal": 40,
+        "ammo": 51
+    },
+    {
+        "pk": 1058,
+        "animal": 33,
+        "ammo": 51
+    },
+    {
+        "pk": 1059,
+        "animal": 2,
+        "ammo": 51
+    },
+    {
+        "pk": 1060,
+        "animal": 16,
+        "ammo": 51
+    },
+    {
+        "pk": 1061,
+        "animal": 3,
+        "ammo": 51
+    },
+    {
+        "pk": 1062,
+        "animal": 24,
+        "ammo": 51
+    },
+    {
+        "pk": 1063,
+        "animal": 13,
+        "ammo": 51
+    },
+    {
+        "pk": 1064,
+        "animal": 31,
+        "ammo": 51
+    },
+    {
+        "pk": 1065,
+        "animal": 22,
+        "ammo": 51
+    },
+    {
+        "pk": 1066,
+        "animal": 35,
+        "ammo": 51
+    },
+    {
+        "pk": 1067,
+        "animal": 44,
+        "ammo": 51
+    },
+    {
+        "pk": 1068,
+        "animal": 28,
+        "ammo": 51
+    },
+    {
+        "pk": 1069,
+        "animal": 17,
+        "ammo": 51
+    },
+    {
+        "pk": 1070,
+        "animal": 30,
+        "ammo": 51
+    },
+    {
+        "pk": 1071,
+        "animal": 43,
+        "ammo": 51
+    },
+    {
+        "pk": 1072,
+        "animal": 19,
+        "ammo": 51
+    },
+    {
+        "pk": 1073,
+        "animal": 26,
+        "ammo": 51
+    },
+    {
+        "pk": 1074,
+        "animal": 42,
+        "ammo": 51
+    },
+    {
+        "pk": 1075,
+        "animal": 27,
+        "ammo": 51
+    },
+    {
+        "pk": 1076,
+        "animal": 23,
+        "ammo": 51
+    },
+    {
+        "pk": 1077,
+        "animal": 37,
+        "ammo": 51
+    },
+    {
+        "pk": 1078,
+        "animal": 39,
+        "ammo": 51
+    },
+    {
+        "pk": 1079,
+        "animal": 4,
+        "ammo": 51
+    },
+    {
+        "pk": 1080,
+        "animal": 11,
+        "ammo": 51
+    },
+    {
+        "pk": 1081,
+        "animal": 41,
+        "ammo": 51
+    },
+    {
+        "pk": 1082,
+        "animal": 38,
+        "ammo": 51
+    },
+    {
+        "pk": 1083,
+        "animal": 21,
+        "ammo": 51
+    },
+    {
+        "pk": 1084,
+        "animal": 29,
+        "ammo": 51
+    },
+    {
+        "pk": 1085,
+        "animal": 7,
+        "ammo": 51
+    },
+    {
+        "pk": 1086,
+        "animal": 32,
+        "ammo": 51
+    },
+    {
+        "pk": 1087,
+        "animal": 20,
+        "ammo": 51
+    },
+    {
+        "pk": 1088,
+        "animal": 8,
+        "ammo": 51
+    },
+    {
+        "pk": 1089,
+        "animal": 47,
+        "ammo": 51
+    },
+    {
+        "pk": 1090,
+        "animal": 6,
+        "ammo": 51
+    },
+    {
+        "pk": 1091,
+        "animal": 15,
+        "ammo": 51
+    },
+    {
+        "pk": 1092,
+        "animal": 5,
+        "ammo": 51
+    },
+    {
+        "pk": 1093,
+        "animal": 10,
+        "ammo": 51
+    },
+    {
+        "pk": 1094,
+        "animal": 9,
+        "ammo": 51
+    },
+    {
+        "pk": 1095,
+        "animal": 14,
+        "ammo": 51
+    },
+    {
+        "pk": 1096,
+        "animal": 36,
+        "ammo": 51
+    },
+    {
+        "pk": 1097,
+        "animal": 45,
+        "ammo": 51
+    },
+    {
+        "pk": 1098,
+        "animal": 34,
+        "ammo": 51
+    },
+    {
+        "pk": 1099,
+        "animal": 1,
+        "ammo": 51
+    },
+    {
+        "pk": 1100,
+        "animal": 48,
+        "ammo": 51
+    },
+    {
+        "pk": 1101,
+        "animal": 12,
+        "ammo": 51
+    },
+    {
+        "pk": 1102,
+        "animal": 25,
+        "ammo": 51
+    },
+    {
+        "pk": 1103,
+        "animal": 46,
+        "ammo": 51
+    },
+    {
+        "pk": 1104,
+        "animal": 18,
+        "ammo": 52
+    },
+    {
+        "pk": 1105,
+        "animal": 40,
+        "ammo": 52
+    },
+    {
+        "pk": 1106,
+        "animal": 33,
+        "ammo": 52
+    },
+    {
+        "pk": 1107,
+        "animal": 2,
+        "ammo": 52
+    },
+    {
+        "pk": 1108,
+        "animal": 16,
+        "ammo": 52
+    },
+    {
+        "pk": 1109,
+        "animal": 3,
+        "ammo": 52
+    },
+    {
+        "pk": 1110,
+        "animal": 24,
+        "ammo": 52
+    },
+    {
+        "pk": 1111,
+        "animal": 13,
+        "ammo": 52
+    },
+    {
+        "pk": 1112,
+        "animal": 31,
+        "ammo": 52
+    },
+    {
+        "pk": 1113,
+        "animal": 22,
+        "ammo": 52
+    },
+    {
+        "pk": 1114,
+        "animal": 35,
+        "ammo": 52
+    },
+    {
+        "pk": 1115,
+        "animal": 44,
+        "ammo": 52
+    },
+    {
+        "pk": 1116,
+        "animal": 28,
+        "ammo": 52
+    },
+    {
+        "pk": 1117,
+        "animal": 17,
+        "ammo": 52
+    },
+    {
+        "pk": 1118,
+        "animal": 30,
+        "ammo": 52
+    },
+    {
+        "pk": 1119,
+        "animal": 43,
+        "ammo": 52
+    },
+    {
+        "pk": 1120,
+        "animal": 19,
+        "ammo": 52
+    },
+    {
+        "pk": 1121,
+        "animal": 26,
+        "ammo": 52
+    },
+    {
+        "pk": 1122,
+        "animal": 42,
+        "ammo": 52
+    },
+    {
+        "pk": 1123,
+        "animal": 27,
+        "ammo": 52
+    },
+    {
+        "pk": 1124,
+        "animal": 23,
+        "ammo": 52
+    },
+    {
+        "pk": 1125,
+        "animal": 37,
+        "ammo": 52
+    },
+    {
+        "pk": 1126,
+        "animal": 39,
+        "ammo": 52
+    },
+    {
+        "pk": 1127,
+        "animal": 4,
+        "ammo": 52
+    },
+    {
+        "pk": 1128,
+        "animal": 11,
+        "ammo": 52
+    },
+    {
+        "pk": 1129,
+        "animal": 41,
+        "ammo": 52
+    },
+    {
+        "pk": 1130,
+        "animal": 38,
+        "ammo": 52
+    },
+    {
+        "pk": 1131,
+        "animal": 21,
+        "ammo": 52
+    },
+    {
+        "pk": 1132,
+        "animal": 29,
+        "ammo": 52
+    },
+    {
+        "pk": 1133,
+        "animal": 7,
+        "ammo": 52
+    },
+    {
+        "pk": 1134,
+        "animal": 32,
+        "ammo": 52
+    },
+    {
+        "pk": 1135,
+        "animal": 20,
+        "ammo": 52
+    },
+    {
+        "pk": 1136,
+        "animal": 8,
+        "ammo": 52
+    },
+    {
+        "pk": 1137,
+        "animal": 47,
+        "ammo": 52
+    },
+    {
+        "pk": 1138,
+        "animal": 6,
+        "ammo": 52
+    },
+    {
+        "pk": 1139,
+        "animal": 15,
+        "ammo": 52
+    },
+    {
+        "pk": 1140,
+        "animal": 5,
+        "ammo": 52
+    },
+    {
+        "pk": 1141,
+        "animal": 10,
+        "ammo": 52
+    },
+    {
+        "pk": 1142,
+        "animal": 9,
+        "ammo": 52
+    },
+    {
+        "pk": 1143,
+        "animal": 14,
+        "ammo": 52
+    },
+    {
+        "pk": 1144,
+        "animal": 36,
+        "ammo": 52
+    },
+    {
+        "pk": 1145,
+        "animal": 45,
+        "ammo": 52
+    },
+    {
+        "pk": 1146,
+        "animal": 34,
+        "ammo": 52
+    },
+    {
+        "pk": 1147,
+        "animal": 1,
+        "ammo": 52
+    },
+    {
+        "pk": 1148,
+        "animal": 48,
+        "ammo": 52
+    },
+    {
+        "pk": 1149,
+        "animal": 12,
+        "ammo": 52
+    },
+    {
+        "pk": 1150,
+        "animal": 25,
+        "ammo": 52
+    },
+    {
+        "pk": 1151,
+        "animal": 46,
+        "ammo": 52
+    },
+    {
+        "pk": 1152,
+        "animal": 18,
+        "ammo": 53
+    },
+    {
+        "pk": 1153,
+        "animal": 40,
+        "ammo": 53
+    },
+    {
+        "pk": 1154,
+        "animal": 33,
+        "ammo": 53
+    },
+    {
+        "pk": 1155,
+        "animal": 2,
+        "ammo": 53
+    },
+    {
+        "pk": 1156,
+        "animal": 16,
+        "ammo": 53
+    },
+    {
+        "pk": 1157,
+        "animal": 3,
+        "ammo": 53
+    },
+    {
+        "pk": 1158,
+        "animal": 24,
+        "ammo": 53
+    },
+    {
+        "pk": 1159,
+        "animal": 13,
+        "ammo": 53
+    },
+    {
+        "pk": 1160,
+        "animal": 31,
+        "ammo": 53
+    },
+    {
+        "pk": 1161,
+        "animal": 22,
+        "ammo": 53
+    },
+    {
+        "pk": 1162,
+        "animal": 35,
+        "ammo": 53
+    },
+    {
+        "pk": 1163,
+        "animal": 44,
+        "ammo": 53
+    },
+    {
+        "pk": 1164,
+        "animal": 28,
+        "ammo": 53
+    },
+    {
+        "pk": 1165,
+        "animal": 17,
+        "ammo": 53
+    },
+    {
+        "pk": 1166,
+        "animal": 30,
+        "ammo": 53
+    },
+    {
+        "pk": 1167,
+        "animal": 43,
+        "ammo": 53
+    },
+    {
+        "pk": 1168,
+        "animal": 19,
+        "ammo": 53
+    },
+    {
+        "pk": 1169,
+        "animal": 26,
+        "ammo": 53
+    },
+    {
+        "pk": 1170,
+        "animal": 42,
+        "ammo": 53
+    },
+    {
+        "pk": 1171,
+        "animal": 27,
+        "ammo": 53
+    },
+    {
+        "pk": 1172,
+        "animal": 23,
+        "ammo": 53
+    },
+    {
+        "pk": 1173,
+        "animal": 37,
+        "ammo": 53
+    },
+    {
+        "pk": 1174,
+        "animal": 39,
+        "ammo": 53
+    },
+    {
+        "pk": 1175,
+        "animal": 4,
+        "ammo": 53
+    },
+    {
+        "pk": 1176,
+        "animal": 11,
+        "ammo": 53
+    },
+    {
+        "pk": 1177,
+        "animal": 41,
+        "ammo": 53
+    },
+    {
+        "pk": 1178,
+        "animal": 38,
+        "ammo": 53
+    },
+    {
+        "pk": 1179,
+        "animal": 21,
+        "ammo": 53
+    },
+    {
+        "pk": 1180,
+        "animal": 29,
+        "ammo": 53
+    },
+    {
+        "pk": 1181,
+        "animal": 7,
+        "ammo": 53
+    },
+    {
+        "pk": 1182,
+        "animal": 32,
+        "ammo": 53
+    },
+    {
+        "pk": 1183,
+        "animal": 20,
+        "ammo": 53
+    },
+    {
+        "pk": 1184,
+        "animal": 8,
+        "ammo": 53
+    },
+    {
+        "pk": 1185,
+        "animal": 47,
+        "ammo": 53
+    },
+    {
+        "pk": 1186,
+        "animal": 6,
+        "ammo": 53
+    },
+    {
+        "pk": 1187,
+        "animal": 15,
+        "ammo": 53
+    },
+    {
+        "pk": 1188,
+        "animal": 5,
+        "ammo": 53
+    },
+    {
+        "pk": 1189,
+        "animal": 10,
+        "ammo": 53
+    },
+    {
+        "pk": 1190,
+        "animal": 9,
+        "ammo": 53
+    },
+    {
+        "pk": 1191,
+        "animal": 14,
+        "ammo": 53
+    },
+    {
+        "pk": 1192,
+        "animal": 36,
+        "ammo": 53
+    },
+    {
+        "pk": 1193,
+        "animal": 45,
+        "ammo": 53
+    },
+    {
+        "pk": 1194,
+        "animal": 34,
+        "ammo": 53
+    },
+    {
+        "pk": 1195,
+        "animal": 1,
+        "ammo": 53
+    },
+    {
+        "pk": 1196,
+        "animal": 48,
+        "ammo": 53
+    },
+    {
+        "pk": 1197,
+        "animal": 12,
+        "ammo": 53
+    },
+    {
+        "pk": 1198,
+        "animal": 25,
+        "ammo": 53
+    },
+    {
+        "pk": 1199,
+        "animal": 46,
+        "ammo": 53
+    },
+    {
+        "pk": 1200,
+        "animal": 18,
+        "ammo": 54
+    },
+    {
+        "pk": 1201,
+        "animal": 40,
+        "ammo": 54
+    },
+    {
+        "pk": 1202,
+        "animal": 33,
+        "ammo": 54
+    },
+    {
+        "pk": 1203,
+        "animal": 2,
+        "ammo": 54
+    },
+    {
+        "pk": 1204,
+        "animal": 16,
+        "ammo": 54
+    },
+    {
+        "pk": 1205,
+        "animal": 3,
+        "ammo": 54
+    },
+    {
+        "pk": 1206,
+        "animal": 24,
+        "ammo": 54
+    },
+    {
+        "pk": 1207,
+        "animal": 13,
+        "ammo": 54
+    },
+    {
+        "pk": 1208,
+        "animal": 31,
+        "ammo": 54
+    },
+    {
+        "pk": 1209,
+        "animal": 22,
+        "ammo": 54
+    },
+    {
+        "pk": 1210,
+        "animal": 35,
+        "ammo": 54
+    },
+    {
+        "pk": 1211,
+        "animal": 44,
+        "ammo": 54
+    },
+    {
+        "pk": 1212,
+        "animal": 28,
+        "ammo": 54
+    },
+    {
+        "pk": 1213,
+        "animal": 17,
+        "ammo": 54
+    },
+    {
+        "pk": 1214,
+        "animal": 30,
+        "ammo": 54
+    },
+    {
+        "pk": 1215,
+        "animal": 43,
+        "ammo": 54
+    },
+    {
+        "pk": 1216,
+        "animal": 19,
+        "ammo": 54
+    },
+    {
+        "pk": 1217,
+        "animal": 26,
+        "ammo": 54
+    },
+    {
+        "pk": 1218,
+        "animal": 42,
+        "ammo": 54
+    },
+    {
+        "pk": 1219,
+        "animal": 27,
+        "ammo": 54
+    },
+    {
+        "pk": 1220,
+        "animal": 23,
+        "ammo": 54
+    },
+    {
+        "pk": 1221,
+        "animal": 37,
+        "ammo": 54
+    },
+    {
+        "pk": 1222,
+        "animal": 39,
+        "ammo": 54
+    },
+    {
+        "pk": 1223,
+        "animal": 4,
+        "ammo": 54
+    },
+    {
+        "pk": 1224,
+        "animal": 11,
+        "ammo": 54
+    },
+    {
+        "pk": 1225,
+        "animal": 41,
+        "ammo": 54
+    },
+    {
+        "pk": 1226,
+        "animal": 38,
+        "ammo": 54
+    },
+    {
+        "pk": 1227,
+        "animal": 21,
+        "ammo": 54
+    },
+    {
+        "pk": 1228,
+        "animal": 29,
+        "ammo": 54
+    },
+    {
+        "pk": 1229,
+        "animal": 7,
+        "ammo": 54
+    },
+    {
+        "pk": 1230,
+        "animal": 32,
+        "ammo": 54
+    },
+    {
+        "pk": 1231,
+        "animal": 20,
+        "ammo": 54
+    },
+    {
+        "pk": 1232,
+        "animal": 8,
+        "ammo": 54
+    },
+    {
+        "pk": 1233,
+        "animal": 47,
+        "ammo": 54
+    },
+    {
+        "pk": 1234,
+        "animal": 6,
+        "ammo": 54
+    },
+    {
+        "pk": 1235,
+        "animal": 15,
+        "ammo": 54
+    },
+    {
+        "pk": 1236,
+        "animal": 5,
+        "ammo": 54
+    },
+    {
+        "pk": 1237,
+        "animal": 10,
+        "ammo": 54
+    },
+    {
+        "pk": 1238,
+        "animal": 9,
+        "ammo": 54
+    },
+    {
+        "pk": 1239,
+        "animal": 14,
+        "ammo": 54
+    },
+    {
+        "pk": 1240,
+        "animal": 36,
+        "ammo": 54
+    },
+    {
+        "pk": 1241,
+        "animal": 45,
+        "ammo": 54
+    },
+    {
+        "pk": 1242,
+        "animal": 34,
+        "ammo": 54
+    },
+    {
+        "pk": 1243,
+        "animal": 1,
+        "ammo": 54
+    },
+    {
+        "pk": 1244,
+        "animal": 48,
+        "ammo": 54
+    },
+    {
+        "pk": 1245,
+        "animal": 12,
+        "ammo": 54
+    },
+    {
+        "pk": 1246,
+        "animal": 25,
+        "ammo": 54
+    },
+    {
+        "pk": 1247,
+        "animal": 46,
+        "ammo": 54
+    },
+    {
+        "pk": 1248,
+        "animal": 18,
+        "ammo": 55
+    },
+    {
+        "pk": 1249,
+        "animal": 40,
+        "ammo": 55
+    },
+    {
+        "pk": 1250,
+        "animal": 33,
+        "ammo": 55
+    },
+    {
+        "pk": 1251,
+        "animal": 2,
+        "ammo": 55
+    },
+    {
+        "pk": 1252,
+        "animal": 16,
+        "ammo": 55
+    },
+    {
+        "pk": 1253,
+        "animal": 3,
+        "ammo": 55
+    },
+    {
+        "pk": 1254,
+        "animal": 24,
+        "ammo": 55
+    },
+    {
+        "pk": 1255,
+        "animal": 13,
+        "ammo": 55
+    },
+    {
+        "pk": 1256,
+        "animal": 31,
+        "ammo": 55
+    },
+    {
+        "pk": 1257,
+        "animal": 22,
+        "ammo": 55
+    },
+    {
+        "pk": 1258,
+        "animal": 35,
+        "ammo": 55
+    },
+    {
+        "pk": 1259,
+        "animal": 44,
+        "ammo": 55
+    },
+    {
+        "pk": 1260,
+        "animal": 28,
+        "ammo": 55
+    },
+    {
+        "pk": 1261,
+        "animal": 17,
+        "ammo": 55
+    },
+    {
+        "pk": 1262,
+        "animal": 30,
+        "ammo": 55
+    },
+    {
+        "pk": 1263,
+        "animal": 43,
+        "ammo": 55
+    },
+    {
+        "pk": 1264,
+        "animal": 19,
+        "ammo": 55
+    },
+    {
+        "pk": 1265,
+        "animal": 26,
+        "ammo": 55
+    },
+    {
+        "pk": 1266,
+        "animal": 42,
+        "ammo": 55
+    },
+    {
+        "pk": 1267,
+        "animal": 27,
+        "ammo": 55
+    },
+    {
+        "pk": 1268,
+        "animal": 23,
+        "ammo": 55
+    },
+    {
+        "pk": 1269,
+        "animal": 37,
+        "ammo": 55
+    },
+    {
+        "pk": 1270,
+        "animal": 39,
+        "ammo": 55
+    },
+    {
+        "pk": 1271,
+        "animal": 4,
+        "ammo": 55
+    },
+    {
+        "pk": 1272,
+        "animal": 11,
+        "ammo": 55
+    },
+    {
+        "pk": 1273,
+        "animal": 41,
+        "ammo": 55
+    },
+    {
+        "pk": 1274,
+        "animal": 38,
+        "ammo": 55
+    },
+    {
+        "pk": 1275,
+        "animal": 21,
+        "ammo": 55
+    },
+    {
+        "pk": 1276,
+        "animal": 29,
+        "ammo": 55
+    },
+    {
+        "pk": 1277,
+        "animal": 7,
+        "ammo": 55
+    },
+    {
+        "pk": 1278,
+        "animal": 32,
+        "ammo": 55
+    },
+    {
+        "pk": 1279,
+        "animal": 20,
+        "ammo": 55
+    },
+    {
+        "pk": 1280,
+        "animal": 8,
+        "ammo": 55
+    },
+    {
+        "pk": 1281,
+        "animal": 47,
+        "ammo": 55
+    },
+    {
+        "pk": 1282,
+        "animal": 6,
+        "ammo": 55
+    },
+    {
+        "pk": 1283,
+        "animal": 15,
+        "ammo": 55
+    },
+    {
+        "pk": 1284,
+        "animal": 5,
+        "ammo": 55
+    },
+    {
+        "pk": 1285,
+        "animal": 10,
+        "ammo": 55
+    },
+    {
+        "pk": 1286,
+        "animal": 9,
+        "ammo": 55
+    },
+    {
+        "pk": 1287,
+        "animal": 14,
+        "ammo": 55
+    },
+    {
+        "pk": 1288,
+        "animal": 36,
+        "ammo": 55
+    },
+    {
+        "pk": 1289,
+        "animal": 45,
+        "ammo": 55
+    },
+    {
+        "pk": 1290,
+        "animal": 34,
+        "ammo": 55
+    },
+    {
+        "pk": 1291,
+        "animal": 1,
+        "ammo": 55
+    },
+    {
+        "pk": 1292,
+        "animal": 48,
+        "ammo": 55
+    },
+    {
+        "pk": 1293,
+        "animal": 12,
+        "ammo": 55
+    },
+    {
+        "pk": 1294,
+        "animal": 25,
+        "ammo": 55
+    },
+    {
+        "pk": 1295,
+        "animal": 46,
+        "ammo": 55
+    },
+    {
+        "pk": 1296,
+        "animal": 18,
+        "ammo": 56
+    },
+    {
+        "pk": 1297,
+        "animal": 16,
+        "ammo": 56
+    },
+    {
+        "pk": 1298,
+        "animal": 13,
+        "ammo": 56
+    },
+    {
+        "pk": 1299,
+        "animal": 28,
+        "ammo": 56
+    },
+    {
+        "pk": 1300,
+        "animal": 17,
+        "ammo": 56
+    },
+    {
+        "pk": 1301,
+        "animal": 19,
+        "ammo": 56
+    },
+    {
+        "pk": 1302,
+        "animal": 27,
+        "ammo": 56
+    },
+    {
+        "pk": 1303,
+        "animal": 11,
+        "ammo": 56
+    },
+    {
+        "pk": 1304,
+        "animal": 29,
+        "ammo": 56
+    },
+    {
+        "pk": 1305,
+        "animal": 20,
+        "ammo": 56
+    },
+    {
+        "pk": 1306,
+        "animal": 8,
+        "ammo": 56
+    },
+    {
+        "pk": 1307,
+        "animal": 15,
+        "ammo": 56
+    },
+    {
+        "pk": 1308,
+        "animal": 10,
+        "ammo": 56
+    },
+    {
+        "pk": 1309,
+        "animal": 14,
+        "ammo": 56
+    },
+    {
+        "pk": 1310,
+        "animal": 12,
+        "ammo": 56
+    },
+    {
+        "pk": 1311,
+        "animal": 2,
+        "ammo": 57
+    },
+    {
+        "pk": 1312,
+        "animal": 3,
+        "ammo": 57
+    },
+    {
+        "pk": 1313,
+        "animal": 24,
+        "ammo": 57
+    },
+    {
+        "pk": 1314,
+        "animal": 22,
+        "ammo": 57
+    },
+    {
+        "pk": 1315,
+        "animal": 26,
+        "ammo": 57
+    },
+    {
+        "pk": 1316,
+        "animal": 23,
+        "ammo": 57
+    },
+    {
+        "pk": 1317,
+        "animal": 4,
+        "ammo": 57
+    },
+    {
+        "pk": 1318,
+        "animal": 21,
+        "ammo": 57
+    },
+    {
+        "pk": 1319,
+        "animal": 7,
+        "ammo": 57
+    },
+    {
+        "pk": 1320,
+        "animal": 6,
+        "ammo": 57
+    },
+    {
+        "pk": 1321,
+        "animal": 5,
+        "ammo": 57
+    },
+    {
+        "pk": 1322,
+        "animal": 9,
+        "ammo": 57
+    },
+    {
+        "pk": 1323,
+        "animal": 1,
+        "ammo": 57
+    },
+    {
+        "pk": 1324,
+        "animal": 25,
+        "ammo": 57
+    },
+    {
+        "pk": 1325,
+        "animal": 18,
+        "ammo": 58
+    },
+    {
+        "pk": 1326,
+        "animal": 16,
+        "ammo": 58
+    },
+    {
+        "pk": 1327,
+        "animal": 13,
+        "ammo": 58
+    },
+    {
+        "pk": 1328,
+        "animal": 28,
+        "ammo": 58
+    },
+    {
+        "pk": 1329,
+        "animal": 17,
+        "ammo": 58
+    },
+    {
+        "pk": 1330,
+        "animal": 19,
+        "ammo": 58
+    },
+    {
+        "pk": 1331,
+        "animal": 27,
+        "ammo": 58
+    },
+    {
+        "pk": 1332,
+        "animal": 11,
+        "ammo": 58
+    },
+    {
+        "pk": 1333,
+        "animal": 29,
+        "ammo": 58
+    },
+    {
+        "pk": 1334,
+        "animal": 20,
+        "ammo": 58
+    },
+    {
+        "pk": 1335,
+        "animal": 8,
+        "ammo": 58
+    },
+    {
+        "pk": 1336,
+        "animal": 15,
+        "ammo": 58
+    },
+    {
+        "pk": 1337,
+        "animal": 10,
+        "ammo": 58
+    },
+    {
+        "pk": 1338,
+        "animal": 14,
+        "ammo": 58
+    },
+    {
+        "pk": 1339,
+        "animal": 12,
+        "ammo": 58
+    },
+    {
+        "pk": 1340,
+        "animal": 2,
+        "ammo": 59
+    },
+    {
+        "pk": 1341,
+        "animal": 3,
+        "ammo": 59
+    },
+    {
+        "pk": 1342,
+        "animal": 24,
+        "ammo": 59
+    },
+    {
+        "pk": 1343,
+        "animal": 22,
+        "ammo": 59
+    },
+    {
+        "pk": 1344,
+        "animal": 26,
+        "ammo": 59
+    },
+    {
+        "pk": 1345,
+        "animal": 23,
+        "ammo": 59
+    },
+    {
+        "pk": 1346,
+        "animal": 4,
+        "ammo": 59
+    },
+    {
+        "pk": 1347,
+        "animal": 21,
+        "ammo": 59
+    },
+    {
+        "pk": 1348,
+        "animal": 7,
+        "ammo": 59
+    },
+    {
+        "pk": 1349,
+        "animal": 6,
+        "ammo": 59
+    },
+    {
+        "pk": 1350,
+        "animal": 5,
+        "ammo": 59
+    },
+    {
+        "pk": 1351,
+        "animal": 9,
+        "ammo": 59
+    },
+    {
+        "pk": 1352,
+        "animal": 1,
+        "ammo": 59
+    },
+    {
+        "pk": 1353,
+        "animal": 25,
+        "ammo": 59
+    },
+    {
+        "pk": 1354,
+        "animal": 18,
+        "ammo": 60
+    },
+    {
+        "pk": 1355,
+        "animal": 16,
+        "ammo": 60
+    },
+    {
+        "pk": 1356,
+        "animal": 24,
+        "ammo": 60
+    },
+    {
+        "pk": 1357,
+        "animal": 13,
+        "ammo": 60
+    },
+    {
+        "pk": 1358,
+        "animal": 31,
+        "ammo": 60
+    },
+    {
+        "pk": 1359,
+        "animal": 22,
+        "ammo": 60
+    },
+    {
+        "pk": 1360,
+        "animal": 28,
+        "ammo": 60
+    },
+    {
+        "pk": 1361,
+        "animal": 17,
+        "ammo": 60
+    },
+    {
+        "pk": 1362,
+        "animal": 30,
+        "ammo": 60
+    },
+    {
+        "pk": 1363,
+        "animal": 19,
+        "ammo": 60
+    },
+    {
+        "pk": 1364,
+        "animal": 26,
+        "ammo": 60
+    },
+    {
+        "pk": 1365,
+        "animal": 27,
+        "ammo": 60
+    },
+    {
+        "pk": 1366,
+        "animal": 23,
+        "ammo": 60
+    },
+    {
+        "pk": 1367,
+        "animal": 4,
+        "ammo": 60
+    },
+    {
+        "pk": 1368,
+        "animal": 11,
+        "ammo": 60
+    },
+    {
+        "pk": 1369,
+        "animal": 21,
+        "ammo": 60
+    },
+    {
+        "pk": 1370,
+        "animal": 29,
+        "ammo": 60
+    },
+    {
+        "pk": 1371,
+        "animal": 7,
+        "ammo": 60
+    },
+    {
+        "pk": 1372,
+        "animal": 32,
+        "ammo": 60
+    },
+    {
+        "pk": 1373,
+        "animal": 20,
+        "ammo": 60
+    },
+    {
+        "pk": 1374,
+        "animal": 8,
+        "ammo": 60
+    },
+    {
+        "pk": 1375,
+        "animal": 6,
+        "ammo": 60
+    },
+    {
+        "pk": 1376,
+        "animal": 15,
+        "ammo": 60
+    },
+    {
+        "pk": 1377,
+        "animal": 5,
+        "ammo": 60
+    },
+    {
+        "pk": 1378,
+        "animal": 10,
+        "ammo": 60
+    },
+    {
+        "pk": 1379,
+        "animal": 9,
+        "ammo": 60
+    },
+    {
+        "pk": 1380,
+        "animal": 14,
+        "ammo": 60
+    },
+    {
+        "pk": 1381,
+        "animal": 34,
+        "ammo": 60
+    },
+    {
+        "pk": 1382,
+        "animal": 12,
+        "ammo": 60
+    },
+    {
+        "pk": 1383,
+        "animal": 25,
+        "ammo": 60
+    },
+    {
+        "pk": 1384,
+        "animal": 49,
+        "ammo": 3
+    },
+    {
+        "pk": 1385,
+        "animal": 49,
+        "ammo": 4
+    },
+    {
+        "pk": 1386,
+        "animal": 49,
+        "ammo": 5
+    },
+    {
+        "pk": 1387,
+        "animal": 49,
+        "ammo": 7
+    },
+    {
+        "pk": 1388,
+        "animal": 49,
+        "ammo": 8
+    },
+    {
+        "pk": 1389,
+        "animal": 49,
+        "ammo": 10
+    },
+    {
+        "pk": 1390,
+        "animal": 49,
+        "ammo": 13
+    },
+    {
+        "pk": 1391,
+        "animal": 49,
+        "ammo": 14
+    },
+    {
+        "pk": 1392,
+        "animal": 49,
+        "ammo": 16
+    },
+    {
+        "pk": 1393,
+        "animal": 49,
+        "ammo": 17
+    },
+    {
+        "pk": 1394,
+        "animal": 49,
+        "ammo": 18
+    },
+    {
+        "pk": 1395,
+        "animal": 49,
+        "ammo": 20
+    },
+    {
+        "pk": 1396,
+        "animal": 49,
+        "ammo": 22
+    },
+    {
+        "pk": 1397,
+        "animal": 49,
+        "ammo": 23
+    },
+    {
+        "pk": 1398,
+        "animal": 49,
+        "ammo": 24
+    },
+    {
+        "pk": 1399,
+        "animal": 49,
+        "ammo": 25
+    },
+    {
+        "pk": 1400,
+        "animal": 49,
+        "ammo": 26
+    },
+    {
+        "pk": 1401,
+        "animal": 49,
+        "ammo": 27
+    },
+    {
+        "pk": 1402,
+        "animal": 49,
+        "ammo": 28
+    },
+    {
+        "pk": 1403,
+        "animal": 49,
+        "ammo": 33
+    },
+    {
+        "pk": 1404,
+        "animal": 49,
+        "ammo": 34
+    },
+    {
+        "pk": 1405,
+        "animal": 49,
+        "ammo": 35
+    },
+    {
+        "pk": 1406,
+        "animal": 49,
+        "ammo": 36
+    },
+    {
+        "pk": 1407,
+        "animal": 49,
+        "ammo": 37
+    },
+    {
+        "pk": 1408,
+        "animal": 49,
+        "ammo": 40
+    },
+    {
+        "pk": 1409,
+        "animal": 49,
+        "ammo": 41
+    },
+    {
+        "pk": 1410,
+        "animal": 49,
+        "ammo": 43
+    },
+    {
+        "pk": 1411,
+        "animal": 49,
+        "ammo": 44
+    },
+    {
+        "pk": 1412,
+        "animal": 49,
+        "ammo": 47
+    },
+    {
+        "pk": 1413,
+        "animal": 49,
+        "ammo": 48
+    },
+    {
+        "pk": 1414,
+        "animal": 49,
+        "ammo": 49
+    },
+    {
+        "pk": 1415,
+        "animal": 49,
+        "ammo": 50
+    },
+    {
+        "pk": 1416,
+        "animal": 49,
+        "ammo": 51
+    },
+    {
+        "pk": 1417,
+        "animal": 49,
+        "ammo": 52
+    },
+    {
+        "pk": 1418,
+        "animal": 49,
+        "ammo": 53
+    },
+    {
+        "pk": 1419,
+        "animal": 49,
+        "ammo": 54
+    },
+    {
+        "pk": 1420,
+        "animal": 49,
+        "ammo": 55
+    },
+    {
+        "pk": 1421,
+        "animal": 49,
+        "ammo": 56
+    },
+    {
+        "pk": 1422,
+        "animal": 49,
+        "ammo": 58
+    },
+    {
+        "pk": 1423,
+        "animal": 49,
+        "ammo": 60
+    },
+    {
+        "pk": 1424,
+        "animal": 50,
+        "ammo": 7
+    },
+    {
+        "pk": 1425,
+        "animal": 50,
+        "ammo": 8
+    },
+    {
+        "pk": 1426,
+        "animal": 50,
+        "ammo": 10
+    },
+    {
+        "pk": 1427,
+        "animal": 50,
+        "ammo": 13
+    },
+    {
+        "pk": 1428,
+        "animal": 50,
+        "ammo": 14
+    },
+    {
+        "pk": 1429,
+        "animal": 50,
+        "ammo": 16
+    },
+    {
+        "pk": 1430,
+        "animal": 50,
+        "ammo": 17
+    },
+    {
+        "pk": 1431,
+        "animal": 50,
+        "ammo": 18
+    },
+    {
+        "pk": 1432,
+        "animal": 50,
+        "ammo": 20
+    },
+    {
+        "pk": 1433,
+        "animal": 50,
+        "ammo": 22
+    },
+    {
+        "pk": 1434,
+        "animal": 50,
+        "ammo": 23
+    },
+    {
+        "pk": 1435,
+        "animal": 50,
+        "ammo": 24
+    },
+    {
+        "pk": 1436,
+        "animal": 50,
+        "ammo": 25
+    },
+    {
+        "pk": 1437,
+        "animal": 50,
+        "ammo": 26
+    },
+    {
+        "pk": 1438,
+        "animal": 50,
+        "ammo": 27
+    },
+    {
+        "pk": 1439,
+        "animal": 50,
+        "ammo": 28
+    },
+    {
+        "pk": 1440,
+        "animal": 50,
+        "ammo": 33
+    },
+    {
+        "pk": 1441,
+        "animal": 50,
+        "ammo": 34
+    },
+    {
+        "pk": 1442,
+        "animal": 50,
+        "ammo": 35
+    },
+    {
+        "pk": 1443,
+        "animal": 50,
+        "ammo": 36
+    },
+    {
+        "pk": 1444,
+        "animal": 50,
+        "ammo": 37
+    },
+    {
+        "pk": 1445,
+        "animal": 50,
+        "ammo": 40
+    },
+    {
+        "pk": 1446,
+        "animal": 50,
+        "ammo": 41
+    },
+    {
+        "pk": 1447,
+        "animal": 50,
+        "ammo": 43
+    },
+    {
+        "pk": 1448,
+        "animal": 50,
+        "ammo": 44
+    },
+    {
+        "pk": 1449,
+        "animal": 50,
+        "ammo": 47
+    },
+    {
+        "pk": 1450,
+        "animal": 50,
+        "ammo": 48
+    },
+    {
+        "pk": 1451,
+        "animal": 50,
+        "ammo": 49
+    },
+    {
+        "pk": 1452,
+        "animal": 50,
+        "ammo": 50
+    },
+    {
+        "pk": 1453,
+        "animal": 50,
+        "ammo": 51
+    },
+    {
+        "pk": 1454,
+        "animal": 50,
+        "ammo": 52
+    },
+    {
+        "pk": 1455,
+        "animal": 50,
+        "ammo": 53
+    },
+    {
+        "pk": 1456,
+        "animal": 50,
+        "ammo": 54
+    },
+    {
+        "pk": 1457,
+        "animal": 50,
+        "ammo": 55
+    },
+    {
+        "pk": 1458,
+        "animal": 50,
+        "ammo": 56
+    },
+    {
+        "pk": 1459,
+        "animal": 50,
+        "ammo": 58
+    },
+    {
+        "pk": 1460,
+        "animal": 50,
+        "ammo": 3
+    },
+    {
+        "pk": 1461,
+        "animal": 50,
+        "ammo": 4
+    },
+    {
+        "pk": 1462,
+        "animal": 50,
+        "ammo": 5
+    },
+    {
+        "pk": 1463,
+        "animal": 50,
+        "ammo": 60
+    }
+]

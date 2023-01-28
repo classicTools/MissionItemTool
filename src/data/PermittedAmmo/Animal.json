@@ -1,0 +1,702 @@
+[
+    {
+        "pk": 1,
+
+        "name": "Water Buffalo",
+        "order": 10,
+        "image_url": "",
+        "score_min": "95",
+        "score_max": "290",
+        "weight_max": "1200",
+        "rares": "Albino",
+        "other_furs": "",
+        "tax": "270",
+        "css_max": "110"
+    },
+    {
+        "pk": 2,
+
+        "name": "Banteng",
+        "order": 20,
+        "image_url": "",
+        "score_min": "70",
+        "score_max": "185",
+        "weight_max": "900",
+        "rares": "Albino, Melanistic",
+        "other_furs": "Dark, Blonde",
+        "tax": "160",
+        "css_max": "45"
+    },
+    {
+        "pk": 3,
+
+        "name": "Bison",
+        "order": 30,
+        "image_url": "",
+        "score_min": "31",
+        "score_max": "130",
+        "weight_max": "910",
+        "rares": "Albino, Melanistic, Leucistic",
+        "other_furs": "",
+        "tax": "120",
+        "css_max": "68"
+    },
+    {
+        "pk": 4,
+
+        "name": "Moose",
+        "order": 40,
+        "image_url": "",
+        "score_min": "65",
+        "score_max": "245",
+        "weight_max": "620",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "220",
+        "css_max": "95"
+    },
+    {
+        "pk": 5,
+
+        "name": "Roosevelt Elk",
+        "order": 50,
+        "image_url": "",
+        "score_min": "25",
+        "score_max": "436",
+        "weight_max": "500",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "380",
+        "css_max": "95"
+    },
+    {
+        "pk": 6,
+
+        "name": "Rocky Mountain Elk",
+        "order": 60,
+        "image_url": "",
+        "score_min": "45",
+        "score_max": "500",
+        "weight_max": "340",
+        "rares": "Albino, Melanistic, Piebald, Leucistic",
+        "other_furs": "",
+        "tax": "400",
+        "css_max": "95"
+    },
+    {
+        "pk": 7,
+
+        "name": "Red Deer",
+        "order": 70,
+        "image_url": "",
+        "score_min": "70",
+        "score_max": "285",
+        "weight_max": "240",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "270",
+        "css_max": "97"
+    },
+    {
+        "pk": 8,
+
+        "name": "Reindeer",
+        "order": 80,
+        "image_url": "",
+        "score_min": "75",
+        "score_max": "730",
+        "weight_max": "185",
+        "rares": "Albino, Piebald, Leucistic",
+        "other_furs": "",
+        "tax": "600",
+        "css_max": "70"
+    },
+    {
+        "pk": 9,
+
+        "name": "Sambar Deer",
+        "order": 90,
+        "image_url": "",
+        "score_min": "95",
+        "score_max": "270",
+        "weight_max": "550",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "230",
+        "css_max": "140"
+    },
+    {
+        "pk": 10,
+
+        "name": "Rusa Deer",
+        "order": 100,
+        "image_url": "",
+        "score_min": "90",
+        "score_max": "210",
+        "weight_max": "160",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "190",
+        "css_max": "120"
+    },
+    {
+        "pk": 11,
+
+        "name": "Mule Deer",
+        "order": 110,
+        "image_url": "",
+        "score_min": "20",
+        "score_max": "246",
+        "weight_max": "140",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "225",
+        "css_max": "120"
+    },
+    {
+        "pk": 12,
+
+        "name": "Whitetail Deer",
+        "order": 120,
+        "image_url": "",
+        "score_min": "25",
+        "score_max": "215",
+        "weight_max": "100",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "185",
+        "css_max": "120"
+    },
+    {
+        "pk": 13,
+
+        "name": "Blacktail Deer",
+        "order": 130,
+        "image_url": "",
+        "score_min": "15",
+        "score_max": "200",
+        "weight_max": "95",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "190",
+        "css_max": "120"
+    },
+    {
+        "pk": 14,
+
+        "name": "Sitka Deer",
+        "order": 140,
+        "image_url": "",
+        "score_min": "20",
+        "score_max": "114",
+        "weight_max": "90",
+        "rares": "Albino, Melanistic, Leucistic",
+        "other_furs": "",
+        "tax": "108",
+        "css_max": "100"
+    },
+    {
+        "pk": 15,
+
+        "name": "Roe Deer",
+        "order": 150,
+        "image_url": "",
+        "score_min": "25",
+        "score_max": "265",
+        "weight_max": "35",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "",
+        "tax": "230",
+        "css_max": "100"
+    },
+    {
+        "pk": 16,
+
+        "name": "Bighorn Sheep",
+        "order": 160,
+        "image_url": "",
+        "score_min": "20",
+        "score_max": "210",
+        "weight_max": "120",
+        "rares": "Albino",
+        "other_furs": "",
+        "tax": "180",
+        "css_max": "73"
+    },
+    {
+        "pk": 17,
+
+        "name": "Dall Sheep",
+        "order": 170,
+        "image_url": "",
+        "score_min": "19",
+        "score_max": "221",
+        "weight_max": "110",
+        "rares": "Albino",
+        "other_furs": "",
+        "tax": "200",
+        "css_max": "90"
+    },
+    {
+        "pk": 18,
+
+        "name": "Alpine Ibex",
+        "order": 180,
+        "image_url": "",
+        "score_min": "43",
+        "score_max": "292",
+        "weight_max": "120",
+        "rares": "Albino",
+        "other_furs": "",
+        "tax": "270",
+        "css_max": "73"
+    },
+    {
+        "pk": 19,
+
+        "name": "Feral Goat",
+        "order": 190,
+        "image_url": "",
+        "score_min": "10",
+        "score_max": "500",
+        "weight_max": "70",
+        "rares": "Albino",
+        "other_furs": "Grey, Piebald Black, Piebald",
+        "tax": "350",
+        "css_max": "73"
+    },
+    {
+        "pk": 20,
+
+        "name": "Red Kangaroo",
+        "order": 200,
+        "image_url": "",
+        "score_min": "18",
+        "score_max": "91",
+        "weight_max": "91",
+        "rares": "Albino",
+        "other_furs": "",
+        "tax": "87",
+        "css_max": "75"
+    },
+    {
+        "pk": 21,
+
+        "name": "Polar Bear",
+        "order": 210,
+        "image_url": "",
+        "score_min": "22",
+        "score_max": "32",
+        "weight_max": "600",
+        "rares": "",
+        "other_furs": "",
+        "tax": "30",
+        "css_max": "116"
+    },
+    {
+        "pk": 22,
+
+        "name": "Brown Bear",
+        "order": 220,
+        "image_url": "",
+        "score_min": "16",
+        "score_max": "29",
+        "weight_max": "490",
+        "rares": "Albino, Silver Tipped",
+        "other_furs": "Gold",
+        "tax": "28",
+        "css_max": "126"
+    },
+    {
+        "pk": 23,
+
+        "name": "Grizzly Bear",
+        "order": 230,
+        "image_url": "",
+        "score_min": "15",
+        "score_max": "27.5",
+        "weight_max": "360",
+        "rares": "Albino",
+        "other_furs": "Blonde, Grey",
+        "tax": "26",
+        "css_max": "135"
+    },
+    {
+        "pk": 24,
+
+        "name": "Black Bear",
+        "order": 240,
+        "image_url": "",
+        "score_min": "12",
+        "score_max": "24",
+        "weight_max": "290",
+        "rares": "",
+        "other_furs": "Chocolate, Blonde, Cinnamon, Glacier",
+        "tax": "23",
+        "css_max": "135"
+    },
+    {
+        "pk": 25,
+
+        "name": "Wild Boar",
+        "order": 250,
+        "image_url": "",
+        "score_min": "55",
+        "score_max": "1310",
+        "weight_max": "240",
+        "rares": "Albino, Piebald",
+        "other_furs": "",
+        "tax": "1170",
+        "css_max": "75"
+    },
+    {
+        "pk": 26,
+
+        "name": "Feral Hog",
+        "order": 260,
+        "image_url": "",
+        "score_min": "300",
+        "score_max": "1230",
+        "weight_max": "205",
+        "rares": "Albino, Piebald",
+        "other_furs": "",
+        "tax": "1150",
+        "css_max": "74"
+    },
+    {
+        "pk": 27,
+
+        "name": "Grey Wolf",
+        "order": 270,
+        "image_url": "",
+        "score_min": "14",
+        "score_max": "17",
+        "weight_max": "90",
+        "rares": "Albino, Melanistic, Leucistic",
+        "other_furs": "",
+        "tax": "16.7",
+        "css_max": "78"
+    },
+    {
+        "pk": 28,
+
+        "name": "Coyote",
+        "order": 280,
+        "image_url": "",
+        "score_min": "33",
+        "score_max": "60",
+        "weight_max": "27.3",
+        "rares": "Albino, Melanistic",
+        "other_furs": "",
+        "tax": "57.5",
+        "css_max": "140"
+    },
+    {
+        "pk": 29,
+
+        "name": "Puma",
+        "order": 290,
+        "image_url": "",
+        "score_min": "11.8",
+        "score_max": "16",
+        "weight_max": "105",
+        "rares": "Albino, Melanistic",
+        "other_furs": "Dark Red, Grey",
+        "tax": "15.7",
+        "css_max": "170"
+    },
+    {
+        "pk": 30,
+
+        "name": "Eurasian Lynx",
+        "order": 300,
+        "image_url": "",
+        "score_min": "5.5",
+        "score_max": "11.6",
+        "weight_max": "45",
+        "rares": "Albino, Melanistic",
+        "other_furs": "Grey",
+        "tax": "11",
+        "css_max": "160"
+    },
+    {
+        "pk": 31,
+
+        "name": "Bobcat",
+        "order": 310,
+        "image_url": "",
+        "score_min": "5.89",
+        "score_max": "9.6",
+        "weight_max": "30",
+        "rares": "Albino, Melanistic",
+        "other_furs": "Grey",
+        "tax": "9.3",
+        "css_max": "140"
+    },
+    {
+        "pk": 32,
+
+        "name": "Red Fox",
+        "order": 320,
+        "image_url": "",
+        "score_min": "4",
+        "score_max": "34",
+        "weight_max": "15.4",
+        "rares": "Albino, Silver Tipped",
+        "other_furs": "Grey, Cross",
+        "tax": "30",
+        "css_max": "130"
+    },
+    {
+        "pk": 33,
+
+        "name": "Arctic Fox",
+        "order": 330,
+        "image_url": "",
+        "score_min": "3",
+        "score_max": "18",
+        "weight_max": "8",
+        "rares": "",
+        "other_furs": "Blue",
+        "tax": "16",
+        "css_max": "75"
+    },
+    {
+        "pk": 34,
+
+        "name": "Turkey",
+        "order": 340,
+        "image_url": "",
+        "score_min": "23",
+        "score_max": "72",
+        "weight_max": "10",
+        "rares": "Albino, Melanistic, Leucistic, Grey",
+        "other_furs": "",
+        "tax": "69",
+        "css_max": "140"
+    },
+    {
+        "pk": 35,
+
+        "name": "Canada Goose",
+        "order": 350,
+        "image_url": "",
+        "score_min": "2500",
+        "score_max": "9000",
+        "weight_max": "9",
+        "rares": "Brown Leucistic, Amber Leucistic, Light Grey Leucistic, Bald Leucistic",
+        "other_furs": "",
+        "tax": "8750",
+        "css_max": "40"
+    },
+    {
+        "pk": 36,
+
+        "name": "Snow Goose",
+        "order": 360,
+        "image_url": "",
+        "score_min": "2000",
+        "score_max": "4500",
+        "weight_max": "4.5",
+        "rares": "Albino",
+        "other_furs": "Blue",
+        "tax": "4400",
+        "css_max": "80"
+    },
+    {
+        "pk": 37,
+
+        "name": "Magpie Goose",
+        "order": 370,
+        "image_url": "",
+        "score_min": "1500",
+        "score_max": "4000",
+        "weight_max": "4",
+        "rares": "Albino, Melanistic",
+        "other_furs": "",
+        "tax": "3925",
+        "css_max": "80"
+    },
+    {
+        "pk": 38,
+
+        "name": "Pheasant",
+        "order": 380,
+        "image_url": "",
+        "score_min": "5",
+        "score_max": "30",
+        "weight_max": "3",
+        "rares": "Albino, Melanistic, Leucistic",
+        "other_furs": "",
+        "tax": "28.5",
+        "css_max": "40"
+    },
+    {
+        "pk": 39,
+
+        "name": "Mallard",
+        "order": 390,
+        "image_url": "",
+        "score_min": "680",
+        "score_max": "1600",
+        "weight_max": "1.6",
+        "rares": "Albino, Leucistic, Brown Hybrid, Black Hybrid",
+        "other_furs": "",
+        "tax": "1550",
+        "css_max": "40"
+    },
+    {
+        "pk": 40,
+
+        "name": "American Black Duck",
+        "order": 400,
+        "image_url": "",
+        "score_min": "750",
+        "score_max": "1600",
+        "weight_max": "1.6",
+        "rares": "Albino, Mallard Hybrid",
+        "other_furs": "",
+        "tax": "1525",
+        "css_max": "40"
+    },
+    {
+        "pk": 41,
+
+        "name": "Northern Pintail",
+        "order": 410,
+        "image_url": "",
+        "score_min": "450",
+        "score_max": "1400",
+        "weight_max": "1.4",
+        "rares": "Leucistic, Mallard Hybrid",
+        "other_furs": "",
+        "tax": "1325",
+        "css_max": "40"
+    },
+    {
+        "pk": 42,
+
+        "name": "Gadwall",
+        "order": 420,
+        "image_url": "",
+        "score_min": "650",
+        "score_max": "1400",
+        "weight_max": "1.4",
+        "rares": "Albino, Leucistic, Hybrid",
+        "other_furs": "",
+        "tax": "1325",
+        "css_max": "40"
+    },
+    {
+        "pk": 43,
+
+        "name": "European Rabbit",
+        "order": 430,
+        "image_url": "",
+        "score_min": "800",
+        "score_max": "2500",
+        "weight_max": "2.5",
+        "rares": "Melanistic, Leucistic",
+        "other_furs": "",
+        "tax": "2400",
+        "css_max": "73"
+    },
+    {
+        "pk": 44,
+
+        "name": "Cottontail Rabbit",
+        "order": 440,
+        "image_url": "",
+        "score_min": "800",
+        "score_max": "2000",
+        "weight_max": "2",
+        "rares": "Melanistic, Leucistic",
+        "other_furs": "",
+        "tax": "1900",
+        "css_max": "73"
+    },
+    {
+        "pk": 45,
+
+        "name": "Snowshoe Hare",
+        "order": 450,
+        "image_url": "",
+        "score_min": "800",
+        "score_max": "2000",
+        "weight_max": "2",
+        "rares": "Albino",
+        "other_furs": "",
+        "tax": "1900",
+        "css_max": "75"
+    },
+    {
+        "pk": 46,
+
+        "name": "Willow Ptarmigan",
+        "order": 460,
+        "image_url": "",
+        "score_min": "430",
+        "score_max": "810",
+        "weight_max": "0.81",
+        "rares": "",
+        "other_furs": "",
+        "tax": "755",
+        "css_max": "65"
+    },
+    {
+        "pk": 47,
+
+        "name": "Rock Ptarmigan",
+        "order": 470,
+        "image_url": "",
+        "score_min": "440",
+        "score_max": "640",
+        "weight_max": "0.64",
+        "rares": "",
+        "other_furs": "",
+        "tax": "620",
+        "css_max": "65"
+    },
+    {
+        "pk": 48,
+
+        "name": "White-tailed Ptarmigan",
+        "order": 480,
+        "image_url": "",
+        "score_min": "330",
+        "score_max": "480",
+        "weight_max": "0.48",
+        "rares": "",
+        "other_furs": "",
+        "tax": "460",
+        "css_max": "65"
+    },
+    {
+        "pk": 49,
+
+        "name": "Axis Deer",
+        "order": 145,
+        "image_url": "",
+        "score_min": "20",
+        "score_max": "215",
+        "weight_max": "110",
+        "rares": "Albino, Melanistic, Piebald",
+        "other_furs": "Dark, Orange",
+        "tax": "200",
+        "css_max": "100"
+    },
+    {
+        "pk": 50,
+
+        "name": "Fallow Deer",
+        "order": 147,
+        "image_url": "",
+        "score_min": "25",
+        "score_max": "200",
+        "weight_max": "95",
+        "rares": "Melanistic, Piebald, Leucistic",
+        "other_furs": "Chocolate",
+        "tax": "175",
+        "css_max": "100"
+    }
+]

@@ -1,0 +1,5058 @@
+[
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1,
+        "mission": 16,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 2,
+        "mission": 17,
+        "item": 6,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 3,
+        "mission": 17,
+        "item": 9,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 4,
+        "mission": 17,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 5,
+        "mission": 17,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 6,
+        "mission": 17,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 7,
+        "mission": 17,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 8,
+        "mission": 27,
+        "item": 6,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 9,
+        "mission": 28,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 10,
+        "mission": 31,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 11,
+        "mission": 33,
+        "item": 14,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 12,
+        "mission": 35,
+        "item": 25,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 13,
+        "mission": 37,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 14,
+        "mission": 39,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 15,
+        "mission": 39,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 16,
+        "mission": 42,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 17,
+        "mission": 42,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 18,
+        "mission": 42,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 19,
+        "mission": 42,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 20,
+        "mission": 42,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 21,
+        "mission": 42,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 22,
+        "mission": 42,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 23,
+        "mission": 42,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 24,
+        "mission": 42,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 25,
+        "mission": 42,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 26,
+        "mission": 44,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 27,
+        "mission": 44,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 28,
+        "mission": 44,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 29,
+        "mission": 44,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 30,
+        "mission": 44,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 31,
+        "mission": 44,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 32,
+        "mission": 44,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 33,
+        "mission": 44,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 34,
+        "mission": 44,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 35,
+        "mission": 44,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 36,
+        "mission": 46,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 37,
+        "mission": 47,
+        "item": 88,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 38,
+        "mission": 47,
+        "item": 89,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 39,
+        "mission": 51,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 40,
+        "mission": 57,
+        "item": 79,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 41,
+        "mission": 74,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 42,
+        "mission": 74,
+        "item": 39,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 43,
+        "mission": 74,
+        "item": 45,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 44,
+        "mission": 80,
+        "item": 22,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 45,
+        "mission": 80,
+        "item": 23,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 46,
+        "mission": 82,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 47,
+        "mission": 82,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 48,
+        "mission": 83,
+        "item": 8,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 49,
+        "mission": 83,
+        "item": 9,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 50,
+        "mission": 83,
+        "item": 10,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 51,
+        "mission": 85,
+        "item": 24,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 52,
+        "mission": 91,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 53,
+        "mission": 92,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 54,
+        "mission": 95,
+        "item": 16,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 55,
+        "mission": 96,
+        "item": 14,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 56,
+        "mission": 100,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 57,
+        "mission": 105,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 58,
+        "mission": 109,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 60,
+        "mission": 111,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 61,
+        "mission": 111,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 63,
+        "mission": 112,
+        "item": 26,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 64,
+        "mission": 112,
+        "item": 27,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 65,
+        "mission": 122,
+        "item": 26,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 66,
+        "mission": 123,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 67,
+        "mission": 123,
+        "item": 70,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 68,
+        "mission": 124,
+        "item": 11,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 69,
+        "mission": 126,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 70,
+        "mission": 130,
+        "item": 69,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 71,
+        "mission": 132,
+        "item": 9,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 72,
+        "mission": 134,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 73,
+        "mission": 134,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 74,
+        "mission": 134,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 75,
+        "mission": 134,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 76,
+        "mission": 135,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 77,
+        "mission": 141,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 78,
+        "mission": 143,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 79,
+        "mission": 145,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 80,
+        "mission": 146,
+        "item": 16,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 81,
+        "mission": 152,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 82,
+        "mission": 155,
+        "item": 79,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 83,
+        "mission": 161,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 84,
+        "mission": 162,
+        "item": 24,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 85,
+        "mission": 163,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 86,
+        "mission": 164,
+        "item": 85,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 87,
+        "mission": 165,
+        "item": 66,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 88,
+        "mission": 165,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 89,
+        "mission": 166,
+        "item": 24,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 90,
+        "mission": 171,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 91,
+        "mission": 171,
+        "item": 89,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 92,
+        "mission": 172,
+        "item": 17,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 93,
+        "mission": 172,
+        "item": 19,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 94,
+        "mission": 172,
+        "item": 22,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 95,
+        "mission": 172,
+        "item": 23,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 96,
+        "mission": 181,
+        "item": 89,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 97,
+        "mission": 182,
+        "item": 25,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 98,
+        "mission": 184,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 99,
+        "mission": 185,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 100,
+        "mission": 193,
+        "item": 79,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 101,
+        "mission": 194,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 102,
+        "mission": 194,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 103,
+        "mission": 203,
+        "item": 17,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 104,
+        "mission": 205,
+        "item": 24,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 105,
+        "mission": 212,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 106,
+        "mission": 212,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 107,
+        "mission": 212,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 108,
+        "mission": 212,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 109,
+        "mission": 214,
+        "item": 88,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 110,
+        "mission": 214,
+        "item": 89,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 111,
+        "mission": 222,
+        "item": 26,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 112,
+        "mission": 223,
+        "item": 23,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 113,
+        "mission": 224,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 114,
+        "mission": 226,
+        "item": 24,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 115,
+        "mission": 233,
+        "item": 70,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 116,
+        "mission": 234,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 117,
+        "mission": 234,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 118,
+        "mission": 234,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 119,
+        "mission": 234,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 120,
+        "mission": 234,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 121,
+        "mission": 234,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 122,
+        "mission": 234,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 123,
+        "mission": 234,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 124,
+        "mission": 235,
+        "item": 26,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 125,
+        "mission": 236,
+        "item": 65,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 126,
+        "mission": 236,
+        "item": 66,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 127,
+        "mission": 241,
+        "item": 4,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 128,
+        "mission": 241,
+        "item": 5,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 129,
+        "mission": 242,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 130,
+        "mission": 242,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 131,
+        "mission": 242,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 132,
+        "mission": 242,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 133,
+        "mission": 243,
+        "item": 16,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 134,
+        "mission": 243,
+        "item": 18,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 135,
+        "mission": 243,
+        "item": 20,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 136,
+        "mission": 243,
+        "item": 30,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 137,
+        "mission": 250,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 138,
+        "mission": 250,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 139,
+        "mission": 250,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 140,
+        "mission": 250,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 141,
+        "mission": 250,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 142,
+        "mission": 250,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 143,
+        "mission": 250,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 144,
+        "mission": 250,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 145,
+        "mission": 250,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 146,
+        "mission": 250,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 147,
+        "mission": 254,
+        "item": 65,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 148,
+        "mission": 254,
+        "item": 66,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 149,
+        "mission": 272,
+        "item": 70,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 150,
+        "mission": 273,
+        "item": 82,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 151,
+        "mission": 275,
+        "item": 9,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 152,
+        "mission": 276,
+        "item": 14,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 153,
+        "mission": 276,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 154,
+        "mission": 276,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 155,
+        "mission": 276,
+        "item": 34,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 156,
+        "mission": 276,
+        "item": 40,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 157,
+        "mission": 276,
+        "item": 49,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 158,
+        "mission": 276,
+        "item": 73,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 159,
+        "mission": 279,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 160,
+        "mission": 279,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 161,
+        "mission": 279,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 162,
+        "mission": 279,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 163,
+        "mission": 280,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 164,
+        "mission": 280,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 165,
+        "mission": 281,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 166,
+        "mission": 283,
+        "item": 6,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 167,
+        "mission": 284,
+        "item": 76,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 168,
+        "mission": 284,
+        "item": 77,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 169,
+        "mission": 284,
+        "item": 78,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 170,
+        "mission": 284,
+        "item": 79,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 171,
+        "mission": 284,
+        "item": 87,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 172,
+        "mission": 284,
+        "item": 85,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 173,
+        "mission": 284,
+        "item": 6,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 174,
+        "mission": 285,
+        "item": 16,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 175,
+        "mission": 285,
+        "item": 18,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 176,
+        "mission": 285,
+        "item": 20,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 177,
+        "mission": 285,
+        "item": 27,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 178,
+        "mission": 285,
+        "item": 30,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 179,
+        "mission": 292,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 180,
+        "mission": 294,
+        "item": 79,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 181,
+        "mission": 301,
+        "item": 4,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 182,
+        "mission": 302,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 183,
+        "mission": 303,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 184,
+        "mission": 304,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 185,
+        "mission": 305,
+        "item": 89,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 186,
+        "mission": 314,
+        "item": 89,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 187,
+        "mission": 315,
+        "item": 75,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 188,
+        "mission": 315,
+        "item": 76,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 189,
+        "mission": 315,
+        "item": 77,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 190,
+        "mission": 315,
+        "item": 78,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 191,
+        "mission": 315,
+        "item": 79,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 192,
+        "mission": 315,
+        "item": 81,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 193,
+        "mission": 315,
+        "item": 82,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 194,
+        "mission": 315,
+        "item": 83,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 195,
+        "mission": 315,
+        "item": 80,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 196,
+        "mission": 315,
+        "item": 87,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 197,
+        "mission": 315,
+        "item": 85,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 198,
+        "mission": 315,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 199,
+        "mission": 329,
+        "item": 80,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 200,
+        "mission": 329,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 201,
+        "mission": 329,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 202,
+        "mission": 330,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 203,
+        "mission": 334,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 204,
+        "mission": 321,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 205,
+        "mission": 322,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 206,
+        "mission": 345,
+        "item": 33,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 207,
+        "mission": 346,
+        "item": 3,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 208,
+        "mission": 354,
+        "item": 3,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 209,
+        "mission": 356,
+        "item": 79,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 210,
+        "mission": 361,
+        "item": 42,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 211,
+        "mission": 364,
+        "item": 90,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 212,
+        "mission": 365,
+        "item": 3,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 213,
+        "mission": 366,
+        "item": 82,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 214,
+        "mission": 371,
+        "item": 42,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 215,
+        "mission": 371,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 216,
+        "mission": 372,
+        "item": 90,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 217,
+        "mission": 374,
+        "item": 3,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 218,
+        "mission": 374,
+        "item": 91,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 219,
+        "mission": 376,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 220,
+        "mission": 376,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 221,
+        "mission": 376,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 222,
+        "mission": 376,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 223,
+        "mission": 384,
+        "item": 1,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 224,
+        "mission": 386,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 225,
+        "mission": 386,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 226,
+        "mission": 386,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 227,
+        "mission": 386,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 228,
+        "mission": 390,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 229,
+        "mission": 392,
+        "item": 90,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 230,
+        "mission": 393,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 231,
+        "mission": 394,
+        "item": 33,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 232,
+        "mission": 399,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 233,
+        "mission": 401,
+        "item": 42,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 234,
+        "mission": 405,
+        "item": 3,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 235,
+        "mission": 406,
+        "item": 2,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 236,
+        "mission": 421,
+        "item": 2,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 237,
+        "mission": 426,
+        "item": 3,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 238,
+        "mission": 434,
+        "item": 2,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 239,
+        "mission": 435,
+        "item": 82,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 240,
+        "mission": 435,
+        "item": 88,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 241,
+        "mission": 436,
+        "item": 42,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 242,
+        "mission": 447,
+        "item": 14,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 243,
+        "mission": 448,
+        "item": 14,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 244,
+        "mission": 449,
+        "item": 69,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 245,
+        "mission": 450,
+        "item": 69,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 246,
+        "mission": 451,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 247,
+        "mission": 452,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 248,
+        "mission": 453,
+        "item": 14,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 249,
+        "mission": 453,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 250,
+        "mission": 453,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 251,
+        "mission": 454,
+        "item": 14,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 252,
+        "mission": 454,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 253,
+        "mission": 454,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 254,
+        "mission": 455,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 255,
+        "mission": 456,
+        "item": 14,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 256,
+        "mission": 457,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 257,
+        "mission": 458,
+        "item": 60,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 258,
+        "mission": 459,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 259,
+        "mission": 460,
+        "item": 60,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 260,
+        "mission": 461,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 261,
+        "mission": 463,
+        "item": 4,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 262,
+        "mission": 463,
+        "item": 5,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 263,
+        "mission": 464,
+        "item": 8,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 264,
+        "mission": 464,
+        "item": 10,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 265,
+        "mission": 465,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 266,
+        "mission": 466,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 267,
+        "mission": 467,
+        "item": 60,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 268,
+        "mission": 467,
+        "item": 61,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 269,
+        "mission": 468,
+        "item": 14,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 270,
+        "mission": 468,
+        "item": 15,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 271,
+        "mission": 468,
+        "item": 16,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 272,
+        "mission": 469,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 273,
+        "mission": 469,
+        "item": 70,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 274,
+        "mission": 470,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 275,
+        "mission": 471,
+        "item": 6,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 276,
+        "mission": 471,
+        "item": 11,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 277,
+        "mission": 471,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 278,
+        "mission": 471,
+        "item": 65,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 279,
+        "mission": 471,
+        "item": 66,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 280,
+        "mission": 471,
+        "item": 4,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 281,
+        "mission": 471,
+        "item": 5,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 282,
+        "mission": 471,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 283,
+        "mission": 471,
+        "item": 8,
+        "any": true,
+        "group": 3
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 284,
+        "mission": 471,
+        "item": 10,
+        "any": true,
+        "group": 3
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 285,
+        "mission": 471,
+        "item": 14,
+        "any": true,
+        "group": 4
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 286,
+        "mission": 471,
+        "item": 15,
+        "any": true,
+        "group": 4
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 287,
+        "mission": 471,
+        "item": 16,
+        "any": true,
+        "group": 4
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 288,
+        "mission": 471,
+        "item": 60,
+        "any": true,
+        "group": 5
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 289,
+        "mission": 471,
+        "item": 61,
+        "any": true,
+        "group": 5
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 290,
+        "mission": 471,
+        "item": 69,
+        "any": true,
+        "group": 6
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 291,
+        "mission": 471,
+        "item": 70,
+        "any": true,
+        "group": 6
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 292,
+        "mission": 471,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 293,
+        "mission": 471,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 294,
+        "mission": 472,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 295,
+        "mission": 473,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 296,
+        "mission": 474,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 297,
+        "mission": 475,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 298,
+        "mission": 476,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 299,
+        "mission": 476,
+        "item": 53,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 300,
+        "mission": 477,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 301,
+        "mission": 478,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 302,
+        "mission": 479,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 303,
+        "mission": 480,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 304,
+        "mission": 481,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 305,
+        "mission": 482,
+        "item": 73,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 307,
+        "mission": 483,
+        "item": 73,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 309,
+        "mission": 484,
+        "item": 73,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 310,
+        "mission": 484,
+        "item": 4,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 311,
+        "mission": 485,
+        "item": 60,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 312,
+        "mission": 485,
+        "item": 74,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 313,
+        "mission": 486,
+        "item": 73,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 314,
+        "mission": 488,
+        "item": 25,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 315,
+        "mission": 489,
+        "item": 3,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 316,
+        "mission": 490,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 317,
+        "mission": 491,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 318,
+        "mission": 491,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 319,
+        "mission": 492,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 320,
+        "mission": 492,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 321,
+        "mission": 493,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 322,
+        "mission": 493,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 323,
+        "mission": 493,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 324,
+        "mission": 493,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 325,
+        "mission": 494,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 326,
+        "mission": 494,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 327,
+        "mission": 494,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 328,
+        "mission": 494,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 329,
+        "mission": 495,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 330,
+        "mission": 496,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 331,
+        "mission": 502,
+        "item": 60,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 332,
+        "mission": 504,
+        "item": 71,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 333,
+        "mission": 505,
+        "item": 69,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 334,
+        "mission": 507,
+        "item": 82,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 335,
+        "mission": 508,
+        "item": 75,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 336,
+        "mission": 509,
+        "item": 82,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 337,
+        "mission": 510,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 338,
+        "mission": 511,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 339,
+        "mission": 511,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 340,
+        "mission": 511,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 341,
+        "mission": 513,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 342,
+        "mission": 515,
+        "item": 81,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 343,
+        "mission": 536,
+        "item": 65,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 344,
+        "mission": 537,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 345,
+        "mission": 537,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 346,
+        "mission": 537,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 347,
+        "mission": 537,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 348,
+        "mission": 537,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 349,
+        "mission": 537,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 350,
+        "mission": 537,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 351,
+        "mission": 537,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 352,
+        "mission": 538,
+        "item": 9,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 353,
+        "mission": 539,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 354,
+        "mission": 539,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 355,
+        "mission": 539,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 356,
+        "mission": 539,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 357,
+        "mission": 540,
+        "item": 66,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 358,
+        "mission": 547,
+        "item": 82,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 359,
+        "mission": 548,
+        "item": 69,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 360,
+        "mission": 549,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 361,
+        "mission": 550,
+        "item": 16,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 362,
+        "mission": 556,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 363,
+        "mission": 556,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 364,
+        "mission": 556,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 365,
+        "mission": 556,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 366,
+        "mission": 556,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 367,
+        "mission": 556,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 368,
+        "mission": 556,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 369,
+        "mission": 556,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 370,
+        "mission": 556,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 371,
+        "mission": 556,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 372,
+        "mission": 557,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 373,
+        "mission": 557,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 374,
+        "mission": 557,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 375,
+        "mission": 557,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 376,
+        "mission": 557,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 377,
+        "mission": 557,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 378,
+        "mission": 557,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 379,
+        "mission": 557,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 380,
+        "mission": 557,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 381,
+        "mission": 557,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 382,
+        "mission": 560,
+        "item": 65,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 383,
+        "mission": 560,
+        "item": 66,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 384,
+        "mission": 566,
+        "item": 12,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 385,
+        "mission": 567,
+        "item": 20,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 386,
+        "mission": 569,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 387,
+        "mission": 569,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 388,
+        "mission": 569,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 389,
+        "mission": 569,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 390,
+        "mission": 569,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 391,
+        "mission": 569,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 392,
+        "mission": 569,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 393,
+        "mission": 569,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 394,
+        "mission": 569,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 395,
+        "mission": 569,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 396,
+        "mission": 570,
+        "item": 18,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 397,
+        "mission": 578,
+        "item": 11,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 398,
+        "mission": 578,
+        "item": 13,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 399,
+        "mission": 579,
+        "item": 9,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 400,
+        "mission": 580,
+        "item": 9,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 401,
+        "mission": 586,
+        "item": 65,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 402,
+        "mission": 587,
+        "item": 65,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 403,
+        "mission": 587,
+        "item": 66,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 404,
+        "mission": 588,
+        "item": 25,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 405,
+        "mission": 589,
+        "item": 87,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 406,
+        "mission": 590,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 407,
+        "mission": 526,
+        "item": 14,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 408,
+        "mission": 526,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 409,
+        "mission": 526,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 410,
+        "mission": 528,
+        "item": 14,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 411,
+        "mission": 528,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 412,
+        "mission": 528,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 413,
+        "mission": 529,
+        "item": 66,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 414,
+        "mission": 530,
+        "item": 76,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 415,
+        "mission": 486,
+        "item": 65,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 416,
+        "mission": 486,
+        "item": 66,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 417,
+        "mission": 486,
+        "item": 69,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 418,
+        "mission": 486,
+        "item": 71,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 419,
+        "mission": 486,
+        "item": 14,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 420,
+        "mission": 109,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 421,
+        "mission": 185,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 422,
+        "mission": 100,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 423,
+        "mission": 1173,
+        "item": 33,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 424,
+        "mission": 1173,
+        "item": 35,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 425,
+        "mission": 1173,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 426,
+        "mission": 1174,
+        "item": 32,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 427,
+        "mission": 1174,
+        "item": 42,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 428,
+        "mission": 1174,
+        "item": 92,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 429,
+        "mission": 1174,
+        "item": 29,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 430,
+        "mission": 1175,
+        "item": 41,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 431,
+        "mission": 1175,
+        "item": 44,
+        "any": true,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 432,
+        "mission": 1175,
+        "item": 32,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 433,
+        "mission": 1175,
+        "item": 92,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 439,
+        "mission": 495,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 440,
+        "mission": 496,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 456,
+        "mission": 208,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 457,
+        "mission": 208,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 458,
+        "mission": 208,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 459,
+        "mission": 208,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 460,
+        "mission": 208,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 461,
+        "mission": 208,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 462,
+        "mission": 208,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 463,
+        "mission": 208,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 464,
+        "mission": 208,
+        "item": 26,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 465,
+        "mission": 208,
+        "item": 27,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 466,
+        "mission": 208,
+        "item": 17,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 467,
+        "mission": 208,
+        "item": 19,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 468,
+        "mission": 208,
+        "item": 22,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 469,
+        "mission": 208,
+        "item": 23,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 470,
+        "mission": 208,
+        "item": 36,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 471,
+        "mission": 208,
+        "item": 72,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 472,
+        "mission": 208,
+        "item": 24,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 473,
+        "mission": 208,
+        "item": 12,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 474,
+        "mission": 208,
+        "item": 65,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 475,
+        "mission": 208,
+        "item": 66,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 476,
+        "mission": 208,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 477,
+        "mission": 208,
+        "item": 70,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 478,
+        "mission": 208,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 479,
+        "mission": 220,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 480,
+        "mission": 220,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 481,
+        "mission": 220,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 482,
+        "mission": 220,
+        "item": 26,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 483,
+        "mission": 220,
+        "item": 27,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 484,
+        "mission": 220,
+        "item": 17,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 485,
+        "mission": 220,
+        "item": 19,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 486,
+        "mission": 220,
+        "item": 22,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 487,
+        "mission": 220,
+        "item": 23,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 488,
+        "mission": 220,
+        "item": 36,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 489,
+        "mission": 220,
+        "item": 72,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 490,
+        "mission": 220,
+        "item": 24,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 491,
+        "mission": 220,
+        "item": 12,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 492,
+        "mission": 220,
+        "item": 65,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 493,
+        "mission": 220,
+        "item": 66,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 494,
+        "mission": 220,
+        "item": 69,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 495,
+        "mission": 220,
+        "item": 70,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 496,
+        "mission": 220,
+        "item": 71,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 502,
+        "mission": 199,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 503,
+        "mission": 199,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 504,
+        "mission": 199,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 505,
+        "mission": 199,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 506,
+        "mission": 199,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 507,
+        "mission": 199,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 508,
+        "mission": 199,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 509,
+        "mission": 199,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 510,
+        "mission": 199,
+        "item": 26,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 511,
+        "mission": 199,
+        "item": 27,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 512,
+        "mission": 199,
+        "item": 17,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 513,
+        "mission": 199,
+        "item": 19,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 514,
+        "mission": 199,
+        "item": 22,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 515,
+        "mission": 199,
+        "item": 23,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 516,
+        "mission": 199,
+        "item": 36,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 517,
+        "mission": 199,
+        "item": 72,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 518,
+        "mission": 199,
+        "item": 24,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 524,
+        "mission": 220,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 525,
+        "mission": 220,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 526,
+        "mission": 220,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 527,
+        "mission": 220,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 528,
+        "mission": 220,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 539,
+        "mission": 224,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 570,
+        "mission": 464,
+        "item": 9,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 571,
+        "mission": 471,
+        "item": 9,
+        "any": true,
+        "group": 3
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 572,
+        "mission": 482,
+        "item": 65,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 573,
+        "mission": 482,
+        "item": 66,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 574,
+        "mission": 482,
+        "item": 69,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 575,
+        "mission": 482,
+        "item": 71,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 576,
+        "mission": 482,
+        "item": 14,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 577,
+        "mission": 483,
+        "item": 65,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 578,
+        "mission": 483,
+        "item": 66,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 579,
+        "mission": 483,
+        "item": 69,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 580,
+        "mission": 483,
+        "item": 71,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 581,
+        "mission": 483,
+        "item": 14,
+        "any": true,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 587,
+        "mission": 510,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 588,
+        "mission": 165,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 589,
+        "mission": 511,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 590,
+        "mission": 513,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 596,
+        "mission": 1180,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 597,
+        "mission": 1180,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 598,
+        "mission": 1180,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 599,
+        "mission": 1180,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 600,
+        "mission": 1180,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 601,
+        "mission": 1180,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 602,
+        "mission": 1180,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 603,
+        "mission": 1180,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 604,
+        "mission": 1180,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 605,
+        "mission": 1180,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 606,
+        "mission": 1181,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 607,
+        "mission": 1181,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 608,
+        "mission": 1181,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 609,
+        "mission": 1181,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 610,
+        "mission": 1181,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 611,
+        "mission": 1181,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 612,
+        "mission": 1181,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 613,
+        "mission": 1181,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 614,
+        "mission": 1181,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 615,
+        "mission": 1181,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 616,
+        "mission": 1185,
+        "item": 60,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 617,
+        "mission": 1185,
+        "item": 61,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 618,
+        "mission": 1194,
+        "item": 7,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 619,
+        "mission": 1195,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 620,
+        "mission": 1195,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 621,
+        "mission": 1195,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 622,
+        "mission": 1195,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 623,
+        "mission": 1196,
+        "item": 24,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 624,
+        "mission": 1196,
+        "item": 31,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 628,
+        "mission": 378,
+        "item": 17,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 629,
+        "mission": 378,
+        "item": 19,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 630,
+        "mission": 378,
+        "item": 22,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 631,
+        "mission": 378,
+        "item": 23,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 632,
+        "mission": 378,
+        "item": 24,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 633,
+        "mission": 378,
+        "item": 26,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 634,
+        "mission": 378,
+        "item": 27,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 635,
+        "mission": 378,
+        "item": 36,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 636,
+        "mission": 378,
+        "item": 72,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 637,
+        "mission": 378,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 638,
+        "mission": 378,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 639,
+        "mission": 378,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 640,
+        "mission": 378,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 641,
+        "mission": 378,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 642,
+        "mission": 378,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 643,
+        "mission": 378,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 644,
+        "mission": 378,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 646,
+        "mission": 1191,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 647,
+        "mission": 1191,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 648,
+        "mission": 1191,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 649,
+        "mission": 1191,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 650,
+        "mission": 1191,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 651,
+        "mission": 1191,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 652,
+        "mission": 1191,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 653,
+        "mission": 1191,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 654,
+        "mission": 1191,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 655,
+        "mission": 1191,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 656,
+        "mission": 1212,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 657,
+        "mission": 1212,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 658,
+        "mission": 1212,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 659,
+        "mission": 1212,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 662,
+        "mission": 1212,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 663,
+        "mission": 1212,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 664,
+        "mission": 1212,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 665,
+        "mission": 1212,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 666,
+        "mission": 1213,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 667,
+        "mission": 1213,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 668,
+        "mission": 1213,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 669,
+        "mission": 1213,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 672,
+        "mission": 1213,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 673,
+        "mission": 1213,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1196,
+        "mission": 1218,
+        "item": 60,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1197,
+        "mission": 1218,
+        "item": 61,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1198,
+        "mission": 1221,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1199,
+        "mission": 1221,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1200,
+        "mission": 1221,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1201,
+        "mission": 1221,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1202,
+        "mission": 1221,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1203,
+        "mission": 1221,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1204,
+        "mission": 1221,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1205,
+        "mission": 1221,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1206,
+        "mission": 1222,
+        "item": 30,
+        "any": false,
+        "group": null
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1207,
+        "mission": 1222,
+        "item": 18,
+        "any": false,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1208,
+        "mission": 1222,
+        "item": 39,
+        "any": false,
+        "group": 1
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1209,
+        "mission": 1222,
+        "item": 18,
+        "any": false,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1210,
+        "mission": 1222,
+        "item": 45,
+        "any": false,
+        "group": 2
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1211,
+        "mission": 1222,
+        "item": 20,
+        "any": false,
+        "group": 3
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1212,
+        "mission": 1222,
+        "item": 39,
+        "any": false,
+        "group": 3
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1213,
+        "mission": 1222,
+        "item": 20,
+        "any": false,
+        "group": 4
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1214,
+        "mission": 1222,
+        "item": 45,
+        "any": false,
+        "group": 4
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1215,
+        "mission": 1222,
+        "item": 16,
+        "any": false,
+        "group": 5
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1216,
+        "mission": 1222,
+        "item": 38,
+        "any": false,
+        "group": 5
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1217,
+        "mission": 1222,
+        "item": 16,
+        "any": false,
+        "group": 6
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1218,
+        "mission": 1222,
+        "item": 84,
+        "any": false,
+        "group": 6
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1219,
+        "mission": 1222,
+        "item": 30,
+        "any": false,
+        "group": 7
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1220,
+        "mission": 1222,
+        "item": 84,
+        "any": false,
+        "group": 7
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1221,
+        "mission": 1230,
+        "item": 18,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1222,
+        "mission": 1230,
+        "item": 20,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1223,
+        "mission": 1230,
+        "item": 16,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1224,
+        "mission": 1230,
+        "item": 30,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1225,
+        "mission": 1232,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1226,
+        "mission": 1232,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1227,
+        "mission": 1232,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1228,
+        "mission": 1232,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1229,
+        "mission": 1232,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1230,
+        "mission": 1232,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1231,
+        "mission": 1232,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1232,
+        "mission": 1232,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1233,
+        "mission": 1321,
+        "item": 75,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1234,
+        "mission": 1321,
+        "item": 76,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1235,
+        "mission": 1321,
+        "item": 77,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1236,
+        "mission": 1321,
+        "item": 78,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1237,
+        "mission": 1321,
+        "item": 79,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1238,
+        "mission": 1321,
+        "item": 81,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1239,
+        "mission": 1321,
+        "item": 82,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1240,
+        "mission": 1321,
+        "item": 83,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1241,
+        "mission": 1321,
+        "item": 87,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1242,
+        "mission": 1321,
+        "item": 85,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1243,
+        "mission": 1323,
+        "item": 18,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1244,
+        "mission": 1323,
+        "item": 20,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1245,
+        "mission": 1323,
+        "item": 16,
+        "any": true,
+        "group": 0
+    },
+    {
+        "model": "gmcalc.missionitem",
+        "pk": 1246,
+        "mission": 1323,
+        "item": 30,
+        "any": true,
+        "group": 0
+    }
+]
