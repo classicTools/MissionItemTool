@@ -1,72 +1,72 @@
 [
     {
-        "model": "gmcalc.map",
+       
         "pk": 1,
         "name": "Whitehart Island",
         "order": 10
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 2,
         "name": "Logger's Point",
         "order": 20
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 3,
         "name": "Settler Creeks",
         "order": 30
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 4,
         "name": "Redfeather Falls",
         "order": 40
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 5,
         "name": "Hirschfelden",
         "order": 50
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 6,
         "name": "Hemmeldal",
         "order": 60
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 7,
         "name": "Rougarou Bayou",
         "order": 70
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 8,
         "name": "Val-des-Bois",
         "order": 80
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 9,
         "name": "Bushrangers Run",
         "order": 90
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 10,
         "name": "Whiterime Ridge",
         "order": 100
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 11,
         "name": "Timbergold Trails",
         "order": 110
     },
     {
-        "model": "gmcalc.map",
+       
         "pk": 12,
         "name": "Piccabeen Bay",
         "order": 120
