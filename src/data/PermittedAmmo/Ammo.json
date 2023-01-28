@@ -85,14 +85,12 @@
     },
     {
         "pk": 12,
-
         "name": ".340 Weatherby Magnum Ammunition",
         "order": 0,
         "ammotype": 1
     },
     {
         "pk": 13,
-
         "name": ".30-06 Round Nose Ammunition",
         "order": 0,
         "ammotype": 1
@@ -201,7 +199,6 @@
     },
     {
         "pk": 31,
-
         "name": ".454 Nosler Custom Handgun",
         "order": 0,
         "ammotype": 2
@@ -214,14 +211,12 @@
     },
     {
         "pk": 34,
-
         "name": ".44 Nosler Sporting Handgun",
         "order": 0,
         "ammotype": 2
     },
     {
         "pk": 35,
-
         "name": ".357 Nosler Sporting Handgun",
         "order": 0,
         "ammotype": 2

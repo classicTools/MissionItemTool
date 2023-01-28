@@ -1,7 +1,6 @@
 [
     {
         "pk": 1,
-
         "name": "Water Buffalo",
         "order": 10,
         "image_url": "",
@@ -15,7 +14,6 @@
     },
     {
         "pk": 2,
-
         "name": "Banteng",
         "order": 20,
         "image_url": "",
@@ -29,7 +27,6 @@
     },
     {
         "pk": 3,
-
         "name": "Bison",
         "order": 30,
         "image_url": "",
@@ -43,7 +40,6 @@
     },
     {
         "pk": 4,
-
         "name": "Moose",
         "order": 40,
         "image_url": "",
@@ -57,7 +53,6 @@
     },
     {
         "pk": 5,
-
         "name": "Roosevelt Elk",
         "order": 50,
         "image_url": "",
@@ -71,7 +66,6 @@
     },
     {
         "pk": 6,
-
         "name": "Rocky Mountain Elk",
         "order": 60,
         "image_url": "",
@@ -85,7 +79,6 @@
     },
     {
         "pk": 7,
-
         "name": "Red Deer",
         "order": 70,
         "image_url": "",
@@ -99,7 +92,6 @@
     },
     {
         "pk": 8,
-
         "name": "Reindeer",
         "order": 80,
         "image_url": "",
@@ -113,7 +105,6 @@
     },
     {
         "pk": 9,
-
         "name": "Sambar Deer",
         "order": 90,
         "image_url": "",
@@ -127,7 +118,6 @@
     },
     {
         "pk": 10,
-
         "name": "Rusa Deer",
         "order": 100,
         "image_url": "",
@@ -141,7 +131,6 @@
     },
     {
         "pk": 11,
-
         "name": "Mule Deer",
         "order": 110,
         "image_url": "",
@@ -155,7 +144,6 @@
     },
     {
         "pk": 12,
-
         "name": "Whitetail Deer",
         "order": 120,
         "image_url": "",
@@ -169,7 +157,6 @@
     },
     {
         "pk": 13,
-
         "name": "Blacktail Deer",
         "order": 130,
         "image_url": "",
@@ -183,7 +170,6 @@
     },
     {
         "pk": 14,
-
         "name": "Sitka Deer",
         "order": 140,
         "image_url": "",
@@ -197,7 +183,6 @@
     },
     {
         "pk": 15,
-
         "name": "Roe Deer",
         "order": 150,
         "image_url": "",
@@ -211,7 +196,6 @@
     },
     {
         "pk": 16,
-
         "name": "Bighorn Sheep",
         "order": 160,
         "image_url": "",
@@ -225,7 +209,6 @@
     },
     {
         "pk": 17,
-
         "name": "Dall Sheep",
         "order": 170,
         "image_url": "",
@@ -239,7 +222,6 @@
     },
     {
         "pk": 18,
-
         "name": "Alpine Ibex",
         "order": 180,
         "image_url": "",
@@ -253,7 +235,6 @@
     },
     {
         "pk": 19,
-
         "name": "Feral Goat",
         "order": 190,
         "image_url": "",
@@ -267,7 +248,6 @@
     },
     {
         "pk": 20,
-
         "name": "Red Kangaroo",
         "order": 200,
         "image_url": "",
@@ -281,7 +261,6 @@
     },
     {
         "pk": 21,
-
         "name": "Polar Bear",
         "order": 210,
         "image_url": "",
@@ -295,7 +274,6 @@
     },
     {
         "pk": 22,
-
         "name": "Brown Bear",
         "order": 220,
         "image_url": "",
@@ -309,7 +287,6 @@
     },
     {
         "pk": 23,
-
         "name": "Grizzly Bear",
         "order": 230,
         "image_url": "",
@@ -323,7 +300,6 @@
     },
     {
         "pk": 24,
-
         "name": "Black Bear",
         "order": 240,
         "image_url": "",
@@ -337,7 +313,6 @@
     },
     {
         "pk": 25,
-
         "name": "Wild Boar",
         "order": 250,
         "image_url": "",
@@ -351,7 +326,6 @@
     },
     {
         "pk": 26,
-
         "name": "Feral Hog",
         "order": 260,
         "image_url": "",
@@ -365,7 +339,6 @@
     },
     {
         "pk": 27,
-
         "name": "Grey Wolf",
         "order": 270,
         "image_url": "",
@@ -379,7 +352,6 @@
     },
     {
         "pk": 28,
-
         "name": "Coyote",
         "order": 280,
         "image_url": "",
@@ -393,7 +365,6 @@
     },
     {
         "pk": 29,
-
         "name": "Puma",
         "order": 290,
         "image_url": "",
@@ -407,7 +378,6 @@
     },
     {
         "pk": 30,
-
         "name": "Eurasian Lynx",
         "order": 300,
         "image_url": "",
@@ -421,7 +391,6 @@
     },
     {
         "pk": 31,
-
         "name": "Bobcat",
         "order": 310,
         "image_url": "",
@@ -435,7 +404,6 @@
     },
     {
         "pk": 32,
-
         "name": "Red Fox",
         "order": 320,
         "image_url": "",
@@ -449,7 +417,6 @@
     },
     {
         "pk": 33,
-
         "name": "Arctic Fox",
         "order": 330,
         "image_url": "",
@@ -463,7 +430,6 @@
     },
     {
         "pk": 34,
-
         "name": "Turkey",
         "order": 340,
         "image_url": "",
@@ -477,7 +443,6 @@
     },
     {
         "pk": 35,
-
         "name": "Canada Goose",
         "order": 350,
         "image_url": "",
@@ -491,7 +456,6 @@
     },
     {
         "pk": 36,
-
         "name": "Snow Goose",
         "order": 360,
         "image_url": "",
@@ -505,7 +469,6 @@
     },
     {
         "pk": 37,
-
         "name": "Magpie Goose",
         "order": 370,
         "image_url": "",
@@ -519,7 +482,6 @@
     },
     {
         "pk": 38,
-
         "name": "Pheasant",
         "order": 380,
         "image_url": "",
@@ -533,7 +495,6 @@
     },
     {
         "pk": 39,
-
         "name": "Mallard",
         "order": 390,
         "image_url": "",
@@ -547,7 +508,6 @@
     },
     {
         "pk": 40,
-
         "name": "American Black Duck",
         "order": 400,
         "image_url": "",
@@ -561,7 +521,6 @@
     },
     {
         "pk": 41,
-
         "name": "Northern Pintail",
         "order": 410,
         "image_url": "",
@@ -575,7 +534,6 @@
     },
     {
         "pk": 42,
-
         "name": "Gadwall",
         "order": 420,
         "image_url": "",
@@ -589,7 +547,6 @@
     },
     {
         "pk": 43,
-
         "name": "European Rabbit",
         "order": 430,
         "image_url": "",
@@ -603,7 +560,6 @@
     },
     {
         "pk": 44,
-
         "name": "Cottontail Rabbit",
         "order": 440,
         "image_url": "",
@@ -617,7 +573,6 @@
     },
     {
         "pk": 45,
-
         "name": "Snowshoe Hare",
         "order": 450,
         "image_url": "",
@@ -631,7 +586,6 @@
     },
     {
         "pk": 46,
-
         "name": "Willow Ptarmigan",
         "order": 460,
         "image_url": "",
@@ -645,7 +599,6 @@
     },
     {
         "pk": 47,
-
         "name": "Rock Ptarmigan",
         "order": 470,
         "image_url": "",
@@ -659,7 +612,6 @@
     },
     {
         "pk": 48,
-
         "name": "White-tailed Ptarmigan",
         "order": 480,
         "image_url": "",
@@ -673,7 +625,6 @@
     },
     {
         "pk": 49,
-
         "name": "Axis Deer",
         "order": 145,
         "image_url": "",
@@ -687,7 +638,6 @@
     },
     {
         "pk": 50,
-
         "name": "Fallow Deer",
         "order": 147,
         "image_url": "",

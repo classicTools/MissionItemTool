@@ -1,469 +1,402 @@
 [
     {
         "pk": 1,
-
         "name": "Whitetail Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/0/0b/Whitetail_deer_male_common.png",
         "order": 50
     },
     {
         "pk": 2,
-
         "name": "Mule Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/b6/Mule_deer_male_common.png",
         "order": 100
     },
     {
         "pk": 3,
-
         "name": "Blacktail Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/0/08/Blacktail_deer_male_common.png",
         "order": 150
     },
     {
         "pk": 4,
-
         "name": "Sitka Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a4/Sitka_deer_male_common.png",
         "order": 200
     },
     {
         "pk": 5,
-
         "name": "Moose",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a8/Moose_male_common.png",
         "order": 250
     },
     {
         "pk": 6,
-
         "name": "Roosevelt Elk",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/b6/Roosevelt_elk_male_common.png",
         "order": 300
     },
     {
         "pk": 7,
-
         "name": "Rocky Mountain Elk",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/1/1b/Rocky_mountain_elk_male_common.png",
         "order": 350
     },
     {
         "pk": 8,
-
         "name": "Red Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/8/82/Red_deer_male_common.png",
         "order": 400
     },
     {
         "pk": 9,
-
         "name": "Sambar Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/d/dc/Sambar_deer_male_common.png",
         "order": 450
     },
     {
         "pk": 10,
-
         "name": "Rusa Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/cc/Rusa_deer_male_common.png",
         "order": 500
     },
     {
         "pk": 11,
-
         "name": "Reindeer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/9/9a/Reindeer_male_common.png",
         "order": 550
     },
     {
         "pk": 12,
-
         "name": "Roe Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/d/dc/Roe_deer_male_common.png",
         "order": 600
     },
     {
         "pk": 13,
-
         "name": "Brown Bear",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/2/2d/Brown_bear_male_common.png",
         "order": 650
     },
     {
         "pk": 14,
-
         "name": "Black Bear",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/1/10/Black_bear_male_common.png",
         "order": 700
     },
     {
         "pk": 15,
-
         "name": "Grizzly Bear",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/4/4f/Grizzly_bear_male_common.png",
         "order": 750
     },
     {
         "pk": 16,
-
         "name": "Polar Bear",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/4/4f/Polar_bear_male_common.png",
         "order": 800
     },
     {
         "pk": 17,
-
         "name": "Wild Boar",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a3/Wild_boar_male_common.png",
         "order": 850
     },
     {
         "pk": 18,
-
         "name": "Feral Hog",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/7/71/Feral_hog_male_common.png",
         "order": 900
     },
     {
         "pk": 19,
-
         "name": "Water Buffalo",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c9/Water_buffalo_male_common.png",
         "order": 950
     },
     {
         "pk": 20,
-
         "name": "Banteng",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/b1/Banteng_male_common.png",
         "order": 1000
     },
     {
         "pk": 21,
-
         "name": "Bison",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/cd/Bison_male_common.png",
         "order": 1050
     },
     {
         "pk": 22,
-
         "name": "Alpine Ibex",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/5/5b/Alpine_ibex_male_common.png",
         "order": 1100
     },
     {
         "pk": 23,
-
         "name": "Feral Goat",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c0/Feral_goat_male_brown.png",
         "order": 1150
     },
     {
         "pk": 24,
-
         "name": "Bighorn Sheep",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/d/de/Bighorn_sheep_male_common.png",
         "order": 1200
     },
     {
         "pk": 25,
-
         "name": "Dall Sheep",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/ba/Dall_sheep_male_common.png",
         "order": 1250
     },
     {
         "pk": 26,
-
         "name": "Red Kangaroo",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/8/88/Red_kangaroo_male_common.png",
         "order": 1300
     },
     {
         "pk": 27,
-
         "name": "Grey Wolf",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/3/3a/Grey_wolf_male_common.png",
         "order": 1350
     },
     {
         "pk": 28,
-
         "name": "Coyote",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/6/6d/Coyote_male_common.png",
         "order": 1400
     },
     {
         "pk": 29,
-
         "name": "Red Fox",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/1/10/Red_fox_male_common.png",
         "order": 1450
     },
     {
         "pk": 30,
-
         "name": "Arctic Fox",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/bb/Arctic_fox_male_common.png",
         "order": 1500
     },
     {
         "pk": 31,
-
         "name": "Eurasian Lynx",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/5/52/Eurasian_lynx_male_common.png",
         "order": 1550
     },
     {
         "pk": 32,
-
         "name": "Bobcat",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/fb/Bobcat_male_common.png",
         "order": 1600
     },
     {
         "pk": 33,
-
         "name": "Turkey",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/f2/Turkey_male_common.png",
         "order": 1650
     },
     {
         "pk": 34,
-
         "name": "Pheasant",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c4/Pheasant_male_common.png",
         "order": 1700
     },
     {
         "pk": 35,
-
         "name": "Canada Goose",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a0/Canada_goose_male_common.png",
         "order": 1750
     },
     {
         "pk": 36,
-
         "name": "Snow Goose",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/5/59/Snow_goose_male_common.png",
         "order": 1800
     },
     {
         "pk": 37,
-
         "name": "Magpie Goose",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/9/98/Magpie_goose_male_common.png",
         "order": 1850
     },
     {
         "pk": 38,
-
         "name": "Mallard",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/bf/Mallard_male_common.png",
         "order": 1900
     },
     {
         "pk": 39,
-
         "name": "All Ducks",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/2/2b/American_black_duck_male_common.png",
         "order": 1950
     },
     {
         "pk": 40,
-
         "name": "Ptarmigan",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/2/21/Rock_ptarmigan_male_common.png",
         "order": 2000
     },
     {
         "pk": 41,
-
         "name": "European Rabbit",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/9/9b/European_rabbit_male_common.png",
         "order": 2050
     },
     {
         "pk": 42,
-
         "name": "Cottontail Rabbit",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/1/13/Cottontail_rabbit_male_common.png",
         "order": 2100
     },
     {
         "pk": 43,
-
         "name": "Snowshoe Hare",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/f7/Snowshoe_hare_male_common.png",
         "order": 2150
     },
     {
         "pk": 44,
-
         "name": "Ansch�tz",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/f0/Anschuetz_logo.png",
         "order": 2200
     },
     {
         "pk": 45,
-
         "name": "Blaser",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/e/ec/Blaser_logo.jpg",
         "order": 2250
     },
     {
         "pk": 46,
-
         "name": "Nosler",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/5/50/Nosler_logo.jpg",
         "order": 2300
     },
     {
         "pk": 47,
-
         "name": "Tenpoint",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a8/Tenpoint_logo.jpg",
         "order": 2350
     },
     {
         "pk": 48,
-
         "name": "Parker Bows",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c1/Parker_logo.jpg",
         "order": 2400
     },
     {
         "pk": 49,
-
         "name": "Aimpoint",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/7/7b/Aimpoint_logo.png",
         "order": 2450
     },
     {
         "pk": 50,
-
         "name": "Laura Francese",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/2/21/Laura_francese_avatar_256.png",
         "order": 2500
     },
     {
         "pk": 51,
-
         "name": "B&C Club",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/e/e6/Bandc_logo.png",
         "order": 2550
     },
     {
         "pk": 52,
-
         "name": "Traditional Bow",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/5/55/Heavy_recurve_bow.png",
         "order": 2600
     },
     {
         "pk": 53,
-
         "name": "Whitehart Sights",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a5/Whitehart_icon.png",
         "order": 2700
     },
     {
         "pk": 54,
-
         "name": "Settler Creeks",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/0/08/Settler_Creeks_EW_icon.png",
         "order": 2800
     },
     {
         "pk": 55,
-
         "name": "Hirschfelden",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/f0/Hirschfelden_icon.png",
         "order": 2900
     },
     {
         "pk": 56,
-
         "name": "Val-des-Bois",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/6/66/Val-des-bois_icon.png",
         "order": 3050
     },
     {
         "pk": 57,
-
         "name": "Hemmeldal",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/ff/Hemmeldal_Icon.png",
         "order": 2950
     },
     {
         "pk": 58,
-
         "name": "Rougarou Bayou",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c9/Rougarou_Icon.png",
         "order": 3000
     },
     {
         "pk": 59,
-
         "name": "Redfeather Falls",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/bc/RFF_icon2.png",
         "order": 2850
     },
     {
         "pk": 60,
-
         "name": "Whitehart",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a5/Whitehart_icon.png",
         "order": 2750
     },
     {
         "pk": 61,
-
         "name": "Shotgun",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/6/6a/Shells_16ga_buckshot.png",
         "order": 2650
     },
     {
         "pk": 62,
-
         "name": "Puma",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/6/67/Puma_male_common.png",
         "order": 1525
     },
     {
         "pk": 63,
-
         "name": "Timbergold Trails",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/ce/TT_icon.png",
         "order": 3100
     },
     {
         "pk": 64,
-
         "name": "Whiterime Ridge",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/5/55/WR_icon.png",
         "order": 3075
     },
     {
         "pk": 65,
-
         "name": "Axis Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/e/ed/Axis_deer_male_common.png",
         "order": 625
     },
     {
         "pk": 66,
-
         "name": "Fallow Deer",
         "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/cd/Fallow_deer_male_common.png",
         "order": 640
     },
     {
         "pk": 82,
-
         "name": "Bushrangers Run",
         "image_url": "('https://static.wikia.nocookie.net/thehuntergame/images/2/22/Bushrangers_run_icon.png',)",
         "order": 3063
