@@ -6,6 +6,9 @@ export interface MissionData {
     reward: number
     order: number
 }
+export interface MissionDataPlus extends MissionData {
+    state: MissionState
+}
 
 export interface MissionSetData {
     pk: number
@@ -33,8 +36,13 @@ export interface MissionItemData {
 }
 
 export enum MissionState {
-    Unlocked, //all requirements met
+    Ready, //all requirements met
     Blocked, // no outstanding requirements but an earlier locked mission is blocking it
-    PartiallyLocked,
+    PartlyLocked,
     Locked, //no requirements met
 }
+
+export type MapId = number
+export type MissionSetId = number
+export type MissionId = number
+export type ItemId = number

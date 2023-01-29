@@ -4,8 +4,10 @@ import missionsData from '../../data/MissionItem/Mission.json'
 import missionSetsData from '../../data/MissionItem/MissionSet.json'
 import MissionSet, { MissionSetRow, SetHeader } from './MissionSet'
 import sortBy from 'sort-by'
+import missionItemData from '../../data/MissionItem/MissionItem.json'
+import { useState } from 'react'
+import { MissionId, ItemId } from '../../types'
 
-let sortMissionPacks = () => {}
 let theme = () => {}
 const TopSection = styled.div`
     display: grid;
@@ -17,6 +19,7 @@ const Header = styled.div`
 `
 
 const AllMissions = () => {
+    const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
     return (
         <div>
             <MissionSetRow>
@@ -24,9 +27,21 @@ const AllMissions = () => {
                 <TopSection>
                     <Header> gm$ rewards per mission</Header>
                     <div>
-                        <input id="sortByWiki" type="radio" name="sort" onClick={sortMissionPacks} />
+                        <input
+                            id="sortByWiki"
+                            type="radio"
+                            name="sort"
+                            onClick={() => setAlphaOrder(false)}
+                            checked={!alphaOrder}
+                        />
                         <label htmlFor="sortByWiki">Wiki order</label>
-                        <input id="sortByAlpha" type="radio" name="sort" onClick={sortMissionPacks} />
+                        <input
+                            id="sortByAlpha"
+                            type="radio"
+                            name="sort"
+                            onClick={() => setAlphaOrder(true)}
+                            checked={alphaOrder}
+                        />
                         <label htmlFor="sortByAlpha">A-Z</label>
                     </div>
                     <div>
@@ -42,7 +57,7 @@ const AllMissions = () => {
                     </div>
                 </TopSection>
             </MissionSetRow>
-            {missionSetsData.sort(sortBy('order')).map((ms) => {
+            {missionSetsData.sort(sortBy(alphaOrder ? 'name' : 'order')).map((ms) => {
                 return <MissionSet missionSet={ms} key={ms.pk}></MissionSet>
             })}
         </div>

@@ -1,14 +1,30 @@
-import styled from 'styled-components'
-import { profitColor } from '../../StyleVars'
+import styled, { css } from 'styled-components'
+import { profitColor } from '../../CommonStyles'
+import { useItemsContext } from '../../context/Items'
+import { useSettingsContext } from '../../context/Settings'
 import { ItemData } from '../../types'
+import { essentialItems } from './ItemList'
 
-export const ItemRowDiv = styled.div<{ isHeader?: boolean }>`
+export const itemRowCSS = css`
     display: grid;
+    height: 23px;
+    align-content: center;
     grid-template-columns: 220px 30px 70px 60px;
-    //width:400px;
+`
+
+export const ItemRowDiv = styled.div<{ lastHovered?: boolean; bought?: boolean }>`
+    ${itemRowCSS}
+    width:400px;
     &:hover {
-        ${(props) => !props.isHeader && 'outline:1px dashed black'};
+        outline: 1px solid black;
     }
+    outline: ${(props) => (props.lastHovered ? '1px solid black' : 'none')};
+    ${(props) =>
+        props.bought &&
+        css`
+            background-color: orange;
+            color: black;
+        `};
 `
 
 const IntCell = styled.div`
@@ -37,14 +53,36 @@ export const NameCell = styled.div`
     white-space: nowrap;
     overflow: hidden;
 `
+function toggleArrayItem(arr: number[], val: number) {
+    const i = arr.indexOf(val)
+    if (i === -1) arr.push(val)
+    else arr.splice(i, 1)
+    return arr
+}
 
 interface ItemProps {
     item: ItemData
 }
 const Item = ({ item }: ItemProps) => {
+    const { itemHovered, setItemHovered, itemsBought, setItemsBought } = useItemsContext()
+    const lastHovered = itemHovered === item.pk
+    const bought: boolean = itemsBought.includes(item.pk)
     return (
-        <ItemRowDiv>
-            <NameCell title={item.name}>{item.name}</NameCell>
+        <ItemRowDiv
+            onMouseOver={() => setItemHovered(item.pk)}
+            lastHovered={lastHovered}
+            onClick={() =>
+                setItemsBought((items: number[]) => {
+                    let newitems = [...items]
+                    return [...toggleArrayItem(newitems, item.pk)]
+                })
+            }
+            bought={bought}
+        >
+            <NameCell title={item.name}>
+                {!essentialItems.includes(item.pk) && '* '}
+                {item.name}
+            </NameCell>
             <IntCell>{item.missions}</IntCell>
             <IntCell>{item.cost}</IntCell>
             <ProfitCell flash={item.wouldGive > item.cost}>{item.wouldGive}</ProfitCell>

@@ -21,7 +21,6 @@ const MissionItems = ({ missionItems }: MissionItemsProps) => {
         if (current.group !== null && current.any) acc[current.group] = [...(acc[current.group] ?? []), current]
         return acc
     }, {})
-    console.log(itemNumberedORGroups)
     const itemNumberedANDGroup = itemsPlus.reduce((acc: any, current) => {
         if (current.group !== null && !current.any) acc[current.group] = [...(acc[current.group] ?? []), current]
         return acc
@@ -31,19 +30,19 @@ const MissionItems = ({ missionItems }: MissionItemsProps) => {
             Requires:
             <ul>
                 {absoluteNeeds.map((item) => (
-                    <li>
+                    <li key={item.item}>
                         <ItemSpan>{item.name}</ItemSpan>
                     </li>
                 ))}
                 {Object.keys(itemNumberedORGroups).map((key) => (
-                    <li>
+                    <li key={key}>
                         {itemNumberedORGroups[key].sort(sortBy('name')).map((item: any, index: number) => {
                             return (
-                                <>
+                                <span key={item.pk}>
                                     <ItemSpan>{item.name}</ItemSpan>
                                     <br />
                                     {index + 1 < itemNumberedORGroups[key].length && ' or '}
-                                </>
+                                </span>
                             )
                         })}
                     </li>
@@ -57,7 +56,7 @@ const MissionItems = ({ missionItems }: MissionItemsProps) => {
                                     let group = itemNumberedANDGroup[key]
                                     const lastGroupItem = groupIndex + 1 < Object.keys(itemNumberedANDGroup).length
                                     return (
-                                        <>
+                                        <span key={item.pk}>
                                             <ItemSpan>{item.name}</ItemSpan>
                                             {index + 1 < group.length && ' and '}
                                             {lastGroupItem && index === group.length - 1 && (
@@ -66,7 +65,7 @@ const MissionItems = ({ missionItems }: MissionItemsProps) => {
                                                     or{' '}
                                                 </>
                                             )}
-                                        </>
+                                        </span>
                                     )
                                 })
                             )}
@@ -76,8 +75,5 @@ const MissionItems = ({ missionItems }: MissionItemsProps) => {
         </>
     )
 }
-// data-mi_item_id="{{i.item.id}}"
-// data-any="{{i.any}}"
-// data-group="{{i.group}}"
 
 export default MissionItems
