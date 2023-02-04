@@ -1,12 +1,13 @@
 import missionItemData from '../../data/MissionItem/MissionItem.json'
 import missionMapData from '../../data/MissionItem/MissionMap.json'
-import { MissionData, MissionState, MissionItemData, MapId, MissionId, ItemId } from '../../types'
+import { MissionData, MS, MissionItemData, MapId, MissionId, ItemId, MissionDataPlus } from '../../types'
 import styled, { css } from 'styled-components'
 import { useState } from 'react'
 import MissionItems from './MissionItems'
 import { useSettingsContext } from '../../context/Settings'
 import { useItemsContext } from '../../context/Items'
 import { missionMap } from '../../data/MissionItem/Data'
+import { useItemHoverContext } from '../../context/ItemHover'
 
 const flashMission = css`
     @keyframes flashMission {
@@ -23,7 +24,7 @@ const flashMission = css`
     animation: flashMission 3s linear 0s infinite;
     color: black;
 `
-const MissionBox = styled.div<{ flash: boolean; inSelectedMap: boolean; relevantToItem: boolean }>`
+const MissionBox = styled.div<{ flash: boolean; inSelectedMap: boolean; containsBoughtItem: boolean; state: MS }>`
     height: 25px;
     width: 50px;
     min-width: 50px;
@@ -31,12 +32,22 @@ const MissionBox = styled.div<{ flash: boolean; inSelectedMap: boolean; relevant
     text-align: center;
     border-radius: 8px;
     user-select: none;
-    cursor: pointer;
-    background-color: ${(props) => (props.relevantToItem ? 'orange' : 'lightblue')};
     display: grid;
 
-    ${(props) => props.flash && flashMission}
+    background-color: ${(props) => {
+        let c
+        if (props.containsBoughtItem) c = 'orange'
+
+        if (props.state === MS.Ready) c = 'lightgreen'
+        else if (props.state === MS.Blocked) c = 'green'
+        else if (props.state === MS.PartlyLocked) c = 'yellow'
+        //else c = 'white'
+
+        return c
+    }};
+
     ${(props) => props.inSelectedMap && 'box-shadow: inset 0 0 1px 4px orange'}
+    ${(props) => props.flash && flashMission}
 `
 const Reward = styled.div<{ requiresItems: boolean }>`
     height: 20px;
@@ -79,13 +90,12 @@ const Tooltip = styled.div<{ left: boolean; show: boolean }>`
 `
 
 interface MissionProps {
-    mission: MissionData
-    state: MissionState
+    mission: MissionDataPlus
     items: ItemId[]
 }
-const Mission = ({ mission, state, items }: MissionProps) => {
+const Mission = ({ mission, items }: MissionProps) => {
     const { map } = useSettingsContext()
-    const { itemHovered } = useItemsContext()
+    const { itemHovered } = useItemHoverContext()
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === mission.pk)
 
@@ -99,8 +109,9 @@ const Mission = ({ mission, state, items }: MissionProps) => {
             onMouseEnter={() => setMissionHovered(true)}
             onMouseLeave={() => setMissionHovered(false)}
             flash={flash}
-            relevantToItem={relevantToItem}
+            containsBoughtItem={relevantToItem}
             inSelectedMap={inSelectedMap}
+            state={mission.state}
         >
             <Reward requiresItems={requiresItems}>{mission.reward}</Reward>
             {missionHovered && (

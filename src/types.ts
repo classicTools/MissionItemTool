@@ -7,7 +7,7 @@ export interface MissionData {
     order: number
 }
 export interface MissionDataPlus extends MissionData {
-    state: MissionState
+    state: MS
 }
 
 export interface MissionSetData {
@@ -35,7 +35,7 @@ export interface MissionItemData {
     group: number | null
 }
 
-export enum MissionState {
+export enum MS { //MissionState
     Ready, //all requirements met
     Blocked, // no outstanding requirements but an earlier locked mission is blocking it
     PartlyLocked,

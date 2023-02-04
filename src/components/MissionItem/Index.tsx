@@ -6,6 +6,8 @@ import styled from 'styled-components'
 import ReserveList from './ReserveList'
 import WithItemsContext from '../../context/Items'
 import Unlocks from './Unlocks'
+import WithItemHoverContext from '../../context/ItemHover'
+import WithMissionsContext from '../../context/Mission'
 
 const MissionItemGrid = styled.div`
     display: grid;
@@ -23,15 +25,19 @@ function App() {
     return (
         <MissionItemGrid>
             <WithItemsContext>
-                <Col>
-                    <ItemList />
-                    <Unlocks />
-                </Col>
-                <Col>
-                    <AllMissions />
-                    <ReserveList />
-                    <Guide />
-                </Col>
+                <WithItemHoverContext>
+                    <WithMissionsContext>
+                        <Col>
+                            <ItemList />
+                            <Unlocks />
+                        </Col>
+                        <Col>
+                            <AllMissions />
+                            <ReserveList />
+                            <Guide />
+                        </Col>
+                    </WithMissionsContext>
+                </WithItemHoverContext>
             </WithItemsContext>
         </MissionItemGrid>
     )

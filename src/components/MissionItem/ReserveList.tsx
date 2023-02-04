@@ -3,6 +3,7 @@ import Maps from '../../data/MissionItem/Map.json'
 import sortBy from 'sort-by'
 import { useSettingsContext } from '../../context/Settings'
 import { useItemsContext } from '../../context/Items'
+import { useItemHoverContext } from '../../context/ItemHover'
 
 let mapfilter = () => {}
 const ReserveDiv = styled.div`
@@ -10,6 +11,7 @@ const ReserveDiv = styled.div`
     bottom: 1600px;
     left: 760px;
     width: 200px;
+    user-select: none;
 `
 const ReserveOption = styled.div`
     cursor: pointer;
@@ -20,7 +22,7 @@ const ReserveOption = styled.div`
 `
 const ReserveList = () => {
     const { setMap } = useSettingsContext()
-    const { setItemHovered } = useItemsContext()
+    const { setItemHovered } = useItemHoverContext()
     return (
         <ReserveDiv onMouseEnter={() => setItemHovered(null)}>
             Highlight packs & missions by reserve:
@@ -34,6 +36,10 @@ const ReserveList = () => {
                     </ReserveOption>
                 )
             })}
+            <ReserveOption key={null}>
+                <input type="radio" id="map0" onClick={() => setMap(null)} name="map" />
+                <label htmlFor="map0">None</label>
+            </ReserveOption>
             <br />
             If a highlighted mission pack has no outlined missions, all missions can be done in the chosen reserve.
         </ReserveDiv>

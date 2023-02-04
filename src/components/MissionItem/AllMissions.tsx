@@ -7,6 +7,8 @@ import sortBy from 'sort-by'
 import missionItemData from '../../data/MissionItem/MissionItem.json'
 import { useState } from 'react'
 import { MissionId, ItemId } from '../../types'
+import { useItemsContext } from '../../context/Items'
+import WithMissionsContext from '../../context/Mission'
 
 let theme = () => {}
 const TopSection = styled.div`
@@ -20,6 +22,7 @@ const Header = styled.div`
 
 const AllMissions = () => {
     const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
+    const { itemsBought } = useItemsContext()
     return (
         <div>
             <MissionSetRow>

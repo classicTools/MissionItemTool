@@ -1,10 +1,12 @@
+import missionsData from '../../data/MissionItem/Mission.json'
 import missionItemData from '../../data/MissionItem/MissionItem.json'
 import itemData from '../../data/MissionItem/Item.json'
-import Item, { itemRowCSS, ItemRowDiv } from './Item'
+import Item, { itemRowCSS } from './Item'
 import styled from 'styled-components'
 import sortBy from 'sort-by'
-import { ItemData, ItemId, RawItemData } from '../../types'
-import WithItemsContext, { useItemsContext } from '../../context/Items'
+import { ItemData, ItemId, MS, RawItemData } from '../../types'
+import { useItemsContext } from '../../context/Items'
+import { calculateGain, useMissionsContext } from '../../context/Mission'
 
 export const essentialItems: ItemId[] = missionItemData
     .filter((mi) => mi.any === false && mi.group === null)
@@ -43,12 +45,20 @@ const ItemSummary = styled.div`
 `
 const ItemList = () => {
     const { itemsBought, setItemsBought } = useItemsContext()
+    const { missionDataState } = useMissionsContext()
+
     const itemDataPlus: ItemData[] = itemData
-        .map((i: RawItemData) => ({
-            ...i,
-            wouldGive: 10000,
-            missions: missionItemData.filter((mi) => mi.item === i.pk).length,
-        }))
+        .map((i: RawItemData) => {
+            let wouldGive = 0
+
+            if (!itemsBought.includes(i.pk)) wouldGive = calculateGain([...missionDataState], [...itemsBought], i.pk)
+
+            return {
+                ...i,
+                wouldGive,
+                missions: missionItemData.filter((mi) => mi.item === i.pk).length,
+            }
+        })
         .sort(sortBy('name'))
         .filter((i) => i.missions > 0)
     return (

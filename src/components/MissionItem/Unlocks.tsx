@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import missions from '../../data/MissionItem/Mission.json'
 import missionSets from '../../data/MissionItem/MissionSet.json'
+import { useMissionsContext } from '../../context/Mission'
 const missionRewardTotal = missions.reduce((acc, cur) => {
     acc += cur.reward
     return acc
@@ -27,15 +28,23 @@ const Unit = styled.div`
     text-align: left;
 `
 const Unlocks = () => {
+    const { unlockedRewards, unlockedMissions, unlockedMissionSets } = useMissionsContext()
     return (
         <UnlocksDiv>
             <LabelDiv>Unlocks:</LabelDiv>
-            <Value> 23 / {missionRewardTotal}</Value>
+            <Value>
+                {' '}
+                {unlockedRewards} / {missionRewardTotal}
+            </Value>
             <Unit> gm$</Unit>
 
-            <Value>2 / {missions.length}</Value>
+            <Value>
+                {unlockedMissions} / {missions.length}
+            </Value>
             <Unit>missions</Unit>
-            <Value>1 / {missionSets.length}</Value>
+            <Value>
+                {unlockedMissionSets} / {missionSets.length}
+            </Value>
             <Unit>mission packs</Unit>
         </UnlocksDiv>
     )

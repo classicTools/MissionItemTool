@@ -1,9 +1,11 @@
 import styled, { css } from 'styled-components'
 import { profitColor } from '../../CommonStyles'
 import { useItemsContext } from '../../context/Items'
+import { useItemHoverContext } from '../../context/ItemHover'
 import { useSettingsContext } from '../../context/Settings'
 import { ItemData } from '../../types'
 import { essentialItems } from './ItemList'
+import { getStatesAndTotals, useMissionsContext } from '../../context/Mission'
 
 export const itemRowCSS = css`
     display: grid;
@@ -64,7 +66,8 @@ interface ItemProps {
     item: ItemData
 }
 const Item = ({ item }: ItemProps) => {
-    const { itemHovered, setItemHovered, itemsBought, setItemsBought } = useItemsContext()
+    const { itemsBought, setItemsBought } = useItemsContext()
+    const { itemHovered, setItemHovered } = useItemHoverContext()
     const lastHovered = itemHovered === item.pk
     const bought: boolean = itemsBought.includes(item.pk)
     return (

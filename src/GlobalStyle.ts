@@ -9,8 +9,9 @@ const GlobalStyle = createGlobalStyle`
 
 button{
   border:none;
-  padding:5px 20px;
+  padding:8px 20px;
   border-radius:8px;
+  cursor:pointer;
 }
 `
 
