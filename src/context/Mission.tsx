@@ -121,7 +121,10 @@ export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => M
 
     let unlockedMissionSets = 0
     Object.entries(missionSetMissions).forEach(([key, value]) => {
-        if (value.length === missionDataState.filter((m) => m.mission_set.toString() === key).length)
+        if (
+            value.length ===
+            missionDataState.filter((m) => m.mission_set.toString() === key && m.state === MS.Ready).length
+        )
             unlockedMissionSets++
     })
 

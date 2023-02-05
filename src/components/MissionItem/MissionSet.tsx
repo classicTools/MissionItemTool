@@ -19,6 +19,7 @@ import WithItemsContext, { useItemsContext } from '../../context/Items'
 import { missionSetMap, missionSetMissions, simpleMissionItems } from '../../data/MissionItem/Data'
 import { useEffect, useState } from 'react'
 import { useMissionsContext } from '../../context/Mission'
+import { useItemHoverContext } from '../../context/ItemHover'
 
 export const MissionSetRow = styled.div`
     display: grid;
@@ -62,6 +63,7 @@ const MissionSet = ({ missionSet }: MissionSetProps) => {
     const { map } = useSettingsContext()
     const { missionDataState } = useMissionsContext()
     const { setItemsBought } = useItemsContext()
+    const { itemHovered } = useItemHoverContext()
     const inSelectedMap: boolean = map ? missionSetMap[map].includes(missionSet.pk) : false
 
     const toggleMustHaves = (): void => {
@@ -91,7 +93,7 @@ const MissionSet = ({ missionSet }: MissionSetProps) => {
                 {missionDataState
                     .filter((m) => m.mission_set === missionSet.pk)
                     .map((m: MissionDataPlus) => {
-                        return <Mission mission={m} items={simpleMissionItems[m.pk]} key={m.pk} />
+                        return <Mission mission={m} key={m.pk} />
                     })}
             </MissionsContainer>
         </MissionSetRow>

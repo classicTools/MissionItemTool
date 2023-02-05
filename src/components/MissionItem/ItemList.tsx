@@ -48,6 +48,7 @@ const ItemList = () => {
     const { missionDataState } = useMissionsContext()
 
     const itemDataPlus: ItemData[] = itemData
+        .sort(sortBy('name'))
         .map((i: RawItemData) => {
             let wouldGive = 0
 
@@ -59,7 +60,6 @@ const ItemList = () => {
                 missions: missionItemData.filter((mi) => mi.item === i.pk).length,
             }
         })
-        .sort(sortBy('name'))
         .filter((i) => i.missions > 0)
     return (
         <>

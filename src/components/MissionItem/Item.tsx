@@ -72,7 +72,7 @@ const Item = ({ item }: ItemProps) => {
     const bought: boolean = itemsBought.includes(item.pk)
     return (
         <ItemRowDiv
-            onMouseOver={() => setItemHovered(item.pk)}
+            onMouseEnter={() => setItemHovered(item.pk)}
             lastHovered={lastHovered}
             onClick={() =>
                 setItemsBought((items: number[]) => {

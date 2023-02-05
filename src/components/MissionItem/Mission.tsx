@@ -6,7 +6,7 @@ import { useState } from 'react'
 import MissionItems from './MissionItems'
 import { useSettingsContext } from '../../context/Settings'
 import { useItemsContext } from '../../context/Items'
-import { missionMap } from '../../data/MissionItem/Data'
+import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
 import { useItemHoverContext } from '../../context/ItemHover'
 
 const flashMission = css`
@@ -64,8 +64,7 @@ const TooltipAnchor = styled.div`
     min-width: 38px;
 `
 
-const Tooltip = styled.div<{ left: boolean; show: boolean }>`
-    visibility: ${(props) => (props.show ? 'visible' : 'hidden')};
+const Tooltip = styled.div<{ left: boolean }>`
     width: 500px;
     background-color: lightyellow;
     color: black;
@@ -91,17 +90,16 @@ const Tooltip = styled.div<{ left: boolean; show: boolean }>`
 
 interface MissionProps {
     mission: MissionDataPlus
-    items: ItemId[]
 }
-const Mission = ({ mission, items }: MissionProps) => {
+const Mission = ({ mission }: MissionProps) => {
     const { map } = useSettingsContext()
     const { itemHovered } = useItemHoverContext()
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === mission.pk)
 
     const requiresItems = missionItems.length > 0
-    const relevantToItem = itemHovered !== null && items?.includes(itemHovered)
-    const flash = relevantToItem && !missionHovered
+    const containsHoveredItem = itemHovered !== null && simpleMissionItems[mission.pk]?.includes(itemHovered)
+    const flash = containsHoveredItem && !missionHovered
 
     const inSelectedMap = map ? missionMap[map].includes(mission.pk) : false
     return (
@@ -109,14 +107,14 @@ const Mission = ({ mission, items }: MissionProps) => {
             onMouseEnter={() => setMissionHovered(true)}
             onMouseLeave={() => setMissionHovered(false)}
             flash={flash}
-            containsBoughtItem={relevantToItem}
+            containsBoughtItem={containsHoveredItem}
             inSelectedMap={inSelectedMap}
             state={mission.state}
         >
             <Reward requiresItems={requiresItems}>{mission.reward}</Reward>
             {missionHovered && (
                 <TooltipAnchor>
-                    <Tooltip left={mission.order < 8} show={missionHovered}>
+                    <Tooltip left={mission.order < 8}>
                         {mission.order} - {mission.name}
                         <div dangerouslySetInnerHTML={{ __html: mission.objectives }}></div>
                         {requiresItems && <MissionItems missionItems={missionItems} />}
