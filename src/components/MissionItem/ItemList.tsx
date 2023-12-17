@@ -52,7 +52,7 @@ const ItemList = () => {
         .map((i: RawItemData) => {
             let wouldGive = 0
 
-            if (!itemsBought.includes(i.pk)) wouldGive = calculateGain([...missionDataState], [...itemsBought], i.pk)
+            if (!itemsBought.includes(i.pk)) wouldGive = calculateGain(missionDataState, itemsBought, i.pk)
 
             return {
                 ...i,

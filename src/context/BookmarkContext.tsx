@@ -1,7 +1,19 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
-import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionId, LocalStorageVars, MissionSetId, zeroFn } from '../types'
+import {
+    ItemData,
+    ItemId,
+    MissionItemData,
+    MissionDataPlus,
+    MissionState,
+    MissionData,
+    MissionId,
+    LocalStorageVars,
+    MissionSetId,
+    zeroFn,
+    MissionOrder,
+} from '../types'
 import { useLocalStorage } from '../hooks'
-type Bookmarks = { [index: MissionSetId]: MissionId | null }
+type Bookmarks = { [index: MissionSetId]: MissionOrder | null }
 interface BookmarkContext {
     bookmarks: Bookmarks
     setBookmarks: Dispatch<SetStateAction<Bookmarks>>

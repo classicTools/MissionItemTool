@@ -11,7 +11,7 @@ import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 
 const flashMission = css`
-    @keyframes flashMission {
+    /* @keyframes flashMission {
         0%,
         50%,
         100% {
@@ -21,8 +21,8 @@ const flashMission = css`
         75% {
             opacity: 0;
         }
-    }
-    animation: flashMission 3s linear 0s infinite;
+    } */
+    animation: flash 3s linear 0s infinite;
     color: black;
 `
 const MissionBox = styled.div<{
@@ -104,15 +104,16 @@ const Mission = ({ mission }: MissionProps) => {
     const { itemHovered } = useItemHoverContext()
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
     const { bookmarks, toggleBookmark } = useBookmarkContext()
-    const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === mission.pk)
+    const { pk, objectives, state, reward, order, name, mission_set } = mission
+    const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === pk)
 
-    const bookmarked = bookmarks[mission.mission_set] === mission.order
+    const bookmarked = bookmarks[mission_set] === order
 
     const requiresItems = missionItems.length > 0
-    const containsHoveredItem = itemHovered !== null && simpleMissionItems[mission.pk]?.includes(itemHovered)
-    const flash = containsHoveredItem && !missionHovered
+    const containsHoveredItem = itemHovered !== null && simpleMissionItems[pk]?.includes(itemHovered)
+    const flash = containsHoveredItem && !missionHovered && [MissionState.Locked, MissionState.PartlyLocked].includes(state)
 
-    const inSelectedMap = map ? missionMap[map].includes(mission.pk) : false
+    const inSelectedMap = map ? missionMap[map].includes(pk) : false
 
     return (
         <MissionBox
@@ -122,16 +123,16 @@ const Mission = ({ mission }: MissionProps) => {
             flash={flash}
             containsBoughtItem={containsHoveredItem}
             inSelectedMap={inSelectedMap}
-            state={mission.state}
+            state={state}
         >
             <Reward requiresItems={requiresItems} bookmarked={bookmarked}>
-                {mission.reward}
+                {reward}
             </Reward>
             {missionHovered && (
                 <TooltipAnchor>
-                    <Tooltip left={mission.order < 8}>
-                        {mission.order} - {mission.name}
-                        <div dangerouslySetInnerHTML={{ __html: mission.objectives }}></div>
+                    <Tooltip left={order < 8}>
+                        {order} - {name}
+                        <div dangerouslySetInnerHTML={{ __html: objectives }}></div>
                         {requiresItems && <MissionItems missionItems={missionItems} />}
                     </Tooltip>
                 </TooltipAnchor>

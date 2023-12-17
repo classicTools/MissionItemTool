@@ -50,5 +50,5 @@ export type MapId = number
 export type MissionSetId = number
 export type MissionId = number
 export type ItemId = number
-
+export type MissionOrder = number
 export const zeroFn = () => {}
