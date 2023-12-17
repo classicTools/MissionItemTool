@@ -14,7 +14,7 @@ const ItemsContext = createContext<ItemsContext>(defaultItems)
 
 const WithItemsContext = ({ children }: PropsWithChildren) => {
     //const [itemsBought, setItemsBought] = useState<ItemId[]>(localStorageGet('items')??[])
-    const [itemsBought, setItemsBought] = useLocalStorage(LocalStorageVars.Items, [])
+    const [itemsBought, setItemsBought] = useLocalStorage<ItemId[]>(LocalStorageVars.Items, [])
     return (
         <ItemsContext.Provider
             value={{

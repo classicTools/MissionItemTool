@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import Maps from '../../data/MissionItem/Map.json'
+import Maps from '../../data/MissionItem/lookups/Map.json'
 import sortBy from 'sort-by'
-import { useSettingsContext } from '../../context/Settings'
-import { useItemsContext } from '../../context/Items'
+import { useSettingsContext } from '../../context/SettingsContext'
+import { useItemsContext } from '../../context/ItemContext'
 import { useItemHoverContext } from '../../context/ItemHover'
 import { LocalStorageVars } from '../../types'
 

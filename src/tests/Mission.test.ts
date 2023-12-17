@@ -1,7 +1,7 @@
-import { getStatesAndTotals } from '../context/Mission'
-import itemsData from '../data/MissionItem/Item.json'
+import { getStatesAndTotals } from '../context/MissionContext'
+import itemsData from '../data/MissionItem/lookups/Item.json'
 import missionItemsData from '../data/MissionItem/MissionItem.json'
-import missionsData from '../data/MissionItem/Mission.json'
+import missionsData from '../data/MissionItem/lookups/Mission.json'
 import { MissionDataPlus, MissionId, MissionState } from '../types'
 
 it('no items bought', () => {

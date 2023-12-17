@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import missions from '../../data/MissionItem/Mission.json'
-import missionSets from '../../data/MissionItem/MissionSet.json'
-import { useMissionsContext } from '../../context/Mission'
+import missions from '../../data/MissionItem/lookups/Mission.json'
+import missionSets from '../../data/MissionItem/lookups/MissionSet.json'
+import { useMissionsContext } from '../../context/MissionContext'
 const missionRewardTotal = missions.reduce((acc, cur) => {
     acc += cur.reward
     return acc

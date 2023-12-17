@@ -1,6 +1,6 @@
 import { SketchPicker } from 'react-color'
 import styled from 'styled-components'
-import { useSettingsContext } from '../../context/Settings'
+import { useSettingsContext } from '../../context/SettingsContext'
 
 const PartialTD = styled.td`
     color: ${'partlyLocked'};

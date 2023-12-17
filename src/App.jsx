@@ -5,7 +5,7 @@ import GlobalStyle from './GlobalStyle'
 import React, { Suspense, useState } from 'react'
 import Loader from './components/Loader'
 import styled from 'styled-components'
-import WithSettingsContext from './context/Settings'
+import WithSettingsContext from './context/SettingsContext'
 import Autocomplete from './components/Autocomplete'
 
 //const OtherComponent = React.lazy(() => import('./OtherComponent'));

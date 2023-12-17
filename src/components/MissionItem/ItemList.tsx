@@ -1,12 +1,12 @@
-import missionsData from '../../data/MissionItem/Mission.json'
+import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionItemData from '../../data/MissionItem/MissionItem.json'
-import itemData from '../../data/MissionItem/Item.json'
+import itemData from '../../data/MissionItem/lookups/Item.json'
 import Item, { itemRowCSS } from './Item'
 import styled from 'styled-components'
 import sortBy from 'sort-by'
 import { ItemData, ItemId, MissionState, RawItemData } from '../../types'
-import { useItemsContext } from '../../context/Items'
-import { calculateGain, useMissionsContext } from '../../context/Mission'
+import { useItemsContext } from '../../context/ItemContext'
+import { calculateGain, useMissionsContext } from '../../context/MissionContext'
 
 export const essentialItems: ItemId[] = missionItemData
     .filter((mi) => mi.any === false && mi.group === null)

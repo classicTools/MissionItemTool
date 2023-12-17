@@ -1,11 +1,11 @@
 import styled, { css } from 'styled-components'
 import { profitColor } from '../../CommonStyles'
-import { useItemsContext } from '../../context/Items'
+import { useItemsContext } from '../../context/ItemContext'
 import { useItemHoverContext } from '../../context/ItemHover'
-import { useSettingsContext } from '../../context/Settings'
+import { useSettingsContext } from '../../context/SettingsContext'
 import { ItemData } from '../../types'
 import { essentialItems } from './ItemList'
-import { getStatesAndTotals, useMissionsContext } from '../../context/Mission'
+import { getStatesAndTotals, useMissionsContext } from '../../context/MissionContext'
 
 export const itemRowCSS = css`
     display: grid;

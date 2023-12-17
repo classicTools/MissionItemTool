@@ -1,7 +1,7 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
-import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionId, LocalStorageVars, MissionSetId, voidFn } from '../types'
+import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionId, LocalStorageVars, MissionSetId, zeroFn } from '../types'
 import { useLocalStorage } from '../hooks'
-type Bookmarks = { [index: MissionSetId]: number | null }
+type Bookmarks = { [index: MissionSetId]: MissionId | null }
 interface BookmarkContext {
     bookmarks: Bookmarks
     setBookmarks: Dispatch<SetStateAction<Bookmarks>>
@@ -14,17 +14,17 @@ interface BookmarkContext {
 
 const defaultBookmark = {
     bookmarks: [],
-    setBookmarks: voidFn,
-    toggleBookmark: voidFn,
+    setBookmarks: zeroFn,
+    toggleBookmark: zeroFn,
     showAgenda: false,
-    toggleAgenda: voidFn,
-    bookmarkNextMission: voidFn,
-    bookmarkPrevMission: voidFn,
+    toggleAgenda: zeroFn,
+    bookmarkNextMission: zeroFn,
+    bookmarkPrevMission: zeroFn,
 }
 const BookmarkContext = createContext<BookmarkContext>(defaultBookmark)
 
 const WithBookmarkContext = ({ children }: PropsWithChildren) => {
-    const [bookmarks, setBookmarks] = useLocalStorage(LocalStorageVars.Bookmarks, {})
+    const [bookmarks, setBookmarks] = useLocalStorage<Bookmarks>(LocalStorageVars.Bookmarks, {})
     const [showAgenda, setShowAgenda] = useState(false)
 
     const toggleBookmark = ({ mission_set: ms, order }: MissionDataPlus) => {
@@ -40,12 +40,12 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
     const toggleAgenda = () => setShowAgenda(!showAgenda)
 
     const bookmarkNextMission = (missionSetId: number) => {
-        const currentMission = bookmarks[missionSetId]
+        const currentMission = bookmarks[missionSetId]!
         setBookmarks({ ...bookmarks, [missionSetId]: currentMission + 1 })
     }
 
     const bookmarkPrevMission = (missionSetId: number) => {
-        const currentMission = bookmarks[missionSetId]
+        const currentMission = bookmarks[missionSetId]!
         setBookmarks({ ...bookmarks, [missionSetId]: currentMission - 1 })
     }
     return (

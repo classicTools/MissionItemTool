@@ -1,9 +1,9 @@
-import missionsData from '../data/MissionItem/Mission.json'
+import missionsData from '../data/MissionItem/lookups/Mission.json'
 import missionItemData from '../data/MissionItem/MissionItem.json'
 import sortBy from 'sort-by'
 import { createContext, useContext, PropsWithChildren } from 'react'
 import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionSetId } from '../types'
-import { useItemsContext } from './Items'
+import { useItemsContext } from './ItemContext'
 import { missionSetMissions } from '../data/MissionItem/Data'
 
 type RequirementGroups = { [index: string]: MissionItemData[] }
@@ -107,7 +107,7 @@ const getMissionStates = (md: MissionData[], itemsBought: ItemId[]): MissionData
     })
     return missionDataState
 }
-export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => MissionsContext = (md, itemsBought) => {
+export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => MissionContext = (md, itemsBought) => {
     const missionDataState: MissionDataPlus[] = getMissionStates(md, itemsBought)
     const readyMissions = missionDataState.filter((mi) => mi.state === MissionState.Ready)
     const unlockedMissions = readyMissions.length
@@ -124,7 +124,7 @@ export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => M
     return { missionDataState, unlockedMissions, unlockedRewards, unlockedMissionSets }
 }
 
-interface MissionsContext {
+interface MissionContext {
     missionDataState: MissionDataPlus[]
     unlockedRewards: number
     unlockedMissions: number
@@ -137,12 +137,12 @@ const defaultMissions = {
     unlockedMissions: 0,
     unlockedMissionSets: 0,
 }
-const MissionsContext = createContext<MissionsContext>(defaultMissions)
+const MissionContext = createContext<MissionContext>(defaultMissions)
 const WithMissionsContext = ({ children }: PropsWithChildren) => {
     const { itemsBought } = useItemsContext()
     const { missionDataState, unlockedMissions, unlockedRewards, unlockedMissionSets } = getStatesAndTotals(missionsData, itemsBought)
 
-    return <MissionsContext.Provider value={{ missionDataState, unlockedRewards, unlockedMissions, unlockedMissionSets }}>{children}</MissionsContext.Provider>
+    return <MissionContext.Provider value={{ missionDataState, unlockedRewards, unlockedMissions, unlockedMissionSets }}>{children}</MissionContext.Provider>
 }
 export default WithMissionsContext
-export const useMissionsContext = () => useContext(MissionsContext)
+export const useMissionsContext = () => useContext(MissionContext)

@@ -37,8 +37,8 @@ export interface MissionItemData {
 
 export enum MissionState {
     Ready, //all requirements met
-    Blocked, // no outstanding requirements but an earlier locked mission is blocking it
-    PartlyLocked,
+    Blocked, // all requirements met but an earlier locked mission is blocking it
+    PartlyLocked, //some requirements met
     Locked, //no requirements met
 }
 export enum LocalStorageVars {
@@ -51,4 +51,4 @@ export type MissionSetId = number
 export type MissionId = number
 export type ItemId = number
 
-export const voidFn = () => {}
+export const zeroFn = () => {}

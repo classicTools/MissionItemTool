@@ -38,8 +38,8 @@ const localStorageGet = (varName: string) => {
  * @param defaultValue
  * @returns
  */
-export const useLocalStorage = (name: string, defaultValue: any = null) => {
-    const [value, setValue] = useState(localStorageGet(name) ?? defaultValue)
+export const useLocalStorage = <T>(name: string, defaultValue: any = null): [T, React.Dispatch<React.SetStateAction<T>>] => {
+    const [value, setValue] = useState<T>(localStorageGet(name) ?? defaultValue)
 
     useEffect(() => {
         localStorageSet(name, value)

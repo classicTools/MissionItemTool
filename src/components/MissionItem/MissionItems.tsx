@@ -1,8 +1,8 @@
 import { MissionItemData, RawItemData } from '../../types'
-import itemsData from '../../data/MissionItem/Item.json'
+import itemsData from '../../data/MissionItem/lookups/Item.json'
 import sortBy from 'sort-by'
 import styled from 'styled-components'
-import { useItemsContext } from '../../context/Items'
+import { useItemsContext } from '../../context/ItemContext'
 
 interface MissionItemsProps {
     missionItems: MissionItemData[]
