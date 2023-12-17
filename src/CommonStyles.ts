@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { MS } from './types'
+import { MissionState } from './types'
 export const flexR = css`
     display: flex;
     flex-direction: row;

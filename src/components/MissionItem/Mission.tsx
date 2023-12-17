@@ -1,6 +1,6 @@
 import missionItemData from '../../data/MissionItem/MissionItem.json'
 import missionMapData from '../../data/MissionItem/MissionMap.json'
-import { MissionData, MS, MissionItemData, MapId, MissionId, ItemId, MissionDataPlus } from '../../types'
+import { MissionData, MissionState, MissionItemData, MapId, MissionId, ItemId, MissionDataPlus, LocalStorageVars } from '../../types'
 import styled, { css } from 'styled-components'
 import { useState } from 'react'
 import MissionItems from './MissionItems'
@@ -8,6 +8,7 @@ import { useSettingsContext } from '../../context/Settings'
 import { useItemsContext } from '../../context/Items'
 import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
 import { useItemHoverContext } from '../../context/ItemHover'
+import { useBookmarkContext } from '../../context/Bookmarks'
 
 const flashMission = css`
     @keyframes flashMission {
@@ -24,7 +25,12 @@ const flashMission = css`
     animation: flashMission 3s linear 0s infinite;
     color: black;
 `
-const MissionBox = styled.div<{ flash: boolean; inSelectedMap: boolean; containsBoughtItem: boolean; state: MS }>`
+const MissionBox = styled.div<{
+    flash: boolean
+    inSelectedMap: boolean
+    containsBoughtItem: boolean
+    state: MissionState
+}>`
     height: 25px;
     width: 50px;
     min-width: 50px;
@@ -32,30 +38,32 @@ const MissionBox = styled.div<{ flash: boolean; inSelectedMap: boolean; contains
     text-align: center;
     border-radius: 8px;
     user-select: none;
+    cursor: pointer;
     display: grid;
 
-    background-color: ${(props) => {
+    background-color: ${({ containsBoughtItem, state }) => {
         let c
-        if (props.containsBoughtItem) c = 'orange'
+        if (containsBoughtItem) c = 'orange'
 
-        if (props.state === MS.Ready) c = 'lightgreen'
-        else if (props.state === MS.Blocked) c = 'green'
-        else if (props.state === MS.PartlyLocked) c = 'yellow'
+        if (state === MissionState.Ready) c = 'lightgreen'
+        else if (state === MissionState.Blocked) c = 'green'
+        else if (state === MissionState.PartlyLocked) c = 'yellow'
         //else c = 'white'
 
         return c
     }};
 
-    ${(props) => props.inSelectedMap && 'box-shadow: inset 0 0 1px 4px orange'}
-    ${(props) => props.flash && flashMission}
+    ${({ inSelectedMap }) => inSelectedMap && 'box-shadow: inset 0 0 1px 4px orange'}
+    ${({ flash }) => flash && flashMission}
 `
-const Reward = styled.div<{ requiresItems: boolean }>`
+const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
     height: 20px;
     width: 40px;
     min-width: 40px;
     font-weight: ${(props) => (props.requiresItems ? 'bold' : 'normal')};
     justify-self: center;
     align-self: end;
+    ${(props) => props.bookmarked && 'color: red'}
 `
 
 const TooltipAnchor = styled.div`
@@ -75,11 +83,9 @@ const Tooltip = styled.div<{ left: boolean }>`
     /* Position the tooltip */
     position: absolute;
     z-index: 20;
-    line-height: initial;
 
-    top: 15px;
-    ${(props) =>
-        props.left
+    ${({ left }) =>
+        left
             ? css`
                   left: 15px;
               `
@@ -91,27 +97,36 @@ const Tooltip = styled.div<{ left: boolean }>`
 interface MissionProps {
     mission: MissionDataPlus
 }
+const bookmarks = LocalStorageVars.Bookmarks
+
 const Mission = ({ mission }: MissionProps) => {
     const { map } = useSettingsContext()
     const { itemHovered } = useItemHoverContext()
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
+    const { bookmarks, toggleBookmark } = useBookmarkContext()
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === mission.pk)
+
+    const bookmarked = bookmarks[mission.mission_set] === mission.order
 
     const requiresItems = missionItems.length > 0
     const containsHoveredItem = itemHovered !== null && simpleMissionItems[mission.pk]?.includes(itemHovered)
     const flash = containsHoveredItem && !missionHovered
 
     const inSelectedMap = map ? missionMap[map].includes(mission.pk) : false
+
     return (
         <MissionBox
             onMouseEnter={() => setMissionHovered(true)}
             onMouseLeave={() => setMissionHovered(false)}
+            onClick={() => toggleBookmark(mission)}
             flash={flash}
             containsBoughtItem={containsHoveredItem}
             inSelectedMap={inSelectedMap}
             state={mission.state}
         >
-            <Reward requiresItems={requiresItems}>{mission.reward}</Reward>
+            <Reward requiresItems={requiresItems} bookmarked={bookmarked}>
+                {mission.reward}
+            </Reward>
             {missionHovered && (
                 <TooltipAnchor>
                     <Tooltip left={mission.order < 8}>

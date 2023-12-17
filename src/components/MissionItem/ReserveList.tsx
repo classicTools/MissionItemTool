@@ -4,12 +4,13 @@ import sortBy from 'sort-by'
 import { useSettingsContext } from '../../context/Settings'
 import { useItemsContext } from '../../context/Items'
 import { useItemHoverContext } from '../../context/ItemHover'
+import { LocalStorageVars } from '../../types'
 
 let mapfilter = () => {}
 const ReserveDiv = styled.div`
     position: relative;
     bottom: 1600px;
-    left: 760px;
+    left: 800px;
     width: 200px;
     user-select: none;
 `
@@ -23,6 +24,7 @@ const ReserveOption = styled.div`
 const ReserveList = () => {
     const { setMap } = useSettingsContext()
     const { setItemHovered } = useItemHoverContext()
+
     return (
         <ReserveDiv onMouseEnter={() => setItemHovered(null)}>
             Highlight packs & missions by reserve:

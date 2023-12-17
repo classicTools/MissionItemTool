@@ -7,7 +7,7 @@ export interface MissionData {
     order: number
 }
 export interface MissionDataPlus extends MissionData {
-    state: MS
+    state: MissionState
 }
 
 export interface MissionSetData {
@@ -35,14 +35,20 @@ export interface MissionItemData {
     group: number | null
 }
 
-export enum MS { //MissionState
+export enum MissionState {
     Ready, //all requirements met
     Blocked, // no outstanding requirements but an earlier locked mission is blocking it
     PartlyLocked,
     Locked, //no requirements met
 }
-
+export enum LocalStorageVars {
+    Bookmarks = 'bookmarks',
+    Items = 'items',
+    Reserve = 'reserve',
+}
 export type MapId = number
 export type MissionSetId = number
 export type MissionId = number
 export type ItemId = number
+
+export const voidFn = () => {}

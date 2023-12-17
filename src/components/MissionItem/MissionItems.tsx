@@ -9,7 +9,7 @@ interface MissionItemsProps {
 }
 
 const ItemSpan = styled.span<{ got?: boolean }>`
-    ${(props) => props.got && 'text-decoration: line-through'};
+    ${({ got }) => got && 'text-decoration: line-through'};
 `
 export interface MissionItemDataName extends MissionItemData {
     name?: string

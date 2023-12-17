@@ -9,6 +9,8 @@ import { useState } from 'react'
 import { MissionId, ItemId } from '../../types'
 import { useItemsContext } from '../../context/Items'
 import WithMissionsContext from '../../context/Mission'
+import { useBookmarkContext } from '../../context/Bookmarks'
+import { missionSetMissions } from '../../data/MissionItem/Data'
 
 let theme = () => {}
 const TopSection = styled.div`
@@ -19,10 +21,16 @@ const TopSection = styled.div`
 const Header = styled.div`
     font-weight: bold;
 `
-
+const Bookmarks = styled.div``
 const AllMissions = () => {
     const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
-    const { itemsBought } = useItemsContext()
+    const { bookmarks, setBookmarks, toggleAgenda } = useBookmarkContext()
+
+    const bookmarkTotal = missionsData.reduce((acc: number, cur) => {
+        const bookmarkedMission = bookmarks[cur.mission_set]
+        if (bookmarkedMission && cur.mission_set in bookmarks && cur.order < bookmarkedMission) return (acc += cur.reward)
+        return acc
+    }, 0)
     return (
         <div>
             <MissionSetRow>
@@ -30,21 +38,9 @@ const AllMissions = () => {
                 <TopSection>
                     <Header> gm$ rewards per mission</Header>
                     <div>
-                        <input
-                            id="sortByWiki"
-                            type="radio"
-                            name="sort"
-                            onClick={() => setAlphaOrder(false)}
-                            checked={!alphaOrder}
-                        />
+                        <input id="sortByWiki" type="radio" name="sort" onClick={() => setAlphaOrder(false)} checked={!alphaOrder} />
                         <label htmlFor="sortByWiki">Wiki order</label>
-                        <input
-                            id="sortByAlpha"
-                            type="radio"
-                            name="sort"
-                            onClick={() => setAlphaOrder(true)}
-                            checked={alphaOrder}
-                        />
+                        <input id="sortByAlpha" type="radio" name="sort" onClick={() => setAlphaOrder(true)} checked={alphaOrder} />
                         <label htmlFor="sortByAlpha">A-Z</label>
                     </div>
                     <div>
@@ -63,6 +59,12 @@ const AllMissions = () => {
             {missionSetsData.sort(sortBy(alphaOrder ? 'name' : 'order')).map((ms) => {
                 return <MissionSet missionSet={ms} key={ms.pk}></MissionSet>
             })}
+
+            <Bookmarks>
+                Earnings based on bookmarks so far:
+                {bookmarkTotal} gm$
+                <button onClick={() => setBookmarks({})}>Reset Bookmarks</button>
+            </Bookmarks>
         </div>
     )
 }

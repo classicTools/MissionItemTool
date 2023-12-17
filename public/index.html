@@ -11,9 +11,27 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        
-<link href='https://fonts.googleapis.com/css?family=Fira Sans' rel='stylesheet'>
+        <div style="position: absolute; right: 30px; bottom: 30px">
+            <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+            <script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
+            <script type="text/javascript">
+                kofiwidget2.init('Support Me on Ko-fi', '#00823d', 'D1D82FG9R')
+                kofiwidget2.draw()
+            </script>
+
+            <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+            <script>
+                {
+                    kofiWidgetOverlay.draw('kak2r_1793', {
+                        type: 'floating-chat',
+                        'floating-chat.donateButton.text': 'Support me',
+                        'floating-chat.donateButton.background-color': '#f45d22',
+                        'floating-chat.donateButton.text-color': '#fff',
+                    })
+                }
+            </script>
+        </div>
+        <link href="https://fonts.googleapis.com/css?family=Fira Sans" rel="stylesheet" />
         <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -23,7 +41,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Kak2R#1793's Mission Item Tool for theHunter Classic</title>
+        <title>Kak2R#1793's Mission Item Tool for theHunter Classic</title>
     </head>
     <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>

@@ -13,7 +13,7 @@ import PermittedAmmo from './components/PermittedAmmo/Index'
 import { Suspense } from 'react'
 import Loader from './components/Loader'
 
-const MissionItem = React.lazy(() => import('./components/MissionItem/Index'))
+const MissionItemTool = React.lazy(() => import('./components/MissionItem/Index'))
 
 const router = createBrowserRouter([
     {
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
                 path: 'MissionItem',
                 element: (
                     <Suspense fallback={<Loader />}>
-                        <MissionItem />
+                        <MissionItemTool />
                     </Suspense>
                 ),
             },
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '*',
-                element: <MissionItem />,
+                element: <MissionItemTool />,
             },
         ],
     },

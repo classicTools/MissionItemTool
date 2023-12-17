@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
-import { ItemData, ItemId, MissionItemData, MissionDataPlus, MS, MissionData } from '../types'
+import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, LocalStorageVars } from '../types'
 import { MissionItemDataName } from '../components/MissionItem/MissionItems'
+import { useLocalStorage } from '../hooks'
 interface ItemsContext {
     itemsBought: ItemId[]
     setItemsBought: Dispatch<SetStateAction<ItemId[]>>
@@ -12,7 +13,8 @@ const defaultItems = {
 const ItemsContext = createContext<ItemsContext>(defaultItems)
 
 const WithItemsContext = ({ children }: PropsWithChildren) => {
-    const [itemsBought, setItemsBought] = useState<ItemId[]>([])
+    //const [itemsBought, setItemsBought] = useState<ItemId[]>(localStorageGet('items')??[])
+    const [itemsBought, setItemsBought] = useLocalStorage(LocalStorageVars.Items, [])
     return (
         <ItemsContext.Provider
             value={{

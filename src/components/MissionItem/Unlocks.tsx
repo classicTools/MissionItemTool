@@ -9,7 +9,7 @@ const missionRewardTotal = missions.reduce((acc, cur) => {
 
 const UnlocksDiv = styled.div`
     display: grid;
-    grid-template-columns: 100px 130px 90px;
+    grid-template-columns: 150px 110px 90px;
     grid-template-rows: repeat(3, 18px);
     column-gap: 10px;
     row-gap: 5px;

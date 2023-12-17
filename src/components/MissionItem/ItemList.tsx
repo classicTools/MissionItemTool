@@ -4,7 +4,7 @@ import itemData from '../../data/MissionItem/Item.json'
 import Item, { itemRowCSS } from './Item'
 import styled from 'styled-components'
 import sortBy from 'sort-by'
-import { ItemData, ItemId, MS, RawItemData } from '../../types'
+import { ItemData, ItemId, MissionState, RawItemData } from '../../types'
 import { useItemsContext } from '../../context/Items'
 import { calculateGain, useMissionsContext } from '../../context/Mission'
 
@@ -22,7 +22,7 @@ const HeaderCellRight = styled.div`
     text-align: right;
 `
 const ItemListDiv = styled.div`
-    max-height: calc(100vh - 145px);
+    max-height: calc(100vh - 160px);
     //position:static;
     margin: 0 20px 0 0;
     padding: 0 20px 0 0;
@@ -41,7 +41,7 @@ const ItemSummary = styled.div`
     grid-template-columns: 200px 100px 100px;
     align-items: center;
     justify-items: center;
-    margin: 3px 0 6px;
+    margin: 8px 0 10px;
 `
 const ItemList = () => {
     const { itemsBought, setItemsBought } = useItemsContext()

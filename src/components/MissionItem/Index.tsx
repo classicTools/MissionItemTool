@@ -8,6 +8,9 @@ import WithItemsContext from '../../context/Items'
 import Unlocks from './Unlocks'
 import WithItemHoverContext from '../../context/ItemHover'
 import WithMissionsContext from '../../context/Mission'
+import WithBookmarkContext from '../../context/Bookmarks'
+import Agenda from './Agenda'
+import StaticControls from './StaticControls'
 
 const MissionItemGrid = styled.div`
     display: grid;
@@ -32,13 +35,18 @@ function App() {
                             <Unlocks />
                         </Col>
                         <Col>
-                            <AllMissions />
+                            <WithBookmarkContext>
+                                <AllMissions />
+                                <Agenda />
+                            </WithBookmarkContext>
                             <ReserveList />
                             <Guide />
                         </Col>
                     </WithMissionsContext>
                 </WithItemHoverContext>
             </WithItemsContext>
+
+            <StaticControls />
         </MissionItemGrid>
     )
 }

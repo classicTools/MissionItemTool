@@ -14,18 +14,17 @@ export const itemRowCSS = css`
     grid-template-columns: 220px 30px 70px 60px;
 `
 
-export const ItemRowDiv = styled.div<{ lastHovered?: boolean; bought?: boolean }>`
+export const ItemRowDiv = styled.div<{ hovered?: boolean; bought?: boolean }>`
     ${itemRowCSS}
     width:400px;
     &:hover {
         outline: 1px solid black;
     }
-    outline: ${(props) => (props.lastHovered ? '1px solid black' : 'none')};
-    ${(props) =>
-        props.bought &&
+    ${({ bought }) =>
+        bought &&
         css`
             background-color: orange;
-            color: black;
+            //color: black;
         `};
 `
 
@@ -48,7 +47,7 @@ const ProfitCell = styled(IntCell)<{ flash: boolean }>`
         }
     }
 
-    animation: ${(props) => (props.flash ? 'flash 3s linear 0s infinite' : 'none')};
+    animation: ${({ flash }) => (flash ? 'flash 3s linear 0s infinite' : 'none')};
 `
 
 export const NameCell = styled.div`
@@ -68,12 +67,11 @@ interface ItemProps {
 const Item = ({ item }: ItemProps) => {
     const { itemsBought, setItemsBought } = useItemsContext()
     const { itemHovered, setItemHovered } = useItemHoverContext()
-    const lastHovered = itemHovered === item.pk
     const bought: boolean = itemsBought.includes(item.pk)
     return (
         <ItemRowDiv
             onMouseEnter={() => setItemHovered(item.pk)}
-            lastHovered={lastHovered}
+            hovered={itemHovered === item.pk}
             onClick={() =>
                 setItemsBought((items: number[]) => {
                     let newitems = [...items]

@@ -23,3 +23,27 @@ export function useDebounce(value: any, delay: number) {
 
     return debouncedValue
 }
+
+const localStorageSet = (varName: string, value: any) => {
+    localStorage.setItem(varName, JSON.stringify(value))
+}
+const localStorageGet = (varName: string) => {
+    const value = localStorage.getItem(varName)
+    return value ? JSON.parse(value) : null
+}
+
+/**
+ * useState but with localStorage syncing
+ * @param name
+ * @param defaultValue
+ * @returns
+ */
+export const useLocalStorage = (name: string, defaultValue: any = null) => {
+    const [value, setValue] = useState(localStorageGet(name) ?? defaultValue)
+
+    useEffect(() => {
+        localStorageSet(name, value)
+    }, [value])
+
+    return [value, setValue]
+}
