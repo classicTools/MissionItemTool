@@ -1,5 +1,5 @@
 import missionsData from '../../data/MissionItem/lookups/Mission.json'
-import missionItemData from '../../data/MissionItem/MissionItem.json'
+import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
 import itemData from '../../data/MissionItem/lookups/Item.json'
 import Item, { itemRowCSS } from './Item'
 import styled from 'styled-components'

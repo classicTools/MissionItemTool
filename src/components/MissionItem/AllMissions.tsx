@@ -1,16 +1,11 @@
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import MissionSet, { MissionSetRow, SetHeader } from './MissionSet'
 import sortBy from 'sort-by'
-import missionItemData from '../../data/MissionItem/MissionItem.json'
 import { useState } from 'react'
-import { MissionId, ItemId } from '../../types'
-import { useItemsContext } from '../../context/ItemContext'
-import WithMissionsContext from '../../context/MissionContext'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import { missionSetMissions } from '../../data/MissionItem/Data'
 
 let theme = () => {}
 const TopSection = styled.div`

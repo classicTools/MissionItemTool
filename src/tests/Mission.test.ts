@@ -1,6 +1,6 @@
 import { getStatesAndTotals } from '../context/MissionContext'
 import itemsData from '../data/MissionItem/lookups/Item.json'
-import missionItemsData from '../data/MissionItem/MissionItem.json'
+import missionItemsData from '../data/MissionItem/mappings/MissionItem.json'
 import missionsData from '../data/MissionItem/lookups/Mission.json'
 import { MissionDataPlus, MissionId, MissionState } from '../types'
 

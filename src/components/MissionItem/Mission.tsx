@@ -1,4 +1,4 @@
-import missionItemData from '../../data/MissionItem/MissionItem.json'
+import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
 import { MissionState, MissionItemData, MissionDataPlus } from '../../types'
 import styled, { css } from 'styled-components'
 import { useEffect, useState } from 'react'
@@ -61,7 +61,7 @@ const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
     font-weight: ${(props) => (props.requiresItems ? 'bold' : 'normal')};
     justify-self: center;
     align-self: end;
-    ${(props) => props.bookmarked && 'color: red'}
+    ${(props) => props.bookmarked && 'color: red; font-weight: bold;'}
 `
 
 const TooltipAnchor = styled.div`
@@ -135,7 +135,7 @@ const Mission = ({ mission }: MissionProps) => {
         <MissionBox
             onMouseEnter={() => setMissionHovered(true)}
             onMouseLeave={() => setMissionHovered(false)}
-            onClick={() => toggleBookmark(mission)}
+            onClick={() => toggleBookmark(mission, bookmarked)}
             flash={flash}
             containsBoughtItem={containsHoveredItem}
             inSelectedMap={inSelectedMap}

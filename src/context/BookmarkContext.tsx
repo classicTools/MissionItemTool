@@ -1,11 +1,13 @@
-import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
-import { MissionDataPlus, LocalStorageVars, MissionSetId, bareFn, MissionOrder } from '../types'
+import { createContext, useContext, useState, PropsWithChildren } from 'react'
+import { MissionDataPlus, LocalStorageVars, MissionSetId, bareFn, MissionOrder, Bookmarks } from '../types'
 import { useLocalStorage } from '../hooks'
 import missionSetsData from '../data/MissionItem/lookups/MissionSet.json'
-type Bookmarks = { [index: MissionSetId]: MissionOrder | null }
+import { missionSetMap } from '../data/MissionItem/Data'
+import { useItemsContext } from './ItemContext'
+
 interface BookmarkContext {
     bookmarks: Bookmarks
-    toggleBookmark: (mission: MissionDataPlus) => void
+    toggleBookmark: (mission: MissionDataPlus, alreadyBookmarked: boolean) => void
     showAgenda: boolean
     toggleAgenda: () => void
     bookmarkNextMission: (missionSetId: number) => void
@@ -50,7 +52,7 @@ const missionTextEnd = 'DEVELOPED BY'
 
 const getBookmarkFromText = (pk: number, name: string, missionText: string) => {
     let start = missionText.includes(name) ? missionText.indexOf(name) : missionText.indexOf(missionSetExceptions[name as NameHere])
-    if (start == -1) {
+    if (start === -1) {
         throw new Error('Mission pack not found in mission text')
     }
 
@@ -66,7 +68,7 @@ const getBookmarkFromText = (pk: number, name: string, missionText: string) => {
         delete bookmarks[pk]
     }
 
-    bookmarks[pk] = 1 //use this to test which mission packs don't match
+    //bookmarks[pk] = 1 //use this to test which mission packs don't match
 
     return bookmarks
 }
@@ -74,22 +76,29 @@ const getBookmarkFromText = (pk: number, name: string, missionText: string) => {
 const WithBookmarkContext = ({ children }: PropsWithChildren) => {
     const [bookmarks, setBookmarks] = useLocalStorage<Bookmarks>(LocalStorageVars.Bookmarks, {})
     const [showAgenda, setShowAgenda] = useState(false)
+    const { syncItems } = useItemsContext()
 
-    const toggleBookmark = ({ mission_set: ms, order }: MissionDataPlus) => {
+    const toggleBookmark = ({ mission_set: ms, order }: MissionDataPlus, alreadyBookmarked: boolean) => {
         let current = { ...bookmarks }
-        if (current) {
-            if (ms in current) {
-                if (current[ms] !== order) current[ms] = order
-                else if (current[ms] === order) current[ms] = null
-            } else current[ms] = order
-        } else current = { [ms]: order }
+        if (alreadyBookmarked) {
+            delete current[ms]
+        } else {
+            current[ms] = order
+        }
         setBookmarks(current)
     }
     const toggleAgenda = () => setShowAgenda(!showAgenda)
 
     const bookmarkNextMission = (missionSetId: number) => {
         const currentMission = bookmarks[missionSetId]!
-        setBookmarks({ ...bookmarks, [missionSetId]: currentMission + 1 })
+        let newBookmarks = { ...bookmarks }
+        let onLastMission = currentMission === missionSetMap[missionSetId].length
+        if (onLastMission) {
+            delete newBookmarks[missionSetId] // "complete" the mission set
+        } else {
+            newBookmarks[missionSetId] = currentMission + 1
+        }
+        setBookmarks(newBookmarks)
     }
 
     const bookmarkPrevMission = (missionSetId: number) => {
@@ -102,10 +111,9 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
         let end = text.indexOf(missionTextEnd)
         let missionText = text.slice(start, end).replaceAll(' (Single Player)\n', '').replaceAll(' Missions\n', '').replaceAll('Progress:', ':')
         if (start != -1 && missionText.length > 20) {
-            let newBookmarks = missionSetsData.reduce((acc: Bookmarks, { pk, name }) => {
-                return { ...acc, ...getBookmarkFromText(pk, name, missionText) }
-            }, {})
+            let newBookmarks = missionSetsData.reduce((acc: Bookmarks, { pk, name }) => ({ ...acc, ...getBookmarkFromText(pk, name, missionText) }), {})
             setBookmarks(newBookmarks)
+            syncItems(newBookmarks)
         }
         return missionText
     }

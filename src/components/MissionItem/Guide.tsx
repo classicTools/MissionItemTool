@@ -36,10 +36,10 @@ const Guide = () => {
                     </li>
                     <li>
                         <p>
-                            Synchronise your mission progress! Go to your
-                            <a href="https://www.thehunter.com/#missions">Regular Missions Page</a> via launcher or browser, don't click anywhere, press ctrl+A
-                            followed by ctrl+C to select & copy everything on the page, then paste it into the textbox below, click the button and your mission
-                            bookmarks here will be synchronised. Purchased items will be synchronised where possible. NOTE: Only works in English!
+                            Synchronise your mission progress! Go to your <a href="https://www.thehunter.com/#missions">Regular Missions Page</a> via launcher
+                            or browser, don't click anywhere, press ctrl+A followed by ctrl+C to select & copy everything on the page, then paste it into the
+                            textbox below, click the button and your mission bookmarks here will be synchronised. Purchased items will be synchronised where
+                            possible. NOTE: Only works in English!
                         </p>
                         <div id="divSyncBookmarks">
                             <textarea
@@ -51,7 +51,7 @@ const Guide = () => {
                             <button id="btnSyncBookmarks" onClick={onSyncBookmarks}>
                                 Synchronise Bookmarks
                             </button>
-                            <Loader />
+                            {/* <Loader /> */}
                         </div>
                     </li>
 

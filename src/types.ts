@@ -52,3 +52,5 @@ export type MissionId = number
 export type ItemId = number
 export type MissionOrder = number
 export const bareFn = () => {}
+
+export type Bookmarks = { [index: MissionSetId]: MissionOrder }

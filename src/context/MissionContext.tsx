@@ -1,5 +1,5 @@
 import missionsData from '../data/MissionItem/lookups/Mission.json'
-import missionItemData from '../data/MissionItem/MissionItem.json'
+import missionItemData from '../data/MissionItem/mappings/MissionItem.json'
 import sortBy from 'sort-by'
 import { createContext, useContext, PropsWithChildren } from 'react'
 import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionSetId } from '../types'

@@ -163,7 +163,7 @@
         "pk": 21,
         "mission_set": 2,
         "name": "Big Haul",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> buck weighing at least 91Kg (approx. 200lbs).</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> buck weighing at least 91Kg (approx. 200lbs).</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> buck weighing at least 91Kg (approx. 200lbs).</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> bucks each weighing at least 91Kg (approx. 200lbs).</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -219,7 +219,7 @@
         "pk": 28,
         "mission_set": 2,
         "name": "Easy Does It",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> doe using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> doe using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> doe using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> doe using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> does using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li></ul>",
         "reward": 2000,
         "order": 11
     },
@@ -227,7 +227,7 @@
         "pk": 29,
         "mission_set": 2,
         "name": "5 From Above",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands#Stand_Types\" title=\"Hunting Stands\"> Hunting Tower</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands#Stand_Types\" title=\"Hunting Stands\"> Hunting Tower</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands#Stand_Types\" title=\"Hunting Stands\"> Hunting Tower</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands#Stand_Types\" title=\"Hunting Stands\"> Hunting Tower</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands#Stand_Types\" title=\"Hunting Stands\"> Hunting Tower</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands#Stand_Types\" title=\"Hunting Stands\"> Hunting Tower</a>.</li></ul>",
         "reward": 3500,
         "order": 12
     },
@@ -291,7 +291,7 @@
         "pk": 37,
         "mission_set": 3,
         "name": "Moving In",
-        "objectives": "<ul><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 Male <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -299,7 +299,7 @@
         "pk": 38,
         "mission_set": 3,
         "name": "12 Counts of Affection",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\"> Red Feather Falls</a>.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li><li>Harvest another Blacktail Deer in Red Feather Falls during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 12 <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\"> Red Feather Falls</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },

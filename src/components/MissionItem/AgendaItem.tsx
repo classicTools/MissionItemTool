@@ -43,9 +43,7 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
 
     const { pk, mission_set, order, name, reward, objectives } = mission
 
-    let missionSetSize = missionsData.filter((md) => md.mission_set === mission_set).length
     let onFirstMission = bookmarks[mission_set] === 1
-    let onLastMission = bookmarks[mission_set] === missionSetSize
     let missionReady = missionDataState.find((mds) => mds.pk === pk)!.state === MissionState.Ready
 
     return (
@@ -61,7 +59,7 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                             <ArrowButton disabled={onFirstMission} onClick={() => bookmarkPrevMission(mission_set)}>
                                 <Arrow back />
                             </ArrowButton>
-                            <ArrowButton disabled={onLastMission} onClick={() => bookmarkNextMission(mission_set)}>
+                            <ArrowButton onClick={() => bookmarkNextMission(mission_set)}>
                                 <Arrow back={false} />
                             </ArrowButton>
                         </BookmarkNav>
