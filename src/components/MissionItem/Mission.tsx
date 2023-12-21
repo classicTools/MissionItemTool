@@ -45,8 +45,8 @@ const MissionBox = styled.div<{
         let c
         if (containsBoughtItem) c = 'orange'
 
-        if (state === MissionState.Ready) c = 'lightgreen'
-        else if (state === MissionState.Blocked) c = 'green'
+        if (state === MissionState.Ready) c = customColors.ready // 'lightgreen'
+        else if (state === MissionState.Blocked) c = customColors.blocked //'green'
         else if (state === MissionState.PartlyLocked) c = customColors.partlyLocked //'yellow'
         //else c = 'white'
 

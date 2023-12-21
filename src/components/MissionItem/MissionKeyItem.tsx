@@ -1,8 +1,5 @@
-import { SketchPicker } from 'react-color'
 import styled from 'styled-components'
-import { useSettingsContext } from '../../context/SettingsContext'
 import { MissionKeyItemType } from './MissionKey'
-import { useState } from 'react'
 
 const KeyItemContainer = styled.div<{ selected: boolean }>`
     display: flex;
@@ -23,24 +20,14 @@ const ColorThumb = styled.div`
     display: inline-block;
     margin: 2px 4px;
 `
-const StyledSketchPicker = styled(SketchPicker)`
-    position: absolute;
-    left: 0;
-    top: 10px;
-    background-color: white;
-`
-const MissionKeyItem = ({ name, color, key }: MissionKeyItemType) => {
-    const { customColors, setCustomColors } = useSettingsContext()
-    const [showColorPicker, setShowColorPicker] = useState(false)
-    const toggleColorPicker = () => setShowColorPicker(!showColorPicker)
+interface MissionKeyItemProps extends MissionKeyItemType {
+    onClick: () => void
+    selected: boolean
+}
+const MissionKeyItem = ({ name, color, key, onClick, selected }: MissionKeyItemProps) => {
     return (
-        <KeyItemContainer onClick={toggleColorPicker} selected={showColorPicker}>
+        <KeyItemContainer onClick={onClick} selected={selected}>
             <ColorThumb style={{ backgroundColor: color }} />
-            {showColorPicker && (
-                <RelativeDiv>
-                    <StyledSketchPicker color={color} onChangeComplete={(colorChosen) => setCustomColors({ ...customColors, [key]: colorChosen.hex })} />
-                </RelativeDiv>
-            )}
             {name}
         </KeyItemContainer>
     )

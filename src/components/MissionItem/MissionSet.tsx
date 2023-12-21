@@ -90,7 +90,7 @@ const MissionSet = ({ missionSet }: MissionSetProps) => {
 
     return (
         <MissionSetRow>
-            <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves}>
+            <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves} title="Click to toggle all required items">
                 <SetLabel>
                     {' '}
                     {missionSet.name}

@@ -44,22 +44,10 @@ const defaultSettings = {
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const [colors, setColors] = useState(lightMode)
-    //const [customColors, setCustomColors] = useState<CustomColors>(defaultCustomColors)
     const [customColors, setCustomColors] = useLocalStorage<CustomColors>(LocalStorageVars.CustomColors, defaultCustomColors)
     const [map, setMap] = useLocalStorage<MapId | null>(LocalStorageVars.Reserve)
 
-    return (
-        <SettingsContext.Provider
-            value={{
-                customColors,
-                setCustomColors,
-                map,
-                setMap,
-            }}
-        >
-            {children}
-        </SettingsContext.Provider>
-    )
+    return <SettingsContext.Provider value={{ customColors, setCustomColors, map, setMap }}>{children}</SettingsContext.Provider>
 }
 export default WithSettingsContext
 export const useSettingsContext = () => useContext(SettingsContext)
