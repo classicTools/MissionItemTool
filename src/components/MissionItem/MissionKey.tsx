@@ -5,19 +5,18 @@ import { useState } from 'react'
 import { SketchPicker } from 'react-color'
 
 const KeyHeader = styled.div`
-    color: grey;
     margin-bottom: 5px;
     text-align: center;
 `
 export type MissionKeyItemType = {
     name: string
     color: string
-    key: keyof CustomColors
+    key: keyof CustomColors | null
 }
 
 const Container = styled.div`
     padding: 10px;
-    width: 250px;
+    width: 150px;
     background-color: lightgray;
     border-radius: 10px;
 `
@@ -35,7 +34,7 @@ const MissionKey = () => {
         { name: `Ready`, color: customColors.ready, key: 'ready' },
         { name: `Ready, blocked`, color: customColors.blocked, key: 'blocked' },
         { name: `Partly met needs`, color: customColors.partlyLocked, key: 'partlyLocked' },
-        { name: `Needs items you don't start with`, color: `orange`, key: 'partlyLocked' },
+        { name: `Needs items?`, color: `white`, key: null },
     ]
     const handleMissionKeyItemClick = (key: keyof CustomColors) => setSelectedKey(selectedKey === key ? null : key)
 
@@ -43,7 +42,7 @@ const MissionKey = () => {
         <Container>
             <KeyHeader>Mission Key</KeyHeader>
             {keys.map((info) => (
-                <MissionKeyItem {...info} onClick={() => handleMissionKeyItemClick(info.key)} selected={info.key === selectedKey} />
+                <MissionKeyItem {...info} onClick={() => info.key && handleMissionKeyItemClick(info.key)} selected={info.key === selectedKey} />
             ))}
             {selectedKey && (
                 <RelativeDiv>

@@ -75,12 +75,12 @@ const ItemList = () => {
                 ))}
             </ItemListDiv>
             <ItemSummary>
-                <button id="clearItems" onClick={() => setItemsBought(itemsBought.length > 0 ? [] : essentialItems)}>
+                <button onClick={() => setItemsBought(itemsBought.length > 0 ? [] : essentialItems)}>
                     {itemsBought.length > 0 ? 'Reset Items' : 'Select Essentials'}
                 </button>
                 <label>Total Cost:</label>
                 <span>
-                    <span id="itemtotal">
+                    <span>
                         {itemData
                             .filter((item) => itemsBought.includes(item.pk))
                             .reduce((acc, cur) => {

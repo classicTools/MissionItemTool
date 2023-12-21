@@ -1,29 +1,15 @@
 import styled from 'styled-components'
 import Loader from '../Loader'
-import { useState } from 'react'
-import { useBookmarkContext } from '../../context/BookmarkContext'
 
-const GuideDiv = styled.div`
-    max-width: 1000px;
-    min-width: 815px;
-`
-const GuideUL = styled.ul`
-    min-width: 500px;
-`
+const GuideDiv = styled.div``
+const GuideUL = styled.ul``
 const NotesUL = styled.ul`
     list-style-type: circle;
 `
 const Guide = () => {
-    const [syncText, setSyncText] = useState('')
-    const { syncBookmarks } = useBookmarkContext()
-
-    const onSyncBookmarks = () => {
-        let cutDownText = syncBookmarks(syncText)
-        setSyncText(cutDownText)
-    }
     return (
         <GuideDiv>
-            <div id="guide">
+            <div>
                 <h4>Guide to Kak2R's Mission Item Tool for theHunter Classic</h4>
                 <GuideUL>
                     <li>
@@ -32,26 +18,25 @@ const Guide = () => {
                         click on the items that you have already purchased on the left and you'll be shown what you can earn from other items. You can also
                         easily keep track of the missions you are on by using the bookmarking feature.
                     </li>
-                    <li>
+                    {/* <li>
                         <p>
                             Synchronise your mission progress! Go to your <a href="https://www.thehunter.com/#missions">Regular Missions Page</a> via launcher
                             or browser, don't click anywhere, press ctrl+A followed by ctrl+C to select & copy everything on the page, then paste it into the
                             textbox below, click the button and your mission bookmarks here will be synchronised. Purchased items will be synchronised where
                             possible. NOTE: Only works in English!
                         </p>
-                        <div id="divSyncBookmarks">
+                        <SyncBox>
                             <textarea
-                                id="txtSyncBookmarks"
                                 value={syncText}
                                 onChange={({ target: { value } }) => setSyncText(value)}
                                 placeholder="Paste mission page here"
                             ></textarea>
-                            <button id="btnSyncBookmarks" onClick={onSyncBookmarks}>
+                            <button onClick={onSyncBookmarks} >
                                 Synchronise Bookmarks
                             </button>
-                            {/* <Loader /> */}
-                        </div>
-                    </li>
+                            <Loader />
+                        </SyncBox>
+                    </li> */}
 
                     <li>Hover over an item on the left to show missions that must use it or can use it. "Uses" is the number of those missions.</li>
                     <li>
@@ -91,7 +76,7 @@ const Guide = () => {
                     </li>
                     <li>If you happen to find a mistake or have any feedback or suggestions let me know. My in-game name is Brutus969. Kak2R is my discord.</li>
                     <li>
-                        Shoutout to the following people for their help with this tool whilst I had a job lmao:
+                        Shoutout thanks to the following people for their help with keeping this tool alive whilst I had a job lmao:
                         <ul>
                             <li>Zulgeteb (Discord: zulgeteb) </li>
                             <li>Aciel (Discord:acielgaming)</li>

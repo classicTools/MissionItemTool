@@ -117,7 +117,7 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
         }
         return missionText
     }
-    const resetBookmarks = () => setBookmarks({})
+    const resetBookmarks = () => setBookmarks(missionSetsData.reduce((acc: Bookmarks, { pk }) => ({ ...acc, [pk]: 1 }), {}))
 
     return (
         <BookmarkContext.Provider

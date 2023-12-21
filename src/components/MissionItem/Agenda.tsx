@@ -8,6 +8,7 @@ import { MissionData, MissionState } from '../../types'
 import { Transition, TransitionStatus } from 'react-transition-group'
 import { missionMap, missionSetMap } from '../../data/MissionItem/Data'
 import AgendaItem from './AgendaItem'
+import mapsData from '../../data/MissionItem/lookups/Map.json'
 
 const AgendaContainer = styled.div`
     background-color: lightyellow;
@@ -19,6 +20,12 @@ const AgendaContainer = styled.div`
     padding: 20px 40px;
     z-index: 100;
     overflow-y: auto;
+`
+const Header = styled.div`
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
 `
 
 const defaultStyle = {
@@ -61,18 +68,17 @@ const Agenda = () => {
                     >
                         {map ? (
                             <>
-                                <div id="currentlyEarnable">
-                                    Total earnable from bookmarks for chosen reserve: <span id="bookmarkGlanceTotal"></span>
-                                    gm$
+                                <Header>
+                                    <h2>{mapsData.find((m) => m.pk === map)?.name}</h2>
                                     <button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</button>
-                                </div>
+                                </Header>
 
                                 {bookmarkedMissions.map((m: MissionData) => {
                                     return <AgendaItem mission={m} showAll={showAll} />
                                 })}
                             </>
                         ) : (
-                            <div>Choose a map</div>
+                            <div>Please choose a reserve to see its agenda</div>
                         )}
                     </AgendaContainer>
                 )}

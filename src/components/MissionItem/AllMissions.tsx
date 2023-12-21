@@ -16,10 +16,19 @@ const TopSection = styled.div`
 const Header = styled.div`
     font-weight: bold;
 `
-const Bookmarks = styled.div``
+const Bookmarks = styled.div`
+    position: relative;
+    left: 200px;
+    display: grid;
+    grid-template-columns: 300px 150px;
+    height: 50px;
+    gap: 10px;
+    align-items: center;
+`
+const ResetButton = styled.button``
 const AllMissions = () => {
     const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
-    const { bookmarks, resetBookmarks, toggleAgenda } = useBookmarkContext()
+    const { bookmarks, resetBookmarks } = useBookmarkContext()
 
     const bookmarkTotal = missionsData.reduce((acc: number, cur) => {
         const bookmarkedMission = bookmarks[cur.mission_set]
@@ -56,9 +65,8 @@ const AllMissions = () => {
             })}
 
             <Bookmarks>
-                Earnings based on bookmarks so far:
-                {bookmarkTotal} gm$
-                <button onClick={resetBookmarks}>Reset Bookmarks</button>
+                <span>Earnings based on bookmarks so far: {bookmarkTotal} gm$</span>
+                <ResetButton onClick={resetBookmarks}>Reset Bookmarks</ResetButton>
             </Bookmarks>
         </div>
     )
