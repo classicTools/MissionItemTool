@@ -17,7 +17,7 @@ export const darkMode = {
     bgColorGlance: '#333333',
 }
 
-interface CustomColors {
+export interface CustomColors {
     ready: string
     blocked: string
     partlyLocked: string
@@ -44,7 +44,8 @@ const defaultSettings = {
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const [colors, setColors] = useState(lightMode)
-    const [customColors, setCustomColors] = useState<CustomColors>(defaultCustomColors)
+    //const [customColors, setCustomColors] = useState<CustomColors>(defaultCustomColors)
+    const [customColors, setCustomColors] = useLocalStorage<CustomColors>(LocalStorageVars.CustomColors, defaultCustomColors)
     const [map, setMap] = useLocalStorage<MapId | null>(LocalStorageVars.Reserve)
 
     return (

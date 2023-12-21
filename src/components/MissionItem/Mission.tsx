@@ -3,10 +3,11 @@ import { MissionState, MissionItemData, MissionDataPlus } from '../../types'
 import styled, { css } from 'styled-components'
 import { useEffect, useState } from 'react'
 import MissionItems from './MissionItems'
-import { useSettingsContext } from '../../context/SettingsContext'
+import { CustomColors, useSettingsContext } from '../../context/SettingsContext'
 import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
 import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
+import { useImage } from '../../hooks'
 
 const flashMission = css`
     /* @keyframes flashMission {
@@ -28,6 +29,7 @@ const MissionBox = styled.div<{
     inSelectedMap: boolean
     containsBoughtItem: boolean
     state: MissionState
+    customColors: CustomColors
 }>`
     height: 25px;
     width: 50px;
@@ -39,13 +41,13 @@ const MissionBox = styled.div<{
     cursor: pointer;
     display: grid;
 
-    background-color: ${({ containsBoughtItem, state }) => {
+    background-color: ${({ containsBoughtItem, state, customColors }) => {
         let c
         if (containsBoughtItem) c = 'orange'
 
         if (state === MissionState.Ready) c = 'lightgreen'
         else if (state === MissionState.Blocked) c = 'green'
-        else if (state === MissionState.PartlyLocked) c = 'yellow'
+        else if (state === MissionState.PartlyLocked) c = customColors.partlyLocked //'yellow'
         //else c = 'white'
 
         return c
@@ -96,7 +98,7 @@ const Tooltip = styled.div<{ left: boolean }>`
 const Info = styled.div`
     min-width: 400px;
 `
-const HintImage = styled.img`
+export const HintImage = styled.img`
     max-width: 500px;
     margin: 10px;
 `
@@ -106,12 +108,12 @@ interface MissionProps {
 }
 
 const Mission = ({ mission }: MissionProps) => {
-    const [image, setImage] = useState<any>(null)
-    const { map } = useSettingsContext()
+    const { map, customColors } = useSettingsContext()
     const { itemHovered } = useItemHoverContext()
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
     const { bookmarks, toggleBookmark } = useBookmarkContext()
     const { pk, objectives, state, reward, order, name, mission_set } = mission
+    const image = useImage(pk)
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === pk)
 
     const bookmarked = bookmarks[mission_set] === order
@@ -122,15 +124,6 @@ const Mission = ({ mission }: MissionProps) => {
 
     const inSelectedMap = map ? missionMap[map].includes(pk) : false
 
-    useEffect(() => {
-        async function loadData() {
-            const data = await import(`../../assets/missions/${pk}.webp`)
-            data && setImage(data.default)
-        }
-
-        loadData()
-    }, [])
-
     return (
         <MissionBox
             onMouseEnter={() => setMissionHovered(true)}
@@ -140,6 +133,7 @@ const Mission = ({ mission }: MissionProps) => {
             containsBoughtItem={containsHoveredItem}
             inSelectedMap={inSelectedMap}
             state={state}
+            customColors={customColors}
         >
             <Reward requiresItems={requiresItems} bookmarked={bookmarked}>
                 {reward}

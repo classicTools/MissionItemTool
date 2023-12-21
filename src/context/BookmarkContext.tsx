@@ -2,7 +2,7 @@ import { createContext, useContext, useState, PropsWithChildren } from 'react'
 import { MissionDataPlus, LocalStorageVars, MissionSetId, bareFn, MissionOrder, Bookmarks } from '../types'
 import { useLocalStorage } from '../hooks'
 import missionSetsData from '../data/MissionItem/lookups/MissionSet.json'
-import { missionSetMap } from '../data/MissionItem/Data'
+import { missionSetMissions } from '../data/MissionItem/Data'
 import { useItemsContext } from './ItemContext'
 
 interface BookmarkContext {
@@ -53,7 +53,7 @@ const missionTextEnd = 'DEVELOPED BY'
 const getBookmarkFromText = (pk: number, name: string, missionText: string) => {
     let start = missionText.includes(name) ? missionText.indexOf(name) : missionText.indexOf(missionSetExceptions[name as NameHere])
     if (start === -1) {
-        throw new Error('Mission pack not found in mission text')
+        throw new Error(`Mission pack not found in mission text: {pk: ${pk}, name: ${name}}`)
     }
 
     let setEnd = missionText.indexOf('\n', start)
@@ -92,7 +92,7 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
     const bookmarkNextMission = (missionSetId: number) => {
         const currentMission = bookmarks[missionSetId]!
         let newBookmarks = { ...bookmarks }
-        let onLastMission = currentMission === missionSetMap[missionSetId].length
+        let onLastMission = currentMission === missionSetMissions[missionSetId].length
         if (onLastMission) {
             delete newBookmarks[missionSetId] // "complete" the mission set
         } else {

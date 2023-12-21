@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Loader from '../Loader'
-import Key from './Key'
 import { useState } from 'react'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 
@@ -25,8 +24,7 @@ const Guide = () => {
     return (
         <GuideDiv>
             <div id="guide">
-                <h4>Guide to Kak2R#1793's Mission Item Tool for theHunter Classic</h4>
-                <Key />
+                <h4>Guide to Kak2R's Mission Item Tool for theHunter Classic</h4>
                 <GuideUL>
                     <li>
                         This tool presents mission information in a highly accessible way and help players maximise their in-game currency earnings from
@@ -87,7 +85,6 @@ const Guide = () => {
                     <li> This tool assumes that you already have the .243 rifle, 4x32mm scope, 12GA single shot shotgun & ground blind.</li>
                     <li> For Red Kangaroo mission 10 I have only specified scopes which all the Anschütz rifles can use.</li>
                     <li>
-                        {' '}
                         B&C Club mission 5 requires you use any scoped weapon for a moose. As there are many possibilities here, I have not bothered accounting
                         for it - so this tool assumes you will already have something suitable by then. Highly probable. (The most inexpensive choices are the
                         .30-06 Stutzen, .300 or .340 Weatherby, the only moose permitted rifles that can take the 4x32mm starting scope.)

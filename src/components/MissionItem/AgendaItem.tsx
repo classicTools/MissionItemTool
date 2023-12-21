@@ -1,9 +1,11 @@
 import styled from 'styled-components'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import { useMissionsContext } from '../../context/MissionContext'
 import { MissionData, MissionState } from '../../types'
+import { useEffect, useState } from 'react'
+import { HintImage } from './Mission'
+import { useImage } from '../../hooks'
 
 const BookmarkContainer = styled.div<{ ready: boolean }>`
     summary {
@@ -40,8 +42,9 @@ interface BookmarkProps {
 const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
     const { bookmarks, bookmarkNextMission, bookmarkPrevMission } = useBookmarkContext()
     const { missionDataState } = useMissionsContext()
-
     const { pk, mission_set, order, name, reward, objectives } = mission
+
+    const image = useImage(pk)
 
     let onFirstMission = bookmarks[mission_set] === 1
     let missionReady = missionDataState.find((mds) => mds.pk === pk)!.state === MissionState.Ready
@@ -66,6 +69,8 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                     </BookmarkHead>
                 </summary>
                 <span dangerouslySetInnerHTML={{ __html: objectives }} />
+
+                {image && <HintImage src={image}></HintImage>}
             </details>
         </BookmarkContainer>
     )

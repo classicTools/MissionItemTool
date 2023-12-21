@@ -45,6 +45,7 @@ export enum LocalStorageVars {
     Bookmarks = 'bookmarks',
     Items = 'items',
     Reserve = 'reserve',
+    CustomColors = 'customColors',
 }
 export type MapId = number
 export type MissionSetId = number
