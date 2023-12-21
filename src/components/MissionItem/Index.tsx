@@ -38,9 +38,9 @@ function App() {
                             <WithBookmarkContext>
                                 <AllMissions />
                                 <Agenda />
+                                <Guide />
                             </WithBookmarkContext>
                             <ReserveList />
-                            <Guide />
                         </Col>
                     </WithMissionsContext>
                 </WithItemHoverContext>

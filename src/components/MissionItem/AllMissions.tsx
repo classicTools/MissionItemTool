@@ -24,7 +24,7 @@ const Header = styled.div`
 const Bookmarks = styled.div``
 const AllMissions = () => {
     const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
-    const { bookmarks, setBookmarks, toggleAgenda } = useBookmarkContext()
+    const { bookmarks, resetBookmarks, toggleAgenda } = useBookmarkContext()
 
     const bookmarkTotal = missionsData.reduce((acc: number, cur) => {
         const bookmarkedMission = bookmarks[cur.mission_set]
@@ -63,7 +63,7 @@ const AllMissions = () => {
             <Bookmarks>
                 Earnings based on bookmarks so far:
                 {bookmarkTotal} gm$
-                <button onClick={() => setBookmarks({})}>Reset Bookmarks</button>
+                <button onClick={resetBookmarks}>Reset Bookmarks</button>
             </Bookmarks>
         </div>
     )

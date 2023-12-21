@@ -1,11 +1,9 @@
 import missionItemData from '../../data/MissionItem/MissionItem.json'
-import missionMapData from '../../data/MissionItem/MissionMap.json'
-import { MissionData, MissionState, MissionItemData, MapId, MissionId, ItemId, MissionDataPlus, LocalStorageVars } from '../../types'
+import { MissionState, MissionItemData, MissionDataPlus } from '../../types'
 import styled, { css } from 'styled-components'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import MissionItems from './MissionItems'
 import { useSettingsContext } from '../../context/SettingsContext'
-import { useItemsContext } from '../../context/ItemContext'
 import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
 import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
@@ -73,7 +71,7 @@ const TooltipAnchor = styled.div`
 `
 
 const Tooltip = styled.div<{ left: boolean }>`
-    width: 500px;
+    width: fit-content;
     background-color: lightyellow;
     color: black;
     text-align: left;
@@ -83,23 +81,32 @@ const Tooltip = styled.div<{ left: boolean }>`
     /* Position the tooltip */
     position: absolute;
     z-index: 20;
-
-    ${({ left }) =>
+    display: flex;
+    flex-direction: row;
+    left: -185px;
+    /* ${({ left }) =>
         left
             ? css`
                   left: 15px;
               `
             : css`
                   right: 15px;
-              `}
+              `} */
+`
+const Info = styled.div`
+    min-width: 400px;
+`
+const HintImage = styled.img`
+    max-width: 500px;
+    margin: 10px;
 `
 
 interface MissionProps {
     mission: MissionDataPlus
 }
-const bookmarks = LocalStorageVars.Bookmarks
 
 const Mission = ({ mission }: MissionProps) => {
+    const [image, setImage] = useState<any>(null)
     const { map } = useSettingsContext()
     const { itemHovered } = useItemHoverContext()
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
@@ -114,6 +121,15 @@ const Mission = ({ mission }: MissionProps) => {
     const flash = containsHoveredItem && !missionHovered && [MissionState.Locked, MissionState.PartlyLocked].includes(state)
 
     const inSelectedMap = map ? missionMap[map].includes(pk) : false
+
+    useEffect(() => {
+        async function loadData() {
+            const data = await import(`../../assets/missions/${pk}.webp`)
+            data && setImage(data.default)
+        }
+
+        loadData()
+    }, [])
 
     return (
         <MissionBox
@@ -130,10 +146,16 @@ const Mission = ({ mission }: MissionProps) => {
             </Reward>
             {missionHovered && (
                 <TooltipAnchor>
-                    <Tooltip left={order < 8}>
-                        {order} - {name}
-                        <div dangerouslySetInnerHTML={{ __html: objectives }}></div>
-                        {requiresItems && <MissionItems missionItems={missionItems} />}
+                    <Tooltip left={true}>
+                        <Info>
+                            <span>
+                                {order} - {name}
+                            </span>
+                            <div dangerouslySetInnerHTML={{ __html: objectives }}></div>
+                            {requiresItems && <MissionItems missionItems={missionItems} />}
+                        </Info>
+
+                        {image && <HintImage src={image}></HintImage>}
                     </Tooltip>
                 </TooltipAnchor>
             )}
