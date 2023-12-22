@@ -1,0 +1,27 @@
+[
+    {
+        "pk": 1,
+        "name": "Rifle",
+        "order": 10
+    },
+    {
+        "pk": 2,
+        "name": "Handgun",
+        "order": 20
+    },
+    {
+        "pk": 3,
+        "name": "Shotgun",
+        "order": 30
+    },
+    {
+        "pk": 4,
+        "name": "Bow & Crossbow",
+        "order": 40
+    },
+    {
+        "pk": 5,
+        "name": "Muzzleloader",
+        "order": 50
+    }
+]

@@ -15,7 +15,7 @@ const AgendaContainer = styled.div`
     position: absolute;
     top: 0;
     //left:500px;
-    height: 110vh;
+    height: 90vh;
     width: 700px;
     padding: 20px 40px;
     z-index: 100;

@@ -1,7 +1,15 @@
+import styled from 'styled-components'
+
+const KofiBox = styled.div`
+    .btn-container {
+        left: unset;
+        right: 160px !important;
+    }
+`
+
 const GreenKofi = () => {
     return (
-        <div
-            id="donate"
+        <KofiBox
             dangerouslySetInnerHTML={{
                 __html: `<script type="text/javascript" src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"></script>
 		
@@ -18,7 +26,7 @@ const GreenKofi = () => {
 		</script>
 	`,
             }}
-        ></div>
+        ></KofiBox>
     )
 }
 

@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 import Loader from '../Loader'
 
-const GuideDiv = styled.div``
+const GuideDiv = styled.div`
+    max-width: 1000px;
+`
 const GuideUL = styled.ul``
 const NotesUL = styled.ul`
     list-style-type: circle;

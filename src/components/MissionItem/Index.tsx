@@ -14,10 +14,10 @@ import StaticControls from './StaticControls'
 const MissionItemGrid = styled.div`
     display: grid;
     grid-template-columns: 440px auto;
-    height: calc(100vh - 30px);
+    height: calc(100vh);
     width: calc(100vw - 10px);
     overflow: hidden;
-    outline: 1px solid red;
+    //outline: 1px solid red;
 `
 const Col = styled.div`
     max-height: 99vh;

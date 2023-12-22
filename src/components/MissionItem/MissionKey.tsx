@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import { CustomColors, useSettingsContext } from '../../context/SettingsContext'
-import MissionKeyItem, { RelativeDiv } from './MissionKeyItem'
+import MissionKeyItem from './MissionKeyItem'
 import { useState } from 'react'
 import { SketchPicker } from 'react-color'
+import { Anchor } from '../genericElements'
 
 const KeyHeader = styled.div`
     margin-bottom: 5px;
@@ -45,12 +46,12 @@ const MissionKey = () => {
                 <MissionKeyItem {...info} onClick={() => info.key && handleMissionKeyItemClick(info.key)} selected={info.key === selectedKey} />
             ))}
             {selectedKey && (
-                <RelativeDiv>
+                <Anchor>
                     <StyledSketchPicker
                         color={customColors[selectedKey]}
                         onChangeComplete={(colorChosen) => setCustomColors({ ...customColors, [selectedKey]: colorChosen.hex })}
                     />
-                </RelativeDiv>
+                </Anchor>
             )}
         </Container>
     )

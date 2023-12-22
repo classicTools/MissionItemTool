@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { MissionId } from './types'
+import { AssetFolder, MissionId } from './types'
 
 export function useDebounce(value: any, delay: number) {
     // State and setters for debounced value
@@ -49,17 +49,26 @@ export const useLocalStorage = <T>(name: string, defaultValue: any = null): [T, 
     return [value, setValue]
 }
 
-export const useImage = (pk: MissionId) => {
-    const [image, setImage] = useState<any>(null)
+export const useImage = (folder: AssetFolder, pk: MissionId | string): any => {
+    const [image, setImage] = useState(null)
 
     useEffect(() => {
         async function loadData() {
-            const data = await import(`./assets/missions/${pk}.webp`)
-            data && setImage(data.default)
+            try {
+                const data = await import(`./assets/${folder}/${pk}.webp`)
+                data && setImage(data.default)
+            } catch (e) {
+                setImage(null)
+            }
         }
-
         loadData()
     }, [])
 
     return image
+}
+
+export const useHover = () => {
+    const [hover, setHover] = useState(false)
+    let hoverFunctions = { onMouseEnter: () => setHover(true), onMouseLeave: () => setHover(false) }
+    return { hoverFunctions, hover }
 }

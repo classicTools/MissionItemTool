@@ -648,5 +648,18 @@
         "other_furs": "Chocolate",
         "tax": "175",
         "css_max": "100"
+    },
+    {
+        "pk": 50,
+        "name": "Wood Grouse",
+        "order": 345,
+        "image_url": "",
+        "score_min": "1500",
+        "score_max": "7200",
+        "weight_max": "7.2",
+        "rares": "Pale, Albino",
+        "other_furs": "",
+        "tax": "6800",
+        "css_max": "65"
     }
 ]

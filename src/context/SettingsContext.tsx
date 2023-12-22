@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
 import { useLocalStorage } from '../hooks'
-import { LocalStorageVars, MapId } from '../types'
+import { LocalStorageVars, MapId, bareFn } from '../types'
 
 export const lightMode = {
     bgColor: 'FloralWhite',
@@ -37,9 +37,9 @@ interface SettingsContext {
 
 const defaultSettings = {
     customColors: defaultCustomColors,
-    setCustomColors: () => {},
+    setCustomColors: bareFn,
     map: null,
-    setMap: () => {},
+    setMap: bareFn,
 }
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {

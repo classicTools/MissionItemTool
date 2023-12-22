@@ -47,6 +47,10 @@ export enum LocalStorageVars {
     Reserve = 'reserve',
     CustomColors = 'customColors',
 }
+export enum AssetFolder {
+    Missions = 'missions',
+    Avatars = 'avatars',
+}
 export type MapId = number
 export type MissionSetId = number
 export type MissionId = number
@@ -55,3 +59,23 @@ export type MissionOrder = number
 export const bareFn = () => {}
 
 export type Bookmarks = { [index: MissionSetId]: MissionOrder }
+
+export interface AnimalData {
+    pk: number
+    name: string
+    order: number
+    image_url: string
+    score_min: string
+    score_max: string
+    weight_max: string
+    rares: string
+    other_furs: string
+    tax: string
+    css_max: string
+}
+
+export interface Map {
+    pk: MapId
+    name: string
+    order: number
+}

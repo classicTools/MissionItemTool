@@ -1,12 +1,12 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
-import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData } from '../types'
+import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, bareFn } from '../types'
 interface ItemHoverContext {
     itemHovered: ItemId | null
     setItemHovered: Dispatch<SetStateAction<ItemId | null>>
 }
 const defaultItemHover = {
     itemHovered: null,
-    setItemHovered: () => {},
+    setItemHovered: bareFn,
 }
 const ItemHoverContext = createContext<ItemHoverContext>(defaultItemHover)
 

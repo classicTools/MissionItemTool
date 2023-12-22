@@ -2,14 +2,12 @@ import styled from 'styled-components'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import { useMissionsContext } from '../../context/MissionContext'
-import { MissionData, MissionState } from '../../types'
-import { useEffect, useState } from 'react'
+import { AssetFolder, MissionData, MissionState } from '../../types'
 import { HintImage } from './Mission'
 import { useImage } from '../../hooks'
 
-const BookmarkContainer = styled.div<{ ready: boolean }>`
+const BookmarkContainer = styled.div`
     summary {
-        text-decoration: ${({ ready }) => (ready ? 'none' : 'line-through')};
         cursor: pointer;
     }
 `
@@ -17,6 +15,13 @@ const BookmarkHead = styled.div`
     display: inline;
     line-height: 30px;
 `
+const Title = styled.span<{ ready: boolean }>`
+    display: inline-flex;
+    width: calc(100% - 155px);
+    justify-content: space-between;
+    text-decoration: ${({ ready }) => (ready ? 'none' : 'line-through')};
+`
+
 const BookmarkNav = styled.span`
     position: absolute;
     right: 30px;
@@ -44,20 +49,25 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
     const { missionDataState } = useMissionsContext()
     const { pk, mission_set, order, name, reward, objectives } = mission
 
-    const image = useImage(pk)
+    const image = useImage(AssetFolder.Missions, pk)
 
     let onFirstMission = bookmarks[mission_set] === 1
     let missionReady = missionDataState.find((mds) => mds.pk === pk)!.state === MissionState.Ready
 
     return (
-        <BookmarkContainer ready={missionReady}>
+        <BookmarkContainer>
             <details open={showAll && missionReady}>
                 <summary>
                     <BookmarkHead>
-                        <span>
-                            <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b> - {order} - {name} - <b>{reward}</b> gm${' '}
-                            {missionReady ? '' : '(BLOCKED)'}
-                        </span>
+                        <Title ready={missionReady}>
+                            <span>
+                                <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b> #{order} - {name}
+                                {!missionReady && ' (BLOCKED)'}
+                            </span>
+                            <span>
+                                <b>{reward}</b> gm${' '}
+                            </span>
+                        </Title>
                         <BookmarkNav>
                             <ArrowButton disabled={onFirstMission} onClick={() => bookmarkPrevMission(mission_set)}>
                                 <Arrow back />

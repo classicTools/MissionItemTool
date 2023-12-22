@@ -1,4 +1,3 @@
-import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import styled from 'styled-components'
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
 import { flexR } from '../../CommonStyles'
@@ -8,8 +7,6 @@ import { useSettingsContext } from '../../context/SettingsContext'
 import { useItemsContext } from '../../context/ItemContext'
 import { missionSetMap, missionSetMissions } from '../../data/MissionItem/Data'
 import { useMissionsContext } from '../../context/MissionContext'
-import { useItemHoverContext } from '../../context/ItemHover'
-import { useBookmarkContext } from '../../context/BookmarkContext'
 
 export const MissionSetRow = styled.div`
     display: grid;
@@ -35,6 +32,7 @@ const SetLabel = styled.label`
     cursor: pointer;
     user-select: none;
 `
+const missionSetHighlight = 'gold'
 export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>`
     ${flexR}
     justify-content:flex-end;
@@ -46,30 +44,14 @@ export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>
         color: DarkOrange;
     }
     ${({ bold }) => bold && 'font-weight:bold'}
-    ${(props) => props.inSelectedMap && 'background-color:gold'}
+    ${(props) => props.inSelectedMap && `background-color:${missionSetHighlight}`}
 `
 
 const MissionSet = ({ missionSet }: MissionSetProps) => {
     const { map } = useSettingsContext()
     const { missionDataState } = useMissionsContext()
     const { setItemsBought } = useItemsContext()
-    const { itemHovered } = useItemHoverContext()
-    const { bookmarks } = useBookmarkContext()
     const inSelectedMap: boolean = map ? missionSetMap[map].includes(missionSet.pk) : false
-
-    const earned = missionsData
-        .filter((mi) => mi.mission_set === missionSet.pk)
-        .reduce(
-            (acc, cur) => {
-                let earned = acc.earned
-                let order = bookmarks[missionSet.pk]
-                if (order && cur.order < order) earned += cur.reward
-                let total = acc.total + cur.reward
-
-                return { earned, total }
-            },
-            { earned: 0, total: 0 }
-        )
 
     const toggleMustHaves = (): void => {
         const mustHaves: ItemId[] = missionItemData
@@ -91,11 +73,7 @@ const MissionSet = ({ missionSet }: MissionSetProps) => {
     return (
         <MissionSetRow>
             <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves} title="Click to toggle all required items">
-                <SetLabel>
-                    {' '}
-                    {missionSet.name}
-                    {/* {earned.earned}/{earned.total} */}
-                </SetLabel>
+                <SetLabel> {missionSet.name}</SetLabel>
                 <SetPic src={missionSet.image_url} />
             </SetHeader>
             <MissionsContainer>

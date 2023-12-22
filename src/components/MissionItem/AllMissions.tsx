@@ -42,19 +42,19 @@ const AllMissions = () => {
                 <TopSection>
                     <Header> gm$ rewards per mission</Header>
                     <div>
-                        <input id="sortByWiki" type="radio" name="sort" onClick={() => setAlphaOrder(false)} checked={!alphaOrder} />
+                        <input id="sortByWiki" type="radio" name="sort" onChange={() => setAlphaOrder(false)} checked={!alphaOrder} />
                         <label htmlFor="sortByWiki">Wiki order</label>
-                        <input id="sortByAlpha" type="radio" name="sort" onClick={() => setAlphaOrder(true)} checked={alphaOrder} />
+                        <input id="sortByAlpha" type="radio" name="sort" onChange={() => setAlphaOrder(true)} checked={alphaOrder} />
                         <label htmlFor="sortByAlpha">A-Z</label>
                     </div>
                     <div>
-                        <input id="themeLight" type="radio" name="theme" onClick={theme} />
+                        <input id="themeLight" type="radio" name="theme" onChange={theme} />
                         <label htmlFor="themeLight">Light</label>
-                        <input id="themeDark" type="radio" name="theme" onClick={theme} />
+                        <input id="themeDark" type="radio" name="theme" onChange={theme} />
                         <label htmlFor="themeDark">Dark</label>
                     </div>
                     <div>
-                        <NavLink to={'PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                        <NavLink to={'../PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                             Permitted Ammo Tool
                         </NavLink>
                     </div>

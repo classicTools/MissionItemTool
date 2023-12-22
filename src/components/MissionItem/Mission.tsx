@@ -1,5 +1,5 @@
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
-import { MissionState, MissionItemData, MissionDataPlus } from '../../types'
+import { MissionState, MissionItemData, MissionDataPlus, AssetFolder } from '../../types'
 import styled, { css } from 'styled-components'
 import { useEffect, useState } from 'react'
 import MissionItems from './MissionItems'
@@ -8,6 +8,7 @@ import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
 import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import { useImage } from '../../hooks'
+import { Tooltip } from '../genericElements'
 
 const flashMission = css`
     /* @keyframes flashMission {
@@ -72,17 +73,13 @@ const TooltipAnchor = styled.div`
     min-width: 38px;
 `
 
-const Tooltip = styled.div<{ left: boolean }>`
+const Tip = styled(Tooltip)<{ left: boolean }>`
     width: fit-content;
-    background-color: lightyellow;
-    color: black;
     text-align: left;
-    border-radius: 6px;
-    padding: 10px 10px 0 10px;
+    border: solid 2px black;
+    padding-bottom: 0;
 
     /* Position the tooltip */
-    position: absolute;
-    z-index: 20;
     display: flex;
     flex-direction: row;
     left: -185px;
@@ -113,7 +110,7 @@ const Mission = ({ mission }: MissionProps) => {
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
     const { bookmarks, toggleBookmark } = useBookmarkContext()
     const { pk, objectives, state, reward, order, name, mission_set } = mission
-    const image = useImage(pk)
+    const image = useImage(AssetFolder.Missions, pk)
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === pk)
 
     const bookmarked = bookmarks[mission_set] === order
@@ -140,7 +137,7 @@ const Mission = ({ mission }: MissionProps) => {
             </Reward>
             {missionHovered && (
                 <TooltipAnchor>
-                    <Tooltip left={true}>
+                    <Tip left={true}>
                         <Info>
                             <span>
                                 {order} - {name}
@@ -150,7 +147,7 @@ const Mission = ({ mission }: MissionProps) => {
                         </Info>
 
                         {image && <HintImage src={image}></HintImage>}
-                    </Tooltip>
+                    </Tip>
                 </TooltipAnchor>
             )}
         </MissionBox>

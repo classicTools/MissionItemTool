@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 import { MissionKeyItemType } from './MissionKey'
 
-export const RelativeDiv = styled.div`
-    position: relative;
-`
 const KeyItemContainer = styled.div<{ selected: boolean }>`
     display: flex;
     align-items: center;
@@ -23,7 +20,7 @@ interface MissionKeyItemProps extends MissionKeyItemType {
     onClick: () => void
     selected: boolean
 }
-const MissionKeyItem = ({ name, color, key, onClick, selected }: MissionKeyItemProps) => {
+const MissionKeyItem = ({ name, color, onClick, selected }: MissionKeyItemProps) => {
     return (
         <KeyItemContainer onClick={onClick} selected={selected}>
             <ColorThumb style={{ backgroundColor: color }} />
