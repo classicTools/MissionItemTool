@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { useSettingsContext } from '../../context/SettingsContext'
-import MapData from '../../data/MissionItem/lookups/Map.json'
 import { useImage } from '../../hooks'
 import { AssetFolder, Map } from '../../types'
 import { useAmmoContext } from '../../context/AmmoContext'
@@ -19,7 +18,7 @@ const Avatar = styled.img<{ selected: boolean; outline: boolean; inAnimal: boole
     }
 
     ${(props) => props.selected && 'outline: 4px solid orange'};
-    ${({ outline }) => outline && 'outline: 4px solid orange'};
+    opacity: ${({ outline }) => (outline ? 1 : 0)};
     ${({ inAnimal }) => inAnimal && 'background-color: green;'}
     ${transitionCss}
 `
@@ -38,7 +37,7 @@ const MapAvatar = ({ pk, name, order }: Map) => {
             onMouseEnter={() => setHoverMap(pk)}
             onMouseLeave={() => setHoverMap(null)}
             onClick={() => setMap(map === pk ? null : pk)}
-            outline={outlineAnimal}
+            outline={outlineAnimal || !hoverAnimal}
             inAnimal={animal ? animalMap[animal].includes(pk) : false}
             selected={map === pk}
         />

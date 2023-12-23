@@ -50,16 +50,16 @@ const missionSetExceptions: MissionNameExceptions =
 const missionTextStart = 'Mission Packs'
 const missionTextEnd = 'DEVELOPED BY'
 
-const getBookmarkFromText = (pk: number, name: string, missionText: string) => {
-    let start = missionText.includes(name) ? missionText.indexOf(name) : missionText.indexOf(missionSetExceptions[name as NameHere])
+const getBookmarkFromText = (pk: number, missionSetName: string, text: string) => {
+    let start = text.includes(missionSetName) ? text.indexOf(missionSetName) : text.indexOf(missionSetExceptions[missionSetName as NameHere])
     if (start === -1) {
-        throw new Error(`Mission pack not found in mission text: {pk: ${pk}, name: ${name}}`)
+        throw new Error(`Mission pack not found in mission text: {pk: ${pk}, name: ${missionSetName}}`)
     }
 
-    let setEnd = missionText.indexOf('\n', start)
+    let setEnd = text.indexOf('\n', start)
     let bookmarks: Bookmarks = {}
 
-    let { missionNumber, totalMissions } = getMissionNumbers(missionText.slice(start, setEnd))
+    let { missionNumber, totalMissions } = getMissionNumbers(text.slice(start, setEnd))
     if (missionNumber < totalMissions) {
         bookmarks[pk] = missionNumber + 1
     } else if (missionNumber > totalMissions) {

@@ -1370,8 +1370,14 @@
     {
         "mission": 394,
         "item": 33,
-        "any": false,
-        "group": null
+        "any": true,
+        "group": 0
+    },
+    {
+        "mission": 394,
+        "item": 35,
+        "any": true,
+        "group": 0
     },
     {
         "mission": 399,

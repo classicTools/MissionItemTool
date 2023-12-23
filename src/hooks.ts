@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { AssetFolder, MissionId } from './types'
+import { AssetFolder, MissionData, MissionId, MissionSetId } from './types'
+import { missionSetObject } from './data/MissionItem/Data'
 
 export function useDebounce(value: any, delay: number) {
     // State and setters for debounced value
@@ -49,6 +50,10 @@ export const useLocalStorage = <T>(name: string, defaultValue: any = null): [T, 
     return [value, setValue]
 }
 
+export const getMissionImage = ({ mission_set, order }: MissionData) => {
+    //return `https://raw.githubusercontent.com/andrewsosa/starlink-tracker/master/src/assets/mission-set/${missionSetId}/${order}.webp`
+    return `${missionSetObject[mission_set].name.toLowerCase().replaceAll(' ', '_')}_${order}`
+}
 export const useImage = (folder: AssetFolder, pk: MissionId | string): any => {
     const [image, setImage] = useState(null)
 

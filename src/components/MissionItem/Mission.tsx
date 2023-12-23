@@ -4,10 +4,11 @@ import styled, { css } from 'styled-components'
 import { useEffect, useState } from 'react'
 import MissionItems from './MissionItems'
 import { CustomColors, useSettingsContext } from '../../context/SettingsContext'
-import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
+import { missionSetObject, missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
+
 import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import { useImage } from '../../hooks'
+import { getMissionImage, useImage } from '../../hooks'
 import { Tooltip } from '../genericElements'
 
 const flashMission = css`
@@ -110,7 +111,7 @@ const Mission = ({ mission }: MissionProps) => {
     const [missionHovered, setMissionHovered] = useState<boolean>(false)
     const { bookmarks, toggleBookmark } = useBookmarkContext()
     const { pk, objectives, state, reward, order, name, mission_set } = mission
-    const image = useImage(AssetFolder.Missions, pk)
+    const image = useImage(AssetFolder.Missions, getMissionImage(mission))
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === pk)
 
     const bookmarked = bookmarks[mission_set] === order

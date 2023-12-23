@@ -1,3 +1,4 @@
+//done up and incl to euro rabbits
 [
     {
         "pk": 1,
@@ -43,7 +44,7 @@
         "pk": 6,
         "mission_set": 1,
         "name": "Dinner for a Week",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> buck with a weight of at least 68kg (approx. 150lbs).</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> buck with a weight of at least 68kg (approx. 150lbs).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> bucks each with a weight of at least 68kg (approx. 150lbs).</li></ul>",
         "reward": 400,
         "order": 6
     },
@@ -67,7 +68,7 @@
         "pk": 9,
         "mission_set": 1,
         "name": "A Cull",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> doe.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> doe.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> does.</li></ul>",
         "reward": 700,
         "order": 9
     },
@@ -115,7 +116,7 @@
         "pk": 15,
         "mission_set": 1,
         "name": "Shotgun Doe Cull",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail Doe</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a> with Buckshot ammo.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail Doe</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a> with Buckshot ammo.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail Doe</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a> with Buckshot ammo.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail Doe</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a> with Buckshot ammo.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail Does</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a> with Buckshot ammo.</li></ul>",
         "reward": 2100,
         "order": 15
     },
@@ -955,7 +956,7 @@
         "pk": 120,
         "mission_set": 11,
         "name": "Tensions Rise",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -1043,7 +1044,7 @@
         "pk": 131,
         "mission_set": 12,
         "name": "Payback",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using Buckshot.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using Buckshot in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using Buckshot in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using Buckshot in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using Buckshot, in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -1051,7 +1052,7 @@
         "pk": 132,
         "mission_set": 12,
         "name": "Death Notice",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> weighing at least 25 kg (approx. 55 lbs.) using using a <a href=\"https://thehunter.fandom.com/wiki/.30-06_Lever_Action_Rifle\" title=\".30-06 Lever Action Rifle\">.30-06 Lever Action Rifle</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> weighing at least 25 kg (approx. 55 lbs.) using using a <a href=\"https://thehunter.fandom.com/wiki/.30-06_Lever_Action_Rifle\" title=\".30-06 Lever Action Rifle\">.30-06 Lever Action Rifle</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> each weighing at least 25 kg (approx. 55 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/.30-06_Lever_Action_Rifle\" title=\".30-06 Lever Action Rifle\">.30-06 Lever Action Rifle</a>, in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1059,7 +1060,7 @@
         "pk": 133,
         "mission_set": 12,
         "name": "Cleaning Up",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck scoring at least 140 points.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck scoring at least 140 points.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck scoring at least 140 points.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck scoring at least 140 points.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> bucks scoring at least 140 points.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -1067,7 +1068,7 @@
         "pk": 134,
         "mission_set": 12,
         "name": "Silent Justice",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> Compound Bow</a> weighing at least 30 kg (approx. 66 lbs.).</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> Compound Bow</a> weighing at least 30 kg (approx. 66 lbs.) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> bucks using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> Compound Bow</a> each weighing at least 30 kg (approx. 66 lbs.) in the same hunt.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -1075,7 +1076,7 @@
         "pk": 135,
         "mission_set": 12,
         "name": "Taking A Stand",
-        "objectives": "<ul><li>Harvest <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\">Tree Stand</a>.</li><li>Harvest <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\">Tree Stand</a> during the same hunt.</li><li>Harvest <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\">Tree Stand</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\">Tree Stand</a> in the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1083,7 +1084,7 @@
         "pk": 136,
         "mission_set": 12,
         "name": "Boss Fight",
-        "objectives": "<ul><li>ID the call of a unique <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a>.</li><li>ID the call of a unique <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> during the same hunt.</li><li>ID the call of a unique <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> during the same hunt.</li><li>After those calls are registered: Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck scoring at least 160 points in the same hunt.</li></ul>",
+        "objectives": "<ul><li>ID the calls of 3 unique <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> in the same hunt.</li><li>After those calls are registered: Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> buck scoring at least 160 points in the same hunt.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -1091,7 +1092,7 @@
         "pk": 137,
         "mission_set": 13,
         "name": "The Comeback Kid",
-        "objectives": "<ul><li>ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a>.</li><li>ID tracks from another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in the same outing.</li><li>ID tracks from another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in the same outing.</li></ul>",
+        "objectives": "<ul><li>ID tracks from 3 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bears</a> in the same outing.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -1099,7 +1100,7 @@
         "pk": 138,
         "mission_set": 13,
         "name": "Head Count",
-        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a>.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a>.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a>.</li></ul>",
+        "objectives": "<ul><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bears</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -1123,7 +1124,7 @@
         "pk": 141,
         "mission_set": 13,
         "name": "Slugger",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> slugs</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> slugs</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bears</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> slugs</a> in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -1131,7 +1132,7 @@
         "pk": 142,
         "mission_set": 13,
         "name": "Bad News Bears",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bears</a> in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1147,7 +1148,7 @@
         "pk": 144,
         "mission_set": 13,
         "name": "Biologist Schmiologist",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> using a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bears</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -1171,7 +1172,7 @@
         "pk": 147,
         "mission_set": 14,
         "name": "What We Do For Science",
-        "objectives": "<ul><li>ID a droppings track from a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>ID a droppings track from another <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in the same hunt.</li><li>ID a droppings track from another <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>ID droppings tracks from 3 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in the same hunt.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -1187,7 +1188,7 @@
         "pk": 149,
         "mission_set": 14,
         "name": "Coat of Many Colors",
-        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Cinnamon</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Chocolate</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Chocolate</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Common</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Common</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Common</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Common</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li></ul>",
+        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Cinnamon</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot 2 <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Chocolate</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a><li>Spot 4 <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\">Common</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -1211,7 +1212,7 @@
         "pk": 152,
         "mission_set": 14,
         "name": "Aftershock",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> scoring at least 18 using a <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> scoring at least 18 using a <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> scoring at least 18 using a <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> scoring at least 18 using a <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1227,7 +1228,7 @@
         "pk": 154,
         "mission_set": 14,
         "name": "Bloodlust",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -1259,7 +1260,7 @@
         "pk": 158,
         "mission_set": 15,
         "name": "To Catch a Thief",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a>.</li><li>Harvest one more <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bears</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -1275,7 +1276,7 @@
         "pk": 160,
         "mission_set": 15,
         "name": "Fast and Precise",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with a heart shot on 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Harvest one more <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with a heart shot on 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bears</a> with a heart shot on 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a></li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -1283,7 +1284,7 @@
         "pk": 161,
         "mission_set": 15,
         "name": "Silence is Key",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\">Compound Bow Parker Python</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\">Compound Bow Parker Python</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\">Compound Bow Parker Python</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bears</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\">Compound Bow Parker Python</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -1299,7 +1300,7 @@
         "pk": 163,
         "mission_set": 15,
         "name": "The Trap is Set",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Bolt Action Rifle</a> while it is fleeing.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Bolt Action Rifle</a> while it is fleeing.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> with the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Bolt Action Rifle</a> while it is fleeing.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bears</a> with the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Bolt Action Rifle</a> while it is fleeing.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -1347,7 +1348,7 @@
         "pk": 169,
         "mission_set": 16,
         "name": "A Shocking Discovery",
-        "objectives": "<ul><li>ID <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> droppings.</li><li>ID another pile of <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> droppings.</li></ul>",
+        "objectives": "<ul><li>ID 2 <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> droppings.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -1371,7 +1372,7 @@
         "pk": 172,
         "mission_set": 16,
         "name": "Making Some Noise",
-        "objectives": "<ul><li>Harvest an unspooked <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> while using either <a href=\"https://thehunter.fandom.com/wiki/.45-70_Government\" title=\".45-70 Government\"> .45-70 Government</a>, <a href=\"https://thehunter.fandom.com/wiki/.405_Ammunition\" title=\".405 Ammunition\"> .405 Ammunition</a> or <a href=\"https://thehunter.fandom.com/wiki/.340_Weatherby_Magnum_Ammunition\" title=\".340 Weatherby Magnum Ammunition\"> .340 Weatherby Magnum Ammunition</a>.</li><li>Harvest another unspooked <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> while using either <a href=\"https://thehunter.fandom.com/wiki/.45-70_Government\" title=\".45-70 Government\"> .45-70 Government</a>, <a href=\"https://thehunter.fandom.com/wiki/.405_Ammunition\" title=\".405 Ammunition\"> .405 Ammunition</a> or <a href=\"https://thehunter.fandom.com/wiki/.340_Weatherby_Magnum_Ammunition\" title=\".340 Weatherby Magnum Ammunition\"> .340 Weatherby Magnum Ammunition</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 unspooked <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bears</a> while using either <a href=\"https://thehunter.fandom.com/wiki/.45-70_Government\" title=\".45-70 Government\"> .45-70 Government</a>, <a href=\"https://thehunter.fandom.com/wiki/.405_Ammunition\" title=\".405 Ammunition\"> .405 Ammunition</a> or <a href=\"https://thehunter.fandom.com/wiki/.340_Weatherby_Magnum_Ammunition\" title=\".340 Weatherby Magnum Ammunition\"> .340 Weatherby Magnum Ammunition</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1387,7 +1388,7 @@
         "pk": 174,
         "mission_set": 16,
         "name": "In Pursuit of the Truth",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> with one shot under 20 meters (approx. 66 ft) while it's charging.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> with one shot under 20 meters (approx. 66 ft) while it's charging.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bears</a> each with one shot under 20 meters (approx. 66 ft) while it's charging.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -1395,7 +1396,7 @@
         "pk": 175,
         "mission_set": 16,
         "name": "Bear-demic",
-        "objectives": "<ul><li>Harvest an unspooked male <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\"> Harvest Value</a>.</li><li>Harvest another unspooked male <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\"> Harvest Value</a>.</li><li>Harvest an unspooked female <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\"> Harvest Value</a>.</li><li>Harvest another unspooked female <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\"> Harvest Value</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 unspooked male <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bears</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\"> Harvest Value</a>.</li><li>Harvest 2 unspooked female <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bears</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\"> Harvest Value</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1427,7 +1428,7 @@
         "pk": 179,
         "mission_set": 17,
         "name": "Three Little Piggies",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> during the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a> in the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -1443,7 +1444,7 @@
         "pk": 181,
         "mission_set": 17,
         "name": "Family Values",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\">Tripod Stand</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\">Tripod Stand</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\">Tripod Stand</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -1451,7 +1452,7 @@
         "pk": 182,
         "mission_set": 17,
         "name": "It's Lützen All Over Again",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Cap_Lock_Muzzleloader\" title=\".50 Cap Lock Muzzleloader\">.50 Cap Lock Muzzleloader</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Cap_Lock_Muzzleloader\" title=\".50 Cap Lock Muzzleloader\">.50 Cap Lock Muzzleloader</a> during the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Cap_Lock_Muzzleloader\" title=\".50 Cap Lock Muzzleloader\">.50 Cap Lock Muzzleloader</a> during the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Cap_Lock_Muzzleloader\" title=\".50 Cap Lock Muzzleloader\">.50 Cap Lock Muzzleloader</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Cap_Lock_Muzzleloader\" title=\".50 Cap Lock Muzzleloader\">.50 Cap Lock Muzzleloader</a> in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1467,7 +1468,7 @@
         "pk": 184,
         "mission_set": 17,
         "name": "Old School",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tenpoint_Carbon_Fusion_Crossbow\" title=\"Tenpoint Carbon Fusion Crossbow\">Tenpoint_Carbon_Fusion_Crossbow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tenpoint_Carbon_Fusion_Crossbow\" title=\"Tenpoint Carbon Fusion Crossbow\">Tenpoint_Carbon_Fusion_Crossbow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a> using a <a href=\"https://thehunter.fandom.com/wiki/Tenpoint_Carbon_Fusion_Crossbow\" title=\"Tenpoint Carbon Fusion Crossbow\">Tenpoint_Carbon_Fusion_Crossbow</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -1475,7 +1476,7 @@
         "pk": 185,
         "mission_set": 17,
         "name": "Older School",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Recurve_Bow\" title=\"Recurve Bow\">Recurve Bow</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Recurve_Bow\" title=\"Recurve Bow\">Recurve Bow</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> using a <a href=\"https://thehunter.fandom.com/wiki/Recurve_Bow\" title=\"Recurve Bow\">Recurve Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 female <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a> using a <a href=\"https://thehunter.fandom.com/wiki/Recurve_Bow\" title=\"Recurve Bow\">Recurve Bow</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1507,15 +1508,15 @@
         "pk": 189,
         "mission_set": 18,
         "name": "Squealer",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> in the Three Lakes area in the north of <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> in the Three Lakes area in the north of <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> in the Three Lakes area in the north of <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> during the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
     {
         "pk": 190,
         "mission_set": 18,
-        "name": "Electric Lady Land",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from the pack raiding the Powerstation.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from the pack raiding the Powerstation.</li></ul>",
+        "name": "Electric Lady Land (Single Player)",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> from the pack raiding the Powerstation.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -1539,7 +1540,7 @@
         "pk": 193,
         "mission_set": 18,
         "name": "Uninvited Guests",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> Snakebite Compound Bow</a> in the area south of the <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point_Field_Lodge\" title=\"Logger's Point Field Lodge\"> Field Lodge</a> on <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> Snakebite Compound Bow</a> in the area south of the <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point_Field_Lodge\" title=\"Logger's Point Field Lodge\"> Field Lodge</a> on <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> Snakebite Compound Bow</a> in the area south of the <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point_Field_Lodge\" title=\"Logger's Point Field Lodge\"> Field Lodge</a> on <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> with the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> Snakebite Compound Bow</a> in the area south of the <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point_Field_Lodge\" title=\"Logger's Point Field Lodge\"> Field Lodge</a> on <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -1611,7 +1612,7 @@
         "pk": 202,
         "mission_set": 19,
         "name": "So Many Horns, So Little Time",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> in the same hunt.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> in the same hunt.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> in the same hunt.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 male <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1691,7 +1692,7 @@
         "pk": 212,
         "mission_set": 20,
         "name": "Restoring Peace and Order",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li><li>Lastly, harvest another <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> from a distance of 30 meters (Approx. 98 feet) or further using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li><li>Lastly, harvest another <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> from a distance of 30 meters (Approx. 98 feet) or further using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1715,7 +1716,7 @@
         "pk": 215,
         "mission_set": 20,
         "name": "Hired Mercenaries",
-        "objectives": "<ul><li>First, harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> from any distance under 15 meters (Approx. 49 feet).</li><li>Then, harvest another charging <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> from any distance under 15 meters (Approx. 49 feet) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 charging <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> from any distance under 15 meters (Approx. 49 feet) in the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1739,7 +1740,7 @@
         "pk": 218,
         "mission_set": 21,
         "name": "A History Lesson",
-        "objectives": "<ul><li>ID the tracks of a <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a>.</li><li>ID the tracks of a <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a>.</li><li>ID the tracks of a <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a>.</li></ul>",
+        "objectives": "<ul><li>ID the tracks of 3 <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -1771,7 +1772,7 @@
         "pk": 222,
         "mission_set": 21,
         "name": "History Repeats Itself",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> using the <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> inline muzzleloader</a> loaded with a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> using the <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> inline muzzleloader</a> loaded with a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> in the same hunt.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> using the <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> inline muzzleloader</a> loaded with a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> using the <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> inline muzzleloader</a> loaded with a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1795,7 +1796,7 @@
         "pk": 225,
         "mission_set": 21,
         "name": "Viva la Revolution",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> scoring at least 110.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> scoring at least 110.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> each scoring at least 110.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1835,7 +1836,7 @@
         "pk": 230,
         "mission_set": 22,
         "name": "Mountain Hooligans",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Harvest another female <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li><li>Harvest another female <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 female <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -1867,7 +1868,7 @@
         "pk": 234,
         "mission_set": 22,
         "name": "Goats Blood",
-        "objectives": "<ul><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> with a tracer arrow.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> with a tracer arrow.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> with a tracer arrow.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> with a tracer arrow.</li><li>ID a blood trail of an <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a>.</li><li>ID another blood trail of an <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> with a tracer arrow.</li><li>ID the blood trails of 2 <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -1875,7 +1876,7 @@
         "pk": 235,
         "mission_set": 22,
         "name": "Again With the Bears",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 7 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bears</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using an <a href=\"https://thehunter.fandom.com/wiki/.50_Inline_Muzzleloader\" title=\".50 Inline Muzzleloader\"> Inline Muzzleloader</a> in the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1899,7 +1900,7 @@
         "pk": 238,
         "mission_set": 23,
         "name": "Dragnet Operation",
-        "objectives": "<ul><li>ID footprints of a <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a>.</li><li>ID footprints of a second different <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in the same hunt.</li><li>ID footprints of a third different <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in the same hunt.</li><li>ID the call of a male <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in the same hunt.</li><li>ID the call of a female <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>ID footprints of 3 <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goats</a> in the same hunt.</li><li>ID the call of a male <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in the same hunt.</li><li>ID the call of a female <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -1979,7 +1980,7 @@
         "pk": 248,
         "mission_set": 24,
         "name": "Foraging for Feces",
-        "objectives": "<ul><li>ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a>.</li><li>ID droppings from another <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> in the same hunt.</li><li>ID droppings from another <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>ID droppings from 3 <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> in the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -1995,7 +1996,7 @@
         "pk": 250,
         "mission_set": 24,
         "name": "Running Rampant",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> with a lung shot using a bow or crossbow from under 30 meters (approx. 98 ft).</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> with a lung shot using a bow or crossbow from under 30 meters (approx. 98 ft).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> with lung shots using a bow or crossbow from under 30 meters (approx. 98 ft).</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -2003,7 +2004,7 @@
         "pk": 251,
         "mission_set": 24,
         "name": "Ewes in Trouble",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> scoring over 40 points.</li><li>Harvest one more female <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> scoring over 40 points.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 female <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> each scoring over 40 points.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2011,7 +2012,7 @@
         "pk": 252,
         "mission_set": 24,
         "name": "Grabbing the Disease by the Horns",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> using a bow or crossbow with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> using a bow or crossbow with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> using a bow or crossbow with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 male <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> using a bow or crossbow with 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -2035,7 +2036,7 @@
         "pk": 255,
         "mission_set": 24,
         "name": "Tying up Loose Ewes",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> with a shot through the heart. Other organs may be hit.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> with a shot through the heart. Other organs may be hit.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> each with a shot through the heart. Other organs may be hit.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -2043,7 +2044,7 @@
         "pk": 256,
         "mission_set": 24,
         "name": "Culling for the Cure",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> in the same hunt.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -2067,7 +2068,7 @@
         "pk": 259,
         "mission_set": 25,
         "name": "I Only Have Eyes For Ewe",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a>.</li><li>Harvest another female <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a>.</li><li>Harvest one last female <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 female <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -2083,7 +2084,7 @@
         "pk": 261,
         "mission_set": 25,
         "name": "Hoofin' It",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a> with a shot through the heart or both lungs. Other organs may be hit.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a> with a shot through the heart or both lungs in the same hunt. Other organs may be hit.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a> with a shot through the heart or both lungs in the same hunt. Other organs may be hit.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2131,7 +2132,7 @@
         "pk": 267,
         "mission_set": 26,
         "name": "The Big Jumper",
-        "objectives": "<ul><li>ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a>.</li><li>ID a second set tracks from a <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a>.</li><li>ID a third set tracks from a <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a>.</li></ul>",
+        "objectives": "<ul><li>ID tracks from 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroos</a>.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -2171,7 +2172,7 @@
         "pk": 272,
         "mission_set": 26,
         "name": "Hat-trick",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> using the <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_K98k_Bolt_Action_Rifle\" title=\"8x57 IS K98k Bolt Action Rifle\"> 8x57 K98k Bolt Action Rifle</a>.</li><li>Harvest a second <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> using the <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_K98k_Bolt_Action_Rifle\" title=\"8x57 IS K98k Bolt Action Rifle\"> 8x57 K98k Bolt Action Rifle</a> during the same hunt.</li><li>Harvest a third <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> using the <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_K98k_Bolt_Action_Rifle\" title=\"8x57 IS K98k Bolt Action Rifle\"> 8x57 K98k Bolt Action Rifle</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> using the <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_K98k_Bolt_Action_Rifle\" title=\"8x57 IS K98k Bolt Action Rifle\"> 8x57 K98k Bolt Action Rifle</a> during the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -2203,7 +2204,7 @@
         "pk": 276,
         "mission_set": 26,
         "name": "Barely Seeing Red",
-        "objectives": "<ul><li>Harvest an unspooked <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> scoring at least 75 with a single shot at a distance of at least 75 meters with any scoped Anchütz rifle.</li><li>Harvest another unspooked <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> scoring at least 75 with a single at a distance of at least 75 meters with any scoped Anchütz rifle weapon during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest another unspooked <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> scoring at least 75 with a single at a distance of at least 75 meters with any scoped Anchütz rifle weapon during the same hunt.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -2211,7 +2212,7 @@
         "pk": 277,
         "mission_set": 27,
         "name": "On All Fours",
-        "objectives": "<ul><li>Identify 3 <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> tracks from the same animal.</li><li>Identify a call from a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot one last <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li></ul>",
+        "objectives": "<ul><li>Identify 3 <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> tracks from the same animal.</li><li>Identify a call from a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolves</a>.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -2219,7 +2220,7 @@
         "pk": 278,
         "mission_set": 27,
         "name": "Taking on the Pack",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolves</a> in the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -2227,7 +2228,7 @@
         "pk": 279,
         "mission_set": 27,
         "name": "Traditional Hunting Methods",
-        "objectives": "<ul><li>Identify droppings from a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Harvest an unspooked <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li><li>Harvest another unspooked <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Identify droppings from a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Harvest 2 unspooked <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolves</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -2235,7 +2236,7 @@
         "pk": 280,
         "mission_set": 27,
         "name": "The Capitoline Wolf",
-        "objectives": "<ul><li>Spot a male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>Spot another male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>After spotting the Grey Wolves, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> from a distance of 20 meters (Approx. 65 ft) or higher using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Crossbows\" title=\"Weapons\"> Crossbow</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> from a distance of 20 meters (Approx. 65 ft) or higher using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Crossbows\" title=\"Weapons\"> Crossbow</a>.</li><li>Finally, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> with a weight of 50kg (approx. 110 lbs) or higher in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Crossbows\" title=\"Weapons\"> Crossbow</a>.</li></ul>",
+        "objectives": "<ul><li>Spot 2 male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolves</a>.</li><li>After spotting the Grey Wolves, harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolves</a> from a distance of 20 meters (Approx. 65 ft) or higher using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Crossbows\" title=\"Weapons\"> Crossbow</a>.</li><li>Finally, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> with a weight of 50kg (approx. 110 lbs) or higher in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Crossbows\" title=\"Weapons\"> Crossbow</a>.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -2299,7 +2300,7 @@
         "pk": 288,
         "mission_set": 28,
         "name": "It Takes Two",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyotes</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -2307,7 +2308,7 @@
         "pk": 289,
         "mission_set": 28,
         "name": "Scout",
-        "objectives": "<ul><li>Find a set of <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> tracks.</li><li>Find a set of <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> tracks.</li><li>Find a set of <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> tracks.</li></ul>",
+        "objectives": "<ul><li>Find 3 sets of <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> tracks.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -2331,7 +2332,7 @@
         "pk": 292,
         "mission_set": 28,
         "name": "Bitchin'",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 female <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyotes</a>, using a <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li></ul>",
         "reward": 900,
         "order": 6
     },
@@ -2347,14 +2348,14 @@
         "pk": 294,
         "mission_set": 28,
         "name": "Bow Wow",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> \"Snakebite\" Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> \"Snakebite\" Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> \"Snakebite\" Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> \"Snakebite\" Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>, using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> \"Snakebite\" Compound Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyotes</a>, using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> \"Snakebite\" Compound Bow</a>.</li></ul>",
         "reward": 1600,
         "order": 8
     },
     {
         "pk": 295,
         "mission_set": 28,
-        "name": "Take Down",
+        "name": "Take Down (Single Player)",
         "objectives": "<ul><li>Harvest the Big Dog from the <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island#Awi.27Usdi_Stones\" title=\"Whitehart Island\"> Awi'Usdi Stones</a>.</li></ul>",
         "reward": 3500,
         "order": 9
@@ -2363,7 +2364,7 @@
         "pk": 296,
         "mission_set": 29,
         "name": "Something Rotten In The Evergreen Hunting Reserve",
-        "objectives": "<ul><li>ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a>.</li><li>ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a>.</li><li>ID a call from a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a>.</li><li>ID a call from a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a>.</li></ul>",
+        "objectives": "<ul><li>ID tracks from 2 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a>.</li><li>ID calls from 2 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a>.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -2379,7 +2380,7 @@
         "pk": 298,
         "mission_set": 29,
         "name": "Making A Scene",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> during the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a> during the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -2395,7 +2396,7 @@
         "pk": 300,
         "mission_set": 29,
         "name": "Playing Along",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> while prone.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> while prone during the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> while prone during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a> while prone, during the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2411,7 +2412,7 @@
         "pk": 302,
         "mission_set": 29,
         "name": "It's All So Quiet",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> of at least 10 kg (approx. 22 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/.357_Revolver\" title=\".357 Revolver\"> .357 Handgun</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> of at least 10 kg (approx. 22 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/.357_Revolver\" title=\".357 Revolver\"> .357 Handgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a> each of at least 10 kg (approx. 22 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/.357_Revolver\" title=\".357 Revolver\"> .357 Handgun</a>.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -2427,7 +2428,7 @@
         "pk": 304,
         "mission_set": 29,
         "name": "Supernatural Ninja",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> during the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a> using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> during the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -2435,7 +2436,7 @@
         "pk": 305,
         "mission_set": 29,
         "name": "The Dignity Of Foxes",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> of maximum 8 kg (approx 18 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\"> Tripod</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> of maximum 8 kg (approx 18 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\"> Tripod</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> of maximum 8 kg (approx 18 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\"> Tripod</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Foxes</a> of maximum 8 kg (approx 18 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/Tripod_Stand\" title=\"Tripod Stand\"> Tripod</a></li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -2475,7 +2476,7 @@
         "pk": 310,
         "mission_set": 30,
         "name": "Oblivious Bang",
-        "objectives": "<ul><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> at a distance of more than 100 meters (approx. 329 ft.) using a <a href=\"https://thehunter.fandom.com/wiki/.243_Bolt_Action_Rifle\" title=\".243 Bolt Action Rifle\">.243 Bolt Action Rifle</a>.</li><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> at a distance of more than 100 meters (approx. 329 ft.) using a <a href=\"https://thehunter.fandom.com/wiki/.243_Bolt_Action_Rifle\" title=\".243 Bolt Action Rifle\">.243 Bolt Action Rifle</a> in the same hunt.</li><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> at a distance of more than 100 meters (approx. 329 ft.) using a <a href=\"https://thehunter.fandom.com/wiki/.243_Bolt_Action_Rifle\" title=\".243 Bolt Action Rifle\">.243 Bolt Action Rifle</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Foxes</a> at a distance of more than 100 meters (approx. 329 ft.) using a <a href=\"https://thehunter.fandom.com/wiki/.243_Bolt_Action_Rifle\" title=\".243 Bolt Action Rifle\">.243 Bolt Action Rifle</a> in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2483,7 +2484,7 @@
         "pk": 311,
         "mission_set": 30,
         "name": "Close Up Shot",
-        "objectives": "<ul><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> from a maximum distance of 30 meter (approx. 98.5 ft.).</li><li>Harvest a Male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> from a maximum distance of 30 meter (approx. 98.5 ft.).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 Male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Foxes</a> from a maximum distance of 30 meter (approx. 98.5 ft.).</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -2491,7 +2492,7 @@
         "pk": 312,
         "mission_set": 30,
         "name": "2 for 1",
-        "objectives": "<ul><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> using <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Buckshot)\" title=\"12 GA Shells (Buckshot)\"> buckshot</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> using <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Buckshot)\" title=\"12 GA Shells (Buckshot)\"> buckshot</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> using <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Buckshot)\" title=\"12 GA Shells (Buckshot)\"> buckshot</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> using <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Buckshot)\" title=\"12 GA Shells (Buckshot)\"> buckshot</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> using <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Buckshot)\" title=\"12 GA Shells (Buckshot)\"> buckshot</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Foxes</a> using <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Buckshot)\" title=\"12 GA Shells (Buckshot)\"> buckshot</a> in the same hunt.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -2499,7 +2500,7 @@
         "pk": 313,
         "mission_set": 30,
         "name": "The Big Dog",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> weighing at least 6kg (approx. 13.3 lbs.).</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> weighing at least 6kg (approx. 13.3 lbs.).</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Fox</a> weighing at least 6kg (approx. 13.3 lbs.).</li></ul>",
+        "objectives": "<ul><li>Harvest 3 male <a href=\"https://thehunter.fandom.com/wiki/Arctic_Fox\" title=\"Arctic Fox\">Arctic Foxes</a> each weighing at least 6kg (approx. 13.3 lbs.).</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -2547,7 +2548,7 @@
         "pk": 319,
         "mission_set": 32,
         "name": "Find All the Purrpetrators",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Bobcat\" title=\"Bobcat\">Bobcat</a> using any buckshot in <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Bobcat\" title=\"Bobcat\">Bobcat</a> using any buckshot in <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Bobcat\" title=\"Bobcat\">Bobcats</a> using any buckshot in <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a>.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -2635,7 +2636,7 @@
         "pk": 330,
         "mission_set": 31,
         "name": "The Predator Becomes the Prey",
-        "objectives": "<ul><li>Spot a male <a href=\"https://thehunter.fandom.com/wiki/Eurasian_Lynx\" title=\"Eurasian Lynx\">Eurasian Lynx</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li><li>Spot another male <a href=\"https://thehunter.fandom.com/wiki/Eurasian_Lynx\" title=\"Eurasian Lynx\">Eurasian Lynx</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li><li>Spot one final male <a href=\"https://thehunter.fandom.com/wiki/Eurasian_Lynx\" title=\"Eurasian Lynx\">Eurasian Lynx</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li></ul>",
+        "objectives": "<ul><li>Spot 3 male <a href=\"https://thehunter.fandom.com/wiki/Eurasian_Lynx\" title=\"Eurasian Lynx\">Eurasian Lynx</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2691,7 +2692,7 @@
         "pk": 337,
         "mission_set": 33,
         "name": "Triple Turkey Tracker",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -2739,7 +2740,7 @@
         "pk": 343,
         "mission_set": 33,
         "name": "Eagle Eye",
-        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> during the same hunt.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a> during the same hunt.</li></ul>",
         "reward": 1000,
         "order": 8
     },
@@ -2747,7 +2748,7 @@
         "pk": 344,
         "mission_set": 33,
         "name": "I Believe I Can Fly",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands\" title=\"Hunting Stands\"> Hunting Tower</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands\" title=\"Hunting Stands\"> Hunting Tower</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> from a <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands\" title=\"Hunting Stands\"> Hunting Tower</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a> from <a href=\"https://thehunter.fandom.com/wiki/Hunting_Stands\" title=\"Hunting Stands\">Hunting Towers</a></li></ul>",
         "reward": 1300,
         "order": 9
     },
@@ -2755,7 +2756,7 @@
         "pk": 345,
         "mission_set": 33,
         "name": "Tommy Gunned",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> using the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> SxS Shotgun</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> using the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> SxS Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a> using the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> SxS Shotgun</a>.</li></ul>",
         "reward": 2000,
         "order": 10
     },
@@ -2763,7 +2764,7 @@
         "pk": 346,
         "mission_set": 33,
         "name": "Three five seven...",
-        "objectives": "<ul><li>Harvest a male Turkey, with a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>, from 13.5 m (approx. 44.3 ft.) or less.</li><li>Harvest a male Turkey, with a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>, from 13.5 m (approx. 44.3 ft.) or less.</li><li>Harvest a male Turkey, with a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>, from 13.5 m (approx. 44.3 ft.) or less.</li><li>Harvest a male Turkey, with a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>, from 13.5 m (approx. 44.3 ft.) or less.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 male Turkeys, with a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>, from 13.5 m (approx. 44.3 ft.) or less.</li></ul>",
         "reward": 3800,
         "order": 11
     },
@@ -2803,7 +2804,7 @@
         "pk": 351,
         "mission_set": 34,
         "name": "Dinner For Two",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> hen weighing at least 2 pounds.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> hen weighing at least 2 pounds.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> hens each weighing at least 2 pounds.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2811,7 +2812,7 @@
         "pk": 352,
         "mission_set": 34,
         "name": "Lucas's Challenge",
-        "objectives": "<ul><li>Harvest an airborne rooster with a score of at least 22.</li><li>Harvest another airborne rooster with a score of at least 22 during the same hunt.</li><li>Harvest another airborne rooster with a score of at least 22 during the same hunt</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne roosters with a score of at least 22 during the same hunt</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -2819,7 +2820,7 @@
         "pk": 353,
         "mission_set": 34,
         "name": "A Family Matter",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> from the group under the bridge in <a href=\"https://thehunter.fandom.com/wiki/Canyon_Creek\" title=\"Canyon Creek\">Canyon Creek</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> from the group under the bridge in <a href=\"https://thehunter.fandom.com/wiki/Canyon_Creek\" title=\"Canyon Creek\">Canyon Creek</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasants</a> from the group under the bridge in <a href=\"https://thehunter.fandom.com/wiki/Canyon_Creek\" title=\"Canyon Creek\">Canyon Creek</a>.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -2859,7 +2860,7 @@
         "pk": 358,
         "mission_set": 35,
         "name": "Off On The Wrong Foot",
-        "objectives": "<ul><li>ID the call of a <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a>.</li><li>ID the call of another <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a>.</li></ul>",
+        "objectives": "<ul><li>ID the calls of 2 <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -2867,7 +2868,7 @@
         "pk": 359,
         "mission_set": 35,
         "name": "The Standard Procedure",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> in the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -2875,7 +2876,7 @@
         "pk": 360,
         "mission_set": 35,
         "name": "Easy Riding",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> killing it with one shot.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> killing it with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> killing it with one shot in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> killing each with one shot, in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -2883,7 +2884,7 @@
         "pk": 361,
         "mission_set": 35,
         "name": "Full Throttle",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 10 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2891,7 +2892,7 @@
         "pk": 362,
         "mission_set": 35,
         "name": "Surgeon With A Shotgun",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a minimum of 40 meters (approx. 131 ft.).</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a minimum of 40 meters (approx. 131 ft.) in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a minimum of 40 meters (approx. 131 ft.) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> from a minimum of 40 meters (approx. 131 ft.) in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -2899,7 +2900,7 @@
         "pk": 363,
         "mission_set": 35,
         "name": "Antiquated Measurements",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> weighing at least 200 Salerno libras (or 7,2 kg, approx. 15,4 lbs.)</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> weighing at least 200 Salerno libras (or 7,2 kg, approx. 15,4 lbs.)</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> weighing at least 200 Salerno libras (or 7,2 kg, approx. 15,4 lbs.)</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -2907,7 +2908,7 @@
         "pk": 364,
         "mission_set": 35,
         "name": "Trickery In The Name Of Justice",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.).</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.).</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.).</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.).</li></ul>",
+        "objectives": "<ul><li>Harvest 4 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.).</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -2915,7 +2916,7 @@
         "pk": 365,
         "mission_set": 35,
         "name": "A Light At The End Of The Tunnel?",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Canada_Goose\" title=\"Canada Goose\">Canada Geese</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -2939,7 +2940,7 @@
         "pk": 368,
         "mission_set": 36,
         "name": "Geese of a Feather",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a>.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> in the same hunt.</li><li>Then harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> (Blue color variation) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> in the same hunt.</li><li>Then harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> (Blue color variation) in the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -2947,7 +2948,7 @@
         "pk": 369,
         "mission_set": 36,
         "name": "Meat Market",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> weighing at least 3.2 kg (Approx. 7 lbs).</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> weighing at least 3.2 kg (Approx. 7 lbs) in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> weighing at least 3.2 kg (Approx. 7 lbs) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> weighing at least 3.2 kg (Approx. 7 lbs) in the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -2955,7 +2956,7 @@
         "pk": 370,
         "mission_set": 36,
         "name": "The Fat Of The Land",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> scoring at least 3500.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> scoring at least 3500 in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> scoring at least 3500 in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> scoring at least 3500 in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -2963,7 +2964,7 @@
         "pk": 371,
         "mission_set": 36,
         "name": "Let It Snow, Let It Snow, Let It Snow",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\"> 12 GA Single Shot Shotgun</a>.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\"> 12 GA Single Shot Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\"> 12 GA Single Shot Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\"> 12 GA Single Shot Shotgun</a> in the same hunt.</li><li>Then harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a> in the same hunt.</li><li>Then harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -2971,7 +2972,7 @@
         "pk": 372,
         "mission_set": 36,
         "name": "Blind Call",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.).</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.) in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.) in the same hunt.</li><li>Then harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> at a maximum distance of 15 meter (approx. 49 ft.) in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -2987,7 +2988,7 @@
         "pk": 374,
         "mission_set": 36,
         "name": "Catch .22",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a .22 ammo.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a .22 ammo in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Goose</a> using a .22 ammo in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Snow_Goose\" title=\"Snow Goose\">Snow Geese</a> using a .22 ammo in the same hunt.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3011,7 +3012,7 @@
         "pk": 377,
         "mission_set": 37,
         "name": "The Budgie Who Could",
-        "objectives": "<ul><li>ID the call of a <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li><li>ID the call of another <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li></ul>",
+        "objectives": "<ul><li>ID the calls of 2 <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a>.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -3027,7 +3028,7 @@
         "pk": 379,
         "mission_set": 37,
         "name": "Fair Dinkum Shootin'",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a> in the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3035,7 +3036,7 @@
         "pk": 380,
         "mission_set": 37,
         "name": "A Goose Bigger than Dawg",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> weighin' at least 3 kg (Approx. 7 lbs</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> weighin' at least 3 kg (Approx. 7 lbs) in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> weighin' at least 3 kg (Approx. 7 lbs) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a> weighin' at least 3 kg (Approx. 7 lbs) in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3043,7 +3044,7 @@
         "pk": 381,
         "mission_set": 37,
         "name": "Straight to the Pool Room",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> scorin' at least 3200.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> scorin' at least 3200 in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> scorin' at least 3200 in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a> scorin' at least 3200 in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -3059,7 +3060,7 @@
         "pk": 383,
         "mission_set": 37,
         "name": "For the Journos",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with one shot in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 10 airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a> each with one shot.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3115,7 +3116,7 @@
         "pk": 390,
         "mission_set": 38,
         "name": "Introducing The Researcher",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a> in the same hunt.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\"> 12 GA Pump Action Shotgun</a> in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3123,7 +3124,7 @@
         "pk": 391,
         "mission_set": 38,
         "name": "They Talk!",
-        "objectives": "<ul><li>Harvest an unspooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a>.</li><li>Harvest another unspooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 unspooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> in the same hunt.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -3131,7 +3132,7 @@
         "pk": 392,
         "mission_set": 38,
         "name": "They Attack!",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> in the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> from a <a href=\"https://thehunter.fandom.com/wiki/Waterfowl_Blind\" title=\"Waterfowl Blind\">Waterfowl Blind</a> in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -3139,7 +3140,7 @@
         "pk": 393,
         "mission_set": 38,
         "name": "They Are Getting Bigger!",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> weighing at least 1 kg (approx. 2.2 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> weighing at least 1 kg (approx. 2.2 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> weighing at least 1 kg (approx. 2.2 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3147,7 +3148,7 @@
         "pk": 394,
         "mission_set": 38,
         "name": "The Secret Code",
-        "objectives": "<ul><li>Harvest a spooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> Side By Side shotgun</a>.</li><li>Harvest another spooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> Side By Side shotgun</a> in the same hunt.</li><li>Harvest another spooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> Side By Side shotgun</a> in the same hunt.</li><li>Harvest another spooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> Side By Side shotgun</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 spooked airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\"> Side By Side shotgun</a> in the same hunt.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3155,7 +3156,7 @@
         "pk": 395,
         "mission_set": 38,
         "name": "Breaking The Code",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> from a maximum distance of 20 meters (approx. 66 ft.)</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> from a maximum distance of 20 meters (approx. 66 ft.) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> from a maximum distance of 20 meters (approx. 66 ft.) in the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -3187,7 +3188,7 @@
         "pk": 399,
         "mission_set": 39,
         "name": "The Baritone",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Duck</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Duck</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Duck</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Ducks</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3203,7 +3204,7 @@
         "pk": 401,
         "mission_set": 39,
         "name": "Backing Vocals",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Duck</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Duck</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Duck</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Northern_Pintail\" title=\"Northern Pintail\">Northern Pintail</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Northern_Pintail\" title=\"Northern Pintail\">Northern Pintail</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/Northern_Pintail\" title=\"Northern Pintail\">Northern Pintail</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Gadwall\" title=\"Gadwall\">Gadwall</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Gadwall\" title=\"Gadwall\">Gadwall</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/Gadwall\" title=\"Gadwall\">Gadwall</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/American_Black_Duck\" title=\"American Black Duck\">American Black Ducks</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Northern_Pintail\" title=\"Northern Pintail\">Northern Pintails</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Gadwall\" title=\"Gadwall\">Gadwalls</a> with a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -3267,7 +3268,7 @@
         "pk": 409,
         "mission_set": 40,
         "name": "It's a Lang Road That's No Goat a Turnin'!",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#.23Shotguns\" title=\"Weapons\"> Shotgun</a>.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#.23Shotguns\" title=\"Weapons\"> Shotgun</a>.</li><li>Harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#.23Shotguns\" title=\"Weapons\"> Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigans</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#.23Shotguns\" title=\"Weapons\"> Shotgun</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3275,7 +3276,7 @@
         "pk": 410,
         "mission_set": 40,
         "name": "Guid Gear Comes in Sma' Bulk!",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> weighing less than 0.55 kg (Approx. 1.21 lbs).</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> weighing less than 0.55 kg (Approx. 1.21 lbs).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigans</a> weighing less than 0.55 kg (Approx. 1.21 lbs).</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3307,7 +3308,7 @@
         "pk": 414,
         "mission_set": 40,
         "name": "Bletherin' Birds, Ah Tell Ye!",
-        "objectives": "<ul><li>First, identify a call from a <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a>.</li><li>Then, harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a> with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Then, harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a> with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Then, harvest one final airborne <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a> with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li></ul>",
+        "objectives": "<ul><li>First, identify a call from a <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a>.</li><li>Then, harvest 3 airborne <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigans</a> with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3339,7 +3340,7 @@
         "pk": 418,
         "mission_set": 41,
         "name": "Rabbit Therapy",
-        "objectives": "<ul><li>Spot an <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>Spot a second <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>Spot a third <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li></ul>",
+        "objectives": "<ul><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -3347,7 +3348,7 @@
         "pk": 419,
         "mission_set": 41,
         "name": "Too many, too fast",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3355,7 +3356,7 @@
         "pk": 420,
         "mission_set": 41,
         "name": "Non Strategical Rabbits",
-        "objectives": "<ul><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed from a Ground Blind.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><the>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a> killed from Ground Blinds during the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3379,7 +3380,7 @@
         "pk": 423,
         "mission_set": 41,
         "name": "Home Invasion",
-        "objectives": "<ul><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any shotgun</a> while it is emerging from or diving into a burrow exit.</li><li>Harvest a second <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any shotgun</a> while it is emerging from or diving into a burrow exit during the same hunt.</li><li>Harvest a third <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any shotgun</a> while it is emerging from or diving into a burrow exit during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a> killed with <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any shotgun</a> while it is emerging from or diving into a burrow exit during the same hunt.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3387,7 +3388,7 @@
         "pk": 424,
         "mission_set": 41,
         "name": "A Necessary Evil",
-        "objectives": "<ul><li>Spot an <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> during the same hunt.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> during the same hunt.</li><li>Harvest a spooked <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> during the same hunt.</li><li>Harvest another spooked <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Spot 2 <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a> during the same hunt.</li><li>Harvest 2 spooked <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> during the same hunt.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3395,7 +3396,7 @@
         "pk": 425,
         "mission_set": 41,
         "name": "Can't Break Their Spirit",
-        "objectives": "<ul><li>ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>ID a second set tracks from a <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>ID a third set of tracks from a <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>Spot a second <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li><li>Spot a third <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a>.</li></ul>",
+        "objectives": "<ul><li>ID 3 sets of tracks from <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a>.</li><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -3403,7 +3404,7 @@
         "pk": 426,
         "mission_set": 41,
         "name": "Rabbit Rampage",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> north of <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois#Lodges\" title=\"Val-des-Bois\"> Chalet du Mont-Bleu lodge</a>.</li><li>Harvest a second female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> north of <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois#Lodges\" title=\"Val-des-Bois\"> Chalet du Mont-Bleu lodge</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> northwest of The Calm Pond (x 2559, y -848).</li><li>Harvest a second female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with the <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a> north of The Calm Pond (x 2559, y -848).</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> north of <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois#Lodges\" title=\"Val-des-Bois\"> Chalet du Mont-Bleu lodge</a>.</li><li>Harvest a second male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with the <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a> north of Chalet du Mont-Bleu lodge.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> north of The Calm Pond (x 2559, y -848).</li><li>Harvest a second male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> north of The Calm Pond (x 2559, y -848).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a> north of <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois#Lodges\" title=\"Val-des-Bois\"> Chalet du Mont-Bleu lodge</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> northwest of The Calm Pond (x 2559, y -848).</li><li>Harvest a second female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with the <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a> north of The Calm Pond (x 2559, y -848).</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> north of <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois#Lodges\" title=\"Val-des-Bois\"> Chalet du Mont-Bleu lodge</a>.</li><li>Harvest a second male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> killed with the <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a> north of Chalet du Mont-Bleu lodge.</li><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbits</a> north of The Calm Pond (x 2559, y -848).</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -5131,7 +5132,7 @@
         "pk": 1225,
         "mission_set": 66,
         "name": "Eyes on the Target",
-        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Fallow_Deer\" title=\"Fallow Deer\">Fallow Deer</a>.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Fallow_Deer\" title=\"Fallow Deer\">Fallow Deer</a> in the same hunt.</li><li>Spot a third <a href=\"https://thehunter.fandom.com/wiki/Fallow_Deer\" title=\"Fallow Deer\">Fallow Deer</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/Fallow_Deer\" title=\"Fallow Deer\">Fallow Deer</a> in the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },

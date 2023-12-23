@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: 'MissionItem',
+                path: 'MissionItemTool',
                 element: (
                     <Suspense fallback={<Loader />}>
                         <MissionItemTool />

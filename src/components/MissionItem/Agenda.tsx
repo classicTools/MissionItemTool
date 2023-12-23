@@ -13,11 +13,15 @@ const AgendaContainer = styled.div<{ show: boolean }>`
     background-color: lightyellow;
     position: absolute;
     top: 0;
-    height: 100vh;
+    height: 200vh;
+
+    /* left: 350px;
+    width: 1100px; */
     width: 700px;
+
     padding: 20px 40px;
     z-index: 100;
-    overflow-y: auto;
+    overflow-y: scroll;
     opacity: ${({ show }) => (show ? 1 : 0)};
     visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
     transition: opacity 200ms, visibility 200ms;
@@ -55,7 +59,7 @@ const Agenda = () => {
                         </Header>
 
                         {bookmarkedMissions.map((m: MissionData) => {
-                            return <AgendaItem mission={m} showAll={showAll} />
+                            return <AgendaItem mission={m} showAll={showAll} key={m.pk} />
                         })}
                     </>
                 ) : (

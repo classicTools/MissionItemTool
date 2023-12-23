@@ -14,7 +14,6 @@ export interface MissionSetData {
     pk: number
     name: string
     image_url: string
-
     order: number
 }
 

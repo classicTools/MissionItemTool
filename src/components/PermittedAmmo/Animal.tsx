@@ -24,10 +24,8 @@ const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; 
     }
     padding: 7px;
     border-radius: 10px 20px;
-    /* opacity: ${({ outline }) => (outline ? 1 : 0.05)}; */
 
     outline: ${({ outline }) => (outline ? '4px solid orange' : 'none')};
-
     ${({ inMap }) => inMap && 'opacity: 0.02;'}
     ${({ inAmmo }) => inAmmo && 'background-color: green;'}
     ${({ selected }) => selected && 'outline: 4px solid orange;'}
