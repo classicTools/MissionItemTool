@@ -398,7 +398,25 @@
     {
         "pk": 82,
         "name": "Bushrangers Run",
-        "image_url": "('https://static.wikia.nocookie.net/thehuntergame/images/2/22/Bushrangers_run_icon.png',)",
+        "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/2/22/Bushrangers_run_icon.png",
         "order": 3063
+    },
+    {
+        "pk": 83,
+        "name": "Wood Grouse",
+        "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/9/95/Wood_grouse_male_common.png",
+        "order": 1675
+    },
+    {
+        "pk": 84,
+        "name": "Piccabeen Bay",
+        "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c3/PB_icon.png",
+        "order": 3150
+    },
+    {
+        "pk": 85,
+        "name": "Smoke Pole",
+        "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/8/8d/Balls_lead_50_256.png",
+        "order": 2675
     }
 ]

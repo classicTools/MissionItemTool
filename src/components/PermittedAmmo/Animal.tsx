@@ -11,7 +11,7 @@ const outlineCSS = css`
     outline: 4px solid white;
 `
 export const transitionCss = css`
-    transition: opacity 200ms, background-color 200ms, outline 200ms;
+    transition: opacity 200ms, background-color 200ms, outline 200ms, filter 200ms;
 `
 
 const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; selected: boolean }>`
