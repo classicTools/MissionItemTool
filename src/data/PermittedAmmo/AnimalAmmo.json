@@ -5850,5 +5850,81 @@
     {
         "animal": 50,
         "ammo": 60
+    },
+    {
+        "animal": 51,
+        "ammo": 6
+    },
+    {
+        "animal": 51,
+        "ammo": 21
+    },
+    {
+        "animal": 51,
+        "ammo": 30
+    },
+    {
+        "animal": 51,
+        "ammo": 35
+    },
+    {
+        "animal": 51,
+        "ammo": 38
+    },
+    {
+        "animal": 51,
+        "ammo": 39
+    },
+    {
+        "animal": 51,
+        "ammo": 42
+    },
+    {
+        "animal": 51,
+        "ammo": 45
+    },
+    {
+        "animal": 51,
+        "ammo": 46
+    },
+    {
+        "animal": 51,
+        "ammo": 47
+    },
+    {
+        "animal": 51,
+        "ammo": 48
+    },
+    {
+        "animal": 51,
+        "ammo": 49
+    },
+    {
+        "animal": 51,
+        "ammo": 50
+    },
+    {
+        "animal": 51,
+        "ammo": 51
+    },
+    {
+        "animal": 51,
+        "ammo": 52
+    },
+    {
+        "animal": 51,
+        "ammo": 53
+    },
+    {
+        "animal": 51,
+        "ammo": 54
+    },
+    {
+        "animal": 51,
+        "ammo": 55
+    },
+    {
+        "animal": 51,
+        "ammo": 60
     }
 ]

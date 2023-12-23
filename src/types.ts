@@ -46,6 +46,8 @@ export enum LocalStorageVars {
     Items = 'items',
     Reserve = 'reserve',
     CustomColors = 'customColors',
+    Ammo = 'ammo',
+    Animal = 'animal',
 }
 export enum AssetFolder {
     Missions = 'missions',
@@ -56,6 +58,9 @@ export type MissionSetId = number
 export type MissionId = number
 export type ItemId = number
 export type MissionOrder = number
+export type AnimalId = number
+export type AmmoId = number
+
 export const bareFn = () => {}
 
 export type Bookmarks = { [index: MissionSetId]: MissionOrder }

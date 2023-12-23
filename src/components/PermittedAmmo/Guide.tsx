@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 const GuideBox = styled.div`
-    max-width: 800px;
+    max-width: 900px;
     height: 600px;
+    font-size: 19px;
 `
 const Guide = () => (
     <GuideBox>

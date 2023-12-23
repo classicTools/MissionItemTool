@@ -339,7 +339,7 @@
         "pk": 43,
         "mission_set": 4,
         "name": "Unexpected Visitor",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a weight less than 75 kg using any permitted ammunition.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a weight less than 75 kg using any permitted ammunition.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> each with a weight less than 75 kg using any permitted ammunition.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -347,7 +347,7 @@
         "pk": 44,
         "mission_set": 4,
         "name": "The Smell of Fear",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> bow including crossbows</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a></li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> bow including crossbows</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a></li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> bow including crossbows</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a></li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -379,7 +379,7 @@
         "pk": 48,
         "mission_set": 4,
         "name": "Stone Cold Heart",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a shot to the heart.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a shot to the heart.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a shot to the heart.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a shot to the heart.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -403,7 +403,7 @@
         "pk": 51,
         "mission_set": 5,
         "name": "Tankbuster",
-        "objectives": "<ul><li>Harvest a Female <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> with lung and/or heart shots only, using the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li><li>Harvest a Female <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> with lung and/or heart shots only, using the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li><li>Harvest a Female <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> with lung and/or heart shots only, using the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 Female <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> with lung and/or heart shots only, using the <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -507,7 +507,7 @@
         "pk": 64,
         "mission_set": 6,
         "name": "Renegades",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\"> Elk</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\"> Elk</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\"> Elk</a>.</li></ul>",
         "reward": 200,
         "order": 5
     },
@@ -587,7 +587,7 @@
         "pk": 74,
         "mission_set": 6,
         "name": "Magnum Opus",
-        "objectives": "<ul><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\"> Elk</a> Cow with a scoped <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\"> Elk</a> Cow with a scoped <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\"> Elk</a> Cows with a scoped <a href=\"https://thehunter.fandom.com/wiki/.44_Revolver\" title=\".44 Revolver\"> .44 Magnum Revolver</a>.</li></ul>",
         "reward": 2100,
         "order": 15
     },
@@ -635,7 +635,7 @@
         "pk": 80,
         "mission_set": 7,
         "name": "Fighting Flora",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> using any <a href=\"https://thehunter.fandom.com/wiki/.45-70_Government\" title=\".45-70 Government\"> .45-70 rifle</a> without hitting it in the intestines.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> using any <a href=\"https://thehunter.fandom.com/wiki/.45-70_Government\" title=\".45-70 Government\"> .45-70 rifle</a> without hitting it in the intestines in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> using any <a href=\"https://thehunter.fandom.com/wiki/.45-70_Government\" title=\".45-70 Government\"> .45-70 rifle</a> without hitting it in the intestines, in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -651,7 +651,7 @@
         "pk": 82,
         "mission_set": 7,
         "name": "Traditions",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Recurve Bow</a> from less than 30m (approx. 99ft.).</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Recurve Bow</a> from less than 30m (approx. 99ft.).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Recurve Bow</a> from less than 30m (approx. 99ft.).</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -659,7 +659,7 @@
         "pk": 83,
         "mission_set": 7,
         "name": "Sensus",
-        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with .30-06 ammunition (<a href=\"https://thehunter.fandom.com/wiki/.30-06_Round_Nose_Ammunition\" title=\".30-06 Round Nose Ammunition\"> Round Nose</a>, <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> Nosler</a>).</li><li>Harvest another female <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with .30-06 ammunition (<a href=\"https://thehunter.fandom.com/wiki/.30-06_Round_Nose_Ammunition\" title=\".30-06 Round Nose Ammunition\"> Round Nose</a>, <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> Nosler</a>) in the same hunt.</li><li>Harvest another female <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with .30-06 ammunition (<a href=\"https://thehunter.fandom.com/wiki/.30-06_Round_Nose_Ammunition\" title=\".30-06 Round Nose Ammunition\"> Round Nose</a>, <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> Nosler</a>) in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 female <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with .30-06 ammunition (<a href=\"https://thehunter.fandom.com/wiki/.30-06_Round_Nose_Ammunition\" title=\".30-06 Round Nose Ammunition\"> Round Nose</a>, <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> Nosler</a>) in the same hunt.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -667,7 +667,7 @@
         "pk": 84,
         "mission_set": 7,
         "name": "Rock and Roll",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with more than 12 typical points using any ethical rifle ammunition.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with more than 12 typical points using any ethical rifle ammunition.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with more than 12 typical points using any ethical rifle ammunition.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -715,7 +715,7 @@
         "pk": 90,
         "mission_set": 8,
         "name": "Prime Cuts",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 200 kg (approx. 441 lbs).</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 200 kg (approx. 441 lbs).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> each weighing at least 200 kg (approx. 441 lbs).</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -747,7 +747,7 @@
         "pk": 94,
         "mission_set": 8,
         "name": "Shame On You",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> at a minimum of 100 meters (approx. 328 ft) using a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> at a minimum of 100 meters (approx. 328 ft) using a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> at a minimum of 100 meters (approx. 328 ft) using a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a>, in the same hunt.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -779,7 +779,7 @@
         "pk": 98,
         "mission_set": 9,
         "name": "Sample Analysis",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -787,7 +787,7 @@
         "pk": 99,
         "mission_set": 9,
         "name": "Second-Rate Results",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> in the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -859,7 +859,7 @@
         "pk": 108,
         "mission_set": 10,
         "name": "The Two Rusa",
-        "objectives": "<ul><li>First, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>Then, harvest another male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> in the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -891,7 +891,7 @@
         "pk": 112,
         "mission_set": 10,
         "name": "The Battle of the Five Rusa",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Then, harvest another male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Then, harvest another male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Finally, harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> with any ethical <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a> ammo.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> at 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a>.</li><li>Finally, harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> with any ethical <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a> ammo.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -4763,7 +4763,7 @@
         "pk": 1172,
         "mission_set": 61,
         "name": "The Autumn Chapter",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigan</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/White-tailed_Ptarmigan\" title=\"White-tailed Ptarmigan\">White-tailed Ptarmigans</a>, 2 <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolves</a>, and 1 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a> using any permitted shotgun ammunition, in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -4771,7 +4771,7 @@
         "pk": 1173,
         "mission_set": 61,
         "name": "The Poker Chapter",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with any Side by Side Shotgun (<a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\">12 GA Side By Side Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/16_GA_Side_By_Side_Shotgun\" title=\"16 GA Side By Side Shotgun\">16 GA Side By Side Shotgun</a>) in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with any Side by Side Shotgun (<a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\">12 GA Side By Side Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/16_GA_Side_By_Side_Shotgun\" title=\"16 GA Side By Side Shotgun\">16 GA Side By Side Shotgun</a>) in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with any Side by Side Shotgun (<a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\">12 GA Side By Side Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/16_GA_Side_By_Side_Shotgun\" title=\"16 GA Side By Side Shotgun\">16 GA Side By Side Shotgun</a>) in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with any Side by Side Shotgun (<a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\">12 GA Side By Side Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/16_GA_Side_By_Side_Shotgun\" title=\"16 GA Side By Side Shotgun\">16 GA Side By Side Shotgun</a>) in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>...</li><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with any Side by Side Shotgun (<a href=\"https://thehunter.fandom.com/wiki/12_GA_Side_By_Side_Shotgun\" title=\"12 GA Side By Side Shotgun\">12 GA Side By Side Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/16_GA_Side_By_Side_Shotgun\" title=\"16 GA Side By Side Shotgun\">16 GA Side By Side Shotgun</a>)...</li><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a> using permitted ammo with a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> in the same hunt.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -4779,7 +4779,7 @@
         "pk": 1174,
         "mission_set": 61,
         "name": "The Diversity Chapter",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using using permitted ammo with any <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a> x 5</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using permitted ammo with any semi-auto shotgun (<a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/Maisto_12_GA_Semi-Automatic_Shotgun\" title=\"Maisto 12 GA Semi-Automatic Shotgun\">Maisto 12 GA Semi-Automatic Shotgun</a>) in the same hunt x 5</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using permitted ammo with <a href=\"https://thehunter.fandom.com/wiki/10_GA_Lever_Action_Shotgun\" title=\"10 GA Lever Action Shotgun\">10 GA Lever Action Shotgun</a> in the same hunt x 5</li></ul>",
+        "objectives": "<ul><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyotes</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using using permitted ammo with any <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a></li><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using permitted ammo with any semi-auto shotgun (<a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>, <a href=\"https://thehunter.fandom.com/wiki/Maisto_12_GA_Semi-Automatic_Shotgun\" title=\"Maisto 12 GA Semi-Automatic Shotgun\">Maisto 12 GA Semi-Automatic Shotgun</a>) in the same hunt</li><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using permitted ammo with <a href=\"https://thehunter.fandom.com/wiki/10_GA_Lever_Action_Shotgun\" title=\"10 GA Lever Action Shotgun\">10 GA Lever Action Shotgun</a> in the same hunt</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -4787,7 +4787,7 @@
         "pk": 1175,
         "mission_set": 61,
         "name": "The Scope Chapter",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted buckshot ammo from a distance of 30 meters or higher using a scope.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted buckshot ammo from a distance of 30 meters or higher using a scope in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted buckshot ammo from a distance of 30 meters or higher using a scope in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigan</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt.</li><li>Then harvest another <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted buckshot ammo from a distance of 30 meters or higher using a scope.</li><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Rock_Ptarmigan\" title=\"Rock Ptarmigan\">Rock Ptarmigans</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted birdshot ammo from a distance of 40 meters or higher using a scope in the same hunt.</li><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using permitted slug ammo from a distance of 60 meters or higher using a scope in the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },

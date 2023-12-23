@@ -322,5 +322,17 @@
     {
         "animal": 50,
         "map": 5
+    },
+    {
+        "animal": 51,
+        "map": 8
+    },
+    {
+        "animal": 51,
+        "map": 6
+    },
+    {
+        "animal": 51,
+        "map": 5
     }
 ]

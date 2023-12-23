@@ -1,28 +1,31 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
 import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, bareFn } from '../types'
 interface AmmoContext {
-    hoverId: number | null
-    hoverType: HoverType | null
-    updateHover: (id: number | null, type: HoverType | null) => void
+    hoverMap: number | null
+    hoverAnimal: number | null
+    hoverAmmo: number | null
+    setHoverMap: (id: number | null) => void
+    setHoverAnimal: (id: number | null) => void
+    setHoverAmmo: (id: number | null) => void
 }
 const defaultAmmo = {
-    hoverId: null,
-    hoverType: null,
-    updateHover: bareFn,
+    hoverMap: null,
+    hoverAnimal: null,
+    hoverAmmo: null,
+    setHoverMap: bareFn,
+    setHoverAnimal: bareFn,
+    setHoverAmmo: bareFn,
 }
 const AmmoContext = createContext<AmmoContext>(defaultAmmo)
 
 type HoverType = 'animal' | 'ammo' | 'map'
 
 const WithAmmoContext = ({ children }: PropsWithChildren) => {
-    const [hoverId, setHoverId] = useState<number | null>(null)
-    const [hoverType, setHoverType] = useState<HoverType | null>(null)
+    const [hoverMap, setHoverMap] = useState<number | null>(null)
+    const [hoverAnimal, setHoverAnimal] = useState<number | null>(null)
+    const [hoverAmmo, setHoverAmmo] = useState<number | null>(null)
 
-    const updateHover = (id: number | null, type: HoverType | null) => {
-        setHoverId(id)
-        setHoverType(type)
-    }
-    return <AmmoContext.Provider value={{ hoverId, hoverType, updateHover }}>{children}</AmmoContext.Provider>
+    return <AmmoContext.Provider value={{ hoverMap, hoverAnimal, hoverAmmo, setHoverMap, setHoverAnimal, setHoverAmmo }}>{children}</AmmoContext.Provider>
 }
 export default WithAmmoContext
 export const useAmmoContext = () => useContext(AmmoContext)

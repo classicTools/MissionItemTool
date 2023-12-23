@@ -1,9 +1,11 @@
 // commmonly used data arrangements
-import { ItemId, MapId, MissionData, MissionId, MissionItemData, MissionSetId } from '../../types'
+import { AmmoId, AnimalId, ItemId, MapId, MissionData, MissionId, MissionItemData, MissionSetId } from '../../types'
 import missionData from './lookups/Mission.json'
 import missionItemData from './mappings/MissionItem.json'
 import missionMapData from './mappings/MissionMap.json'
 import missionSetMapData from './mappings/MissionSetMap.json'
+import animalMapData from '../../data/PermittedAmmo/AnimalMap.json'
+import animalAmmoData from '../../data/PermittedAmmo/AnimalAmmo.json'
 
 type MissionSetMap = { [index: MapId]: MissionSetId[] }
 export const missionSetMap: MissionSetMap = missionSetMapData.reduce((acc: MissionSetMap, cur: { map: MapId; mission_set: MissionSetId }) => {
@@ -387,3 +389,31 @@ export const missionSetMissions: MissionSetMissions = missionData.reduce((acc: M
 //     '66': [1224, 1225, 1226, 1227, 1228, 1229, 1230, 1231, 1232, 1233],
 //     '82': [1314, 1315, 1316, 1317, 1318, 1319, 1320, 1321, 1322, 1323],
 // }
+
+type AnimalMap = { [index: AnimalId]: MapId[] }
+export const animalMap: AnimalMap = animalMapData.reduce((acc: AnimalMap, cur: { animal: AnimalId; map: MapId }) => {
+    if (!acc[cur.animal]) acc[cur.animal] = []
+    acc[cur.animal].push(cur.map)
+    return acc
+}, {})
+
+type MapAnimal = { [index: MapId]: AnimalId[] }
+export const mapAnimal: MapAnimal = animalMapData.reduce((acc: AnimalMap, cur: { animal: AnimalId; map: MapId }) => {
+    if (!acc[cur.map]) acc[cur.map] = []
+    acc[cur.map].push(cur.animal)
+    return acc
+}, {})
+
+type AmmoAnimal = { [index: AmmoId]: AnimalId[] }
+
+export const ammoAnimal: AmmoAnimal = animalAmmoData.reduce((acc: AmmoAnimal, cur: { animal: AnimalId; ammo: AmmoId }) => {
+    if (!acc[cur.ammo]) acc[cur.ammo] = []
+    acc[cur.ammo].push(cur.animal)
+    return acc
+}, {})
+type AnimalAmmo = { [index: AnimalId]: AmmoId[] }
+export const animalAmmo: AnimalAmmo = animalAmmoData.reduce((acc: AnimalAmmo, cur: { animal: AnimalId; ammo: AmmoId }) => {
+    if (!acc[cur.animal]) acc[cur.animal] = []
+    acc[cur.animal].push(cur.ammo)
+    return acc
+}, {})

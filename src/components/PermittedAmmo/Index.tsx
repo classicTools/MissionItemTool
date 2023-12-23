@@ -18,8 +18,9 @@ const Container = styled.div`
     gap: 20px;
 
     margin: 0 0 120px 0;
-    background-color: white;
+    background-color: #222222;
     overflow: auto;
+    color: white;
 
     //justify-content: center;
 `
@@ -34,7 +35,6 @@ const Header = styled.div`
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: white;
 `
 const Divider = styled.hr`
     height: 1px;

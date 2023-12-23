@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
 import { useLocalStorage } from '../hooks'
-import { LocalStorageVars, MapId, bareFn } from '../types'
+import { AmmoId, AnimalId, LocalStorageVars, MapId, bareFn } from '../types'
 
 export const lightMode = {
     bgColor: 'FloralWhite',
@@ -33,6 +33,10 @@ interface SettingsContext {
     setCustomColors: Dispatch<SetStateAction<CustomColors>>
     map: MapId | null
     setMap: (mapId: MapId | null) => void
+    ammo: AmmoId | null
+    setAmmo: (ammoId: AmmoId | null) => void
+    animal: AnimalId | null
+    setAnimal: (animalId: AnimalId | null) => void
 }
 
 const defaultSettings = {
@@ -40,14 +44,22 @@ const defaultSettings = {
     setCustomColors: bareFn,
     map: null,
     setMap: bareFn,
+    ammo: null,
+    setAmmo: bareFn,
+    animal: null,
+    setAnimal: bareFn,
 }
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const [colors, setColors] = useState(lightMode)
     const [customColors, setCustomColors] = useLocalStorage<CustomColors>(LocalStorageVars.CustomColors, defaultCustomColors)
     const [map, setMap] = useLocalStorage<MapId | null>(LocalStorageVars.Reserve)
+    const [ammo, setAmmo] = useLocalStorage<AmmoId | null>(LocalStorageVars.Ammo)
+    const [animal, setAnimal] = useLocalStorage<AnimalId | null>(LocalStorageVars.Animal)
 
-    return <SettingsContext.Provider value={{ customColors, setCustomColors, map, setMap }}>{children}</SettingsContext.Provider>
+    return (
+        <SettingsContext.Provider value={{ customColors, setCustomColors, map, setMap, ammo, setAmmo, animal, setAnimal }}>{children}</SettingsContext.Provider>
+    )
 }
 export default WithSettingsContext
 export const useSettingsContext = () => useContext(SettingsContext)
