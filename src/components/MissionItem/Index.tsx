@@ -54,8 +54,8 @@ function App() {
                                 <AllMissions />
                                 <Agenda />
                                 <ImagePortal id={HintImagePortal} />
+                                <ReserveList />
                             </WithBookmarkContext>
-                            <ReserveList />
                             <Guide />
                         </Col>
                     </WithMissionsContext>

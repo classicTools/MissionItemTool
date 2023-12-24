@@ -32,8 +32,8 @@ const Sync = () => {
     const { syncBookmarks } = useBookmarkContext()
 
     const onSyncBookmarks = () => {
-        let cutDownText = syncBookmarks(syncText)
-        setSyncText(cutDownText)
+        syncBookmarks(syncText)
+        setSyncText(syncText)
     }
     return (
         <SyncBox>

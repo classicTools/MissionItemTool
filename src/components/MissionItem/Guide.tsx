@@ -58,15 +58,19 @@ const Guide = () => {
                     </li>
                     <li>If you happen to find a mistake or have any feedback or suggestions let me know. My in-game name is Brutus969. Kak2R is my discord.</li>
                     <li>
-                        Shoutout thanks to the following people for their help with keeping this tool alive whilst I had a job lmao:
+                        Shoutout & thanks to the following for their help with keeping this tool somewhat alive whilst I had a job lmao:
                         <ul>
-                            <li>Zulgeteb (Discord: zulgeteb) </li>
-                            <li>Aciel (Discord:acielgaming)</li>
+                            <li>
+                                <b>Zulgeteb</b> (Discord: zulgeteb){' '}
+                            </li>
+                            <li>
+                                <b>Aciel </b>(Discord:acielgaming)
+                            </li>
                         </ul>
                     </li>
                     <li>
-                        All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to HooCairs and any contributors
-                        for putting it there in the first place! Long live this great game.
+                        All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to <b>HooCairs</b> and any
+                        contributors for putting it there in the first place! Long live this great game.
                     </li>
                 </NotesUL>
             </div>

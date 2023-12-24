@@ -12,7 +12,7 @@ interface BookmarkContext {
     toggleAgenda: () => void
     bookmarkNextMission: (missionSetId: number) => void
     bookmarkPrevMission: (missionSetId: number) => void
-    syncBookmarks: (value: string) => string
+    syncBookmarks: (value: string) => void
     resetBookmarks: () => void
 }
 
@@ -23,7 +23,7 @@ const defaultBookmark = {
     toggleAgenda: bareFn,
     bookmarkNextMission: bareFn,
     bookmarkPrevMission: bareFn,
-    syncBookmarks: () => '',
+    syncBookmarks: bareFn,
     resetBookmarks: bareFn,
 }
 const BookmarkContext = createContext<BookmarkContext>(defaultBookmark)
@@ -110,12 +110,12 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
         let start = text.indexOf(missionTextStart)
         let end = text.indexOf(missionTextEnd)
         let missionText = text.slice(start, end).replaceAll(' (Single Player)\n', '').replaceAll(' Missions\n', '').replaceAll('Progress:', ':')
+
         if (start !== -1 && missionText.length > 20) {
             let newBookmarks = missionSetsData.reduce((acc: Bookmarks, { pk, name }) => ({ ...acc, ...getBookmarkFromText(pk, name, missionText) }), {})
             setBookmarks(newBookmarks)
             syncItems(newBookmarks)
         }
-        return missionText
     }
     const resetBookmarks = () => {
         if (Object.keys(bookmarks).length === 0) {

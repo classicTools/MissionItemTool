@@ -29,7 +29,7 @@ const WithItemsContext = ({ children }: PropsWithChildren) => {
         missionIds.push(...missionData.filter(({ mission_set }) => !Object.keys(bookmarks).includes(`${mission_set}`)).map(({ pk }) => pk))
 
         let newItemsBought = missionItemData.filter(({ mission, any }) => missionIds.includes(mission) && !any).map(({ item }) => item)
-        setItemsBought(newItemsBought)
+        setItemsBought([...new Set([...itemsBought, ...newItemsBought])])
     }
     const toggleItemBought = (itemId: ItemId) => {
         setItemsBought((items) => (items.includes(itemId) ? items.filter((item) => item !== itemId) : [...items, itemId]))
