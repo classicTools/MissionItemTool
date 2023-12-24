@@ -67,7 +67,7 @@ interface ItemProps {
 const Item = ({ item }: ItemProps) => {
     const { itemsBought, setItemsBought } = useItemsContext()
     const { itemHovered, setItemHovered } = useItemHoverContext()
-    const bought: boolean = itemsBought.includes(item.pk)
+    const bought = itemsBought.includes(item.pk)
     return (
         <ItemRowDiv
             onMouseEnter={() => setItemHovered(item.pk)}

@@ -17,7 +17,8 @@ const AgendaContainer = styled.div<{ show: boolean }>`
 
     /* left: 350px;
     width: 1100px; */
-    width: 700px;
+    left: 410px;
+    width: 740px;
 
     padding: 20px 40px;
     z-index: 100;

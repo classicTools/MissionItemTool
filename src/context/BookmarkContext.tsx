@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, PropsWithChildren } from 'react'
-import { MissionDataPlus, LocalStorageVars, MissionSetId, bareFn, MissionOrder, Bookmarks } from '../types'
+import { MissionDataPlus, LocalStorageVars, bareFn, Bookmarks } from '../types'
 import { useLocalStorage } from '../hooks'
 import missionSetsData from '../data/MissionItem/lookups/MissionSet.json'
 import { missionSetMissions } from '../data/MissionItem/Data'
@@ -110,7 +110,7 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
         let start = text.indexOf(missionTextStart)
         let end = text.indexOf(missionTextEnd)
         let missionText = text.slice(start, end).replaceAll(' (Single Player)\n', '').replaceAll(' Missions\n', '').replaceAll('Progress:', ':')
-        if (start != -1 && missionText.length > 20) {
+        if (start !== -1 && missionText.length > 20) {
             let newBookmarks = missionSetsData.reduce((acc: Bookmarks, { pk, name }) => ({ ...acc, ...getBookmarkFromText(pk, name, missionText) }), {})
             setBookmarks(newBookmarks)
             syncItems(newBookmarks)

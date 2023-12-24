@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { AssetFolder, MissionData, MissionId, MissionSetId } from './types'
+import { AssetFolder, MissionData, MissionId } from './types'
 import { missionSetObject } from './data/MissionItem/Data'
 
 export function useDebounce(value: any, delay: number) {

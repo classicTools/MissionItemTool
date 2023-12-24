@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 import { AnimalData, AssetFolder } from '../../types'
-import { useHover, useImage } from '../../hooks'
+import { useImage } from '../../hooks'
 import { Anchor, Tooltip } from '../genericElements'
 import { useAmmoContext } from '../../context/AmmoContext'
 import { ammoAnimal, mapAnimal } from '../../data/MissionItem/Data'

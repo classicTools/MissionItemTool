@@ -2,6 +2,7 @@ Todos
 
 allow hiding mission sets
 check missionmap in agenda
+agenda scroll
 
 add new animals, ammo, missions:
 	Piccabeen Bay Travel: 0 / 10

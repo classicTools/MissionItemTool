@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { useState } from 'react'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import { Anchor, Tooltip } from '../genericElements'
+import { useHover } from '../../hooks'
 
 const SyncBox = styled.div`
     display: flex;
@@ -26,7 +27,7 @@ const Tip = styled(Tooltip)`
 `
 
 const Sync = () => {
-    const [hovered, setHovered] = useState(false)
+    const { hover: syncButtonHovered, hoverFunctions } = useHover()
     const [syncText, setSyncText] = useState('')
     const { syncBookmarks } = useBookmarkContext()
 
@@ -42,10 +43,10 @@ const Sync = () => {
 
             <textarea value={syncText} onChange={({ target: { value } }) => setSyncText(value)} placeholder="Paste mission page here"></textarea>
             <Anchor>
-                <button onClick={onSyncBookmarks} onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}>
+                <button onClick={onSyncBookmarks} {...hoverFunctions}>
                     Synchronise Bookmarks
                 </button>
-                {hovered && (
+                {syncButtonHovered && (
                     <Tip>
                         Synchronise your mission progress! Go to your Regular Missions Page via launcher or browser, don't click anywhere, press ctrl+A followed
                         by ctrl+C to select & copy everything on the page, then paste it into the textbox, click the button and your mission bookmarks here will

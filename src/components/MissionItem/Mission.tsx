@@ -1,15 +1,14 @@
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
 import { MissionState, MissionItemData, MissionDataPlus, AssetFolder } from '../../types'
 import styled, { css } from 'styled-components'
-import { useEffect, useState } from 'react'
 import MissionItems from './MissionItems'
 import { CustomColors, useSettingsContext } from '../../context/SettingsContext'
-import { missionSetObject, missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
+import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
 
 import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import { getMissionImage, useImage } from '../../hooks'
-import { Tooltip } from '../genericElements'
+import { getMissionImage, useHover, useImage } from '../../hooks'
+import { Anchor, Tooltip } from '../genericElements'
 
 const flashMission = css`
     /* @keyframes flashMission {
@@ -68,12 +67,6 @@ const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
     ${(props) => props.bookmarked && 'color: red; font-weight: bold;'}
 `
 
-const TooltipAnchor = styled.div`
-    position: relative;
-    display: inline-block;
-    min-width: 38px;
-`
-
 const Tip = styled(Tooltip)<{ left: boolean }>`
     width: fit-content;
     text-align: left;
@@ -84,21 +77,22 @@ const Tip = styled(Tooltip)<{ left: boolean }>`
     display: flex;
     flex-direction: row;
     left: -185px;
-    /* ${({ left }) =>
+    ${({ left }) =>
         left
             ? css`
-                  left: 15px;
+                  left: -185px;
               `
             : css`
-                  right: 15px;
-              `} */
+                  left: -415px;
+              `}
 `
 const Info = styled.div`
     min-width: 400px;
 `
 export const HintImage = styled.img`
     max-width: 500px;
-    margin: 10px;
+    margin: auto;
+    padding: 10px;
 `
 
 interface MissionProps {
@@ -108,7 +102,7 @@ interface MissionProps {
 const Mission = ({ mission }: MissionProps) => {
     const { map, customColors } = useSettingsContext()
     const { itemHovered } = useItemHoverContext()
-    const [missionHovered, setMissionHovered] = useState<boolean>(false)
+    const { hover: missionHovered, hoverFunctions } = useHover()
     const { bookmarks, toggleBookmark } = useBookmarkContext()
     const { pk, objectives, state, reward, order, name, mission_set } = mission
     const image = useImage(AssetFolder.Missions, getMissionImage(mission))
@@ -124,8 +118,7 @@ const Mission = ({ mission }: MissionProps) => {
 
     return (
         <MissionBox
-            onMouseEnter={() => setMissionHovered(true)}
-            onMouseLeave={() => setMissionHovered(false)}
+            {...hoverFunctions}
             onClick={() => toggleBookmark(mission, bookmarked)}
             flash={flash}
             containsBoughtItem={containsHoveredItem}
@@ -137,8 +130,8 @@ const Mission = ({ mission }: MissionProps) => {
                 {reward}
             </Reward>
             {missionHovered && (
-                <TooltipAnchor>
-                    <Tip left={true}>
+                <Anchor>
+                    <Tip left={order < 6}>
                         <Info>
                             <span>
                                 {order} - {name}
@@ -149,7 +142,7 @@ const Mission = ({ mission }: MissionProps) => {
 
                         {image && <HintImage src={image}></HintImage>}
                     </Tip>
-                </TooltipAnchor>
+                </Anchor>
             )}
         </MissionBox>
     )
