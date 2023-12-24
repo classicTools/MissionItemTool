@@ -3427,7 +3427,7 @@
         "pk": 429,
         "mission_set": 42,
         "name": "Honour. Glory. Rabbit.",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> Shotgun</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3435,7 +3435,7 @@
         "pk": 430,
         "mission_set": 42,
         "name": "Ode To Joy",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3451,7 +3451,7 @@
         "pk": 432,
         "mission_set": 42,
         "name": "Losers Of The Fields",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> from a <a href=\"https://thehunter.fandom.com/wiki/Ground_Blind\" title=\"Ground Blind\">Ground Blind</a> in the same hunt.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -3459,7 +3459,7 @@
         "pk": 433,
         "mission_set": 42,
         "name": "Restoring The Honour",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> while crouching from a maximum distance of 20 meter (approx. 66 ft.).</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> while crouching from a maximum distance of 20 meter (approx. 66 ft.).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> while crouching from a maximum distance of 20 meter (approx. 66 ft.).</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3467,7 +3467,7 @@
         "pk": 434,
         "mission_set": 42,
         "name": "Restoring The Glory",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Air_Rifle\" title=\".22 Air Rifle\">.22 Air Rifle</a> without a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Air_Rifle\" title=\".22 Air Rifle\">.22 Air Rifle</a> without a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Air_Rifle\" title=\".22 Air Rifle\">.22 Air Rifle</a> without a scope.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/.22_Air_Rifle\" title=\".22 Air Rifle\">.22 Air Rifle</a> without a scope.</li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3475,7 +3475,7 @@
         "pk": 435,
         "mission_set": 42,
         "name": "Losers No More",
-        "objectives": "<ul><li>Harvest a unspooked <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a> using a <a href=\"https://thehunter.fandom.com/wiki/Longbow\" title=\"Longbow\">Longbow</a>.</li><li>Harvest another unspooked <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a> using a <a href=\"https://thehunter.fandom.com/wiki/Longbow\" title=\"Longbow\">Longbow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 unspooked <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> in <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> from a <a href=\"https://thehunter.fandom.com/wiki/Tree_Stand\" title=\"Tree Stand\"> Treestand</a> using a <a href=\"https://thehunter.fandom.com/wiki/Longbow\" title=\"Longbow\">Longbow</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -3483,7 +3483,7 @@
         "pk": 436,
         "mission_set": 42,
         "name": "Duty First",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbits</a> in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a> using a <a href=\"https://thehunter.fandom.com/wiki/20_GA_Semi-Automatic_Shotgun\" title=\"20 GA Semi-Automatic Shotgun\">20 GA Semi-Automatic Shotgun</a> during the same hunt.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -3571,7 +3571,7 @@
         "pk": 447,
         "mission_set": 44,
         "name": "Roe For Starters",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a> during the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/.308_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\".308 Anschütz 1780 D FL Bolt Action Rifle\">.308 Anschütz 1780 D FL Bolt Action Rifle, during the same hunt.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -3595,7 +3595,7 @@
         "pk": 450,
         "mission_set": 44,
         "name": "Whitetail Up Close",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> without a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> without a scope in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/8x57_IS_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"8x57 IS Anschütz 1780 D FL Bolt Action Rifle\">8x57 IS Anschütz 1780 D FL Bolt Action Rifle</a> without a scope, in the same hunt.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3603,7 +3603,7 @@
         "pk": 451,
         "mission_set": 44,
         "name": "Chunky Red Deer",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> weighing at least 190 kg (approx. 419 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -3611,7 +3611,7 @@
         "pk": 452,
         "mission_set": 44,
         "name": "Big Boned Roosevelt Elk",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 400 kg (approx. 882 lbs.) using a <a href=\"https://thehunter.fandom.com/wiki/9.3x62_Ansch%C3%BCtz_1780_D_FL_Bolt_Action_Rifle\" title=\"9.3x62 Anschütz 1780 D FL Bolt Action Rifle\">9.3x62 Anschütz 1780 D FL Bolt Action Rifle</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -3651,7 +3651,7 @@
         "pk": 457,
         "mission_set": 45,
         "name": "Moose Hunt Up Close",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> from under 30 meters (approx. 98 ft) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> Slug</a> shells.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> from under 30 meters (approx. 98 ft) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> Slug</a> shells.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> from under 30 meters (approx. 98 ft) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> Slug</a> shells.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> from under 30 meters (approx. 98 ft) using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> Slug</a> shells.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -3659,7 +3659,7 @@
         "pk": 458,
         "mission_set": 45,
         "name": "Pigs From Afar",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> or a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from over 150 meters (approx. 492 ft.) using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> or a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from over 150 meters (approx. 492 ft.) using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> or a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from over 150 meters (approx. 492 ft.) using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> or <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from over 150 meters (approx. 492 ft.) using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li></ul>",
         "reward": 250,
         "order": 2
     },
@@ -3667,7 +3667,7 @@
         "pk": 459,
         "mission_set": 45,
         "name": "Running Roe Deers",
-        "objectives": "<ul><li>Harvest a moving <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with Buckshot shells.</li><li>Harvest a moving <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with Buckshot shells.</li><li>Harvest a moving <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with Buckshot shells.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 moving <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with Buckshot shells.</li></ul>",
         "reward": 500,
         "order": 3
     },
@@ -3675,7 +3675,7 @@
         "pk": 460,
         "mission_set": 45,
         "name": "The Majestic Red Deer",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> of at least a 200 point score using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> of at least a 200 point score using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> of at least a 200 point score using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> of at least a 200 point score using the <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li></ul>",
         "reward": 1250,
         "order": 4
     },
@@ -3683,7 +3683,7 @@
         "pk": 461,
         "mission_set": 45,
         "name": "Pheasant Hunting Done Right",
-        "objectives": "<ul><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells during the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells during the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells during the same hunt.</li><li>Harvest another airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasants</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells.</li></ul>",
         "reward": 2900,
         "order": 5
     },
@@ -3691,7 +3691,7 @@
         "pk": 462,
         "mission_set": 46,
         "name": "The Big Mystery",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> using <a href=\"https://thehunter.fandom.com/wiki/.243_Nosler_Ballistic_Tip\" title=\".243 Nosler Ballistic Tip\"> .243 ammunition</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> using <a href=\"https://thehunter.fandom.com/wiki/.243_Nosler_Ballistic_Tip\" title=\".243 Nosler Ballistic Tip\"> .243 ammunition</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> using <a href=\"https://thehunter.fandom.com/wiki/.243_Nosler_Ballistic_Tip\" title=\".243 Nosler Ballistic Tip\"> .243 ammunition</a> in the same hunt.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -3699,7 +3699,7 @@
         "pk": 463,
         "mission_set": 46,
         "name": "Varmint Hunting",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> or a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> using <a href=\"https://thehunter.fandom.com/wiki/.223_Nosler_Ballistic_Tip\" title=\".223 Nosler Ballistic Tip\"> .223 ammunition</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> or a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> using <a href=\"https://thehunter.fandom.com/wiki/.223_Nosler_Ballistic_Tip\" title=\".223 Nosler Ballistic Tip\"> .223 ammunition</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> or a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> using <a href=\"https://thehunter.fandom.com/wiki/.223_Nosler_Ballistic_Tip\" title=\".223 Nosler Ballistic Tip\"> .223 ammunition</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> or a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> using <a href=\"https://thehunter.fandom.com/wiki/.223_Nosler_Ballistic_Tip\" title=\".223 Nosler Ballistic Tip\"> .223 ammunition</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -3707,7 +3707,7 @@
         "pk": 464,
         "mission_set": 46,
         "name": "Loud Bangs",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> bull weighing at least 400kg using <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> .30-06 ammunition</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> bull weighing at least 400kg using <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> .30-06 ammunition</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> bull weighing at least 400kg using <a href=\"https://thehunter.fandom.com/wiki/.30-06_Nosler_Partition\" title=\".30-06 Nosler Partition\"> .30-06 ammunition</a> in the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3715,7 +3715,7 @@
         "pk": 465,
         "mission_set": 46,
         "name": "Hog Slogging",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -3811,7 +3811,7 @@
         "pk": 477,
         "mission_set": 48,
         "name": "Take Your Pick",
-        "objectives": "<ul><li>Harvest one animal from <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> reserve using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a>.</li><li>Harvest another animal from <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> reserve using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> in the same hunt.</li><li>Harvest another animal from <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> reserve using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 animals from <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> reserve using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> in the same hunt.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -3819,7 +3819,7 @@
         "pk": 478,
         "mission_set": 48,
         "name": "Join The Herd",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> from under 20 meters using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> from under 20 meters using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> from under 20 meters using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> in the same hunt.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> from under 20 meters using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> from under 20 meters using a <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Parker_Python\" title=\"Compound Bow Parker Python\"> Parker Python Compound Bow</a>, in the same hunt.</li></ul>",
         "reward": 250,
         "order": 2
     },
@@ -3875,7 +3875,7 @@
         "pk": 485,
         "mission_set": 49,
         "name": "From Eyes To Trigger",
-        "objectives": "<ul><li>Harvest a spooked <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a> mounted with a <a href=\"https://thehunter.fandom.com/wiki/Aimpoint_Micro_H-1_Sight\" title=\"Aimpoint Micro H-1 Sight\">Aimpoint Micro H-1 Sight</a> from under 20 meter.</li><li>Harvest another spooked <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a> mounted with a <a href=\"https://thehunter.fandom.com/wiki/Aimpoint_Micro_H-1_Sight\" title=\"Aimpoint Micro H-1 Sight\">Aimpoint Micro H-1 Sight</a> from under 20 meter.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 spooked <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> using a <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a> mounted with a <a href=\"https://thehunter.fandom.com/wiki/Aimpoint_Micro_H-1_Sight\" title=\"Aimpoint Micro H-1 Sight\">Aimpoint Micro H-1 Sight</a> from under 20 meters.</li></ul>",
         "reward": 1250,
         "order": 4
     },
@@ -3907,7 +3907,7 @@
         "pk": 489,
         "mission_set": 50,
         "name": "The Good, The Bad and the Ugly",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> of at least 9 kg (approx. 19.8 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> of at least 9 kg (approx. 19.8 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a> of at least 9 kg (approx. 19.8 lbs) using a <a href=\"https://thehunter.fandom.com/wiki/.22_Pistol\" title=\".22 Pistol\">.22 Pistol</a> during the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -3947,7 +3947,7 @@
         "pk": 494,
         "mission_set": 50,
         "name": "Over The Fields And Far Away",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from over 39.62 m (approx. 130 feet) using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from over 39.62 m (approx. 130 feet) using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from over 39.62 m (approx. 130 feet) using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from over 39.62 m (approx. 130 feet) using a <a href=\"https://thehunter.fandom.com/wiki/Weapons#Vertical_Bows\" title=\"Weapons\"> Compound Bow</a></li></ul>",
         "reward": 1200,
         "order": 8
     },
@@ -3987,7 +3987,7 @@
         "pk": 499,
         "mission_set": 51,
         "name": "Learn To Observe",
-        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a>.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> during the same hunt.</li><li>Spot another <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Spot 3 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> during the same hunt.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -4011,7 +4011,7 @@
         "pk": 502,
         "mission_set": 51,
         "name": "Trophy Hunting",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail</a> with at least 10 typical points at a 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using a <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li><li>Harvest another <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail</a> with at least 10 typical points at a 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using a <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\"> Whitetail</a> with at least 10 typical points at a 100% <a href=\"https://thehunter.fandom.com/wiki/Harvest_Value\" title=\"Harvest Value\">Harvest Value</a> using a <a href=\"https://thehunter.fandom.com/wiki/6.5x55_Blaser_R8_Bolt_Action_Rifle\" title=\"6.5x55 Blaser R8 Bolt Action Rifle\">6.5x55 Blaser R8 Bolt Action Rifle</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -4171,7 +4171,7 @@
         "pk": 522,
         "mission_set": 60,
         "name": "Tracking The Northern Movement",
-        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 1 (x -13888, y 3352) in the same hunt.</li><li>Then arrive at Tower 11 (x -14437, y 3334) in the same hunt</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID one more audio clue from another <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
+        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 1 (x -13888, y 3352) in the same hunt.</li><li>Then arrive at Tower 11 (x -14437, y 3334) in the same hunt</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>At any point during the same hunt, ID audio clues from 2 different <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -4187,7 +4187,7 @@
         "pk": 524,
         "mission_set": 60,
         "name": "Removing The Rest Of The Competition",
-        "objectives": "<ul><li>Start at South Cliff Lodge in Whitehart Island</li><li>Then arrive at Tower 13 (x -14189, y 8111) in the same hunt.</li><li>Then arrive at Tower 15 (x -14615, y 7637) in the same hunt.</li><li>Then arrive at Tower 9 (x -14015, y 6837) in the same hunt.</li><li>Then arrive at Tower 19 (x -13594, y 7302) in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li></ul>",
+        "objectives": "<ul><li>Start at South Cliff Lodge in Whitehart Island</li><li>Then arrive at Tower 13 (x -14189, y 8111) in the same hunt.</li><li>Then arrive at Tower 15 (x -14615, y 7637) in the same hunt.</li><li>Then arrive at Tower 9 (x -14015, y 6837) in the same hunt.</li><li>Then arrive at Tower 19 (x -13594, y 7302) in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>During the same hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li></ul>",
         "reward": 500,
         "order": 4
     },
@@ -4203,7 +4203,7 @@
         "pk": 526,
         "mission_set": 60,
         "name": "Caring For The Weak",
-        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 2 (x -13389, y 4024).</li><li>Then arrive at Tower 6 (x -14478, y 5114).</li><li>Then arrive at Tower 17 (x -13928, y 6285).</li><li>Then arrive at Tower 12 (x -13836, y 5038).</li><li>At any point while in Whitehart Island, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point while in Whitehart Island, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 380kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li><li>At any point while in Whitehart Island, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li><li>At any point while in Whitehart Island, harvest another female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 2 (x -13389, y 4024).</li><li>Then arrive at Tower 6 (x -14478, y 5114).</li><li>Then arrive at Tower 17 (x -13928, y 6285).</li><li>Then arrive at Tower 12 (x -13836, y 5038).</li><li>At any point while in Whitehart Island, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point while in Whitehart Island, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with a weight below 380kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li><li>At any point while in Whitehart Island, harvest 2 female <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> with weights below 270kg killed with a single shot from any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Midsize_and_Big_Game_Rifles\" title=\"Weapons\"> Anschütz rifle</a>.</li></ul>",
         "reward": 1000,
         "order": 6
     },
@@ -4211,7 +4211,7 @@
         "pk": 527,
         "mission_set": 60,
         "name": "Making A Safe Return",
-        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>Then arrive at the <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island#Awi.27Usdi_Stones\" title=\"Whitehart Island\"> Awi'Usdi Stones</a> in the same hunt.</li><li>Then arrive at Tower 6 (x -14478, y 5114) in the same hunt.</li><li>Then arrive at the Campsite in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point during the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> killed by a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> killed by a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> killed by a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island.</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>Then arrive at the <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island#Awi.27Usdi_Stones\" title=\"Whitehart Island\"> Awi'Usdi Stones</a> in the same hunt.</li><li>Then arrive at Tower 6 (x -14478, y 5114) in the same hunt.</li><li>Then arrive at the Campsite in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point during the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a>.</li><li>During the same hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> killed by a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Single_Shot_Shotgun\" title=\"12 GA Single Shot Shotgun\">12 GA Single Shot Shotgun</a>.</li></ul>",
         "reward": 1300,
         "order": 7
     },
@@ -4259,7 +4259,7 @@
         "pk": 533,
         "mission_set": 54,
         "name": "Can't Handle The Success",
-        "objectives": "<ul><li>Start from Homestead Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.</li><li>Then arrive at Tower 3 (x -7438, y 4984) in the same hunt.</li><li>Then arrive at Fort David in the same hunt.</li><li>Then arrive at Tower 5 (x -6582, y 6229) in the same hunt.</li><li>At any point during the same hunt, ID any clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID another clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a>.</li></ul>",
+        "objectives": "<ul><li>Start from Homestead Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.</li><li>Then arrive at Tower 3 (x -7438, y 4984) in the same hunt.</li><li>Then arrive at Fort David in the same hunt.</li><li>Then arrive at Tower 5 (x -6582, y 6229) in the same hunt.</li><li>At any point during the same hunt, ID 2 clues from <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -4267,7 +4267,7 @@
         "pk": 534,
         "mission_set": 54,
         "name": "Empty Bellies",
-        "objectives": "<ul><li>Start from Highland Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 2 (x -7583, y 4572) in the same hunt.</li><li>Then arrive at Tower 3 (x -7438, y 4984) in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest another <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
+        "objectives": "<ul><li>Start from Highland Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 2 (x -7583, y 4572) in the same hunt.</li><li>Then arrive at Tower 3 (x -7438, y 4984) in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -4275,7 +4275,7 @@
         "pk": 535,
         "mission_set": 54,
         "name": "Never Brief On An Empty Stomach",
-        "objectives": "<ul><li>Start from Homestead Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 5 (x -6582, y 6229) in the same hunt.</li><li>Then arrive at Fort David in the same hunt.</li><li>Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.</li><li>At any point during the same hunt, ID any clue from a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>At any point during the same hunt, ID any clue from a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li><li>At any point during the same hunt, harvest another <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li></ul>",
+        "objectives": "<ul><li>Start from Homestead Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 5 (x -6582, y 6229) in the same hunt.</li><li>Then arrive at Fort David in the same hunt.</li><li>Then arrive at Tower 4 (x -6889, y 5005) in the same hunt.</li><li>At any point during the same hunt, ID any clue from a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>At any point during the same hunt, ID any clue from a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a>.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a>.</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -4291,7 +4291,7 @@
         "pk": 537,
         "mission_set": 54,
         "name": "Small Game Night",
-        "objectives": "<ul><li>Start from Highland Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 2 (x -7583, y 4572).</li><li>Then arrive at Tower 7 (x -7150, y 4433).</li><li>Then arrive at Tower 4 (x -6889, y 5005).</li><li>Then arrive at Tower 6 (x -6494, y 4094).</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest a <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest another <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Start from Highland Lodge in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>.</li><li>Then arrive at Tower 2 (x -7583, y 4572).</li><li>Then arrive at Tower 7 (x -7150, y 4433).</li><li>Then arrive at Tower 4 (x -6889, y 5005).</li><li>Then arrive at Tower 6 (x -6494, y 4094).</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkeys</a>.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Settler_Creeks\" title=\"Settler Creeks\">Settler Creeks</a>, harvest a <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\">Cottontail Rabbit</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> Bow</a>.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -4339,7 +4339,7 @@
         "pk": 543,
         "mission_set": 55,
         "name": "The First Wurst",
-        "objectives": "<ul><li>Start at Müllerwaldhütte in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Then arrive at Tower 4 (x 8504, y -25) during the same hunt.</li><li>Then arrive at Tower 2 (x 8849, y 335) during the same hunt.</li><li>Then arrive at Tower 3 (x 9075, y 248) during the same hunt.</li><li>Then arrive at Tower 1 (x 8711, y 1487) during the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a>.</li><li>At any point during the same hunt, harvest another <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a>.</li></ul>",
+        "objectives": "<ul><li>Start at Müllerwaldhütte in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Then arrive at Tower 4 (x 8504, y -25) during the same hunt.</li><li>Then arrive at Tower 2 (x 8849, y 335) during the same hunt.</li><li>Then arrive at Tower 3 (x 9075, y 248) during the same hunt.</li><li>Then arrive at Tower 1 (x 8711, y 1487) during the same hunt.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a>.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -4363,7 +4363,7 @@
         "pk": 546,
         "mission_set": 55,
         "name": "Cleanse The Boars",
-        "objectives": "<ul><li>Start at Müllerwaldhütte in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Then arrive at Tower 7 (x 9992, y -50) during the same hunt.</li><li>Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.</li><li>Then arrive at Tower 3 (x 9075, y 248) during the same hunt.</li><li>At any point during the same hunt, harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any Shotgun</a>.</li><li>At any point during the same hunt, harvest a second airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any Shotgun</a>.</li><li>At any point during the same hunt, harvest a third airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any Shotgun</a>.</li><li>At any point during the same hunt, harvest a fourth airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any Shotgun</a>.</li><li>At any point during the same hunt, harvest a fifth airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any Shotgun</a>.</li></ul>",
+        "objectives": "<ul><li>Start at Müllerwaldhütte in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Then arrive at Tower 7 (x 9992, y -50) during the same hunt.</li><li>Then arrive at Tower 6 (x 10186, y 1253) during the same hunt.</li><li>Then arrive at Tower 3 (x 9075, y 248) during the same hunt.</li><li>During the same hunt, harvest 5 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasant</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Shotguns\" title=\"Weapons\"> any Shotgun</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -4515,7 +4515,7 @@
         "pk": 565,
         "mission_set": 57,
         "name": "Source Removed",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal#Dr.C3.A4ngstorp\" title=\"Hemmeldal\"> Drängstorp Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Then arrive at Orm's Sten (x 7048, y -3455) in the same hunt.</li><li>At any point during the same hunt, harvest any animal except Red Fox southwest of Tower 2.</li><li>At any point during the same hunt, harvest any animal except Red Fox southwest of Tower 2.</li><li>At any point during the same hunt, harvest any animal except Red Fox southwest of Tower 2.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal#Dr.C3.A4ngstorp\" title=\"Hemmeldal\"> Drängstorp Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Then arrive at Orm's Sten (x 7048, y -3455) in the same hunt.</li><li>During the same hunt, harvest any 3 animals, except for Red Fox, southwest of Tower 2.</li></ul>",
         "reward": 700,
         "order": 5
     },
@@ -4523,7 +4523,7 @@
         "pk": 566,
         "mission_set": 57,
         "name": "South East Cleared",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal#Dr.C3.A4ngstorp\" title=\"Hemmeldal\"> Drängstorp Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Then arrive at Tower 1 (x 8713, y -3776) in the same hunt.</li><li>At any point during the same hunt, harvest any animal except Red Fox southeast of Tower 2 killed with <a href=\"https://thehunter.fandom.com/wiki/.300_Nosler_AccuBond\" title=\".300 Nosler AccuBond\">.300 Nosler AccuBond</a> ammunition.</li><li>At any point during the same hunt, harvest any animal except Red Fox southeast of Tower 2 killed with <a href=\"https://thehunter.fandom.com/wiki/.300_Nosler_AccuBond\" title=\".300 Nosler AccuBond\">.300 Nosler AccuBond</a> ammunition.</li><li>At any point during the same hunt, harvest any animal except Red Fox northeast of tower 2 but south of Hemmeldal Stenar.</li><li>At any point during the same hunt, harvest any animal except Red Fox northeast of tower 2 but south of Hemmeldal Stenar.</li><li>Info message when you are northeast of Tower 2 and south of Hemmeldal Stenar.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal#Dr.C3.A4ngstorp\" title=\"Hemmeldal\"> Drängstorp Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Then arrive at Tower 1 (x 8713, y -3776) in the same hunt.</li><li>During the same hunt, harvest any 2 animals, except Red Fox, southeast of Tower 2 killed with <a href=\"https://thehunter.fandom.com/wiki/.300_Nosler_AccuBond\" title=\".300 Nosler AccuBond\">.300 Nosler AccuBond</a> ammunition.</li><li>During the same hunt, harvest any 2 animals, except Red Fox, northeast of tower 2 but south of Hemmeldal Stenar.</li></ul>",
         "reward": 1000,
         "order": 6
     },
@@ -4531,7 +4531,7 @@
         "pk": 567,
         "mission_set": 57,
         "name": "Clearing The North",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal#Koppartorp\" title=\"Hemmeldal\"> Koppartorp Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Then arrive at Hemmeldal Stenar in the same hunt.</li><li>At any point during the same hunt, harvest any animal except Red Fox northeast of Hemmeldal Stenar.</li><li>At any point during the same hunt, harvest any animal except Red Fox northeast of Hemmeldal Stenar.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> or <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> northwest of Hemmeldal Stenar killed with <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\">.44 Nosler Sporting Handgun</a> ammunition.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> or <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> northwest of Hemmeldal Stenar killed with <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\">.44 Nosler Sporting Handgun</a> ammunition.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal#Koppartorp\" title=\"Hemmeldal\"> Koppartorp Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Then arrive at Hemmeldal Stenar in the same hunt.</li><li>During the same hunt, harvest any 2 animals, except Red Fox, northeast of Hemmeldal Stenar.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Reindeer\" title=\"Reindeer\">Reindeer</a> or <a href=\"https://thehunter.fandom.com/wiki/Roe_Deer\" title=\"Roe Deer\">Roe Deer</a> northwest of Hemmeldal Stenar killed with <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\">.44 Nosler Sporting Handgun</a> ammunition.</li></ul>",
         "reward": 1300,
         "order": 7
     },
@@ -4595,7 +4595,7 @@
         "pk": 575,
         "mission_set": 58,
         "name": "Protecting The Heart",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> Whispering Woods Lodge</a>.</li><li>Then arrive in the vicinity of Ella's Heart (x -1767, y 8665).</li><li>At any point while in Rougarou Bayou, harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> close to Ella's Heart.</li><li>At any point while in Rougarou Bayou, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> close to Ella's Heart.</li><li>At any point while in Rougarou Bayou, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> close to Ella's Heart.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> Whispering Woods Lodge</a>.</li><li>Then arrive in the vicinity of Ella's Heart (x -1767, y 8665).</li><li>During the hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> close to Ella's Heart.</li></ul>",
         "reward": 700,
         "order": 5
     },
@@ -4603,7 +4603,7 @@
         "pk": 576,
         "mission_set": 58,
         "name": "Mallard Date",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> Whispering Woods Lodge</a>.</li><li>Then arrive at the blue boat in Laurent's Rest (x -2717, y 9396) in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a>.</li><li>At any point during the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a>.</li><li>At any point during the same hunt, spot another <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> that was shot while airborne.</li><li>At any point during the same hunt, harvest another <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> that was shot while airborne.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> Whispering Woods Lodge</a>.</li><li>Then arrive at the blue boat in Laurent's Rest (x -2717, y 9396) in the same hunt.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a>.</li><li>During the same hunt, spot 2 <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a>.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> that were shot while airborne.</li></ul>",
         "reward": 1000,
         "order": 6
     },
@@ -4611,7 +4611,7 @@
         "pk": 577,
         "mission_set": 58,
         "name": "Hunting Runs Number 1",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> L'île du Canard Noir</a>.</li><li>Then arrive at One-armed Thaddeus' Place in the same hunt.</li><li>Then arrive at Fort Stillwater in the same hunt.</li><li>Then arrive at Solitary End (x -3900, y 10245) in the same hunt.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, ID another set of tracks from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, spot another <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> L'île du Canard Noir</a>.</li><li>Then arrive at One-armed Thaddeus' Place in the same hunt.</li><li>Then arrive at Fort Stillwater in the same hunt.</li><li>Then arrive at Solitary End (x -3900, y 10245) in the same hunt.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, ID another set of tracks from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>During the same hunt, spot 2 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a>.</li><li>During the same hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a>.</li></ul>",
         "reward": 1300,
         "order": 7
     },
@@ -4627,7 +4627,7 @@
         "pk": 579,
         "mission_set": 58,
         "name": "Hunting Runs Number 3",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> Whispering Woods Lodge</a>.</li><li>Then arrive at The Solitary End (x -3900, y 10245) in the same hunt.</li><li>Then arrive at Knobby Point (x -399, y 8320) in the same hunt.</li><li>Then arrive at Riverhead Landing in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> that was shot while airborne.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> that was shot while airborne.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallard</a> that was shot while airborne.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> shot with a <a href=\"https://thehunter.fandom.com/wiki/.30-06_Lever_Action_Rifle\" title=\".30-06 Lever Action Rifle\">.30-06 Lever Action Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Rougarou_Bayou#Lodges\" title=\"Rougarou Bayou\"> Whispering Woods Lodge</a>.</li><li>Then arrive at The Solitary End (x -3900, y 10245) in the same hunt.</li><li>Then arrive at Knobby Point (x -399, y 8320) in the same hunt.</li><li>Then arrive at Riverhead Landing in the same hunt.</li><li>During the same hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Mallard_Duck\" title=\"Mallard Duck\"> Mallards</a> that were shot while airborne.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> shot with a <a href=\"https://thehunter.fandom.com/wiki/.30-06_Lever_Action_Rifle\" title=\".30-06 Lever Action Rifle\">.30-06 Lever Action Rifle</a>.</li></ul>",
         "reward": 2000,
         "order": 9
     },
@@ -4642,7 +4642,7 @@
     {
         "pk": 581,
         "mission_set": 59,
-        "name": "A Dirty Job",
+        "name": "A Dirty Job (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 4 (x -10023, y -2535) in the same hunt.</li><li>Then arrive at the old tree stand (that the locals for some reason call Tower 6, x -10176, y -3696) in the same hunt.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID more droppings from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li></ul>",
         "reward": 100,
         "order": 1
@@ -4650,7 +4650,7 @@
     {
         "pk": 582,
         "mission_set": 59,
-        "name": "Dropping dropping dropping",
+        "name": "Dropping dropping dropping (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Trapper's Rest Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 3 (x -10957, y -1741) in the same hunt.</li><li>Then arrive at Tower 2 (x -12115, y -1979) in the same hunt.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li></ul>",
         "reward": 200,
         "order": 2
@@ -4658,7 +4658,7 @@
     {
         "pk": 583,
         "mission_set": 59,
-        "name": "A Mess",
+        "name": "A Mess (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>Then arrive at The Lonely Creek (x -10746, y -5436) in the same hunt.</li><li>Then arrive at Peak Forest (x -12263, y -6367) in the same hunt.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li></ul>",
         "reward": 300,
         "order": 3
@@ -4666,31 +4666,31 @@
     {
         "pk": 584,
         "mission_set": 59,
-        "name": "Thinning Out The Population: Roosevelt Elk",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.</li><li>Then arrive at Tower 4 (x -10023, y -2535) in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a fourth <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a fifth <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
+        "name": "Thinning Out The Population: Roosevelt Elk (Single Player)",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.</li><li>Then arrive at Tower 4 (x -10023, y -2535) in the same hunt.</li><li>During the same hunt, harvest 5 <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
         "reward": 500,
         "order": 4
     },
     {
         "pk": 585,
         "mission_set": 59,
-        "name": "Thinning Out The Population: Deer",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Trapper's Rest Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 2 (x -12115, y -1979) in the same hunt.</li><li>Then arrive at Tower 1 (x -11806, y -2588) in the same hunt.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li></ul>",
+        "name": "Thinning Out The Population: Deer (Single Player)",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Trapper's Rest Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 2 (x -12115, y -1979) in the same hunt.</li><li>Then arrive at Tower 1 (x -11806, y -2588) in the same hunt.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>During the same hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li></ul>",
         "reward": 700,
         "order": 5
     },
     {
         "pk": 586,
         "mission_set": 59,
-        "name": "Thinning Out The Population: Moose and Bears",
-        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Trapper's Rest Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>Then arrive at The Lonely Creek (x -10746, y -5436) in the same hunt.</li><li>Then arrive at Peak Forest (x -12263, y -6367) in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum_Break_Action_Rifle\" title=\"7mm Magnum Break Action Rifle\"> 7mm Break Action Rifle</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, harvest a third <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, harvest a second <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum_Break_Action_Rifle\" title=\"7mm Magnum Break Action Rifle\"> 7mm Break Action Rifle</a>.</li></ul>",
+        "name": "Thinning Out The Population: Moose and Bears (Single Player)",
+        "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Trapper's Rest Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>Then arrive at The Lonely Creek (x -10746, y -5436) in the same hunt.</li><li>Then arrive at Peak Forest (x -12263, y -6367) in the same hunt.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> killed with any <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum_Break_Action_Rifle\" title=\"7mm Magnum Break Action Rifle\"> 7mm Break Action Rifle</a>.</li><li>During the same hunt, harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li></ul>",
         "reward": 1000,
         "order": 6
     },
     {
         "pk": 587,
         "mission_set": 59,
-        "name": "Check The Situation",
+        "name": "Check The Situation (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Trapper's Rest Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 3 (x -10957, y -1741) in the same hunt.</li><li>Then arrive at Tower 4 (x -10023, y -2535) in the same hunt.</li><li>Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.</li><li>At any point during the same hunt, ID a clue from a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> killed with <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum\" title=\"7mm Magnum\"> 7mm ammunition</a>.</li><li>At any point during the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li><li>At any point during the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> killed with <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum\" title=\"7mm Magnum\"> 7mm ammunition</a>.</li></ul>",
         "reward": 1300,
         "order": 7
@@ -4698,7 +4698,7 @@
     {
         "pk": 588,
         "mission_set": 59,
-        "name": "Calming Down",
+        "name": "Calming Down (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.</li><li>Then arrive at The Crater (x -11265, y -4000) in the same hunt.</li><li>Then arrive at Tower 1 (x -11806, y -2588) in the same hunt.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> killed with the <a href=\"https://thehunter.fandom.com/wiki/.50_Cap_Lock_Muzzleloader\" title=\".50 Cap Lock Muzzleloader\">.50 Cap Lock Muzzleloader</a>.</li></ul>",
         "reward": 1600,
         "order": 8
@@ -4706,7 +4706,7 @@
     {
         "pk": 589,
         "mission_set": 59,
-        "name": "Last Drop(ings)",
+        "name": "Last Drop(ings) (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 6 (x -10176, y -3696) in the same hunt.</li><li>Then arrive at The Lonely Creek (x -10746, y -5436) in the same hunt.</li><li>At any point during the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>At any point during the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a>.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>.</li><li>At any point during the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> killed with the <a href=\"https://thehunter.fandom.com/wiki/Tenpoint_Carbon_Fusion_Crossbow\" title=\"Tenpoint Carbon Fusion Crossbow\">Tenpoint Carbon Fusion Crossbow</a>.</li><li>At any point during the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>At any point during the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a>.</li></ul>",
         "reward": 2000,
         "order": 9
@@ -4714,7 +4714,7 @@
     {
         "pk": 590,
         "mission_set": 59,
-        "name": "The Oldies",
+        "name": "The Oldies (Single Player)",
         "objectives": "<ul><li>Start at <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls#Lodges\" title=\"Redfeather Falls\"> Darkwood Lodge</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>.</li><li>Then arrive at Tower 6 (x -10176, y -3696).</li><li>Then arrive at Tower 4 (x -10023, y -2535).</li><li>Then arrive at Tower 3 (x -10957, y -1731).</li><li>Then arrive at Tower 2 (x -12115, y -1979).</li><li>Then arrive at Crater (x -11265, y -4000).</li><li>Then arrive at The Lonely Creek (x -10746, y -5436).</li><li>Then arrive at Peak Forest (x -12263, y -6367).</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a> weighing at least 435 kg.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Fallss</a>, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Whitetail_Deer\" title=\"Whitetail Deer\">Whitetail Deer</a> weighing at least 51 kg.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>, harvest a female <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> weighing at least 51 kg.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> weighing at least 525 kg.</li><li>At any point while in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\">Redfeather Falls</a>, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> weighing at least 220 kg killed by the <a href=\"https://thehunter.fandom.com/wiki/12_GA_Pump_Action_Shotgun\" title=\"12 GA Pump Action Shotgun\">12 GA Pump Action Shotgun</a>.</li></ul>",
         "reward": 3000,
         "order": 10
@@ -5307,7 +5307,7 @@
         "pk": 1327,
         "mission_set": 83,
         "name": "Fair Division",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li><li>Harvest a second male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li><li>Harvest a third male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -5323,7 +5323,7 @@
         "pk": 1329,
         "mission_set": 83,
         "name": "A Shot in the Dark",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing less than 5.5 kg (approx. 12lbs).</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing less than 5.5 kg (approx. 12lbs).</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing less than 5.5 kg (approx. 12lbs).</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -5347,7 +5347,7 @@
         "pk": 1332,
         "mission_set": 83,
         "name": "Process of Elimination",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Harvest 2 male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
