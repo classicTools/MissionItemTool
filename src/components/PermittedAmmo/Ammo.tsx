@@ -2,23 +2,23 @@ import styled from 'styled-components'
 import { useAmmoContext } from '../../context/AmmoContext'
 import { useSettingsContext } from '../../context/SettingsContext'
 import { ammoAnimal, animalAmmo } from '../../data/MissionItem/Data'
-import { transitionCss } from './Animal'
+import { hoveringCss, inSelectedCss, selectedCss, siblingCss, transitionCss } from './Animal'
 import { AmmoData } from '../../types'
+import { pointerCss } from '../../CommonStyles'
 
 const AmmoEntry = styled.div<{ inAnimal: boolean; outline: boolean; selected: boolean; siblingAmmo: boolean }>`
-    cursor: pointer;
-    user-select: none;
+    ${pointerCss}
     padding: 2px 10px;
     &:hover {
-        outline: 3px solid white;
+        ${hoveringCss}
     }
-    ${(props) => props.siblingAmmo && 'outline: 3px inset gray;'}
 
     border-radius: 4px;
     opacity: ${(props) => (props.outline ? 1 : 0.05)};
-    ${(props) => props.inAnimal && 'background-color: green;'}
-    ${(props) => props.selected && 'outline:2px solid orange;color:orange;'}
+    ${(props) => props.inAnimal && inSelectedCss}
+    ${(props) => props.selected && `${selectedCss} color:orange;`}
 	
+    ${(props) => props.siblingAmmo && siblingCss}
     ${transitionCss}
 `
 

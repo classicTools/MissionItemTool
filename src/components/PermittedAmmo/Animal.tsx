@@ -5,10 +5,24 @@ import { Anchor, Tooltip } from '../genericElements'
 import { useAmmoContext } from '../../context/AmmoContext'
 import { ammoAnimal, animalAmmo, mapAnimal } from '../../data/MissionItem/Data'
 import { useSettingsContext } from '../../context/SettingsContext'
+import { pointerCss } from '../../CommonStyles'
 
 const AvatarBox = styled(Anchor)``
-const outlineCSS = css`
+export const outlineCss = css`
     outline: 4px solid white;
+`
+export const siblingCss = css`
+    outline: 2px inset gold;
+`
+export const hoveringCss = css`
+    filter: brightness(1.2);
+    ${outlineCss}
+`
+export const selectedCss = css`
+    outline: 3px solid orange;
+`
+export const inSelectedCss = css`
+    background-color: green;
 `
 export const transitionCss = css`
     transition: opacity 200ms, background-color 200ms, outline 200ms, filter 200ms;
@@ -16,21 +30,20 @@ export const transitionCss = css`
 
 const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; selected: boolean; siblingAnimal: boolean }>`
     height: 75px;
-    cursor: pointer;
-    user-select: none;
+    ${pointerCss}
     &:hover {
         filter: brightness(1.5);
-        ${outlineCSS}
+        ${outlineCss}
     }
     padding: 7px;
     border-radius: 10px 20px;
 
-    outline: ${({ outline }) => (outline ? '4px solid orange' : 'none')};
+    ${({ outline }) => outline && selectedCss}
     ${({ inMap }) => inMap && 'opacity: 0.02;'}
-    ${({ inAmmo }) => inAmmo && 'background-color: green;'}
-    ${({ selected }) => selected && 'outline: 4px solid orange;'}
+    ${({ inAmmo }) => inAmmo && inSelectedCss}
+    ${({ selected }) => selected && selectedCss}
     
-    ${(props) => props.siblingAnimal && 'outline: 3px inset gray;'}
+    ${(props) => props.siblingAnimal && siblingCss}
     ${transitionCss}
 `
 

@@ -5,7 +5,7 @@ import { useState } from 'react'
 import { useSettingsContext } from '../../context/SettingsContext'
 import AgendaToggle from './AgendaToggle'
 import { MissionData } from '../../types'
-import { missionMap, missionSetMap } from '../../data/MissionItem/Data'
+import { missionMap, missionSetMap, missionSetMissions } from '../../data/MissionItem/Data'
 import AgendaItem, { Arrow } from './AgendaItem'
 import mapsData from '../../data/MissionItem/lookups/Map.json'
 
@@ -48,10 +48,12 @@ const Agenda = () => {
     const [showAll, setShowAll] = useState(true)
 
     let missionsByMap = map ? missionMap[map] : []
-    let missionSetsByMap = map ? missionSetMap[map] : []
+    let setsByMap = map ? missionSetMap[map] : []
     const bookmarkedMissions: MissionData[] = missionsData.filter(
         ({ mission_set, order, pk }) =>
-            mission_set in bookmarks && order === bookmarks[mission_set] && (missionsByMap.includes(pk) || missionSetsByMap.includes(mission_set))
+            mission_set in bookmarks &&
+            order === bookmarks[mission_set] &&
+            (missionsByMap.includes(pk) || (setsByMap.includes(mission_set) && !missionSetMissions[mission_set].some((msm) => missionsByMap.includes(msm))))
     )
 
     return (

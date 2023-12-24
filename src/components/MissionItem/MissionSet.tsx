@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
-import { flexR } from '../../CommonStyles'
+import { flexR, pointerCss } from '../../CommonStyles'
 import { ItemId, MissionDataPlus, MissionSetData } from '../../types'
 import Mission from './Mission'
 import { useSettingsContext } from '../../context/SettingsContext'
@@ -29,8 +29,7 @@ const SetPic = styled.img`
 `
 const SetLabel = styled.label`
     text-align: right;
-    cursor: pointer;
-    user-select: none;
+    ${pointerCss}
 `
 const missionSetHighlight = 'gold'
 export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>`

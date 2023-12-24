@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { useSettingsContext } from '../../context/SettingsContext'
 import MapData from '../../data/MissionItem/lookups/Map.json'
 import MapAvatar from './Map'
 

@@ -9,6 +9,7 @@ import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import { getMissionImage, useHover, useImage } from '../../hooks'
 import { Anchor, Tooltip } from '../genericElements'
+import { pointerCss } from '../../CommonStyles'
 
 const flashMission = css`
     /* @keyframes flashMission {
@@ -38,8 +39,7 @@ const MissionBox = styled.div<{
     font-size: 13px;
     text-align: center;
     border-radius: 8px;
-    user-select: none;
-    cursor: pointer;
+    ${pointerCss}
     display: grid;
 
     background-color: ${({ containsBoughtItem, state, customColors }) => {

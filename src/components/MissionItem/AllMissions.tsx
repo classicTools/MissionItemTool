@@ -20,7 +20,7 @@ const Bookmarks = styled.div`
     position: relative;
     left: 200px;
     display: grid;
-    grid-template-columns: 300px 150px;
+    grid-template-columns: 320px 150px;
     height: 50px;
     gap: 10px;
     align-items: center;
@@ -32,7 +32,7 @@ const AllMissions = () => {
 
     const bookmarkTotal = missionsData.reduce((acc: number, cur) => {
         const bookmarkedMission = bookmarks[cur.mission_set]
-        if (bookmarkedMission && cur.mission_set in bookmarks && cur.order < bookmarkedMission) return (acc += cur.reward)
+        if (!bookmarkedMission || (cur.mission_set in bookmarks && cur.order < bookmarkedMission)) return (acc += cur.reward)
         return acc
     }, 0)
     return (
@@ -60,13 +60,15 @@ const AllMissions = () => {
                     </div>
                 </TopSection>
             </MissionSetRow>
-            {missionSetsData.sort(sortBy(alphaOrder ? 'name' : 'order')).map((ms) => {
-                return <MissionSet missionSet={ms} key={ms.pk}></MissionSet>
-            })}
+            {missionSetsData //.map(ms=>({...ms, order:animalData.find(a=>a.name===ms.name)?.order??ms.order}))
+                .sort(sortBy(alphaOrder ? 'name' : 'order'))
+                .map((ms) => {
+                    return <MissionSet missionSet={ms} key={ms.pk}></MissionSet>
+                })}
 
             <Bookmarks>
                 <span>Earnings based on bookmarks so far: {bookmarkTotal} gm$</span>
-                <ResetButton onClick={resetBookmarks}>Reset Bookmarks</ResetButton>
+                <ResetButton onClick={resetBookmarks}>{Object.keys(bookmarks).length ? 'Clear' : 'Reset'} Bookmarks</ResetButton>
             </Bookmarks>
         </div>
     )

@@ -3,23 +3,25 @@ import { useSettingsContext } from '../../context/SettingsContext'
 import { useImage } from '../../hooks'
 import { AssetFolder, Map } from '../../types'
 import { useAmmoContext } from '../../context/AmmoContext'
-import { transitionCss } from './Animal'
+import { hoveringCss, inSelectedCss, selectedCss, transitionCss } from './Animal'
 import { animalMap } from '../../data/MissionItem/Data'
+import { pointerCss } from '../../CommonStyles'
 
 const Avatar = styled.img<{ selected: boolean; outline: boolean; inAnimal: boolean }>`
     height: 80px;
-    border-radius: 10px;
+
+    border-radius: 10px 20px;
 
     margin: 2px;
-    cursor: pointer;
+    ${pointerCss}
     &:hover {
-        filter: brightness(1.2);
-        outline: 3px solid white;
+        ${hoveringCss}
     }
 
-    ${(props) => props.selected && 'outline: 4px solid orange'};
+    ${(props) => props.selected && selectedCss};
+
     opacity: ${({ outline }) => (outline ? 1 : 0)};
-    ${({ inAnimal }) => inAnimal && 'background-color: green;'}
+    ${({ inAnimal }) => inAnimal && inSelectedCss}
     ${transitionCss}
 `
 

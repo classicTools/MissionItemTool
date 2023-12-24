@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import AnimalGrid from './AnimalGrid'
 import Guide from './Guide'
@@ -10,7 +9,6 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0 -20px;
     height: 100vh;
     gap: 20px;
 
@@ -34,7 +32,7 @@ const Header = styled.div`
     flex-direction: row;
     gap: 20px;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     width: 1500px;
     justify-content: center;
     align-items: end;

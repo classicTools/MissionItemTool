@@ -1,12 +1,12 @@
-import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
 import itemData from '../../data/MissionItem/lookups/Item.json'
 import Item, { itemRowCSS } from './Item'
 import styled from 'styled-components'
 import sortBy from 'sort-by'
-import { ItemData, ItemId, MissionState, RawItemData } from '../../types'
+import { ItemData, ItemId, RawItemData } from '../../types'
 import { useItemsContext } from '../../context/ItemContext'
 import { calculateGain, useMissionsContext } from '../../context/MissionContext'
+import { pointerCss } from '../../CommonStyles'
 
 export const essentialItems: ItemId[] = missionItemData
     .filter((mi) => mi.any === false && mi.group === null)
@@ -28,8 +28,7 @@ const ItemListDiv = styled.div`
     padding: 0 20px 0 0;
     overflow-y: auto;
     overflow-x: hidden;
-    user-select: none;
-    cursor: pointer;
+    ${pointerCss}
 `
 const HeaderItemRow = styled.div`
     ${itemRowCSS}
