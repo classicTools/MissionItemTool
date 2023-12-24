@@ -3,6 +3,7 @@ Todos
 allow hiding mission sets
 check missionmap in agenda
 agenda scroll
+agenda item order
 missionset 'wik ordering'
 speed up item hover flash
 update rares/furs

@@ -6,7 +6,7 @@ import { MissionDataPlus, MissionId, MissionState } from '../types'
 
 it('no items bought', () => {
     const { missionDataState } = getStatesAndTotals(missionsData, [])
-    expect(missionDataState.filter((ms) => ms.state === MissionState.Ready).length).toBe(299)
+    expect(missionDataState.filter((ms) => ms.state === MissionState.Ready).length).toBe(309)
     const missionsWithRequirements = missionItemsData.reduce((acc: MissionId[], cur) => {
         if (!acc.includes(cur.mission)) acc.push(cur.mission)
         return acc
