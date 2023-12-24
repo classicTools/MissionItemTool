@@ -75,5 +75,6 @@ export const useImage = (folder: AssetFolder, pk: MissionId | string): any => {
 export const useHover = () => {
     const [hover, setHover] = useState(false)
     let hoverFunctions = { onMouseEnter: () => setHover(true), onMouseLeave: () => setHover(false) }
+    // put {...hoverFunctions} on the element you want to hover
     return { hoverFunctions, hover }
 }

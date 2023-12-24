@@ -22,7 +22,7 @@ interface MissionKeyItemProps extends MissionKeyItemType {
 }
 const MissionKeyItem = ({ name, color, onClick, selected }: MissionKeyItemProps) => {
     return (
-        <KeyItemContainer onClick={onClick} selected={selected}>
+        <KeyItemContainer onClick={onClick} selected={selected} title="Click to change colour">
             <ColorThumb style={{ backgroundColor: color }} />
             {name}
         </KeyItemContainer>

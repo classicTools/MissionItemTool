@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
@@ -6,6 +5,7 @@ import MissionSet, { MissionSetRow, SetHeader } from './MissionSet'
 import sortBy from 'sort-by'
 import { useState } from 'react'
 import { useBookmarkContext } from '../../context/BookmarkContext'
+import { StyledNavLink } from '../../GlobalStyle'
 
 let theme = () => {}
 const TopSection = styled.div`
@@ -54,9 +54,9 @@ const AllMissions = () => {
                         <label htmlFor="themeDark">Dark</label>
                     </div>
                     <div>
-                        <NavLink to={'../PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                        <StyledNavLink to={'../PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                             Permitted Ammo Tool
-                        </NavLink>
+                        </StyledNavLink>
                     </div>
                 </TopSection>
             </MissionSetRow>

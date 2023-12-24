@@ -18,7 +18,8 @@ const MissionItemGrid = styled.div`
     height: calc(100vh);
     width: calc(100vw - 10px);
     overflow: hidden;
-    //outline: 1px solid red;
+    margin-top: 8px;
+    margin-left: 8px;
 `
 const Col = styled.div`
     max-height: 99vh;

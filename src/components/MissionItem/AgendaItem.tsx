@@ -33,12 +33,12 @@ const BookmarkNav = styled.span`
     position: absolute;
     right: 30px;
 `
-const Arrow = styled.i<{ back: boolean }>`
+export const Arrow = styled.i<{ toLeft: boolean }>`
     border: solid black;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
-    transform: rotate(${({ back }) => (back ? 135 : -45)}deg);
+    transform: rotate(${({ toLeft }) => (toLeft ? 135 : -45)}deg);
 `
 const ArrowButton = styled.button`
     height: 25px;
@@ -51,8 +51,15 @@ const FirstSpan = styled.span`
     display: flex;
     align-items: center;
 `
-const MissionNumber = styled.span`
+const MissionName = styled.span`
     margin: 0 5px;
+`
+const Details = styled.details<{ open: boolean; showingImage: boolean }>`
+    &:hover {
+        .missionName {
+            text-decoration: ${({ showingImage }) => showingImage && 'underline'};
+        }
+    }
 `
 interface BookmarkProps {
     mission: MissionData
@@ -75,15 +82,15 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
     transition: opacity 100ms, visibility 100ms, position 100ms; */
     return (
         <BookmarkContainer>
-            <details open={showAll && missionReady} {...hoverFunctions}>
+            <Details open={showAll && missionReady} showingImage={hover && image} {...hoverFunctions}>
                 <summary>
                     <BookmarkHead>
                         <Title ready={missionReady}>
                             <FirstSpan>
                                 <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b>
-                                <MissionNumber>
+                                <MissionName className="missionName">
                                     {order} - {name}
-                                </MissionNumber>
+                                </MissionName>
                                 {!missionReady && ' (BLOCKED)'}
                                 {image && <ImageIcon height={15} width={18} />}
                             </FirstSpan>
@@ -93,10 +100,10 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                         </Title>
                         <BookmarkNav>
                             <ArrowButton disabled={onFirstMission} onClick={() => bookmarkPrevMission(mission_set)}>
-                                <Arrow back />
+                                <Arrow toLeft />
                             </ArrowButton>
                             <ArrowButton onClick={() => bookmarkNextMission(mission_set)}>
-                                <Arrow back={false} />
+                                <Arrow toLeft={false} />
                             </ArrowButton>
                         </BookmarkNav>
                     </BookmarkHead>
@@ -107,7 +114,7 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                         <HintImage src={image} show={hover}></HintImage>
                     </Portal>
                 )}
-            </details>
+            </Details>
         </BookmarkContainer>
     )
 }

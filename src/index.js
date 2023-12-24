@@ -27,11 +27,7 @@ const router = createBrowserRouter([
         children: [
             {
                 path: 'MissionItemTool',
-                element: (
-                    <Suspense fallback={<Loader />}>
-                        <MissionItemTool />
-                    </Suspense>
-                ),
+                element: <MissionItemTool />,
             },
             {
                 path: 'PermittedAmmo',

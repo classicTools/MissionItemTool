@@ -11,17 +11,14 @@ const AmmoBox = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     max-height: 700px;
-    width: 50%;
-    gap: 10px 50px;
+    gap: 10px;
     font-size: 14px;
-    /* justify-self: start;
-    align-self: start; */
 `
-const AmmoGroup = styled.div`
+const AmmoGroup = styled.div<{ narrow?: boolean }>`
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    width: 160px;
+    gap: 3px;
+    width: ${({ narrow }) => (narrow ? '135px' : '160px')};
     white-space: nowrap;
 `
 const TypeHeader = styled.div`
@@ -41,7 +38,6 @@ const Ammo = styled.div<{ inAnimal: boolean; outline: boolean; selected: boolean
     opacity: ${(props) => (props.outline ? 1 : 0.05)};
     ${(props) => props.inAnimal && 'background-color: green;'}
     ${(props) => props.selected && 'outline:2px solid orange;'}
-
 	
     ${transitionCss}
 `
@@ -60,7 +56,7 @@ const AmmoList = () => {
     return (
         <AmmoBox>
             {AmmoTypeData.sort(sortBy('order')).map((ammotype) => (
-                <AmmoGroup>
+                <AmmoGroup narrow={[1, 2, 3].includes(ammotype.pk)}>
                     <TypeHeader>{ammotype.name}</TypeHeader>
                     {ammoDataSimple
                         .filter((ammo) => ammo.ammotype === ammotype.pk)

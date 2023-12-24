@@ -8,11 +8,13 @@ interface ItemsContext {
     itemsBought: ItemId[]
     setItemsBought: Dispatch<SetStateAction<ItemId[]>>
     syncItems: (bookmarks: Bookmarks) => void
+    toggleItemBought: (itemId: ItemId) => void
 }
 const defaultItems = {
     itemsBought: [],
     setItemsBought: bareFn,
     syncItems: bareFn,
+    toggleItemBought: bareFn,
 }
 const ItemsContext = createContext<ItemsContext>(defaultItems)
 
@@ -29,12 +31,16 @@ const WithItemsContext = ({ children }: PropsWithChildren) => {
         let newItemsBought = missionItemData.filter(({ mission, any }) => missionIds.includes(mission) && !any).map(({ item }) => item)
         setItemsBought(newItemsBought)
     }
+    const toggleItemBought = (itemId: ItemId) => {
+        setItemsBought((items) => (items.includes(itemId) ? items.filter((item) => item !== itemId) : [...items, itemId]))
+    }
     return (
         <ItemsContext.Provider
             value={{
                 itemsBought,
                 setItemsBought,
                 syncItems,
+                toggleItemBought,
             }}
         >
             {children}

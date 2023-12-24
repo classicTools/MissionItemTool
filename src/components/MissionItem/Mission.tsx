@@ -100,6 +100,10 @@ export const HintImage = styled.img<{ show: boolean }>`
     visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
     transition: all 0.5s ease;
 `
+const MissionHintImage = styled(HintImage)`
+    max-width: 500px;
+    max-height: 750px;
+`
 
 interface MissionProps {
     mission: MissionDataPlus
@@ -128,6 +132,8 @@ const Mission = ({ mission }: MissionProps) => {
             onClick={() => toggleBookmark(mission, bookmarked)}
             flash={flash}
             containsBoughtItem={containsHoveredItem}
+            // flash={false}
+            // containsBoughtItem={false}
             inSelectedMap={inSelectedMap}
             state={state}
             customColors={customColors}
@@ -146,7 +152,7 @@ const Mission = ({ mission }: MissionProps) => {
                             {requiresItems && <MissionItems missionItems={missionItems} />}
                         </Info>
 
-                        {image && <HintImage src={image} show></HintImage>}
+                        {image && <MissionHintImage src={image} show></MissionHintImage>}
                     </Tip>
                 </Anchor>
             )}

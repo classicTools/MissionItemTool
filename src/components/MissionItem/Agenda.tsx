@@ -6,7 +6,7 @@ import { useSettingsContext } from '../../context/SettingsContext'
 import AgendaToggle from './AgendaToggle'
 import { MissionData } from '../../types'
 import { missionMap, missionSetMap } from '../../data/MissionItem/Data'
-import AgendaItem from './AgendaItem'
+import AgendaItem, { Arrow } from './AgendaItem'
 import mapsData from '../../data/MissionItem/lookups/Map.json'
 
 const AgendaContainer = styled.div<{ show: boolean }>`
@@ -35,6 +35,13 @@ const Header = styled.div`
 const Spacer = styled.div`
     height: 50px;
 `
+const Please = styled.div`
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+`
 const Agenda = () => {
     const { bookmarks, showAgenda } = useBookmarkContext()
     const { map } = useSettingsContext()
@@ -51,20 +58,24 @@ const Agenda = () => {
         <>
             <AgendaToggle />
             <AgendaContainer show={showAgenda}>
-                {map ? (
+                {map && bookmarkedMissions.length > 0 ? (
                     <>
                         <Header>
                             <h2>{mapsData.find((m) => m.pk === map)?.name}</h2>
                             <button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</button>
                         </Header>
 
-                        {bookmarkedMissions.map((m: MissionData) => {
-                            return <AgendaItem mission={m} showAll={showAll} key={m.pk} />
-                        })}
+                        {bookmarkedMissions.map((m: MissionData) => (
+                            <AgendaItem mission={m} showAll={showAll} key={m.pk} />
+                        ))}
                         <Spacer />
                     </>
                 ) : (
-                    <div>Please choose a reserve to see its agenda</div>
+                    <Please>
+                        Please bookmark some missions & choose a reserve to see its agenda... <Arrow toLeft={false} />
+                        <Arrow toLeft={false} />
+                        <Arrow toLeft={false} />{' '}
+                    </Please>
                 )}
             </AgendaContainer>
         </>

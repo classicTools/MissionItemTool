@@ -5,64 +5,63 @@ import Guide from './Guide'
 import MapList from './MapList'
 import AmmoList from './AmmoList'
 import WithAmmoContext from '../../context/AmmoContext'
-const Body = styled.div`
-    display: grid;
-    width: 100vw;
-    grid-template-columns: repeat(2, auto);
-
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    gap: 20px;
-`
+import { StyledNavLink } from '../../GlobalStyle'
 const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
     height: 100vh;
-    width: 100vw;
     gap: 20px;
 
-    margin: 0 0 120px 0;
     background-color: #222222;
     overflow: auto;
     color: white;
-
-    //justify-content: center;
 `
+const Body = styled.div`
+    display: grid;
+
+    grid-template-columns: repeat(2, 50%);
+
+    justify-items: center;
+    justify-content: center;
+
+    gap: 20px;
+`
+
 const Header = styled.div`
     display: flex;
     flex-direction: row;
     gap: 20px;
-    font-size: 20px;
-    font-weight: bold;
     margin: 0;
     padding: 0;
     width: 1500px;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    border-bottom: 4px solid lightgray;
+    border-bottom: 2px solid lightgray;
+`
+const NavLinky = styled(StyledNavLink)`
+    color: white;
 `
 const PermittedAmmo = () => {
     return (
-        <WithAmmoContext>
-            <Container>
+        <Container>
+            <WithAmmoContext>
                 <Header>
                     <MapList />
-                    <NavLink to={'../MissionItemTool'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                    <NavLinky to={'../MissionItemTool'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                         Mission Item Tool
-                    </NavLink>
+                    </NavLinky>
                 </Header>
                 <Body>
                     <AnimalGrid />
                     <AmmoList />
                 </Body>
-                <Guide />
-            </Container>
-        </WithAmmoContext>
+            </WithAmmoContext>
+            <Guide />
+        </Container>
     )
 }
 

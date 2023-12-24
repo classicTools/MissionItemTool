@@ -2,10 +2,8 @@ import styled, { css } from 'styled-components'
 import { profitColor } from '../../CommonStyles'
 import { useItemsContext } from '../../context/ItemContext'
 import { useItemHoverContext } from '../../context/ItemHover'
-import { useSettingsContext } from '../../context/SettingsContext'
 import { ItemData } from '../../types'
 import { essentialItems } from './ItemList'
-import { getStatesAndTotals, useMissionsContext } from '../../context/MissionContext'
 
 export const itemRowCSS = css`
     display: grid;
@@ -14,12 +12,18 @@ export const itemRowCSS = css`
     grid-template-columns: 220px 30px 70px 60px;
 `
 
-export const ItemRowDiv = styled.div<{ hovered?: boolean; bought?: boolean }>`
+export const ItemRow = styled.div<{ lastHovered?: boolean; bought?: boolean }>`
+    border-radius: 6px;
+    padding-left: 10px;
+    margin-bottom: 1px;
+    margin-left: 2px;
     ${itemRowCSS}
     width:400px;
     &:hover {
-        outline: 1px solid black;
+        font-weight: bold;
     }
+
+    ${({ lastHovered }) => lastHovered && `font-weight: bold;`};
     ${({ bought }) =>
         bought &&
         css`
@@ -54,40 +58,23 @@ export const NameCell = styled.div`
     white-space: nowrap;
     overflow: hidden;
 `
-function toggleArrayItem(arr: number[], val: number) {
-    const i = arr.indexOf(val)
-    if (i === -1) arr.push(val)
-    else arr.splice(i, 1)
-    return arr
-}
-
 interface ItemProps {
     item: ItemData
 }
-const Item = ({ item }: ItemProps) => {
-    const { itemsBought, setItemsBought } = useItemsContext()
+const Item = ({ item: { pk, name, missions, cost, wouldGive } }: ItemProps) => {
+    const { itemsBought, toggleItemBought } = useItemsContext()
     const { itemHovered, setItemHovered } = useItemHoverContext()
-    const bought = itemsBought.includes(item.pk)
+    const bought = itemsBought.includes(pk)
     return (
-        <ItemRowDiv
-            onMouseEnter={() => setItemHovered(item.pk)}
-            hovered={itemHovered === item.pk}
-            onClick={() =>
-                setItemsBought((items: number[]) => {
-                    let newitems = [...items]
-                    return [...toggleArrayItem(newitems, item.pk)]
-                })
-            }
-            bought={bought}
-        >
-            <NameCell title={item.name}>
-                {!essentialItems.includes(item.pk) && '* '}
-                {item.name}
+        <ItemRow onMouseEnter={() => setItemHovered(pk)} onClick={() => toggleItemBought(pk)} bought={bought} lastHovered={pk === itemHovered}>
+            <NameCell title={name}>
+                {!essentialItems.includes(pk) && '* '}
+                {name}
             </NameCell>
-            <IntCell>{item.missions}</IntCell>
-            <IntCell>{item.cost}</IntCell>
-            <ProfitCell flash={item.wouldGive > item.cost}>{item.wouldGive}</ProfitCell>
-        </ItemRowDiv>
+            <IntCell>{missions}</IntCell>
+            <IntCell>{cost}</IntCell>
+            <ProfitCell flash={wouldGive > cost}>{wouldGive}</ProfitCell>
+        </ItemRow>
     )
 }
 

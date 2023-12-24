@@ -626,7 +626,7 @@
     {
         "pk": 49,
         "name": "Axis Deer",
-        "order": 145,
+        "order": 115,
         "image_url": "",
         "score_min": "20",
         "score_max": "215",
@@ -639,7 +639,7 @@
     {
         "pk": 50,
         "name": "Fallow Deer",
-        "order": 147,
+        "order": 125,
         "image_url": "",
         "score_min": "25",
         "score_max": "200",
