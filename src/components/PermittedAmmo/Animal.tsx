@@ -3,7 +3,7 @@ import { AnimalData, AssetFolder } from '../../types'
 import { useImage } from '../../hooks'
 import { Anchor, Tooltip } from '../genericElements'
 import { useAmmoContext } from '../../context/AmmoContext'
-import { ammoAnimal, mapAnimal } from '../../data/MissionItem/Data'
+import { ammoAnimal, animalAmmo, mapAnimal } from '../../data/MissionItem/Data'
 import { useSettingsContext } from '../../context/SettingsContext'
 
 const AvatarBox = styled(Anchor)``
@@ -14,7 +14,7 @@ export const transitionCss = css`
     transition: opacity 200ms, background-color 200ms, outline 200ms, filter 200ms;
 `
 
-const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; selected: boolean }>`
+const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; selected: boolean; siblingAnimal: boolean }>`
     height: 75px;
     cursor: pointer;
     user-select: none;
@@ -29,6 +29,8 @@ const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; 
     ${({ inMap }) => inMap && 'opacity: 0.02;'}
     ${({ inAmmo }) => inAmmo && 'background-color: green;'}
     ${({ selected }) => selected && 'outline: 4px solid orange;'}
+    
+    ${(props) => props.siblingAnimal && 'outline: 3px inset gray;'}
     ${transitionCss}
 `
 
@@ -40,7 +42,7 @@ const Tip = styled(Tooltip)`
     width: fit-content;
     //max-width: 300px;
     padding: 0 15px 15px;
-    font-size: larger;
+    font-size: 15px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -53,9 +55,9 @@ const Animal = ({ pk, name, order, image_url, score_min, score_max, weight_max, 
 
     let outlineMap = hoverMap ? mapAnimal[hoverMap].includes(pk) : false
     let outlineAmmo = hoverAmmo ? ammoAnimal[hoverAmmo].includes(pk) : false
-
     let inAmmo = ammo ? ammoAnimal[ammo].includes(pk) : false
     let inMap = map ? !mapAnimal[map].includes(pk) : false
+    let siblingAnimalHovered = hoverAnimal ? JSON.stringify(animalAmmo[hoverAnimal]) === JSON.stringify(animalAmmo[pk]) : false
     return (
         <AvatarBox key={pk}>
             <Avatar
@@ -67,6 +69,7 @@ const Animal = ({ pk, name, order, image_url, score_min, score_max, weight_max, 
                 inMap={inMap}
                 inAmmo={inAmmo}
                 selected={animal === pk}
+                siblingAnimal={siblingAnimalHovered}
             />
             {hoverAnimal === pk && (
                 <Tip>

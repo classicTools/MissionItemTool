@@ -10,7 +10,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    padding: 20px 0 -20px;
     height: 100vh;
     gap: 20px;
 

@@ -83,3 +83,9 @@ export interface Map {
     name: string
     order: number
 }
+export interface AmmoData {
+    pk: AmmoId
+    name: string
+    order: number
+    ammotype: number
+}

@@ -11,8 +11,9 @@ const Guide = () => (
         <ul>
             <li>Hover over a reserve to see its animals. Click to hide other animals.</li>
             <li>
-                Hover over an animal to see its scores (min - tax* - max), max weight, CSS (gm$), fur variations, reserves & permitted ammo. Click to highlight
-                reserves & ammo. *A taxidermy-worthy score is subjective, those listed here are just suggestions. Tax whatever you like :)
+                Hover over an animal to see its scores (min - tax* - max), max weight, CSS (gm$), fur variations, reserves & permitted ammo. Other animals which
+                have the same permitted ammo will be outlined. Click to highlight reserves & ammo. *A taxidermy-worthy score is subjective, those listed here
+                are just suggestions. Tax whatever you like :)
             </li>
             <li>Hover over ammo to see its permitted species, and, ammo with the same permitted species. Click to highlight them.</li>
             <li>

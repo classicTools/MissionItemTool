@@ -9,7 +9,7 @@ const MapList = () => {
     return (
         <ReserveBox>
             {MapData.map((m) => (
-                <MapAvatar {...m} />
+                <MapAvatar {...m} key={m.pk} />
             ))}
         </ReserveBox>
     )

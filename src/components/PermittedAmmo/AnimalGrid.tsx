@@ -13,7 +13,7 @@ const AnimalGrid = () => {
     return (
         <AnimalList>
             {AnimalsData.sort(sortBy('order')).map((data: AnimalData) => (
-                <Animal {...data} />
+                <Animal {...data} key={data.pk} />
             ))}
         </AnimalList>
     )

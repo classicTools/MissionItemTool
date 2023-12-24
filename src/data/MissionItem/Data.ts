@@ -55,6 +55,7 @@ type AmmoAnimal = { [index: AmmoId]: AnimalId[] }
 export const ammoAnimal: AmmoAnimal = animalAmmoData.reduce((acc: AmmoAnimal, cur: { animal: AnimalId; ammo: AmmoId }) => {
     if (!acc[cur.ammo]) acc[cur.ammo] = []
     acc[cur.ammo].push(cur.animal)
+    acc[cur.ammo].sort()
     return acc
 }, {})
 
@@ -62,6 +63,7 @@ type AnimalAmmo = { [index: AnimalId]: AmmoId[] }
 export const animalAmmo: AnimalAmmo = animalAmmoData.reduce((acc: AnimalAmmo, cur: { animal: AnimalId; ammo: AmmoId }) => {
     if (!acc[cur.animal]) acc[cur.animal] = []
     acc[cur.animal].push(cur.ammo)
+    acc[cur.animal].sort()
     return acc
 }, {})
 
