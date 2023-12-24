@@ -89,10 +89,16 @@ const Tip = styled(Tooltip)<{ left: boolean }>`
 const Info = styled.div`
     min-width: 400px;
 `
-export const HintImage = styled.img`
-    max-width: 500px;
+export const HintImage = styled.img<{ show: boolean }>`
+    max-width: 95vw;
+    max-height: 95vh;
     margin: auto;
     padding: 10px;
+    border-radius: 25px;
+
+    opacity: ${({ show }) => (show ? 1 : 0)};
+    visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
+    transition: all 0.5s ease;
 `
 
 interface MissionProps {
@@ -140,7 +146,7 @@ const Mission = ({ mission }: MissionProps) => {
                             {requiresItems && <MissionItems missionItems={missionItems} />}
                         </Info>
 
-                        {image && <HintImage src={image}></HintImage>}
+                        {image && <HintImage src={image} show></HintImage>}
                     </Tip>
                 </Anchor>
             )}

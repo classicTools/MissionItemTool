@@ -13,6 +13,9 @@ button{
   border-radius:8px;
   cursor:pointer;
 }
+.kofi-button{
+  z-index:999;
+}
 `
 
 export default GlobalStyle

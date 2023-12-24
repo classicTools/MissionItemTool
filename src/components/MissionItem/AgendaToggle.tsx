@@ -6,6 +6,7 @@ const AgendaButton = styled.button`
     bottom: 70px;
     right: 30px;
     width: 184px;
+    z-index: 30;
 `
 
 const AgendaToggle = () => {

@@ -11,9 +11,11 @@ const AmmoBox = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     max-height: 700px;
-    width: fit-content;
+    width: 50%;
     gap: 10px 50px;
     font-size: 14px;
+    /* justify-self: start;
+    align-self: start; */
 `
 const AmmoGroup = styled.div`
     display: flex;

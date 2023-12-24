@@ -7,7 +7,14 @@ import AmmoList from './AmmoList'
 import WithAmmoContext from '../../context/AmmoContext'
 const Body = styled.div`
     display: grid;
-    grid-template-columns: 800px 400px;
+    width: 100vw;
+    grid-template-columns: repeat(2, auto);
+
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
 `
 const Container = styled.div`
     display: flex;
@@ -32,14 +39,12 @@ const Header = styled.div`
     font-weight: bold;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1500px;
     justify-content: center;
     align-items: center;
-`
-const Divider = styled.hr`
-    height: 1px;
-    width: 100%;
-    background-color: black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid lightgray;
 `
 const PermittedAmmo = () => {
     return (
@@ -51,7 +56,6 @@ const PermittedAmmo = () => {
                         Mission Item Tool
                     </NavLink>
                 </Header>
-                <Divider />
                 <Body>
                     <AnimalGrid />
                     <AmmoList />

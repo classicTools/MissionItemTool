@@ -1,9 +1,11 @@
 Todos
 
 allow hiding mission sets
-check missionmap in agenda
+check missionmap in agenda e.g. roe 3
 agenda scroll
 agenda item order
+agenda item image portal
+portal image transition
 missionset 'wik ordering'
 speed up item hover flash
 update rares/furs
@@ -15,6 +17,6 @@ add new animals, ammo, missions:
 
 tidy
 - reword repeated list items in objectives
-- (Single Player) 
+- (Single Player)
 - hint check
 - include map images for travel locations

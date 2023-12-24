@@ -11,18 +11,16 @@ import mapsData from '../../data/MissionItem/lookups/Map.json'
 
 const AgendaContainer = styled.div<{ show: boolean }>`
     background-color: lightyellow;
-    position: absolute;
+    position: fixed;
     top: 0;
-    height: 200vh;
+    height: 100vh;
 
-    /* left: 350px;
-    width: 1100px; */
-    left: 410px;
-    width: 740px;
+    left: 350px;
+    width: 800px;
 
-    padding: 20px 40px;
-    z-index: 100;
-    overflow-y: scroll;
+    padding: 0 40px;
+    z-index: 20;
+    overflow-y: auto;
     opacity: ${({ show }) => (show ? 1 : 0)};
     visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
     transition: opacity 200ms, visibility 200ms;
@@ -50,7 +48,6 @@ const Agenda = () => {
     return (
         <>
             <AgendaToggle />
-
             <AgendaContainer show={showAgenda}>
                 {map ? (
                     <>

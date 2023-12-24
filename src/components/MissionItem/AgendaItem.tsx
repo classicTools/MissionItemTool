@@ -5,8 +5,8 @@ import { useMissionsContext } from '../../context/MissionContext'
 import { AssetFolder, MissionData, MissionState } from '../../types'
 import { HintImage } from './Mission'
 import { getMissionImage, useHover, useImage } from '../../hooks'
-import { Anchor, Tooltip } from '../genericElements'
 import ImageIcon from '../ImageIcon'
+import Portal, { HintImagePortal } from '../../Portal'
 const BookmarkContainer = styled.div`
     details {
         display: flex;
@@ -51,11 +51,6 @@ const FirstSpan = styled.span`
     display: flex;
     align-items: center;
 `
-const Tip = styled(Tooltip)`
-    left: 100px;
-    padding: 1px;
-    background-color: black;
-`
 interface BookmarkProps {
     mission: MissionData
     showAll: boolean
@@ -83,12 +78,13 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                         <Title ready={missionReady}>
                             <FirstSpan>
                                 <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b>
+                                <span> </span>
                                 <span>
                                     {' '}
                                     #{order} - {name}
                                 </span>
                                 {!missionReady && ' (BLOCKED)'}
-                                {image && <ImageIcon height={16} width={18} />}
+                                {image && <ImageIcon height={15} width={18} />}
                             </FirstSpan>
                             <span>
                                 <b>{reward}</b> gm${' '}
@@ -105,13 +101,10 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                     </BookmarkHead>
                 </summary>
                 <span dangerouslySetInnerHTML={{ __html: objectives }} />
-
                 {hover && image && (
-                    <Anchor>
-                        <Tip>
-                            <HintImage src={image}></HintImage>
-                        </Tip>
-                    </Anchor>
+                    <Portal portalId={HintImagePortal}>
+                        <HintImage src={image} show={hover}></HintImage>
+                    </Portal>
                 )}
             </details>
         </BookmarkContainer>

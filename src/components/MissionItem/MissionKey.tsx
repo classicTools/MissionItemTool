@@ -35,7 +35,7 @@ const MissionKey = () => {
         { name: `Ready`, color: customColors.ready, key: 'ready' },
         { name: `Ready, blocked`, color: customColors.blocked, key: 'blocked' },
         { name: `Partly met needs`, color: customColors.partlyLocked, key: 'partlyLocked' },
-        { name: `Needs items?`, color: `white`, key: null },
+        { name: `Needs items`, color: `white`, key: null },
     ]
     const handleMissionKeyItemClick = (key: keyof CustomColors) => setSelectedKey(selectedKey === key ? null : key)
 

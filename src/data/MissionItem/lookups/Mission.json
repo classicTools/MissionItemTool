@@ -386,7 +386,7 @@
     {
         "pk": 49,
         "mission_set": 4,
-        "name": "Blood Moon Rising",
+        "name": "Blood Moon Rising (Single Player)",
         "objectives": "<ul><li>Harvest the <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a>, \"Wendigo\" with a shotgun loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> slugs</a> in the northern forests of <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> near the frozen waterfall (X: -4167, Y: -11501).</li></ul>",
         "reward": 3600,
         "order": 10
@@ -426,7 +426,7 @@
     {
         "pk": 54,
         "mission_set": 5,
-        "name": "Road Kill",
+        "name": "Road Kill (Single Player)",
         "objectives": "<ul><li>Track down and harvest the trespassing male <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a>, last seen on the road, just east of the bridge (X: -10.430 Y: -2.513).</li></ul>",
         "reward": 600,
         "order": 5
@@ -842,7 +842,7 @@
     {
         "pk": 106,
         "mission_set": 9,
-        "name": "Patient Zero",
+        "name": "Patient Zero (Single Player)",
         "objectives": "<ul><li>Harvest \"Patient Zero\" by the large beach north of <a href=\"https://thehunter.fandom.com/wiki/Piccabeen_Bay\" title=\"Piccabeen Bay\">Piccabeen Bay</a> (X: 6.273, Y: 6.330) at over 100 meters (Approx. 328 feet) with 100% Harvest Value.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1162,7 +1162,7 @@
     {
         "pk": 146,
         "mission_set": 13,
-        "name": "We Woke Up The Mama",
+        "name": "We Woke Up The Mama (Single Player)",
         "objectives": "<ul><li>Harvest the <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> Goldilocks using a <a href=\"https://thehunter.fandom.com/wiki/.308_Handgun\" title=\".308 Handgun\"> .308 \"Rival\" Handgun</a>.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1194,7 +1194,7 @@
     {
         "pk": 150,
         "mission_set": 14,
-        "name": "Swamp Thing",
+        "name": "Swamp Thing (Single Player)",
         "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> on the mysterious island (x: -13582, y: -3293) west of the swamp.</li></ul>",
         "reward": 400,
         "order": 4
@@ -1242,7 +1242,7 @@
     {
         "pk": 156,
         "mission_set": 14,
-        "name": "Illegally Blonde",
+        "name": "Illegally Blonde (Single Player)",
         "objectives": "<ul><li>Harvest the angry blond <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in the northwest corner (x: -12614, y: -6282).</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1402,7 +1402,7 @@
     {
         "pk": 176,
         "mission_set": 16,
-        "name": "The Puppet",
+        "name": "The Puppet (Single Player)",
         "objectives": "<ul><li>Harvest Angelica's <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> by the peninsula north of Whiterime Ridge (X: -2.436, Y: -12.426) while it's charging.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1482,7 +1482,7 @@
     {
         "pk": 186,
         "mission_set": 17,
-        "name": "There Can Be Only One",
+        "name": "There Can Be Only One (Single Player)",
         "objectives": "<ul><li>Harvest the Dark <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boar</a> near the southern Hunting Tower in Hirschfelden (X:8711, Y:1487).</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1562,7 +1562,7 @@
     {
         "pk": 196,
         "mission_set": 18,
-        "name": "God Save the Queen",
+        "name": "God Save the Queen (Single Player)",
         "objectives": "<ul><li>Harvest the <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Feral_Hog\" title=\"Animal Fur Variations\"> Feral \"Queen\" Hog</a> terrorizing <a href=\"https://thehunter.fandom.com/wiki/Canyon_Creek\" title=\"Canyon Creek\">Canyon Creek</a>.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1642,7 +1642,7 @@
     {
         "pk": 206,
         "mission_set": 19,
-        "name": "A New Legend is Born",
+        "name": "A New Legend is Born (Single Player)",
         "objectives": "<ul><li>Harvest the \"Ravager Buffalo\" by the large beach north of <a href=\"https://thehunter.fandom.com/wiki/Piccabeen_Bay\" title=\"Piccabeen Bay\">Piccabeen Bay</a> (X: 6.273, Y: 6.330) at under 10 meters (Approx. 32 feet) while it's charging.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1722,7 +1722,7 @@
     {
         "pk": 216,
         "mission_set": 20,
-        "name": "Boss Banteng",
+        "name": "Boss Banteng (Single Player)",
         "objectives": "<ul><li>Harvest the male \"Boss Banteng\" by the easternmost island in the swamps of Piccabeen Bay (X: 7.539, Y: 8.299) with one shot.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1802,7 +1802,7 @@
     {
         "pk": 226,
         "mission_set": 21,
-        "name": "Challenging Buffalo Bill",
+        "name": "Challenging Buffalo Bill (Single Player)",
         "objectives": "<ul><li>Harvest the male <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> \"Buffalo Bill\" last seen at the \"Windy Hill\" (X: -6464, Y: -10096) using <a href=\"https://thehunter.fandom.com/wiki/Weapons#Handguns\" title=\"Weapons\"> any permitted revolver</a> without a scope.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -1882,7 +1882,7 @@
     {
         "pk": 236,
         "mission_set": 22,
-        "name": "Taking Down the Bearkiller Goat",
+        "name": "Taking Down the Bearkiller Goat (Single Player)",
         "objectives": "<ul><li>Harvest the last Bearkiller Alpine Ibex using <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum\" title=\"7mm Magnum\"> 7 mm ammunition</a> at the Devil's Teapot in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> (X: 3078, Y: -2169).</li></ul>",
         "reward": 3600,
         "order": 10
@@ -2282,7 +2282,7 @@
     {
         "pk": 286,
         "mission_set": 27,
-        "name": "The Legendary Fenrir",
+        "name": "The Legendary Fenrir (Single Player)",
         "objectives": "<ul><li>Identify a call from a Grey Wolf</li><li>Harvest the dark <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a> Fenrir by Brimstone (X: -7.140, Y: -156) in Timbergold Trails.</li></ul>",
         "reward": 3600,
         "order": 10
@@ -2322,7 +2322,7 @@
     {
         "pk": 291,
         "mission_set": 28,
-        "name": "Northern Quarter",
+        "name": "Northern Quarter (Single Player)",
         "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from the Northern Quarter.</li></ul>",
         "reward": 700,
         "order": 5
@@ -2338,7 +2338,7 @@
     {
         "pk": 293,
         "mission_set": 28,
-        "name": "Lake Coyote?",
+        "name": "Lake Coyote? (Single Player)",
         "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> from the Lake (X: -14058, Y: 5389).</li></ul>",
         "reward": 1200,
         "order": 7
@@ -2818,7 +2818,7 @@
     {
         "pk": 353,
         "mission_set": 34,
-        "name": "A Family Matter",
+        "name": "A Family Matter (Single Player)",
         "objectives": "<ul><li>Harvest 2 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasants</a> from the group under the bridge in <a href=\"https://thehunter.fandom.com/wiki/Canyon_Creek\" title=\"Canyon Creek\">Canyon Creek</a>.</li></ul>",
         "reward": 1000,
         "order": 7
@@ -3442,7 +3442,7 @@
     {
         "pk": 431,
         "mission_set": 42,
-        "name": "Warriors Of The Fields",
+        "name": "Warriors Of The Fields (Single Player)",
         "objectives": "<ul><li>Go to the Three Lakes area on <a href=\"https://thehunter.fandom.com/wiki/Logger%27s_Point\" title=\"Logger's Point\">Logger's Point</a> and investigate how the war between <a href=\"https://thehunter.fandom.com/wiki/Cottontail_Rabbit\" title=\"Cottontail Rabbit\"> Cottontail Rabbits</a> and <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\"> Coyotes</a> is going. Check out some strange reports coming out of somewhere close to these coordinates: X: -9511; Y: 5756.</li></ul>",
         "reward": 600,
         "order": 5

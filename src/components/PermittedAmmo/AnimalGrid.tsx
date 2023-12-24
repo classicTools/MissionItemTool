@@ -6,7 +6,7 @@ import sortBy from 'sort-by'
 
 const AnimalList = styled.div`
     display: grid;
-    grid-template-columns: repeat(7, 100px);
+    grid-template-columns: repeat(8, 100px);
     grid-gap: 10px;
 `
 const AnimalGrid = () => {
