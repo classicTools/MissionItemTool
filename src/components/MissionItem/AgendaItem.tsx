@@ -51,6 +51,9 @@ const FirstSpan = styled.span`
     display: flex;
     align-items: center;
 `
+const MissionNumber = styled.span`
+    margin: 0 5px;
+`
 interface BookmarkProps {
     mission: MissionData
     showAll: boolean
@@ -78,11 +81,9 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                         <Title ready={missionReady}>
                             <FirstSpan>
                                 <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b>
-                                <span> </span>
-                                <span>
-                                    {' '}
-                                    #{order} - {name}
-                                </span>
+                                <MissionNumber>
+                                    {order} - {name}
+                                </MissionNumber>
                                 {!missionReady && ' (BLOCKED)'}
                                 {image && <ImageIcon height={15} width={18} />}
                             </FirstSpan>

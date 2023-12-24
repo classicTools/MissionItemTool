@@ -32,7 +32,9 @@ const Header = styled.div`
     height: 50px;
     align-items: center;
 `
-
+const Spacer = styled.div`
+    height: 50px;
+`
 const Agenda = () => {
     const { bookmarks, showAgenda } = useBookmarkContext()
     const { map } = useSettingsContext()
@@ -59,6 +61,7 @@ const Agenda = () => {
                         {bookmarkedMissions.map((m: MissionData) => {
                             return <AgendaItem mission={m} showAll={showAll} key={m.pk} />
                         })}
+                        <Spacer />
                     </>
                 ) : (
                     <div>Please choose a reserve to see its agenda</div>
