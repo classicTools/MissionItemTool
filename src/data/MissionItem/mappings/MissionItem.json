@@ -1,3800 +1,705 @@
 [
-    {
-        "mission": 16,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 17,
-        "item": 6,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 17,
-        "item": 9,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 17,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 17,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 17,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 17,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 27,
-        "item": 6,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 28,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 31,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 33,
-        "item": 14,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 35,
-        "item": 25,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 37,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 39,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 39,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 42,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 44,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 46,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 47,
-        "item": 88,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 47,
-        "item": 89,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 51,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 57,
-        "item": 79,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 74,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 74,
-        "item": 39,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 74,
-        "item": 45,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 80,
-        "item": 22,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 80,
-        "item": 23,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 82,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 82,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 83,
-        "item": 8,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 83,
-        "item": 9,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 83,
-        "item": 10,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 85,
-        "item": 24,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 91,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 92,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 95,
-        "item": 16,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 96,
-        "item": 14,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 100,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 105,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 109,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 111,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 111,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 112,
-        "item": 26,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 112,
-        "item": 27,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 122,
-        "item": 26,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 123,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 123,
-        "item": 70,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 124,
-        "item": 11,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 126,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 130,
-        "item": 69,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 132,
-        "item": 9,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 134,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 134,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 134,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 134,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 135,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 141,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 143,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 145,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 146,
-        "item": 16,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 152,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 155,
-        "item": 79,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 161,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 162,
-        "item": 24,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 163,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 164,
-        "item": 85,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 165,
-        "item": 66,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 165,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 166,
-        "item": 24,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 171,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 171,
-        "item": 89,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 172,
-        "item": 17,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 172,
-        "item": 19,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 172,
-        "item": 22,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 172,
-        "item": 23,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 181,
-        "item": 89,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 182,
-        "item": 25,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 184,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 185,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 193,
-        "item": 79,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 194,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 194,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 203,
-        "item": 17,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 205,
-        "item": 24,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 212,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 212,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 212,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 212,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 214,
-        "item": 88,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 214,
-        "item": 89,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 222,
-        "item": 26,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 223,
-        "item": 23,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 224,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 226,
-        "item": 24,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 233,
-        "item": 70,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 234,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 234,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 235,
-        "item": 26,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 236,
-        "item": 65,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 236,
-        "item": 66,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 241,
-        "item": 4,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 241,
-        "item": 5,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 242,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 242,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 242,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 242,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 243,
-        "item": 16,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 243,
-        "item": 18,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 243,
-        "item": 20,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 243,
-        "item": 30,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 250,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 254,
-        "item": 65,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 254,
-        "item": 66,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 272,
-        "item": 70,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 273,
-        "item": 82,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 275,
-        "item": 9,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 276,
-        "item": 14,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 276,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 276,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 276,
-        "item": 34,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 276,
-        "item": 40,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 276,
-        "item": 49,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 276,
-        "item": 73,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 279,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 279,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 279,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 279,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 280,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 280,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 281,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 283,
-        "item": 6,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 284,
-        "item": 76,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 284,
-        "item": 77,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 284,
-        "item": 78,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 284,
-        "item": 79,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 284,
-        "item": 87,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 284,
-        "item": 85,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 284,
-        "item": 6,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 285,
-        "item": 16,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 285,
-        "item": 18,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 285,
-        "item": 20,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 285,
-        "item": 27,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 285,
-        "item": 30,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 292,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 294,
-        "item": 79,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 301,
-        "item": 4,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 302,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 303,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 304,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 305,
-        "item": 89,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 314,
-        "item": 89,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 315,
-        "item": 75,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 76,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 77,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 78,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 79,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 81,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 82,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 83,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 315,
-        "item": 80,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 315,
-        "item": 87,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 315,
-        "item": 85,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 315,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 329,
-        "item": 80,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 329,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 329,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 330,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 334,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 321,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 322,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 345,
-        "item": 33,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 346,
-        "item": 3,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 354,
-        "item": 3,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 356,
-        "item": 79,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 361,
-        "item": 42,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 364,
-        "item": 90,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 365,
-        "item": 3,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 366,
-        "item": 82,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 371,
-        "item": 42,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 371,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 372,
-        "item": 90,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 374,
-        "item": 3,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 374,
-        "item": 91,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 376,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 376,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 376,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 376,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 384,
-        "item": 1,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 386,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 386,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 386,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 386,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 390,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 392,
-        "item": 90,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 393,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 394,
-        "item": 33,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 394,
-        "item": 35,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 399,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 401,
-        "item": 42,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 405,
-        "item": 3,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 406,
-        "item": 2,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 421,
-        "item": 2,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 426,
-        "item": 3,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 434,
-        "item": 2,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 435,
-        "item": 82,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 435,
-        "item": 88,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 436,
-        "item": 42,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 447,
-        "item": 14,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 448,
-        "item": 14,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 449,
-        "item": 69,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 450,
-        "item": 69,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 451,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 452,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 453,
-        "item": 14,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 453,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 453,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 454,
-        "item": 14,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 454,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 454,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 455,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 456,
-        "item": 14,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 457,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 458,
-        "item": 60,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 459,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 460,
-        "item": 60,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 461,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 463,
-        "item": 4,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 463,
-        "item": 5,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 464,
-        "item": 8,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 464,
-        "item": 10,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 465,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 466,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 467,
-        "item": 60,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 467,
-        "item": 61,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 468,
-        "item": 14,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 468,
-        "item": 15,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 468,
-        "item": 16,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 469,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 469,
-        "item": 70,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 470,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 471,
-        "item": 6,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 471,
-        "item": 11,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 471,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 471,
-        "item": 65,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 471,
-        "item": 66,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 471,
-        "item": 4,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 471,
-        "item": 5,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 471,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 471,
-        "item": 8,
-        "any": true,
-        "group": 3
-    },
-    {
-        "mission": 471,
-        "item": 10,
-        "any": true,
-        "group": 3
-    },
-    {
-        "mission": 471,
-        "item": 14,
-        "any": true,
-        "group": 4
-    },
-    {
-        "mission": 471,
-        "item": 15,
-        "any": true,
-        "group": 4
-    },
-    {
-        "mission": 471,
-        "item": 16,
-        "any": true,
-        "group": 4
-    },
-    {
-        "mission": 471,
-        "item": 60,
-        "any": true,
-        "group": 5
-    },
-    {
-        "mission": 471,
-        "item": 61,
-        "any": true,
-        "group": 5
-    },
-    {
-        "mission": 471,
-        "item": 69,
-        "any": true,
-        "group": 6
-    },
-    {
-        "mission": 471,
-        "item": 70,
-        "any": true,
-        "group": 6
-    },
-    {
-        "mission": 471,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 471,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 472,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 473,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 474,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 475,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 476,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 476,
-        "item": 53,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 477,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 478,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 479,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 480,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 481,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 482,
-        "item": 73,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 483,
-        "item": 73,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 484,
-        "item": 73,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 484,
-        "item": 4,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 485,
-        "item": 60,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 485,
-        "item": 74,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 486,
-        "item": 73,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 488,
-        "item": 25,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 489,
-        "item": 3,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 490,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 491,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 491,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 492,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 492,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 493,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 493,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 493,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 493,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 494,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 494,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 494,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 494,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 495,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 496,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 502,
-        "item": 60,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 504,
-        "item": 71,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 505,
-        "item": 69,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 507,
-        "item": 82,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 508,
-        "item": 75,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 509,
-        "item": 82,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 510,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 511,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 511,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 511,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 513,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 515,
-        "item": 81,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 536,
-        "item": 65,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 537,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 537,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 538,
-        "item": 9,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 539,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 539,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 539,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 539,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 540,
-        "item": 66,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 547,
-        "item": 82,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 548,
-        "item": 69,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 549,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 550,
-        "item": 16,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 556,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 556,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 557,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 560,
-        "item": 65,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 560,
-        "item": 66,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 566,
-        "item": 12,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 567,
-        "item": 20,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 569,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 569,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 570,
-        "item": 18,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 578,
-        "item": 11,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 578,
-        "item": 13,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 579,
-        "item": 9,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 580,
-        "item": 9,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 586,
-        "item": 65,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 587,
-        "item": 65,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 587,
-        "item": 66,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 588,
-        "item": 25,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 589,
-        "item": 87,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 590,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 526,
-        "item": 14,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 526,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 526,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 528,
-        "item": 14,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 528,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 528,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 529,
-        "item": 66,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 530,
-        "item": 76,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 486,
-        "item": 65,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 486,
-        "item": 66,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 486,
-        "item": 69,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 486,
-        "item": 71,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 486,
-        "item": 14,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 109,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 185,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 100,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1173,
-        "item": 33,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1173,
-        "item": 35,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1173,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 1174,
-        "item": 32,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 1174,
-        "item": 42,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1174,
-        "item": 92,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1174,
-        "item": 29,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 1175,
-        "item": 41,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 1175,
-        "item": 44,
-        "any": true,
-        "group": 2
-    },
-    {
-        "mission": 1175,
-        "item": 32,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 1175,
-        "item": 92,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 495,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 496,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 26,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 27,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 17,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 19,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 22,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 23,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 36,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 72,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 24,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 12,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 65,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 66,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 70,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 208,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 26,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 27,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 17,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 19,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 22,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 23,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 36,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 72,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 24,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 12,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 65,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 66,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 69,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 70,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 71,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 26,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 27,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 17,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 19,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 22,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 23,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 36,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 72,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 199,
-        "item": 24,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 220,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 224,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 464,
-        "item": 9,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 471,
-        "item": 9,
-        "any": true,
-        "group": 3
-    },
-    {
-        "mission": 482,
-        "item": 65,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 482,
-        "item": 66,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 482,
-        "item": 69,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 482,
-        "item": 71,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 482,
-        "item": 14,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 483,
-        "item": 65,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 483,
-        "item": 66,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 483,
-        "item": 69,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 483,
-        "item": 71,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 483,
-        "item": 14,
-        "any": true,
-        "group": 1
-    },
-    {
-        "mission": 510,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 165,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 511,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 513,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1180,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1181,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1185,
-        "item": 60,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1185,
-        "item": 61,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1194,
-        "item": 7,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 1195,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1195,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1195,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1195,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1196,
-        "item": 24,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 1196,
-        "item": 31,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 378,
-        "item": 17,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 19,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 22,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 23,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 24,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 26,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 27,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 36,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 72,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 378,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1191,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1212,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1213,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1213,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1213,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1213,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1213,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1213,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1218,
-        "item": 60,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1218,
-        "item": 61,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1221,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1222,
-        "item": 30,
-        "any": false,
-        "group": null
-    },
-    {
-        "mission": 1222,
-        "item": 18,
-        "any": false,
-        "group": 1
-    },
-    {
-        "mission": 1222,
-        "item": 39,
-        "any": false,
-        "group": 1
-    },
-    {
-        "mission": 1222,
-        "item": 18,
-        "any": false,
-        "group": 2
-    },
-    {
-        "mission": 1222,
-        "item": 45,
-        "any": false,
-        "group": 2
-    },
-    {
-        "mission": 1222,
-        "item": 20,
-        "any": false,
-        "group": 3
-    },
-    {
-        "mission": 1222,
-        "item": 39,
-        "any": false,
-        "group": 3
-    },
-    {
-        "mission": 1222,
-        "item": 20,
-        "any": false,
-        "group": 4
-    },
-    {
-        "mission": 1222,
-        "item": 45,
-        "any": false,
-        "group": 4
-    },
-    {
-        "mission": 1222,
-        "item": 16,
-        "any": false,
-        "group": 5
-    },
-    {
-        "mission": 1222,
-        "item": 38,
-        "any": false,
-        "group": 5
-    },
-    {
-        "mission": 1222,
-        "item": 16,
-        "any": false,
-        "group": 6
-    },
-    {
-        "mission": 1222,
-        "item": 84,
-        "any": false,
-        "group": 6
-    },
-    {
-        "mission": 1222,
-        "item": 30,
-        "any": false,
-        "group": 7
-    },
-    {
-        "mission": 1222,
-        "item": 84,
-        "any": false,
-        "group": 7
-    },
-    {
-        "mission": 1230,
-        "item": 18,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1230,
-        "item": 20,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1230,
-        "item": 16,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1230,
-        "item": 30,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1232,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 75,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 76,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 77,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 78,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 79,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 81,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 82,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 83,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 87,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1321,
-        "item": 85,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1323,
-        "item": 18,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1323,
-        "item": 20,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1323,
-        "item": 16,
-        "any": true,
-        "group": 0
-    },
-    {
-        "mission": 1323,
-        "item": 30,
-        "any": true,
-        "group": 0
-    }
+    { "mission": 16, "item": 20, "any": false, "group": null },
+    { "mission": 17, "item": 6, "any": false, "group": null },
+    { "mission": 17, "item": 9, "any": false, "group": null },
+    { "mission": 17, "item": 12, "any": false, "group": null },
+    { "mission": 17, "item": 18, "any": false, "group": null },
+    { "mission": 17, "item": 20, "any": false, "group": null },
+    { "mission": 17, "item": 32, "any": false, "group": null },
+    { "mission": 27, "item": 6, "any": false, "group": null },
+    { "mission": 28, "item": 20, "any": false, "group": null },
+    { "mission": 31, "item": 32, "any": false, "group": null },
+    { "mission": 33, "item": 14, "any": false, "group": null },
+    { "mission": 35, "item": 25, "any": false, "group": null },
+    { "mission": 37, "item": 88, "any": false, "group": null },
+    { "mission": 39, "item": 81, "any": true, "group": 0 },
+    { "mission": 39, "item": 83, "any": true, "group": 0 },
+    { "mission": 42, "item": 75, "any": true, "group": 0 },
+    { "mission": 42, "item": 76, "any": true, "group": 0 },
+    { "mission": 42, "item": 77, "any": true, "group": 0 },
+    { "mission": 42, "item": 78, "any": true, "group": 0 },
+    { "mission": 42, "item": 79, "any": true, "group": 0 },
+    { "mission": 42, "item": 81, "any": true, "group": 0 },
+    { "mission": 42, "item": 82, "any": true, "group": 0 },
+    { "mission": 42, "item": 83, "any": true, "group": 0 },
+    { "mission": 42, "item": 85, "any": true, "group": 0 },
+    { "mission": 42, "item": 87, "any": true, "group": 0 },
+    { "mission": 44, "item": 75, "any": true, "group": 0 },
+    { "mission": 44, "item": 76, "any": true, "group": 0 },
+    { "mission": 44, "item": 77, "any": true, "group": 0 },
+    { "mission": 44, "item": 78, "any": true, "group": 0 },
+    { "mission": 44, "item": 79, "any": true, "group": 0 },
+    { "mission": 44, "item": 81, "any": true, "group": 0 },
+    { "mission": 44, "item": 82, "any": true, "group": 0 },
+    { "mission": 44, "item": 83, "any": true, "group": 0 },
+    { "mission": 44, "item": 85, "any": true, "group": 0 },
+    { "mission": 44, "item": 87, "any": true, "group": 0 },
+    { "mission": 46, "item": 18, "any": false, "group": null },
+    { "mission": 47, "item": 88, "any": true, "group": 0 },
+    { "mission": 47, "item": 89, "any": true, "group": 0 },
+    { "mission": 51, "item": 12, "any": false, "group": null },
+    { "mission": 57, "item": 79, "any": false, "group": null },
+    { "mission": 74, "item": 20, "any": false, "group": null },
+    { "mission": 74, "item": 39, "any": true, "group": 0 },
+    { "mission": 74, "item": 45, "any": true, "group": 0 },
+    { "mission": 80, "item": 22, "any": true, "group": 0 },
+    { "mission": 80, "item": 23, "any": true, "group": 0 },
+    { "mission": 82, "item": 81, "any": true, "group": 0 },
+    { "mission": 82, "item": 83, "any": true, "group": 0 },
+    { "mission": 83, "item": 8, "any": true, "group": 0 },
+    { "mission": 83, "item": 9, "any": true, "group": 0 },
+    { "mission": 83, "item": 10, "any": true, "group": 0 },
+    { "mission": 85, "item": 24, "any": false, "group": null },
+    { "mission": 91, "item": 31, "any": false, "group": null },
+    { "mission": 92, "item": 71, "any": false, "group": null },
+    { "mission": 95, "item": 16, "any": false, "group": null },
+    { "mission": 96, "item": 14, "any": false, "group": null },
+    { "mission": 100, "item": 83, "any": true, "group": 0 },
+    { "mission": 105, "item": 88, "any": false, "group": null },
+    { "mission": 109, "item": 83, "any": true, "group": 0 },
+    { "mission": 111, "item": 87, "any": true, "group": 0 },
+    { "mission": 111, "item": 85, "any": true, "group": 0 },
+    { "mission": 112, "item": 26, "any": true, "group": 0 },
+    { "mission": 112, "item": 27, "any": true, "group": 0 },
+    { "mission": 122, "item": 26, "any": false, "group": null },
+    { "mission": 123, "item": 69, "any": true, "group": 0 },
+    { "mission": 123, "item": 70, "any": true, "group": 0 },
+    { "mission": 124, "item": 11, "any": false, "group": null },
+    { "mission": 126, "item": 76, "any": false, "group": null },
+    { "mission": 130, "item": 69, "any": false, "group": null },
+    { "mission": 132, "item": 9, "any": false, "group": null },
+    { "mission": 134, "item": 76, "any": true, "group": 0 },
+    { "mission": 134, "item": 77, "any": true, "group": 0 },
+    { "mission": 134, "item": 78, "any": true, "group": 0 },
+    { "mission": 134, "item": 79, "any": true, "group": 0 },
+    { "mission": 135, "item": 88, "any": false, "group": null },
+    { "mission": 141, "item": 32, "any": false, "group": null },
+    { "mission": 143, "item": 71, "any": false, "group": null },
+    { "mission": 145, "item": 76, "any": false, "group": null },
+    { "mission": 146, "item": 16, "any": false, "group": null },
+    { "mission": 152, "item": 12, "any": false, "group": null },
+    { "mission": 155, "item": 79, "any": false, "group": null },
+    { "mission": 161, "item": 76, "any": false, "group": null },
+    { "mission": 162, "item": 24, "any": false, "group": null },
+    { "mission": 163, "item": 12, "any": false, "group": null },
+    { "mission": 164, "item": 85, "any": false, "group": null },
+    { "mission": 165, "item": 66, "any": false, "group": null },
+    { "mission": 165, "item": 83, "any": true, "group": 0 },
+    { "mission": 166, "item": 24, "any": false, "group": null },
+    { "mission": 171, "item": 88, "any": false, "group": null },
+    { "mission": 171, "item": 89, "any": false, "group": null },
+    { "mission": 172, "item": 17, "any": true, "group": 0 },
+    { "mission": 172, "item": 19, "any": true, "group": 0 },
+    { "mission": 172, "item": 22, "any": true, "group": 0 },
+    { "mission": 172, "item": 23, "any": true, "group": 0 },
+    { "mission": 181, "item": 89, "any": false, "group": null },
+    { "mission": 182, "item": 25, "any": false, "group": null },
+    { "mission": 184, "item": 87, "any": false, "group": null },
+    { "mission": 185, "item": 83, "any": true, "group": 0 },
+    { "mission": 193, "item": 79, "any": false, "group": null },
+    { "mission": 194, "item": 12, "any": false, "group": null },
+    { "mission": 194, "item": 20, "any": false, "group": null },
+    { "mission": 203, "item": 17, "any": false, "group": null },
+    { "mission": 205, "item": 24, "any": false, "group": null },
+    { "mission": 212, "item": 76, "any": true, "group": 0 },
+    { "mission": 212, "item": 77, "any": true, "group": 0 },
+    { "mission": 212, "item": 78, "any": true, "group": 0 },
+    { "mission": 212, "item": 79, "any": true, "group": 0 },
+    { "mission": 214, "item": 88, "any": true, "group": 0 },
+    { "mission": 214, "item": 89, "any": true, "group": 0 },
+    { "mission": 222, "item": 26, "any": false, "group": null },
+    { "mission": 223, "item": 23, "any": false, "group": null },
+    { "mission": 224, "item": 83, "any": true, "group": 0 },
+    { "mission": 226, "item": 24, "any": false, "group": null },
+    { "mission": 233, "item": 70, "any": false, "group": null },
+    { "mission": 234, "item": 76, "any": true, "group": 0 },
+    { "mission": 234, "item": 77, "any": true, "group": 0 },
+    { "mission": 234, "item": 78, "any": true, "group": 0 },
+    { "mission": 234, "item": 79, "any": true, "group": 0 },
+    { "mission": 234, "item": 81, "any": true, "group": 0 },
+    { "mission": 234, "item": 83, "any": true, "group": 0 },
+    { "mission": 234, "item": 87, "any": true, "group": 0 },
+    { "mission": 234, "item": 85, "any": true, "group": 0 },
+    { "mission": 235, "item": 26, "any": false, "group": null },
+    { "mission": 236, "item": 65, "any": true, "group": 0 },
+    { "mission": 236, "item": 66, "any": true, "group": 0 },
+    { "mission": 241, "item": 4, "any": true, "group": 0 },
+    { "mission": 241, "item": 5, "any": true, "group": 0 },
+    { "mission": 242, "item": 75, "any": true, "group": 0 },
+    { "mission": 242, "item": 81, "any": true, "group": 0 },
+    { "mission": 242, "item": 82, "any": true, "group": 0 },
+    { "mission": 242, "item": 83, "any": true, "group": 0 },
+    { "mission": 243, "item": 16, "any": true, "group": 0 },
+    { "mission": 243, "item": 18, "any": true, "group": 0 },
+    { "mission": 243, "item": 20, "any": true, "group": 0 },
+    { "mission": 243, "item": 30, "any": true, "group": 0 },
+    { "mission": 250, "item": 76, "any": true, "group": 0 },
+    { "mission": 250, "item": 77, "any": true, "group": 0 },
+    { "mission": 250, "item": 78, "any": true, "group": 0 },
+    { "mission": 250, "item": 79, "any": true, "group": 0 },
+    { "mission": 250, "item": 81, "any": true, "group": 0 },
+    { "mission": 250, "item": 83, "any": true, "group": 0 },
+    { "mission": 250, "item": 87, "any": true, "group": 0 },
+    { "mission": 250, "item": 85, "any": true, "group": 0 },
+    { "mission": 250, "item": 75, "any": true, "group": 0 },
+    { "mission": 250, "item": 82, "any": true, "group": 0 },
+    { "mission": 254, "item": 65, "any": true, "group": 0 },
+    { "mission": 254, "item": 66, "any": true, "group": 0 },
+    { "mission": 272, "item": 70, "any": false, "group": null },
+    { "mission": 273, "item": 82, "any": false, "group": null },
+    { "mission": 275, "item": 9, "any": false, "group": null },
+    { "mission": 276, "item": 14, "any": true, "group": 0 },
+    { "mission": 276, "item": 69, "any": true, "group": 0 },
+    { "mission": 276, "item": 71, "any": true, "group": 0 },
+    { "mission": 276, "item": 34, "any": true, "group": 1 },
+    { "mission": 276, "item": 40, "any": true, "group": 1 },
+    { "mission": 276, "item": 49, "any": true, "group": 1 },
+    { "mission": 276, "item": 73, "any": true, "group": 1 },
+    { "mission": 279, "item": 76, "any": true, "group": 0 },
+    { "mission": 279, "item": 77, "any": true, "group": 0 },
+    { "mission": 279, "item": 78, "any": true, "group": 0 },
+    { "mission": 279, "item": 79, "any": true, "group": 0 },
+    { "mission": 280, "item": 87, "any": true, "group": 0 },
+    { "mission": 280, "item": 85, "any": true, "group": 0 },
+    { "mission": 281, "item": 88, "any": false, "group": null },
+    { "mission": 283, "item": 6, "any": false, "group": null },
+    { "mission": 284, "item": 76, "any": true, "group": 2 },
+    { "mission": 284, "item": 77, "any": true, "group": 2 },
+    { "mission": 284, "item": 78, "any": true, "group": 2 },
+    { "mission": 284, "item": 79, "any": true, "group": 2 },
+    { "mission": 284, "item": 87, "any": true, "group": 1 },
+    { "mission": 284, "item": 85, "any": true, "group": 1 },
+    { "mission": 284, "item": 6, "any": false, "group": null },
+    { "mission": 285, "item": 16, "any": true, "group": 0 },
+    { "mission": 285, "item": 18, "any": true, "group": 0 },
+    { "mission": 285, "item": 20, "any": true, "group": 0 },
+    { "mission": 285, "item": 27, "any": true, "group": 0 },
+    { "mission": 285, "item": 30, "any": true, "group": 0 },
+    { "mission": 292, "item": 20, "any": false, "group": null },
+    { "mission": 294, "item": 79, "any": false, "group": null },
+    { "mission": 301, "item": 4, "any": false, "group": null },
+    { "mission": 302, "item": 18, "any": false, "group": null },
+    { "mission": 303, "item": 31, "any": false, "group": null },
+    { "mission": 304, "item": 76, "any": false, "group": null },
+    { "mission": 305, "item": 89, "any": false, "group": null },
+    { "mission": 314, "item": 89, "any": false, "group": null },
+    { "mission": 315, "item": 75, "any": true, "group": 1 },
+    { "mission": 315, "item": 76, "any": true, "group": 1 },
+    { "mission": 315, "item": 77, "any": true, "group": 1 },
+    { "mission": 315, "item": 78, "any": true, "group": 1 },
+    { "mission": 315, "item": 79, "any": true, "group": 1 },
+    { "mission": 315, "item": 81, "any": true, "group": 1 },
+    { "mission": 315, "item": 82, "any": true, "group": 1 },
+    { "mission": 315, "item": 83, "any": true, "group": 1 },
+    { "mission": 315, "item": 80, "any": true, "group": 2 },
+    { "mission": 315, "item": 87, "any": true, "group": 2 },
+    { "mission": 315, "item": 85, "any": true, "group": 2 },
+    { "mission": 315, "item": 18, "any": false, "group": null },
+    { "mission": 329, "item": 80, "any": true, "group": 0 },
+    { "mission": 329, "item": 87, "any": true, "group": 0 },
+    { "mission": 329, "item": 85, "any": true, "group": 0 },
+    { "mission": 330, "item": 88, "any": false, "group": null },
+    { "mission": 334, "item": 88, "any": false, "group": null },
+    { "mission": 321, "item": 88, "any": false, "group": null },
+    { "mission": 322, "item": 88, "any": false, "group": null },
+    { "mission": 345, "item": 33, "any": false, "group": null },
+    { "mission": 346, "item": 3, "any": false, "group": null },
+    { "mission": 354, "item": 3, "any": false, "group": null },
+    { "mission": 356, "item": 79, "any": false, "group": null },
+    { "mission": 361, "item": 42, "any": false, "group": null },
+    { "mission": 364, "item": 90, "any": false, "group": null },
+    { "mission": 365, "item": 3, "any": false, "group": null },
+    { "mission": 366, "item": 82, "any": false, "group": null },
+    { "mission": 371, "item": 42, "any": false, "group": null },
+    { "mission": 371, "item": 32, "any": false, "group": null },
+    { "mission": 372, "item": 90, "any": false, "group": null },
+    { "mission": 374, "item": 3, "any": true, "group": 0 },
+    { "mission": 374, "item": 91, "any": true, "group": 0 },
+    { "mission": 376, "item": 76, "any": true, "group": 0 },
+    { "mission": 376, "item": 77, "any": true, "group": 0 },
+    { "mission": 376, "item": 78, "any": true, "group": 0 },
+    { "mission": 376, "item": 79, "any": true, "group": 0 },
+    { "mission": 384, "item": 1, "any": false, "group": null },
+    { "mission": 386, "item": 76, "any": true, "group": 0 },
+    { "mission": 386, "item": 77, "any": true, "group": 0 },
+    { "mission": 386, "item": 78, "any": true, "group": 0 },
+    { "mission": 386, "item": 79, "any": true, "group": 0 },
+    { "mission": 390, "item": 32, "any": false, "group": null },
+    { "mission": 392, "item": 90, "any": false, "group": null },
+    { "mission": 393, "item": 31, "any": false, "group": null },
+    { "mission": 394, "item": 33, "any": true, "group": 0 },
+    { "mission": 394, "item": 35, "any": true, "group": 0 },
+    { "mission": 399, "item": 31, "any": false, "group": null },
+    { "mission": 401, "item": 42, "any": false, "group": null },
+    { "mission": 405, "item": 3, "any": false, "group": null },
+    { "mission": 406, "item": 2, "any": false, "group": null },
+    { "mission": 421, "item": 2, "any": false, "group": null },
+    { "mission": 426, "item": 3, "any": false, "group": null },
+    { "mission": 434, "item": 2, "any": false, "group": null },
+    { "mission": 435, "item": 82, "any": false, "group": null },
+    { "mission": 435, "item": 88, "any": false, "group": null },
+    { "mission": 436, "item": 42, "any": false, "group": null },
+    { "mission": 447, "item": 14, "any": false, "group": null },
+    { "mission": 448, "item": 14, "any": false, "group": null },
+    { "mission": 449, "item": 69, "any": false, "group": null },
+    { "mission": 450, "item": 69, "any": false, "group": null },
+    { "mission": 451, "item": 71, "any": false, "group": null },
+    { "mission": 452, "item": 71, "any": false, "group": null },
+    { "mission": 453, "item": 14, "any": true, "group": 0 },
+    { "mission": 453, "item": 69, "any": true, "group": 0 },
+    { "mission": 453, "item": 71, "any": true, "group": 0 },
+    { "mission": 454, "item": 14, "any": true, "group": 0 },
+    { "mission": 454, "item": 69, "any": true, "group": 0 },
+    { "mission": 454, "item": 71, "any": true, "group": 0 },
+    { "mission": 455, "item": 71, "any": false, "group": null },
+    { "mission": 456, "item": 14, "any": false, "group": null },
+    { "mission": 457, "item": 31, "any": false, "group": null },
+    { "mission": 458, "item": 60, "any": false, "group": null },
+    { "mission": 459, "item": 31, "any": false, "group": null },
+    { "mission": 460, "item": 60, "any": false, "group": null },
+    { "mission": 461, "item": 31, "any": false, "group": null },
+    { "mission": 463, "item": 4, "any": true, "group": 0 },
+    { "mission": 463, "item": 5, "any": true, "group": 0 },
+    { "mission": 464, "item": 8, "any": true, "group": 0 },
+    { "mission": 464, "item": 10, "any": true, "group": 0 },
+    { "mission": 465, "item": 20, "any": false, "group": null },
+    { "mission": 466, "item": 12, "any": false, "group": null },
+    { "mission": 467, "item": 60, "any": true, "group": 0 },
+    { "mission": 467, "item": 61, "any": true, "group": 0 },
+    { "mission": 468, "item": 14, "any": true, "group": 0 },
+    { "mission": 468, "item": 15, "any": true, "group": 0 },
+    { "mission": 468, "item": 16, "any": true, "group": 0 },
+    { "mission": 469, "item": 69, "any": true, "group": 0 },
+    { "mission": 469, "item": 70, "any": true, "group": 0 },
+    { "mission": 470, "item": 71, "any": false, "group": null },
+    { "mission": 471, "item": 6, "any": false, "group": null },
+    { "mission": 471, "item": 11, "any": false, "group": null },
+    { "mission": 471, "item": 18, "any": false, "group": null },
+    { "mission": 471, "item": 65, "any": true, "group": 1 },
+    { "mission": 471, "item": 66, "any": true, "group": 1 },
+    { "mission": 471, "item": 4, "any": true, "group": 2 },
+    { "mission": 471, "item": 5, "any": true, "group": 2 },
+    { "mission": 471, "item": 12, "any": false, "group": null },
+    { "mission": 471, "item": 8, "any": true, "group": 3 },
+    { "mission": 471, "item": 10, "any": true, "group": 3 },
+    { "mission": 471, "item": 14, "any": true, "group": 4 },
+    { "mission": 471, "item": 15, "any": true, "group": 4 },
+    { "mission": 471, "item": 16, "any": true, "group": 4 },
+    { "mission": 471, "item": 60, "any": true, "group": 5 },
+    { "mission": 471, "item": 61, "any": true, "group": 5 },
+    { "mission": 471, "item": 69, "any": true, "group": 6 },
+    { "mission": 471, "item": 70, "any": true, "group": 6 },
+    { "mission": 471, "item": 71, "any": false, "group": null },
+    { "mission": 471, "item": 20, "any": false, "group": null },
+    { "mission": 472, "item": 87, "any": false, "group": null },
+    { "mission": 473, "item": 87, "any": false, "group": null },
+    { "mission": 474, "item": 87, "any": false, "group": null },
+    { "mission": 475, "item": 87, "any": false, "group": null },
+    { "mission": 476, "item": 87, "any": false, "group": null },
+    { "mission": 476, "item": 53, "any": false, "group": null },
+    { "mission": 477, "item": 76, "any": false, "group": null },
+    { "mission": 478, "item": 76, "any": false, "group": null },
+    { "mission": 479, "item": 76, "any": false, "group": null },
+    { "mission": 480, "item": 76, "any": false, "group": null },
+    { "mission": 481, "item": 76, "any": false, "group": null },
+    { "mission": 482, "item": 73, "any": false, "group": null },
+    { "mission": 483, "item": 73, "any": false, "group": null },
+    { "mission": 484, "item": 73, "any": false, "group": null },
+    { "mission": 484, "item": 4, "any": false, "group": null },
+    { "mission": 485, "item": 60, "any": false, "group": null },
+    { "mission": 485, "item": 74, "any": false, "group": null },
+    { "mission": 486, "item": 73, "any": false, "group": null },
+    { "mission": 488, "item": 25, "any": false, "group": null },
+    { "mission": 489, "item": 3, "any": false, "group": null },
+    { "mission": 490, "item": 18, "any": false, "group": null },
+    { "mission": 491, "item": 87, "any": true, "group": 0 },
+    { "mission": 491, "item": 85, "any": true, "group": 0 },
+    { "mission": 492, "item": 87, "any": true, "group": 0 },
+    { "mission": 492, "item": 85, "any": true, "group": 0 },
+    { "mission": 493, "item": 76, "any": true, "group": 0 },
+    { "mission": 493, "item": 77, "any": true, "group": 0 },
+    { "mission": 493, "item": 78, "any": true, "group": 0 },
+    { "mission": 493, "item": 79, "any": true, "group": 0 },
+    { "mission": 494, "item": 76, "any": true, "group": 0 },
+    { "mission": 494, "item": 77, "any": true, "group": 0 },
+    { "mission": 494, "item": 78, "any": true, "group": 0 },
+    { "mission": 494, "item": 79, "any": true, "group": 0 },
+    { "mission": 495, "item": 83, "any": true, "group": 0 },
+    { "mission": 496, "item": 83, "any": true, "group": 0 },
+    { "mission": 502, "item": 60, "any": false, "group": null },
+    { "mission": 504, "item": 71, "any": false, "group": null },
+    { "mission": 505, "item": 69, "any": false, "group": null },
+    { "mission": 507, "item": 82, "any": false, "group": null },
+    { "mission": 508, "item": 75, "any": false, "group": null },
+    { "mission": 509, "item": 82, "any": false, "group": null },
+    { "mission": 510, "item": 83, "any": true, "group": 0 },
+    { "mission": 511, "item": 75, "any": true, "group": 0 },
+    { "mission": 511, "item": 82, "any": true, "group": 0 },
+    { "mission": 511, "item": 83, "any": true, "group": 0 },
+    { "mission": 513, "item": 83, "any": true, "group": 0 },
+    { "mission": 515, "item": 81, "any": false, "group": null },
+    { "mission": 536, "item": 65, "any": false, "group": null },
+    { "mission": 537, "item": 76, "any": true, "group": 0 },
+    { "mission": 537, "item": 77, "any": true, "group": 0 },
+    { "mission": 537, "item": 78, "any": true, "group": 0 },
+    { "mission": 537, "item": 79, "any": true, "group": 0 },
+    { "mission": 537, "item": 75, "any": true, "group": 0 },
+    { "mission": 537, "item": 82, "any": true, "group": 0 },
+    { "mission": 537, "item": 83, "any": true, "group": 0 },
+    { "mission": 537, "item": 81, "any": true, "group": 0 },
+    { "mission": 538, "item": 9, "any": false, "group": null },
+    { "mission": 539, "item": 76, "any": true, "group": 0 },
+    { "mission": 539, "item": 77, "any": true, "group": 0 },
+    { "mission": 539, "item": 78, "any": true, "group": 0 },
+    { "mission": 539, "item": 79, "any": true, "group": 0 },
+    { "mission": 540, "item": 66, "any": false, "group": null },
+    { "mission": 547, "item": 82, "any": false, "group": null },
+    { "mission": 548, "item": 69, "any": false, "group": null },
+    { "mission": 549, "item": 31, "any": false, "group": null },
+    { "mission": 550, "item": 16, "any": false, "group": null },
+    { "mission": 556, "item": 76, "any": true, "group": 0 },
+    { "mission": 556, "item": 77, "any": true, "group": 0 },
+    { "mission": 556, "item": 78, "any": true, "group": 0 },
+    { "mission": 556, "item": 79, "any": true, "group": 0 },
+    { "mission": 556, "item": 75, "any": true, "group": 0 },
+    { "mission": 556, "item": 82, "any": true, "group": 0 },
+    { "mission": 556, "item": 83, "any": true, "group": 0 },
+    { "mission": 556, "item": 81, "any": true, "group": 0 },
+    { "mission": 556, "item": 87, "any": true, "group": 0 },
+    { "mission": 556, "item": 85, "any": true, "group": 0 },
+    { "mission": 557, "item": 76, "any": true, "group": 0 },
+    { "mission": 557, "item": 77, "any": true, "group": 0 },
+    { "mission": 557, "item": 78, "any": true, "group": 0 },
+    { "mission": 557, "item": 79, "any": true, "group": 0 },
+    { "mission": 557, "item": 75, "any": true, "group": 0 },
+    { "mission": 557, "item": 82, "any": true, "group": 0 },
+    { "mission": 557, "item": 83, "any": true, "group": 0 },
+    { "mission": 557, "item": 81, "any": true, "group": 0 },
+    { "mission": 557, "item": 87, "any": true, "group": 0 },
+    { "mission": 557, "item": 85, "any": true, "group": 0 },
+    { "mission": 560, "item": 65, "any": true, "group": 0 },
+    { "mission": 560, "item": 66, "any": true, "group": 0 },
+    { "mission": 566, "item": 12, "any": false, "group": null },
+    { "mission": 567, "item": 20, "any": false, "group": null },
+    { "mission": 569, "item": 76, "any": true, "group": 0 },
+    { "mission": 569, "item": 77, "any": true, "group": 0 },
+    { "mission": 569, "item": 78, "any": true, "group": 0 },
+    { "mission": 569, "item": 79, "any": true, "group": 0 },
+    { "mission": 569, "item": 75, "any": true, "group": 0 },
+    { "mission": 569, "item": 82, "any": true, "group": 0 },
+    { "mission": 569, "item": 83, "any": true, "group": 0 },
+    { "mission": 569, "item": 81, "any": true, "group": 0 },
+    { "mission": 569, "item": 87, "any": true, "group": 0 },
+    { "mission": 569, "item": 85, "any": true, "group": 0 },
+    { "mission": 570, "item": 18, "any": false, "group": null },
+    { "mission": 578, "item": 11, "any": false, "group": null },
+    { "mission": 578, "item": 13, "any": false, "group": null },
+    { "mission": 579, "item": 9, "any": false, "group": null },
+    { "mission": 580, "item": 9, "any": false, "group": null },
+    { "mission": 586, "item": 65, "any": false, "group": null },
+    { "mission": 587, "item": 65, "any": true, "group": 0 },
+    { "mission": 587, "item": 66, "any": true, "group": 0 },
+    { "mission": 588, "item": 25, "any": false, "group": null },
+    { "mission": 589, "item": 87, "any": false, "group": null },
+    { "mission": 590, "item": 32, "any": false, "group": null },
+    { "mission": 526, "item": 14, "any": true, "group": 0 },
+    { "mission": 526, "item": 69, "any": true, "group": 0 },
+    { "mission": 526, "item": 71, "any": true, "group": 0 },
+    { "mission": 528, "item": 14, "any": true, "group": 0 },
+    { "mission": 528, "item": 69, "any": true, "group": 0 },
+    { "mission": 528, "item": 71, "any": true, "group": 0 },
+    { "mission": 529, "item": 66, "any": false, "group": null },
+    { "mission": 530, "item": 76, "any": false, "group": null },
+    { "mission": 486, "item": 65, "any": true, "group": 1 },
+    { "mission": 486, "item": 66, "any": true, "group": 1 },
+    { "mission": 486, "item": 69, "any": true, "group": 1 },
+    { "mission": 486, "item": 71, "any": true, "group": 1 },
+    { "mission": 486, "item": 14, "any": true, "group": 1 },
+    { "mission": 109, "item": 81, "any": true, "group": 0 },
+    { "mission": 185, "item": 81, "any": true, "group": 0 },
+    { "mission": 100, "item": 81, "any": true, "group": 0 },
+    { "mission": 1173, "item": 33, "any": true, "group": 0 },
+    { "mission": 1173, "item": 35, "any": true, "group": 0 },
+    { "mission": 1173, "item": 31, "any": false, "group": null },
+    { "mission": 1174, "item": 32, "any": false, "group": null },
+    { "mission": 1174, "item": 42, "any": true, "group": 0 },
+    { "mission": 1174, "item": 92, "any": true, "group": 0 },
+    { "mission": 1174, "item": 29, "any": false, "group": null },
+    { "mission": 1175, "item": 41, "any": true, "group": 2 },
+    { "mission": 1175, "item": 44, "any": true, "group": 2 },
+    { "mission": 1175, "item": 32, "any": true, "group": 1 },
+    { "mission": 1175, "item": 92, "any": true, "group": 1 },
+    { "mission": 495, "item": 81, "any": true, "group": 0 },
+    { "mission": 496, "item": 81, "any": true, "group": 0 },
+    { "mission": 208, "item": 76, "any": true, "group": 0 },
+    { "mission": 208, "item": 77, "any": true, "group": 0 },
+    { "mission": 208, "item": 78, "any": true, "group": 0 },
+    { "mission": 208, "item": 79, "any": true, "group": 0 },
+    { "mission": 208, "item": 81, "any": true, "group": 0 },
+    { "mission": 208, "item": 83, "any": true, "group": 0 },
+    { "mission": 208, "item": 85, "any": true, "group": 0 },
+    { "mission": 208, "item": 87, "any": true, "group": 0 },
+    { "mission": 208, "item": 26, "any": true, "group": 0 },
+    { "mission": 208, "item": 27, "any": true, "group": 0 },
+    { "mission": 208, "item": 17, "any": true, "group": 0 },
+    { "mission": 208, "item": 19, "any": true, "group": 0 },
+    { "mission": 208, "item": 22, "any": true, "group": 0 },
+    { "mission": 208, "item": 23, "any": true, "group": 0 },
+    { "mission": 208, "item": 36, "any": true, "group": 0 },
+    { "mission": 208, "item": 72, "any": true, "group": 0 },
+    { "mission": 208, "item": 24, "any": true, "group": 0 },
+    { "mission": 208, "item": 12, "any": true, "group": 0 },
+    { "mission": 208, "item": 65, "any": true, "group": 0 },
+    { "mission": 208, "item": 66, "any": true, "group": 0 },
+    { "mission": 208, "item": 69, "any": true, "group": 0 },
+    { "mission": 208, "item": 70, "any": true, "group": 0 },
+    { "mission": 208, "item": 71, "any": true, "group": 0 },
+    { "mission": 220, "item": 83, "any": true, "group": 0 },
+    { "mission": 220, "item": 85, "any": true, "group": 0 },
+    { "mission": 220, "item": 87, "any": true, "group": 0 },
+    { "mission": 220, "item": 26, "any": true, "group": 0 },
+    { "mission": 220, "item": 27, "any": true, "group": 0 },
+    { "mission": 220, "item": 17, "any": true, "group": 0 },
+    { "mission": 220, "item": 19, "any": true, "group": 0 },
+    { "mission": 220, "item": 22, "any": true, "group": 0 },
+    { "mission": 220, "item": 23, "any": true, "group": 0 },
+    { "mission": 220, "item": 36, "any": true, "group": 0 },
+    { "mission": 220, "item": 72, "any": true, "group": 0 },
+    { "mission": 220, "item": 24, "any": true, "group": 0 },
+    { "mission": 220, "item": 12, "any": true, "group": 0 },
+    { "mission": 220, "item": 65, "any": true, "group": 0 },
+    { "mission": 220, "item": 66, "any": true, "group": 0 },
+    { "mission": 220, "item": 69, "any": true, "group": 0 },
+    { "mission": 220, "item": 70, "any": true, "group": 0 },
+    { "mission": 220, "item": 71, "any": true, "group": 0 },
+    { "mission": 199, "item": 76, "any": true, "group": 0 },
+    { "mission": 199, "item": 77, "any": true, "group": 0 },
+    { "mission": 199, "item": 78, "any": true, "group": 0 },
+    { "mission": 199, "item": 79, "any": true, "group": 0 },
+    { "mission": 199, "item": 81, "any": true, "group": 0 },
+    { "mission": 199, "item": 83, "any": true, "group": 0 },
+    { "mission": 199, "item": 85, "any": true, "group": 0 },
+    { "mission": 199, "item": 87, "any": true, "group": 0 },
+    { "mission": 199, "item": 26, "any": true, "group": 0 },
+    { "mission": 199, "item": 27, "any": true, "group": 0 },
+    { "mission": 199, "item": 17, "any": true, "group": 0 },
+    { "mission": 199, "item": 19, "any": true, "group": 0 },
+    { "mission": 199, "item": 22, "any": true, "group": 0 },
+    { "mission": 199, "item": 23, "any": true, "group": 0 },
+    { "mission": 199, "item": 36, "any": true, "group": 0 },
+    { "mission": 199, "item": 72, "any": true, "group": 0 },
+    { "mission": 199, "item": 24, "any": true, "group": 0 },
+    { "mission": 220, "item": 76, "any": true, "group": 0 },
+    { "mission": 220, "item": 77, "any": true, "group": 0 },
+    { "mission": 220, "item": 78, "any": true, "group": 0 },
+    { "mission": 220, "item": 79, "any": true, "group": 0 },
+    { "mission": 220, "item": 81, "any": true, "group": 0 },
+    { "mission": 224, "item": 81, "any": true, "group": 0 },
+    { "mission": 464, "item": 9, "any": true, "group": 0 },
+    { "mission": 471, "item": 9, "any": true, "group": 3 },
+    { "mission": 482, "item": 65, "any": true, "group": 1 },
+    { "mission": 482, "item": 66, "any": true, "group": 1 },
+    { "mission": 482, "item": 69, "any": true, "group": 1 },
+    { "mission": 482, "item": 71, "any": true, "group": 1 },
+    { "mission": 482, "item": 14, "any": true, "group": 1 },
+    { "mission": 483, "item": 65, "any": true, "group": 1 },
+    { "mission": 483, "item": 66, "any": true, "group": 1 },
+    { "mission": 483, "item": 69, "any": true, "group": 1 },
+    { "mission": 483, "item": 71, "any": true, "group": 1 },
+    { "mission": 483, "item": 14, "any": true, "group": 1 },
+    { "mission": 510, "item": 81, "any": true, "group": 0 },
+    { "mission": 165, "item": 81, "any": true, "group": 0 },
+    { "mission": 511, "item": 81, "any": true, "group": 0 },
+    { "mission": 513, "item": 81, "any": true, "group": 0 },
+    { "mission": 1180, "item": 76, "any": true, "group": 0 },
+    { "mission": 1180, "item": 77, "any": true, "group": 0 },
+    { "mission": 1180, "item": 78, "any": true, "group": 0 },
+    { "mission": 1180, "item": 79, "any": true, "group": 0 },
+    { "mission": 1180, "item": 75, "any": true, "group": 0 },
+    { "mission": 1180, "item": 82, "any": true, "group": 0 },
+    { "mission": 1180, "item": 83, "any": true, "group": 0 },
+    { "mission": 1180, "item": 81, "any": true, "group": 0 },
+    { "mission": 1180, "item": 87, "any": true, "group": 0 },
+    { "mission": 1180, "item": 85, "any": true, "group": 0 },
+    { "mission": 1181, "item": 76, "any": true, "group": 0 },
+    { "mission": 1181, "item": 77, "any": true, "group": 0 },
+    { "mission": 1181, "item": 78, "any": true, "group": 0 },
+    { "mission": 1181, "item": 79, "any": true, "group": 0 },
+    { "mission": 1181, "item": 75, "any": true, "group": 0 },
+    { "mission": 1181, "item": 82, "any": true, "group": 0 },
+    { "mission": 1181, "item": 83, "any": true, "group": 0 },
+    { "mission": 1181, "item": 81, "any": true, "group": 0 },
+    { "mission": 1181, "item": 87, "any": true, "group": 0 },
+    { "mission": 1181, "item": 85, "any": true, "group": 0 },
+    { "mission": 1185, "item": 60, "any": true, "group": 0 },
+    { "mission": 1185, "item": 61, "any": true, "group": 0 },
+    { "mission": 1194, "item": 7, "any": false, "group": null },
+    { "mission": 1195, "item": 83, "any": true, "group": 0 },
+    { "mission": 1195, "item": 75, "any": true, "group": 0 },
+    { "mission": 1195, "item": 81, "any": true, "group": 0 },
+    { "mission": 1195, "item": 82, "any": true, "group": 0 },
+    { "mission": 1196, "item": 24, "any": false, "group": null },
+    { "mission": 1196, "item": 31, "any": false, "group": null },
+    { "mission": 378, "item": 17, "any": true, "group": 0 },
+    { "mission": 378, "item": 19, "any": true, "group": 0 },
+    { "mission": 378, "item": 22, "any": true, "group": 0 },
+    { "mission": 378, "item": 23, "any": true, "group": 0 },
+    { "mission": 378, "item": 24, "any": true, "group": 0 },
+    { "mission": 378, "item": 26, "any": true, "group": 0 },
+    { "mission": 378, "item": 27, "any": true, "group": 0 },
+    { "mission": 378, "item": 36, "any": true, "group": 0 },
+    { "mission": 378, "item": 72, "any": true, "group": 0 },
+    { "mission": 378, "item": 76, "any": true, "group": 0 },
+    { "mission": 378, "item": 77, "any": true, "group": 0 },
+    { "mission": 378, "item": 78, "any": true, "group": 0 },
+    { "mission": 378, "item": 79, "any": true, "group": 0 },
+    { "mission": 378, "item": 81, "any": true, "group": 0 },
+    { "mission": 378, "item": 83, "any": true, "group": 0 },
+    { "mission": 378, "item": 85, "any": true, "group": 0 },
+    { "mission": 378, "item": 87, "any": true, "group": 0 },
+    { "mission": 1191, "item": 75, "any": true, "group": 0 },
+    { "mission": 1191, "item": 76, "any": true, "group": 0 },
+    { "mission": 1191, "item": 77, "any": true, "group": 0 },
+    { "mission": 1191, "item": 78, "any": true, "group": 0 },
+    { "mission": 1191, "item": 79, "any": true, "group": 0 },
+    { "mission": 1191, "item": 81, "any": true, "group": 0 },
+    { "mission": 1191, "item": 82, "any": true, "group": 0 },
+    { "mission": 1191, "item": 83, "any": true, "group": 0 },
+    { "mission": 1191, "item": 85, "any": true, "group": 0 },
+    { "mission": 1191, "item": 87, "any": true, "group": 0 },
+    { "mission": 1212, "item": 76, "any": true, "group": 0 },
+    { "mission": 1212, "item": 77, "any": true, "group": 0 },
+    { "mission": 1212, "item": 78, "any": true, "group": 0 },
+    { "mission": 1212, "item": 79, "any": true, "group": 0 },
+    { "mission": 1212, "item": 83, "any": true, "group": 0 },
+    { "mission": 1212, "item": 81, "any": true, "group": 0 },
+    { "mission": 1212, "item": 87, "any": true, "group": 0 },
+    { "mission": 1212, "item": 85, "any": true, "group": 0 },
+    { "mission": 1213, "item": 76, "any": true, "group": 0 },
+    { "mission": 1213, "item": 77, "any": true, "group": 0 },
+    { "mission": 1213, "item": 78, "any": true, "group": 0 },
+    { "mission": 1213, "item": 79, "any": true, "group": 0 },
+    { "mission": 1213, "item": 83, "any": true, "group": 0 },
+    { "mission": 1213, "item": 81, "any": true, "group": 0 },
+    { "mission": 1218, "item": 60, "any": true, "group": 0 },
+    { "mission": 1218, "item": 61, "any": true, "group": 0 },
+    { "mission": 1221, "item": 75, "any": true, "group": 0 },
+    { "mission": 1221, "item": 76, "any": true, "group": 0 },
+    { "mission": 1221, "item": 77, "any": true, "group": 0 },
+    { "mission": 1221, "item": 78, "any": true, "group": 0 },
+    { "mission": 1221, "item": 79, "any": true, "group": 0 },
+    { "mission": 1221, "item": 81, "any": true, "group": 0 },
+    { "mission": 1221, "item": 82, "any": true, "group": 0 },
+    { "mission": 1221, "item": 83, "any": true, "group": 0 },
+    { "mission": 1222, "item": 30, "any": false, "group": null },
+    { "mission": 1222, "item": 18, "any": false, "group": 1 },
+    { "mission": 1222, "item": 39, "any": false, "group": 1 },
+    { "mission": 1222, "item": 18, "any": false, "group": 2 },
+    { "mission": 1222, "item": 45, "any": false, "group": 2 },
+    { "mission": 1222, "item": 20, "any": false, "group": 3 },
+    { "mission": 1222, "item": 39, "any": false, "group": 3 },
+    { "mission": 1222, "item": 20, "any": false, "group": 4 },
+    { "mission": 1222, "item": 45, "any": false, "group": 4 },
+    { "mission": 1222, "item": 16, "any": false, "group": 5 },
+    { "mission": 1222, "item": 38, "any": false, "group": 5 },
+    { "mission": 1222, "item": 16, "any": false, "group": 6 },
+    { "mission": 1222, "item": 84, "any": false, "group": 6 },
+    { "mission": 1222, "item": 30, "any": false, "group": 7 },
+    { "mission": 1222, "item": 84, "any": false, "group": 7 },
+    { "mission": 1230, "item": 18, "any": true, "group": 0 },
+    { "mission": 1230, "item": 20, "any": true, "group": 0 },
+    { "mission": 1230, "item": 16, "any": true, "group": 0 },
+    { "mission": 1230, "item": 30, "any": true, "group": 0 },
+    { "mission": 1232, "item": 75, "any": true, "group": 0 },
+    { "mission": 1232, "item": 76, "any": true, "group": 0 },
+    { "mission": 1232, "item": 77, "any": true, "group": 0 },
+    { "mission": 1232, "item": 78, "any": true, "group": 0 },
+    { "mission": 1232, "item": 79, "any": true, "group": 0 },
+    { "mission": 1232, "item": 81, "any": true, "group": 0 },
+    { "mission": 1232, "item": 82, "any": true, "group": 0 },
+    { "mission": 1232, "item": 83, "any": true, "group": 0 },
+    { "mission": 1321, "item": 75, "any": true, "group": 0 },
+    { "mission": 1321, "item": 76, "any": true, "group": 0 },
+    { "mission": 1321, "item": 77, "any": true, "group": 0 },
+    { "mission": 1321, "item": 78, "any": true, "group": 0 },
+    { "mission": 1321, "item": 79, "any": true, "group": 0 },
+    { "mission": 1321, "item": 81, "any": true, "group": 0 },
+    { "mission": 1321, "item": 82, "any": true, "group": 0 },
+    { "mission": 1321, "item": 83, "any": true, "group": 0 },
+    { "mission": 1321, "item": 87, "any": true, "group": 0 },
+    { "mission": 1321, "item": 85, "any": true, "group": 0 },
+    { "mission": 1323, "item": 18, "any": true, "group": 0 },
+    { "mission": 1323, "item": 20, "any": true, "group": 0 },
+    { "mission": 1323, "item": 16, "any": true, "group": 0 },
+    { "mission": 1323, "item": 30, "any": true, "group": 0 },
+    { "mission": 1447, "item": 76, "any": true, "group": 0 },
+    { "mission": 1447, "item": 77, "any": true, "group": 0 },
+    { "mission": 1447, "item": 78, "any": true, "group": 0 },
+    { "mission": 1447, "item": 79, "any": true, "group": 0 },
+    { "mission": 1447, "item": 81, "any": true, "group": 0 },
+    { "mission": 1447, "item": 83, "any": true, "group": 0 },
+    { "mission": 1447, "item": 85, "any": true, "group": 0 },
+    { "mission": 1447, "item": 87, "any": true, "group": 0 },
+    { "mission": 1447, "item": 26, "any": true, "group": 0 },
+    { "mission": 1447, "item": 27, "any": true, "group": 0 },
+    { "mission": 1447, "item": 17, "any": true, "group": 0 },
+    { "mission": 1447, "item": 19, "any": true, "group": 0 },
+    { "mission": 1447, "item": 22, "any": true, "group": 0 },
+    { "mission": 1447, "item": 23, "any": true, "group": 0 },
+    { "mission": 1447, "item": 36, "any": true, "group": 0 },
+    { "mission": 1447, "item": 72, "any": true, "group": 0 },
+    { "mission": 1447, "item": 24, "any": true, "group": 0 },
+    { "mission": 1447, "item": 12, "any": true, "group": 0 },
+    { "mission": 1447, "item": 65, "any": true, "group": 0 },
+    { "mission": 1447, "item": 66, "any": true, "group": 0 },
+    { "mission": 1447, "item": 69, "any": true, "group": 0 },
+    { "mission": 1447, "item": 70, "any": true, "group": 0 },
+    { "mission": 1447, "item": 71, "any": true, "group": 0 },
+    { "mission": 1448, "item": 76, "any": true, "group": 0 },
+    { "mission": 1448, "item": 77, "any": true, "group": 0 },
+    { "mission": 1448, "item": 78, "any": true, "group": 0 },
+    { "mission": 1448, "item": 79, "any": true, "group": 0 },
+    { "mission": 1448, "item": 81, "any": true, "group": 0 },
+    { "mission": 1448, "item": 83, "any": true, "group": 0 },
+    { "mission": 1448, "item": 85, "any": true, "group": 0 },
+    { "mission": 1448, "item": 87, "any": true, "group": 0 },
+    { "mission": 1448, "item": 26, "any": true, "group": 0 },
+    { "mission": 1448, "item": 27, "any": true, "group": 0 },
+    { "mission": 1448, "item": 17, "any": true, "group": 0 },
+    { "mission": 1448, "item": 19, "any": true, "group": 0 },
+    { "mission": 1448, "item": 22, "any": true, "group": 0 },
+    { "mission": 1448, "item": 23, "any": true, "group": 0 },
+    { "mission": 1448, "item": 36, "any": true, "group": 0 },
+    { "mission": 1448, "item": 72, "any": true, "group": 0 },
+    { "mission": 1448, "item": 24, "any": true, "group": 0 },
+    { "mission": 1450, "item": 76, "any": true, "group": 0 },
+    { "mission": 1450, "item": 77, "any": true, "group": 0 },
+    { "mission": 1450, "item": 78, "any": true, "group": 0 },
+    { "mission": 1450, "item": 79, "any": true, "group": 0 },
+    { "mission": 1450, "item": 75, "any": true, "group": 0 },
+    { "mission": 1450, "item": 82, "any": true, "group": 0 },
+    { "mission": 1450, "item": 83, "any": true, "group": 0 },
+    { "mission": 1450, "item": 81, "any": true, "group": 0 },
+    { "mission": 1450, "item": 87, "any": true, "group": 0 },
+    { "mission": 1450, "item": 85, "any": true, "group": 0 },
+    { "mission": 1453, "item": 83, "any": true, "group": 0 },
+    { "mission": 1453, "item": 81, "any": true, "group": 0 },
+    { "mission": 1331, "item": 76, "any": true, "group": 0 },
+    { "mission": 1331, "item": 77, "any": true, "group": 0 },
+    { "mission": 1331, "item": 78, "any": true, "group": 0 },
+    { "mission": 1331, "item": 79, "any": true, "group": 0 },
+    { "mission": 1331, "item": 75, "any": true, "group": 0 },
+    { "mission": 1331, "item": 82, "any": true, "group": 0 },
+    { "mission": 1331, "item": 83, "any": true, "group": 0 },
+    { "mission": 1331, "item": 81, "any": true, "group": 0 },
+    { "mission": 1331, "item": 87, "any": true, "group": 0 },
+    { "mission": 1331, "item": 85, "any": true, "group": 0 },
+    { "mission": 1331, "item": 80, "any": true, "group": 0 },
+    { "mission": 1333, "item": 4, "any": true, "group": 0 },
+    { "mission": 1333, "item": 5, "any": true, "group": 0 },
+    { "mission": 1334, "item": 25, "any": false, "group": null },
+    { "mission": 1335, "item": 26, "any": true, "group": 0 },
+    { "mission": 1335, "item": 27, "any": true, "group": 0 },
+    { "mission": 1336, "item": 26, "any": false, "group": null },
+    { "mission": 1336, "item": 27, "any": false, "group": null }
 ]

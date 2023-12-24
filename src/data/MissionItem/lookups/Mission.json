@@ -5278,5 +5278,213 @@
         "objectives": "<ul><li>Start at Copper Hills Lodge.</li><li>Then arrive at Desert's Eye (x: 2137, y: 10999).</li><li>Then arrive at Mimis' Beach (x: 1820, y: 10236).</li><li>Then arrive at Yabby Bay (x: 2250, y: 8984).</li><li>Then arrive at Lonely Billabong (x: 2868, y: 10241).</li><li>Then arrive at Ghost Pond (x: 3877, y: 11249).</li><li>Then arrive at The Dust Farm (x: 2778, y: 12269).</li><li>Then arrive at Copper Ridge (x: 2223, y: 11601).</li><li>Then arrive at Gibber Pass (x: 2906, y: 11577).</li><li>Then arrive at Walkabout Creek.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Red_Fox\" title=\"Red Fox\">Red Fox</a> with any .243 rifle.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/European_Rabbit\" title=\"European Rabbit\">European Rabbit</a> with birdshot.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> scoring more than 100.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> with a slug.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> with a shot to the heart and/or lungs.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Axis_Deer\" title=\"Axis Deer\">Axis Deer</a> with any ethical <a href=\"https://thehunter.fandom.com/wiki/Weapons#Handguns\" title=\"Weapons\"> handgun</a>.</li></ul>",
         "reward": 3600,
         "order": 10
+    },
+    {
+        "pk": 1324,
+        "mission_set": 83,
+        "name": "A New Menace",
+        "objectives": "<ul><li>ID 3 tracks from a <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
+        "reward": 100,
+        "order": 1
+    },
+    {
+        "pk": 1325,
+        "mission_set": 83,
+        "name": "Sound It Out",
+        "objectives": "<ul><li>ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
+        "reward": 200,
+        "order": 2
+    },
+    {
+        "pk": 1326,
+        "mission_set": 83,
+        "name": "Priorities",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
+        "reward": 300,
+        "order": 3
+    },
+    {
+        "pk": 1327,
+        "mission_set": 83,
+        "name": "Fair Division",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li><li>Harvest a second male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li><li>Harvest a third male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
+        "reward": 400,
+        "order": 4
+    },
+    {
+        "pk": 1328,
+        "mission_set": 83,
+        "name": "Checking Skirts",
+        "objectives": "<ul><li>Harvest any airborne female Ptarmigan.</li><li>Harvest an airborne female <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li></ul>",
+        "reward": 600,
+        "order": 5
+    },
+    {
+        "pk": 1329,
+        "mission_set": 83,
+        "name": "A Shot in the Dark",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing less than 5.5 kg (approx. 12lbs).</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing less than 5.5 kg (approx. 12lbs).</li></ul>",
+        "reward": 800,
+        "order": 6
+    },
+    {
+        "pk": 1330,
+        "mission_set": 83,
+        "name": "Sizing Up",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing more than 5.5kg (approx. 12lbs) from more than 30m.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> weighing more than 5.5kg (approx. 12lbs) from more than 40m.</li></ul>",
+        "reward": 1000,
+        "order": 7
+    },
+    {
+        "pk": 1331,
+        "mission_set": 83,
+        "name": "Student and Master",
+        "objectives": "<ul><li>ID any clue (footprints, droppings, or audio) from a <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> bow or crossbow</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_.2F_Crossbows\" title=\"Weapons\"> bow or crossbow</a>.</li></ul>",
+        "reward": 1200,
+        "order": 8
+    },
+    {
+        "pk": 1332,
+        "mission_set": 83,
+        "name": "Process of Elimination",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hirschfelden\" title=\"Hirschfelden\">Hirschfelden</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Hemmeldal\" title=\"Hemmeldal\">Hemmeldal</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a>.</li><li>Harvest another male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> with any 12 GA Shotgun in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a>.</li></ul>",
+        "reward": 1800,
+        "order": 9
+    },
+    {
+        "pk": 1333,
+        "mission_set": 83,
+        "name": "The Drumstick Challenge",
+        "objectives": "<ul><li>Harvest an airborne male <a href=\"https://thehunter.fandom.com/wiki/Wood_Grouse\" title=\"Wood Grouse\">Wood Grouse</a> scoring more than 6300 using <a href=\"https://thehunter.fandom.com/wiki/.223_Nosler_Ballistic_Tip\" title=\".223 Nosler Ballistic Tip\"> .223 ammunition</a> from more than 50m (approx. 164ft.).</li></ul>",
+        "reward": 3600,
+        "order": 10
+    },
+    {
+        "pk": 1334,
+        "mission_set": 84,
+        "name": "Smoke Poles: Whitehart Island",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Turkey\" title=\"Turkey\">Turkey</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Coyote\" title=\"Coyote\">Coyote</a> in <a href=\"https://thehunter.fandom.com/wiki/Whitehart_Island\" title=\"Whitehart Island\">Whitehart Island</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a>.</li></ul>",
+        "reward": 750,
+        "order": 1
+    },
+    {
+        "pk": 1335,
+        "mission_set": 84,
+        "name": "Smoke Poles: Val-des-Bois",
+        "objectives": "<ul><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Brown_Bear\" title=\"Brown Bear\">Brown Bear</a> in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Deer\" title=\"Red Deer\">Red Deer</a> scoring more than 200 in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> from less than 25m (approx. 82 ft) using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li><li>Harvest an <a href=\"https://thehunter.fandom.com/wiki/Alpine_Ibex\" title=\"Alpine Ibex\">Alpine Ibex</a> with a shot to the heart and/or lungs in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> using a <a href=\"https://thehunter.fandom.com/wiki/.45_Saboted_Bullet\" title=\".45 Saboted Bullet\">.45 Saboted Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.45_Copper_Bullet\" title=\".45 Copper Bullet\">.45 Copper Bullet</a>.</li></ul>",
+        "reward": 1000,
+        "order": 2
+    },
+    {
+        "pk": 1336,
+        "mission_set": 84,
+        "name": "Smoke Poles: Bushrangers Run",
+        "objectives": "<ul><li>Harvest a Piebald <a href=\"https://thehunter.fandom.com/wiki/Feral_Goat\" title=\"Feral Goat\">Feral Goat</a> in <a href=\"https://thehunter.fandom.com/wiki/Bushrangers_Run\" title=\"Bushrangers Run\">Bushrangers Run</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Axis_Deer\" title=\"Axis Deer\">Axis Deer</a> scoring more than 150 in <a href=\"https://thehunter.fandom.com/wiki/Bushrangers_Run\" title=\"Bushrangers Run\">Bushrangers Run</a> using a <a href=\"https://thehunter.fandom.com/wiki/.45_Saboted_Bullet\" title=\".45 Saboted Bullet\">.45 Saboted Bullet</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> scoring more than 65 in <a href=\"https://thehunter.fandom.com/wiki/Bushrangers_Run\" title=\"Bushrangers Run\">Bushrangers Run</a> using a <a href=\"https://thehunter.fandom.com/wiki/.45_Copper_Bullet\" title=\".45 Copper Bullet\">.45 Copper Bullet</a>.</li></ul>",
+        "reward": 1500,
+        "order": 3
+    },
+    {
+        "pk": 1337,
+        "mission_set": 84,
+        "name": "Smoke Poles: Piccabeen Bay",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> from more than 35m (Approx. 115 ft) in <a href=\"https://thehunter.fandom.com/wiki/Piccabeen_Bay\" title=\"Piccabeen Bay\">Piccabeen Bay</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> from more than 35m (Approx. 115 ft) in <a href=\"https://thehunter.fandom.com/wiki/Piccabeen_Bay\" title=\"Piccabeen Bay\">Piccabeen Bay</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li><li>Harvest a Grey <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> from more than 35m (Approx. 115 ft) in <a href=\"https://thehunter.fandom.com/wiki/Piccabeen_Bay\" title=\"Piccabeen Bay\">Piccabeen Bay</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> from more than 35m (Approx. 115 ft) in <a href=\"https://thehunter.fandom.com/wiki/Piccabeen_Bay\" title=\"Piccabeen Bay\">Piccabeen Bay</a> using any permitted Muzzleloader ammo.</li></ul>",
+        "reward": 2000,
+        "order": 4
+    },
+    {
+        "pk": 1338,
+        "mission_set": 84,
+        "name": "Smoke Poles: Timbergold Trails",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Rocky_Mountain_Elk\" title=\"Rocky Mountain Elk\">Rocky Mountain Elk</a> with a shot to the heart using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Puma\" title=\"Puma\">Puma</a> with a shot to the lungs using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.45_Copper_Bullet\" title=\".45 Copper Bullet\">.45 Copper Bullet</a>.</li><li>Harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Grizzly_Bear\" title=\"Grizzly Bear\">Grizzly Bear</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Bighorn_Sheep\" title=\"Bighorn Sheep\">Bighorn Sheep</a> scoring more than 150 without hitting the skull using a <a href=\"https://thehunter.fandom.com/wiki/.45_Saboted_Bullet\" title=\".45 Saboted Bullet\">.45 Saboted Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li></ul>",
+        "reward": 2250,
+        "order": 5
+    },
+    {
+        "pk": 1339,
+        "mission_set": 84,
+        "name": "Smoke Poles: Whiterime Ridge",
+        "objectives": "<ul><li>- Harvest a <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a> with a single shot without hitting the liver in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.45_Copper_Bullet\" title=\".45 Copper Bullet\">.45 Copper Bullet</a>.</li><li>Harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> scoring more than 110 with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a>.</li><li>Harvest an unspooked female <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> from under 35 m (approx. 115ft) with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest an unspooked <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.45_Saboted_Bullet\" title=\".45 Saboted Bullet\">.45 Saboted Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> scoring more than 160 with a single shot to the heart and/or lungs from more than 40m (Approx. 164 ft), no scope, in ]<a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li></ul>",
+        "reward": 2500,
+        "order": 6
+    },
+    {
+        "pk": 1444,
+        "mission_set": 92,
+        "name": "If I must, I must",
+        "objectives": "<ul><li>Start at Cicada Cove Lodge</li><li>Then arrive at Bumpy Ridge (X: 7164, Y: 9870) in the same hunt.</li><li>Then arrive at Banteng Bay (X: 5595, Y: 8783) in the same hunt.</li><li>At any point in the same hunt, ID a footprint from a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>At any point in the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>At any point in the same hunt, ID a footprint from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point in the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li><li>At any point in the same hunt, ID any clue (footprints, droppings, or audio) from a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a>.</li></ul>",
+        "reward": 100,
+        "order": 1
+    },
+    {
+        "pk": 1445,
+        "mission_set": 92,
+        "name": "Go do... something",
+        "objectives": "<ul><li>Start at Rooingong Lodge.</li><li>Then arrive at The Tributary (X: 4941, Y: 6481) in the same hunt.</li><li>Then arrive at Dawg's Secret Spot (X: 5929, Y: 5734) in the same hunt.</li><li>At any point in the same hunt, ID a footprint from a <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a>.</li><li>At any point in the same hunt, ID droppings from a <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a>.</li><li>At any point in the same hunt, ID any clue (footprints, droppings, or audio) from a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li></ul>",
+        "reward": 200,
+        "order": 2
+    },
+    {
+        "pk": 1446,
+        "mission_set": 92,
+        "name": "Knowledge is power",
+        "objectives": "<ul><li>Start at Rooingong Lodge</li><li>Then arrive at Sambar Center (X: 5825, Y: 6918) in the same hunt.</li><li>Then arrive at Dawg's Secret Spot (X: 5929, Y: 5734) in the same hunt.</li><li>Then arrive at The Edge (X: 6653, Y: 6436) in the same hunt.</li><li>At any point in the same hunt, ID any clue (footprints, droppings, or audio) from a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>At any point in the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li></ul>",
+        "reward": 300,
+        "order": 3
+    },
+    {
+        "pk": 1447,
+        "mission_set": 92,
+        "name": "It's efficiency, not laziness",
+        "objectives": "<ul><li>Start at Rooingong Lodge.</li><li>Then arrive at Bunyip Lair (X: 5540, Y: 7756) in the same hunt.</li><li>Then arrive at Old Abandoned Steam Train (X: 6151, Y: 8241) in the same hunt.</li><li>Then arrive at The Plateau (X: 7065, Y: 7475) in the same hunt.</li><li>At any point in the same hunt, ID any 3 clues from different <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a>.</li><li>At any point in the same hunt, ID any 3 clues from different <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a>.</li><li>At any point in the same hunt, harvest a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a>.</li></ul>",
+        "reward": 400,
+        "order": 4
+    },
+    {
+        "pk": 1448,
+        "mission_set": 92,
+        "name": "Too many coddlers out there",
+        "objectives": "<ul><li>Start at Cicada Cove Lodge.</li><li>Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).</li><li>Then arrive at Banteng Bay (X: 5595, Y: 8783).</li><li>Then arrive at Bunyip Lair (X: 5540, Y: 7756).</li><li>Then arrive at The Tributary (X: 4941, Y: 6481).</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a>.</li></ul>",
+        "reward": 600,
+        "order": 5
+    },
+    {
+        "pk": 1449,
+        "mission_set": 92,
+        "name": "I'll get the knife later",
+        "objectives": "<ul><li>Start at Rooingong Lodge.</li><li>Then arrive at Banteng Bay (X: 5595, Y: 8783).</li><li>Then arrive at Bunyip Lair (X: 5540, Y: 7756).</li><li>Then arrive at Sambar Center (X: 5825, Y: 6918).</li><li>Then arrive at The Pocket (X: 6700, Y: 6672).</li><li>Then arrive at The Plateau (X: 7065, Y: 7475).</li><li>Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> weighing more than 420 kg (Approx. 926 lbs).</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> scoring more than 200.</li><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li></ul>",
+        "reward": 800,
+        "order": 6
+    },
+    {
+        "pk": 1450,
+        "mission_set": 92,
+        "name": "Unreasonable demands",
+        "objectives": "<ul><li>Start at Cicada Cove Lodge.</li><li>Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).</li><li>Then arrive at The Plateau (X: 7065, Y: 7475).</li><li>Then arrive at The Pocket (X: 6700, Y: 6672).</li><li>Then arrive at Sambar Center (X: 5825, Y: 6918).</li><li>Then arrive at Bunyip Lair (X: 5540, Y: 7756).</li><li>Then arrive at Old Abandoned Steam Train (X: 6151, Y: 8241).</li><li>Harvest an unspooked male <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> bow or crossbow</a>.</li><li>Harvest an unspooked female <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> bow or crossbow</a>.</li><li>Harvest an unspooked male <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> bow or crossbow</a>.</li><li>Harvest an unspooked female <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> bow or crossbow</a>.</li></ul>",
+        "reward": 1000,
+        "order": 7
+    },
+    {
+        "pk": 1451,
+        "mission_set": 92,
+        "name": "Should've hidden better",
+        "objectives": "<ul><li>Start at Cicada Cove Lodge.</li><li>Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).</li><li>Then arrive at The Plateau (X: 7065, Y: 7475).</li><li>Then arrive at Bunyip Lair (X: 5540, Y: 7756).</li><li>Then arrive at Banteng Bay (X: 5595, Y: 8783).</li><li>Harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Banteng\" title=\"Animal Fur Variations\"> Dark Banteng</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> scoring more than 800.</li></ul>",
+        "reward": 1200,
+        "order": 8
+    },
+    {
+        "pk": 1452,
+        "mission_set": 92,
+        "name": "Persistence really does pay off",
+        "objectives": "<ul><li>Start at Cicada Cove Lodge.</li><li>Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).</li><li>Then arrive at Old Abandoned Steam Train (X: 6151, Y: 8241).</li><li>Then arrive at Bunyip Lair (X: 5540, Y: 7756).</li><li>Then arrive at Banteng Bay (X: 5595, Y: 8783).</li><li>Then arrive at Bumpy Ridge (X: 7164, Y: 9870).</li><li>ID any clue from a <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li><li>Harvest a second airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li><li>Harvest a third airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a>.</li><li>Harvest a female <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a>.</li></ul>",
+        "reward": 1800,
+        "order": 9
+    },
+    {
+        "pk": 1453,
+        "mission_set": 92,
+        "name": "Go map the coast or something",
+        "objectives": "<ul><li>Start at Rooingong Lodge.</li><li>Then arrive at The Tributary (X: 4941, Y: 6481).</li><li>Then arrive at Dawg's Secret Spot (X: 5929, Y: 5734).</li><li>Then arrive at The Pocket (X: 6700, Y: 6672).</li><li>Then arrive at The Plateau (X: 7065, Y: 7475).</li><li>Then arrive at Saint Pauli's Lighthouse (X: 7555, Y: 8733).</li><li>Then arrive at Cicada Cove Lodge.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hog</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> traditional bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Rusa_Deer\" title=\"Rusa Deer\">Rusa Deer</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> traditional bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> traditional bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Banteng\" title=\"Banteng\">Banteng</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> traditional bow</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Water_Buffalo\" title=\"Water Buffalo\">Water Buffalo</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> traditional bow</a>.</li><li>Harvest an airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Goose</a> with any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Bows_/_Crossbows\" title=\"Weapons\"> traditional bow</a>.</li></ul>",
+        "reward": 3600,
+        "order": 10
     }
 ]

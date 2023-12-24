@@ -3,6 +3,9 @@ Todos
 allow hiding mission sets
 check missionmap in agenda
 agenda scroll
+missionset 'wik ordering'
+speed up item hover flash
+update rares/furs
 
 add new animals, ammo, missions:
 	Piccabeen Bay Travel: 0 / 10

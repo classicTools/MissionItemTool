@@ -1,354 +1,94 @@
 [
-    {
-        "mission_set": 1,
-        "map": 1
-    },
-    {
-        "mission_set": 3,
-        "map": 1
-    },
-    {
-        "mission_set": 6,
-        "map": 1
-    },
-    {
-        "mission_set": 28,
-        "map": 1
-    },
-    {
-        "mission_set": 32,
-        "map": 1
-    },
-    {
-        "mission_set": 33,
-        "map": 1
-    },
-    {
-        "mission_set": 60,
-        "map": 1
-    },
-    {
-        "mission_set": 53,
-        "map": 1
-    },
-    {
-        "mission_set": 28,
-        "map": 2
-    },
-    {
-        "mission_set": 32,
-        "map": 2
-    },
-    {
-        "mission_set": 1,
-        "map": 2
-    },
-    {
-        "mission_set": 2,
-        "map": 2
-    },
-    {
-        "mission_set": 18,
-        "map": 2
-    },
-    {
-        "mission_set": 34,
-        "map": 2
-    },
-    {
-        "mission_set": 42,
-        "map": 2
-    },
-    {
-        "mission_set": 1,
-        "map": 3
-    },
-    {
-        "mission_set": 6,
-        "map": 3
-    },
-    {
-        "mission_set": 32,
-        "map": 3
-    },
-    {
-        "mission_set": 33,
-        "map": 3
-    },
-    {
-        "mission_set": 42,
-        "map": 3
-    },
-    {
-        "mission_set": 54,
-        "map": 3
-    },
-    {
-        "mission_set": 1,
-        "map": 4
-    },
-    {
-        "mission_set": 3,
-        "map": 4
-    },
-    {
-        "mission_set": 5,
-        "map": 4
-    },
-    {
-        "mission_set": 6,
-        "map": 4
-    },
-    {
-        "mission_set": 14,
-        "map": 4
-    },
-    {
-        "mission_set": 59,
-        "map": 4
-    },
-    {
-        "mission_set": 8,
-        "map": 5
-    },
-    {
-        "mission_set": 12,
-        "map": 5
-    },
-    {
-        "mission_set": 17,
-        "map": 5
-    },
-    {
-        "mission_set": 29,
-        "map": 5
-    },
-    {
-        "mission_set": 34,
-        "map": 5
-    },
-    {
-        "mission_set": 35,
-        "map": 5
-    },
-    {
-        "mission_set": 55,
-        "map": 5
-    },
-    {
-        "mission_set": 5,
-        "map": 6
-    },
-    {
-        "mission_set": 11,
-        "map": 6
-    },
-    {
-        "mission_set": 12,
-        "map": 6
-    },
-    {
-        "mission_set": 13,
-        "map": 6
-    },
-    {
-        "mission_set": 29,
-        "map": 6
-    },
-    {
-        "mission_set": 40,
-        "map": 6
-    },
-    {
-        "mission_set": 57,
-        "map": 6
-    },
-    {
-        "mission_set": 1,
-        "map": 7
-    },
-    {
-        "mission_set": 18,
-        "map": 7
-    },
-    {
-        "mission_set": 32,
-        "map": 7
-    },
-    {
-        "mission_set": 38,
-        "map": 7
-    },
-    {
-        "mission_set": 39,
-        "map": 7
-    },
-    {
-        "mission_set": 58,
-        "map": 7
-    },
-    {
-        "mission_set": 8,
-        "map": 8
-    },
-    {
-        "mission_set": 12,
-        "map": 8
-    },
-    {
-        "mission_set": 13,
-        "map": 8
-    },
-    {
-        "mission_set": 22,
-        "map": 8
-    },
-    {
-        "mission_set": 29,
-        "map": 8
-    },
-    {
-        "mission_set": 40,
-        "map": 8
-    },
-    {
-        "mission_set": 41,
-        "map": 8
-    },
-    {
-        "mission_set": 56,
-        "map": 8
-    },
-    {
-        "mission_set": 18,
-        "map": 9
-    },
-    {
-        "mission_set": 23,
-        "map": 9
-    },
-    {
-        "mission_set": 26,
-        "map": 9
-    },
-    {
-        "mission_set": 29,
-        "map": 9
-    },
-    {
-        "mission_set": 41,
-        "map": 9
-    },
-    {
-        "mission_set": 4,
-        "map": 10
-    },
-    {
-        "mission_set": 5,
-        "map": 10
-    },
-    {
-        "mission_set": 16,
-        "map": 10
-    },
-    {
-        "mission_set": 21,
-        "map": 10
-    },
-    {
-        "mission_set": 25,
-        "map": 10
-    },
-    {
-        "mission_set": 30,
-        "map": 10
-    },
-    {
-        "mission_set": 36,
-        "map": 10
-    },
-    {
-        "mission_set": 43,
-        "map": 10
-    },
-    {
-        "mission_set": 2,
-        "map": 11
-    },
-    {
-        "mission_set": 7,
-        "map": 11
-    },
-    {
-        "mission_set": 15,
-        "map": 11
-    },
-    {
-        "mission_set": 24,
-        "map": 11
-    },
-    {
-        "mission_set": 27,
-        "map": 11
-    },
-    {
-        "mission_set": 40,
-        "map": 11
-    },
-    {
-        "mission_set": 9,
-        "map": 12
-    },
-    {
-        "mission_set": 10,
-        "map": 12
-    },
-    {
-        "mission_set": 18,
-        "map": 12
-    },
-    {
-        "mission_set": 19,
-        "map": 12
-    },
-    {
-        "mission_set": 20,
-        "map": 12
-    },
-    {
-        "mission_set": 37,
-        "map": 12
-    },
-    {
-        "mission_set": 31,
-        "map": 6
-    },
-    {
-        "mission_set": 18,
-        "map": 3
-    },
-    {
-        "mission_set": 62,
-        "map": 11
-    },
-    {
-        "mission_set": 63,
-        "map": 11
-    },
-    {
-        "mission_set": 64,
-        "map": 10
-    },
-    {
-        "mission_set": 65,
-        "map": 9
-    },
-    {
-        "mission_set": 66,
-        "map": 5
-    },
-    {
-        "mission_set": 82,
-        "map": 9
-    }
+    { "mission_set": 1, "map": 1 },
+    { "mission_set": 3, "map": 1 },
+    { "mission_set": 6, "map": 1 },
+    { "mission_set": 28, "map": 1 },
+    { "mission_set": 32, "map": 1 },
+    { "mission_set": 33, "map": 1 },
+    { "mission_set": 60, "map": 1 },
+    { "mission_set": 53, "map": 1 },
+    { "mission_set": 28, "map": 2 },
+    { "mission_set": 32, "map": 2 },
+    { "mission_set": 1, "map": 2 },
+    { "mission_set": 2, "map": 2 },
+    { "mission_set": 18, "map": 2 },
+    { "mission_set": 34, "map": 2 },
+    { "mission_set": 42, "map": 2 },
+    { "mission_set": 1, "map": 3 },
+    { "mission_set": 6, "map": 3 },
+    { "mission_set": 32, "map": 3 },
+    { "mission_set": 33, "map": 3 },
+    { "mission_set": 42, "map": 3 },
+    { "mission_set": 54, "map": 3 },
+    { "mission_set": 1, "map": 4 },
+    { "mission_set": 3, "map": 4 },
+    { "mission_set": 5, "map": 4 },
+    { "mission_set": 6, "map": 4 },
+    { "mission_set": 14, "map": 4 },
+    { "mission_set": 59, "map": 4 },
+    { "mission_set": 8, "map": 5 },
+    { "mission_set": 12, "map": 5 },
+    { "mission_set": 17, "map": 5 },
+    { "mission_set": 29, "map": 5 },
+    { "mission_set": 34, "map": 5 },
+    { "mission_set": 35, "map": 5 },
+    { "mission_set": 55, "map": 5 },
+    { "mission_set": 5, "map": 6 },
+    { "mission_set": 11, "map": 6 },
+    { "mission_set": 12, "map": 6 },
+    { "mission_set": 13, "map": 6 },
+    { "mission_set": 29, "map": 6 },
+    { "mission_set": 40, "map": 6 },
+    { "mission_set": 57, "map": 6 },
+    { "mission_set": 1, "map": 7 },
+    { "mission_set": 18, "map": 7 },
+    { "mission_set": 32, "map": 7 },
+    { "mission_set": 38, "map": 7 },
+    { "mission_set": 39, "map": 7 },
+    { "mission_set": 58, "map": 7 },
+    { "mission_set": 8, "map": 8 },
+    { "mission_set": 12, "map": 8 },
+    { "mission_set": 13, "map": 8 },
+    { "mission_set": 22, "map": 8 },
+    { "mission_set": 29, "map": 8 },
+    { "mission_set": 40, "map": 8 },
+    { "mission_set": 41, "map": 8 },
+    { "mission_set": 56, "map": 8 },
+    { "mission_set": 18, "map": 9 },
+    { "mission_set": 23, "map": 9 },
+    { "mission_set": 26, "map": 9 },
+    { "mission_set": 29, "map": 9 },
+    { "mission_set": 41, "map": 9 },
+    { "mission_set": 4, "map": 10 },
+    { "mission_set": 5, "map": 10 },
+    { "mission_set": 16, "map": 10 },
+    { "mission_set": 21, "map": 10 },
+    { "mission_set": 25, "map": 10 },
+    { "mission_set": 30, "map": 10 },
+    { "mission_set": 36, "map": 10 },
+    { "mission_set": 43, "map": 10 },
+    { "mission_set": 2, "map": 11 },
+    { "mission_set": 7, "map": 11 },
+    { "mission_set": 15, "map": 11 },
+    { "mission_set": 24, "map": 11 },
+    { "mission_set": 27, "map": 11 },
+    { "mission_set": 40, "map": 11 },
+    { "mission_set": 9, "map": 12 },
+    { "mission_set": 10, "map": 12 },
+    { "mission_set": 18, "map": 12 },
+    { "mission_set": 19, "map": 12 },
+    { "mission_set": 20, "map": 12 },
+    { "mission_set": 37, "map": 12 },
+    { "mission_set": 31, "map": 6 },
+    { "mission_set": 18, "map": 3 },
+    { "mission_set": 62, "map": 11 },
+    { "mission_set": 63, "map": 11 },
+    { "mission_set": 64, "map": 10 },
+    { "mission_set": 65, "map": 9 },
+    { "mission_set": 66, "map": 5 },
+    { "mission_set": 82, "map": 9 },
+    { "mission_set": 92, "map": 12 },
+    { "mission_set": 83, "map": 5 },
+    { "mission_set": 83, "map": 6 },
+    { "mission_set": 83, "map": 8 }
 ]

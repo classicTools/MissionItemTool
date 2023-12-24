@@ -82,7 +82,11 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                     <BookmarkHead>
                         <Title ready={missionReady}>
                             <FirstSpan>
-                                <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b> #{order} - {name}
+                                <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b>
+                                <span>
+                                    {' '}
+                                    #{order} - {name}
+                                </span>
                                 {!missionReady && ' (BLOCKED)'}
                                 {image && <ImageIcon height={16} width={18} />}
                             </FirstSpan>

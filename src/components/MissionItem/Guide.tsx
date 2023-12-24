@@ -20,26 +20,6 @@ const Guide = () => {
                         click on the items that you have already purchased on the left and you'll be shown what you can earn from other items. You can also
                         easily keep track of the missions you are on by using the bookmarking feature.
                     </li>
-                    {/* <li>
-                        <p>
-                            Synchronise your mission progress! Go to your <a href="https://www.thehunter.com/#missions">Regular Missions Page</a> via launcher
-                            or browser, don't click anywhere, press ctrl+A followed by ctrl+C to select & copy everything on the page, then paste it into the
-                            textbox below, click the button and your mission bookmarks here will be synchronised. Purchased items will be synchronised where
-                            possible. NOTE: Only works in English!
-                        </p>
-                        <SyncBox>
-                            <textarea
-                                value={syncText}
-                                onChange={({ target: { value } }) => setSyncText(value)}
-                                placeholder="Paste mission page here"
-                            ></textarea>
-                            <button onClick={onSyncBookmarks} >
-                                Synchronise Bookmarks
-                            </button>
-                            <Loader />
-                        </SyncBox>
-                    </li> */}
-
                     <li>Hover over an item on the left to show missions that must use it or can use it. "Uses" is the number of those missions.</li>
                     <li>
                         Click on an item to count it as 'purchased' and see what missions will be unlocked. The earnings of unselected items will be
@@ -85,8 +65,8 @@ const Guide = () => {
                         </ul>
                     </li>
                     <li>
-                        Most mission info comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to HooCairs and any others for
-                        putting it there in the first place! Long live this great game.
+                        All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to HooCairs and any contributors
+                        for putting it there in the first place! Long live this great game.
                     </li>
                 </NotesUL>
             </div>

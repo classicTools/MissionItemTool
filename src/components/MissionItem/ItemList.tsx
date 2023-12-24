@@ -78,7 +78,7 @@ const ItemList = () => {
                 <button onClick={() => setItemsBought(itemsBought.length > 0 ? [] : essentialItems)}>
                     {itemsBought.length > 0 ? 'Reset Items' : 'Select Essentials'}
                 </button>
-                <label>Total Cost:</label>
+                <b>Total Cost:</b>
                 <span>
                     <span>
                         {itemData

@@ -45,6 +45,10 @@ const router = createBrowserRouter([
                 path: '*',
                 element: <MissionItemTool />,
             },
+            {
+                path: '',
+                element: <MissionItemTool />,
+            },
         ],
     },
 ])
