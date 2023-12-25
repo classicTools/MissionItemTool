@@ -11,10 +11,13 @@ const KeyItemContainer = styled.div<{ selected: boolean }>`
 
 const ColorThumb = styled.div`
     height: 20px;
-    width: 20px;
+    width: 100%;
     display: inline-block;
-    margin: 2px 4px;
+    padding: 1px 4px;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 interface MissionKeyItemProps extends MissionKeyItemType {
     onClick: () => void
@@ -23,8 +26,7 @@ interface MissionKeyItemProps extends MissionKeyItemType {
 const MissionKeyItem = ({ name, color, onClick, selected }: MissionKeyItemProps) => {
     return (
         <KeyItemContainer onClick={onClick} selected={selected} title="Click to change colour">
-            <ColorThumb style={{ backgroundColor: color }} />
-            {name}
+            <ColorThumb style={{ backgroundColor: color }}>{name}</ColorThumb>
         </KeyItemContainer>
     )
 }

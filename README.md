@@ -3,7 +3,6 @@ allow hiding mission sets
 hint check
 
 # Maybe
-speed up item hover flash on firefox
 portal image transition
 review missionset 'wiki ordering'
 

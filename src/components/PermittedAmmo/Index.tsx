@@ -41,7 +41,7 @@ const Header = styled.div`
     border-bottom: 2px solid lightgray;
 `
 const NavLinky = styled(StyledNavLink)`
-    color: white;
+    color: white !important;
 `
 const PermittedAmmo = () => {
     return (

@@ -31,11 +31,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'PermittedAmmo',
-                element: (
-                    <Suspense fallback={<Loader />}>
-                        <PermittedAmmo />
-                    </Suspense>
-                ),
+                element: <PermittedAmmo />,
             },
             {
                 path: '*',

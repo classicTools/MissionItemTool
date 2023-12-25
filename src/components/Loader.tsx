@@ -1,26 +1,34 @@
 import styled from 'styled-components'
 
-const L = styled.div`
-    height: 35px;
-    width: 35px;
-    border-top: 15px solid ${({ theme }) => theme.boughtItemHighlight};
-    border-right: 15px solid ${({ theme }) => theme.boughtItemHighlight};
+const LoadBox = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+`
+const Load = styled.div`
+    --d: 22px;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
+    color: orange;
+    box-shadow: calc(1 * var(--d)) calc(0 * var(--d)) 0 0, calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1px, calc(0 * var(--d)) calc(1 * var(--d)) 0 2px,
+        calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 3px, calc(-1 * var(--d)) calc(0 * var(--d)) 0 4px,
+        calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 5px, calc(0 * var(--d)) calc(-1 * var(--d)) 0 6px;
+    animation: s7 1s infinite steps(8);
 
-    animation: spin 1s linear infinite;
-
-    @keyframes spin {
-        0% {
-            transform: rotate(0deg);
-        }
+    @keyframes s7 {
         100% {
-            transform: rotate(360deg);
+            transform: rotate(1turn);
         }
     }
 `
-
 const Loader = () => {
-    return <L />
+    return (
+        <LoadBox>
+            <Load />
+        </LoadBox>
+    )
 }
 
 export default Loader

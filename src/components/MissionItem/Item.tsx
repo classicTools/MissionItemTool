@@ -11,7 +11,7 @@ export const itemRowCSS = css`
     grid-template-columns: 220px 30px 70px 60px;
 `
 
-export const ItemRow = styled.div<{ bought?: boolean }>`
+export const ItemRow = styled.div<{ bought?: boolean; lastHovered: boolean }>`
     border-radius: 6px;
     padding-left: 10px;
     margin-bottom: 1px;
@@ -21,6 +21,8 @@ export const ItemRow = styled.div<{ bought?: boolean }>`
     &:hover {
         font-weight: bold;
     }
+
+    ${({ lastHovered }) => lastHovered && `font-weight: bold;`}
 
     ${({ bought, theme }) =>
         bought &&
@@ -64,7 +66,7 @@ const Item = ({ item: { pk, name, missions, cost, wouldGive } }: ItemProps) => {
     const { itemHovered, setItemHovered } = useItemHoverContext()
     const bought = itemsBought.includes(pk)
     return (
-        <ItemRow onMouseEnter={() => setItemHovered(pk)} onClick={() => toggleItemBought(pk)} bought={bought}>
+        <ItemRow onMouseEnter={() => setItemHovered(pk)} onClick={() => toggleItemBought(pk)} bought={bought} lastHovered={pk === itemHovered}>
             <NameCell title={name}>
                 {!essentialItems.includes(pk) && '* '}
                 {name}

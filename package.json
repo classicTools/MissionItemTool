@@ -2,6 +2,7 @@
     "name": "gems",
     "version": "0.1.0",
     "private": true,
+    "homepage": "http://classicTools.github.io/MissionItemTool",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/user-event": "^13.5.0",
