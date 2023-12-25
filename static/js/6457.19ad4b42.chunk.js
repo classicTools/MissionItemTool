@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6457],{6457:function(e,s,a){e.exports=a.p+"static/media/fallow_deer_6.10053ffaa494944eb9ea.webp"}}]);

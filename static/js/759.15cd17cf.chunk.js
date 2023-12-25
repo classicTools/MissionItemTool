@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[759],{759:function(e,s,t){e.exports=t.p+"static/media/settler_creeks_2.6d2879ea6f48ea58d40e.webp"}}]);

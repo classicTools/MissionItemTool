@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7552],{7552:function(e,s,a){e.exports=a.p+"static/media/Gadwall.9ddcd732de631c42ae4f.webp"}}]);

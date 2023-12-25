@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2780],{2780:function(e,s,b){e.exports=b.p+"static/media/bison_10.d06bfe599f9d9fec0b32.webp"}}]);

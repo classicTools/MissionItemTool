@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[1488],{1488:function(e,s,a){e.exports=a.p+"static/media/Red Kangaroo.bb319482096c31d4f85e.webp"}}]);

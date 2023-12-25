@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7667],{7667:function(e,s,a){e.exports=a.p+"static/media/Axis Deer.6bda12a8e9ca74b0078e.webp"}}]);

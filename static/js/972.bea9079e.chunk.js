@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[972],{972:function(e,s,a){e.exports=a.p+"static/media/feral_hog_3.6502b0d06fd02eeb4d5a.webp"}}]);

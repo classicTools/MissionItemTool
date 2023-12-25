@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[226],{226:function(e,c,s){e.exports=s.p+"static/media/Arctic Fox.b94cc208be364942b961.webp"}}]);

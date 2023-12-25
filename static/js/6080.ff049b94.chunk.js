@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6080],{6080:function(e,s,t){e.exports=t.p+"static/media/Banteng.f05847d99103e64b27cb.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4239],{4239:function(e,c,s){e.exports=s.p+"static/media/Rocky Mountain Elk.ee1e1892dc94c16c5467.webp"}}]);

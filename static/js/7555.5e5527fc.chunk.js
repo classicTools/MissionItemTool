@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7555],{7555:function(e,s,c){e.exports=c.p+"static/media/redfeather_falls_9.33b341c26d01c546f21d.webp"}}]);

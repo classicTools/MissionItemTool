@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9063],{9063:function(e,s,t){e.exports=t.p+"static/media/Northern Pintail.ab02b962a18f4e3d0f33.webp"}}]);
