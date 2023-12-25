@@ -47,6 +47,7 @@ export enum LocalStorageVars {
     CustomColors = 'customColors',
     Ammo = 'ammo',
     Animal = 'animal',
+    AlphaOrder = 'alphaOrder',
 }
 export enum AssetFolder {
     Missions = 'missions',

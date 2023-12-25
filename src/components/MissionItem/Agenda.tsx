@@ -4,10 +4,11 @@ import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import { useState } from 'react'
 import { useSettingsContext } from '../../context/SettingsContext'
 import AgendaToggle from './AgendaToggle'
-import { MissionData } from '../../types'
-import { missionMap, missionSetMap, missionSetMissions } from '../../data/MissionItem/Data'
+import { Bookmarks, MapId, MissionData } from '../../types'
+import { missionMap, missionSetMap, missionSetMissions, missionSetObject } from '../../data/MissionItem/Data'
 import AgendaItem, { Arrow } from './AgendaItem'
 import mapsData from '../../data/MissionItem/lookups/Map.json'
+import sortBy from 'sort-by'
 
 const AgendaContainer = styled.div<{ show: boolean }>`
     background-color: lightyellow;
@@ -48,32 +49,49 @@ const Please = styled.div`
     font-size: 16px;
     gap: 5px;
 `
-const Agenda = () => {
-    const { bookmarks, showAgenda } = useBookmarkContext()
-    const { map } = useSettingsContext()
-    const [showAll, setShowAll] = useState(true)
+interface AgendaMissionData extends MissionData {
+    set_name: string
+    set_order: number
+}
 
-    let missionsByMap = map ? missionMap[map] : []
-    let setsByMap = map ? missionSetMap[map] : []
-    const bookmarkedMissions: MissionData[] = missionsData.filter(
-        ({ mission_set, order, pk }) =>
+const getBookmarkedMissionsByMap =
+    (map: MapId | null, bookmarks: Bookmarks) =>
+    ({ mission_set, order, pk }: MissionData) => {
+        let missionsByMap = map ? missionMap[map] : []
+        let setsByMap = map ? missionSetMap[map] : []
+
+        return (
             mission_set in bookmarks &&
             order === bookmarks[mission_set] &&
             (missionsByMap.includes(pk) || (setsByMap.includes(mission_set) && !missionSetMissions[mission_set].some((msm) => missionsByMap.includes(msm))))
-    )
+        )
+    }
+const Agenda = () => {
+    const { bookmarks, showAgenda } = useBookmarkContext()
+    const { map, alphaOrder } = useSettingsContext()
+    const [showAll, setShowAll] = useState(true)
+
+    const agendaMissions: AgendaMissionData[] = missionsData
+        .filter(getBookmarkedMissionsByMap(map, bookmarks))
+        .map((m) => ({
+            ...m,
+            set_name: missionSetObject[m.mission_set].name,
+            set_order: missionSetObject[m.mission_set].order,
+        }))
+        .sort(sortBy(alphaOrder ? 'set_name' : 'set_order'))
 
     return (
         <>
             <AgendaToggle />
             <AgendaContainer show={showAgenda}>
-                {map && bookmarkedMissions.length > 0 ? (
+                {map && agendaMissions.length > 0 ? (
                     <>
                         <Header>
                             <h2>{mapsData.find((m) => m.pk === map)?.name}</h2>
                             <button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</button>
                         </Header>
 
-                        {bookmarkedMissions.map((m: MissionData) => (
+                        {agendaMissions.map((m: MissionData) => (
                             <AgendaItem mission={m} showAll={showAll} key={m.pk} />
                         ))}
                         <Spacer />

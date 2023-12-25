@@ -3,9 +3,9 @@ import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import MissionSet, { MissionSetRow, SetHeader } from './MissionSet'
 import sortBy from 'sort-by'
-import { useState } from 'react'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import { StyledNavLink } from '../../GlobalStyle'
+import { useSettingsContext } from '../../context/SettingsContext'
 
 let theme = () => {}
 const TopSection = styled.div`
@@ -30,7 +30,7 @@ const StyledNavLinky = styled(StyledNavLink)`
     color: black;
 `
 const AllMissions = () => {
-    const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
+    const { alphaOrder, setAlphaOrder } = useSettingsContext()
     const { bookmarks, resetBookmarks } = useBookmarkContext()
 
     const bookmarkTotal = missionsData.reduce((acc: number, cur) => {

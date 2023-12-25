@@ -43,6 +43,9 @@ const ItemSummary = styled.div`
     justify-items: center;
     margin: 8px 0 10px;
 `
+const ResetButton = styled.button`
+    width: 150px;
+`
 const ItemList = () => {
     const { itemsBought, setItemsBought } = useItemsContext()
     const { missionDataState } = useMissionsContext()
@@ -75,9 +78,9 @@ const ItemList = () => {
                 ))}
             </ItemListDiv>
             <ItemSummary>
-                <button onClick={() => setItemsBought(itemsBought.length > 0 ? [] : essentialItems)}>
+                <ResetButton onClick={() => setItemsBought(itemsBought.length > 0 ? [] : essentialItems)}>
                     {itemsBought.length > 0 ? 'Reset Items' : 'Select Essentials'}
-                </button>
+                </ResetButton>
                 <span>Total Cost:</span>
                 <span>
                     <b>

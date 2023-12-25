@@ -37,6 +37,8 @@ interface SettingsContext {
     setAmmo: (ammoId: AmmoId | null) => void
     animal: AnimalId | null
     setAnimal: (animalId: AnimalId | null) => void
+    alphaOrder: boolean
+    setAlphaOrder: (alphaOrder: boolean) => void
 }
 
 const defaultSettings = {
@@ -48,6 +50,8 @@ const defaultSettings = {
     setAmmo: bareFn,
     animal: null,
     setAnimal: bareFn,
+    alphaOrder: false,
+    setAlphaOrder: bareFn,
 }
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {
@@ -56,9 +60,12 @@ const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const [map, setMap] = useLocalStorage<MapId | null>(LocalStorageVars.Reserve)
     const [ammo, setAmmo] = useLocalStorage<AmmoId | null>(LocalStorageVars.Ammo)
     const [animal, setAnimal] = useLocalStorage<AnimalId | null>(LocalStorageVars.Animal)
+    const [alphaOrder, setAlphaOrder] = useLocalStorage<boolean>(LocalStorageVars.AlphaOrder, false)
 
     return (
-        <SettingsContext.Provider value={{ customColors, setCustomColors, map, setMap, ammo, setAmmo, animal, setAnimal }}>{children}</SettingsContext.Provider>
+        <SettingsContext.Provider value={{ customColors, setCustomColors, map, setMap, ammo, setAmmo, animal, setAnimal, alphaOrder, setAlphaOrder }}>
+            {children}
+        </SettingsContext.Provider>
     )
 }
 export default WithSettingsContext

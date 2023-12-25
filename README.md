@@ -1,9 +1,7 @@
 # Todos
-coat of any colors mission
+themes
 allow hiding mission sets
-agenda item order
 portal image transition
-missionset 'wik ordering'
 speed up item hover flash
 
 
@@ -24,3 +22,4 @@ check missionmap in agenda e.g. roe 3
 agenda image buttons hover conflict
 update rares/furs
 reword repeated list items in objectives
+agenda item order. missionset 'wik ordering'

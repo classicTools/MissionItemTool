@@ -87,7 +87,7 @@ const Tip = styled(Tooltip)<{ left: boolean }>`
               `}
 `
 const Info = styled.div`
-    min-width: 400px;
+    min-width: 500px;
 `
 export const HintImage = styled.img<{ show: boolean }>`
     max-width: 90vw;
