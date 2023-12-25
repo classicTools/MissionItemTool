@@ -1,15 +1,12 @@
 # Todos
-
-agenda image buttons hover conflict
+coat of any colors mission
 allow hiding mission sets
 agenda item order
 portal image transition
 missionset 'wik ordering'
 speed up item hover flash
-update rares/furs
 
 
-reword repeated list items in objectives
 hint check
 
 
@@ -24,3 +21,6 @@ add new animals, ammo, missions:
 include map images for travel locations
 agenda scroll
 check missionmap in agenda e.g. roe 3
+agenda image buttons hover conflict
+update rares/furs
+reword repeated list items in objectives

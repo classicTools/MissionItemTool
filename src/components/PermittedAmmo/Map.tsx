@@ -14,9 +14,8 @@ const Avatar = styled.img<{ selected: boolean; outline: boolean; inAnimal: boole
 
     margin: 2px;
     ${pointerCss}
-    &:hover {
-        ${hoveringCss}
-    }
+    ${hoveringCss}
+    
 
     ${(props) => props.selected && selectedCss};
 

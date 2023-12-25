@@ -299,7 +299,7 @@
         "pk": 38,
         "mission_set": 3,
         "name": "12 Counts of Affection",
-        "objectives": "<ul><li>Harvest 12 <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\"> Red Feather Falls</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 12 <a href=\"https://thehunter.fandom.com/wiki/Blacktail_Deer\" title=\"Blacktail Deer\">Blacktail Deer</a> in <a href=\"https://thehunter.fandom.com/wiki/Redfeather_Falls\" title=\"Redfeather Falls\"> Red Feather Falls</a> during the same hunt.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -779,7 +779,7 @@
         "pk": 98,
         "mission_set": 9,
         "name": "Sample Analysis",
-        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Sambar_Deer\" title=\"Sambar Deer\">Sambar Deer</a> during the same hunt.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -2203,7 +2203,7 @@
         "pk": 276,
         "mission_set": 26,
         "name": "Barely Seeing Red",
-        "objectives": "<ul><li>Harvest another unspooked <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> scoring at least 75 with a single at a distance of at least 75 meters with any scoped Anchütz rifle weapon during the same hunt.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 unspooked <a href=\"https://thehunter.fandom.com/wiki/Red_Kangaroo\" title=\"Red Kangaroo\">Red Kangaroo</a> scoring at least 75 with a single at a distance of at least 75 meters with any scoped Anchütz rifle weapon during the same hunt.</li></ul>",
         "reward": 3600,
         "order": 10
     },
@@ -3059,7 +3059,7 @@
         "pk": 383,
         "mission_set": 37,
         "name": "For the Journos",
-        "objectives": "<ul><li>Harvest 10 airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a> each with one shot.</li></ul>",
+        "objectives": "<ul><li>Harvest 10 airborne <a href=\"https://thehunter.fandom.com/wiki/Magpie_Goose\" title=\"Magpie Goose\">Magpie Geese</a> each with one shot, in the same hunt.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -3683,7 +3683,7 @@
         "pk": 461,
         "mission_set": 45,
         "name": "Pheasant Hunting Done Right",
-        "objectives": "<ul><li>Harvest 5 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasants</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells.</li></ul>",
+        "objectives": "<ul><li>Harvest 5 airborne <a href=\"https://thehunter.fandom.com/wiki/Pheasant\" title=\"Pheasant\">Pheasants</a> using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Blaser_F3_Game_O/U_Shotgun\" title=\"12 GA Blaser F3 Game O/U Shotgun\">12 GA Blaser F3 Game O/U Shotgun</a> loaded with <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Birdshot)\" title=\"12 GA Shells (Birdshot)\">Birdshot</a> shells during the same hunt.</li></ul>",
         "reward": 2900,
         "order": 5
     },
@@ -3715,7 +3715,7 @@
         "pk": 465,
         "mission_set": 46,
         "name": "Hog Slogging",
-        "objectives": "<ul><li>Harvest 4 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li></ul>",
+        "objectives": "<ul><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Feral_Hog\" title=\"Feral Hog\">Feral Hogs</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li><li>Harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Wild_Boar\" title=\"Wild Boar\">Wild Boars</a> from a maximum distance of 30 meters (approx. 98 ft.) using <a href=\"https://thehunter.fandom.com/wiki/.44_Nosler_Sporting_Handgun\" title=\".44 Nosler Sporting Handgun\"> .44 ammunition</a> and without using a scope.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -4195,7 +4195,7 @@
         "pk": 525,
         "mission_set": 60,
         "name": "Investigate The Center",
-        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>Then arrive at Tower 6 (x -14478, y 5114) in the same hunt.</li><li>Then arrive at Tower 17 (x -13928, y 6285) in the same hunt.</li><li>Then arrive at Tower 12 (x -13836, y 5038) in the same hunt.</li><li>During the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, ID tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, ID more tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, ID a third set of tracks from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
+        "objectives": "<ul><li>Start at the <a href=\"https://thehunter.fandom.com/wiki/Causeway_Lodge\" title=\"Causeway Lodge\">Causeway Lodge</a> in Whitehart Island</li><li>Then arrive at Tower 8 (x -13918, y 3903) in the same hunt.</li><li>Then arrive at Tower 6 (x -14478, y 5114) in the same hunt.</li><li>Then arrive at Tower 17 (x -13928, y 6285) in the same hunt.</li><li>Then arrive at Tower 12 (x -13836, y 5038) in the same hunt.</li><li>During the same hunt, ID dropping from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, ID an audio clue from a <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li><li>During the same hunt, ID 3 sets of tracks from <a href=\"https://thehunter.fandom.com/wiki/Roosevelt_Elk\" title=\"Roosevelt Elk\">Roosevelt Elk</a>.</li></ul>",
         "reward": 700,
         "order": 5
     },
@@ -4922,7 +4922,7 @@
     {
         "pk": 1192,
         "mission_set": 63,
-        "name": "In Wolf\\'s Clothing",
+        "name": "In Wolf's Clothing",
         "objectives": "<ul><li>Start at Goldhorn Pass in <a href=\"https://thehunter.fandom.com/wiki/Timbergold_Trails\" title=\"Timbergold Trails\">Timbergold Trails</a>.</li><li>Then arrive at The Flats (x: -6239, y: 1753) in the same hunt.</li><li>Then arrive at Fred's Last Stand (x: -5166, y: 940) in the same hunt.</li><li>Then arrive at Firewatch Tower (x: -4977, y: 3) in the same hunt.</li><li>During the same hunt, spot a <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>During the same hunt, harvest a male <a href=\"https://thehunter.fandom.com/wiki/Grey_Wolf\" title=\"Grey Wolf\">Grey Wolf</a>.</li><li>During the same hunt, harvest 2 <a href=\"https://thehunter.fandom.com/wiki/Mule_Deer\" title=\"Mule Deer\">Mule Deer</a> with any ethical rifle except a Muzzleloader.</li></ul>",
         "reward": 800,
         "order": 6
@@ -5403,7 +5403,7 @@
         "pk": 1339,
         "mission_set": 84,
         "name": "Smoke Poles: Whiterime Ridge",
-        "objectives": "<ul><li>- Harvest a <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a> with a single shot without hitting the liver in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.45_Copper_Bullet\" title=\".45 Copper Bullet\">.45 Copper Bullet</a>.</li><li>Harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> scoring more than 110 with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a>.</li><li>Harvest an unspooked female <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> from under 35 m (approx. 115ft) with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest an unspooked <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.45_Saboted_Bullet\" title=\".45 Saboted Bullet\">.45 Saboted Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> scoring more than 160 with a single shot to the heart and/or lungs from more than 40m (Approx. 164 ft), no scope, in ]<a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Dall_Sheep\" title=\"Dall Sheep\">Dall Sheep</a> with a single shot without hitting the liver in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.45_Copper_Bullet\" title=\".45 Copper Bullet\">.45 Copper Bullet</a>.</li><li>Harvest a charging <a href=\"https://thehunter.fandom.com/wiki/Bison\" title=\"Bison\">Bison</a> scoring more than 110 with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using any <a href=\"https://thehunter.fandom.com/wiki/Weapons#Muzzleloaders\" title=\"Weapons\"> Muzzleloader</a>.</li><li>Harvest an unspooked female <a href=\"https://thehunter.fandom.com/wiki/Polar_Bear\" title=\"Polar Bear\">Polar Bear</a> from under 35 m (approx. 115ft) with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Conical_Bullet\" title=\".50 Conical Bullet\">.50 Conical Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest an unspooked <a href=\"https://thehunter.fandom.com/wiki/Sitka_Deer\" title=\"Sitka Deer\">Sitka Deer</a> with a single shot in <a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.45_Saboted_Bullet\" title=\".45 Saboted Bullet\">.45 Saboted Bullet</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a>.</li><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Moose\" title=\"Moose\">Moose</a> scoring more than 160 with a single shot to the heart and/or lungs from more than 40m (Approx. 164 ft), no scope, in ]<a href=\"https://thehunter.fandom.com/wiki/Whiterime_Ridge\" title=\"Whiterime Ridge\">Whiterime Ridge</a> using a <a href=\"https://thehunter.fandom.com/wiki/.50_Patched_Round_Ball\" title=\".50 Patched Round Ball\">.50 Patched Round Ball</a> or a <a href=\"https://thehunter.fandom.com/wiki/.50_Lead_Bullet\" title=\".50 Lead Bullet\">.50 Lead Bullet</a>.</li></ul>",
         "reward": 2500,
         "order": 6
     },

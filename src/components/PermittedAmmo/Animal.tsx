@@ -8,15 +8,15 @@ import { useSettingsContext } from '../../context/SettingsContext'
 import { pointerCss } from '../../CommonStyles'
 
 const AvatarBox = styled(Anchor)``
-export const outlineCss = css`
-    outline: 4px solid white;
-`
+
 export const siblingCss = css`
     outline: 2px inset gold;
 `
 export const hoveringCss = css`
-    filter: brightness(1.2);
-    ${outlineCss}
+    &:hover {
+        filter: brightness(1.3);
+        outline: 4px solid white;
+    }
 `
 export const selectedCss = css`
     outline: 3px solid orange;
@@ -31,10 +31,8 @@ export const transitionCss = css`
 const Avatar = styled.img<{ outline?: boolean; inMap: boolean; inAmmo: boolean; selected: boolean; siblingAnimal: boolean }>`
     height: 75px;
     ${pointerCss}
-    &:hover {
-        filter: brightness(1.5);
-        ${outlineCss}
-    }
+    ${hoveringCss}
+    
     padding: 7px;
     border-radius: 10px 20px;
 

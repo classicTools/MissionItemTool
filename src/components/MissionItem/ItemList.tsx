@@ -78,16 +78,16 @@ const ItemList = () => {
                 <button onClick={() => setItemsBought(itemsBought.length > 0 ? [] : essentialItems)}>
                     {itemsBought.length > 0 ? 'Reset Items' : 'Select Essentials'}
                 </button>
-                <b>Total Cost:</b>
+                <span>Total Cost:</span>
                 <span>
-                    <span>
+                    <b>
                         {itemData
                             .filter((item) => itemsBought.includes(item.pk))
                             .reduce((acc, cur) => {
                                 acc += cur.cost
                                 return acc
                             }, 0)}
-                    </span>{' '}
+                    </b>{' '}
                     gm$
                 </span>
             </ItemSummary>

@@ -9,9 +9,7 @@ import { pointerCss } from '../../CommonStyles'
 const AmmoEntry = styled.div<{ inAnimal: boolean; outline: boolean; selected: boolean; siblingAmmo: boolean }>`
     ${pointerCss}
     padding: 2px 10px;
-    &:hover {
-        ${hoveringCss}
-    }
+    ${hoveringCss}
 
     border-radius: 4px;
     opacity: ${(props) => (props.outline ? 1 : 0.05)};

@@ -8,7 +8,7 @@
         "score_max": "290",
         "weight_max": "1200",
         "rares": "Albino",
-        "other_furs": "",
+        "other_furs": "Grey",
         "tax": "270",
         "css_max": "110"
     },
@@ -47,7 +47,7 @@
         "score_max": "245",
         "weight_max": "620",
         "rares": "Albino, Melanistic, Piebald",
-        "other_furs": "",
+        "other_furs": "Light",
         "tax": "220",
         "css_max": "95"
     },
@@ -137,7 +137,7 @@
         "score_min": "20",
         "score_max": "246",
         "weight_max": "140",
-        "rares": "Albino, Melanistic, Piebald",
+        "rares": "Albino, Melanistic, Piebald, Dilute",
         "other_furs": "",
         "tax": "225",
         "css_max": "120"
@@ -203,7 +203,7 @@
         "score_max": "210",
         "weight_max": "120",
         "rares": "Albino",
-        "other_furs": "",
+        "other_furs": "Dark",
         "tax": "180",
         "css_max": "73"
     },
@@ -229,7 +229,7 @@
         "score_max": "292",
         "weight_max": "120",
         "rares": "Albino",
-        "other_furs": "",
+        "other_furs": "Dark",
         "tax": "270",
         "css_max": "73"
     },
@@ -333,7 +333,7 @@
         "score_max": "1230",
         "weight_max": "205",
         "rares": "Albino, Piebald",
-        "other_furs": "",
+        "other_furs": "Belted",
         "tax": "1150",
         "css_max": "74"
     },
@@ -644,7 +644,7 @@
         "score_min": "25",
         "score_max": "200",
         "weight_max": "95",
-        "rares": "Melanistic, Piebald, Leucistic",
+        "rares": "Leucistic, Melanistic, Piebald",
         "other_furs": "Chocolate",
         "tax": "175",
         "css_max": "100"
@@ -657,7 +657,7 @@
         "score_min": "1500",
         "score_max": "7200",
         "weight_max": "7.2",
-        "rares": "Pale, Albino",
+        "rares": "Albino, Pale",
         "other_furs": "",
         "tax": "6800",
         "css_max": "65"

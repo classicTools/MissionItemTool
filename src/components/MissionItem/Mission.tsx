@@ -76,11 +76,11 @@ const Tip = styled(Tooltip)<{ left: boolean }>`
     /* Position the tooltip */
     display: flex;
     flex-direction: row;
-    left: -185px;
+
     ${({ left }) =>
         left
             ? css`
-                  left: -185px;
+                  left: -165px;
               `
             : css`
                   left: -415px;

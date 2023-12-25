@@ -70,7 +70,9 @@ const AllMissions = () => {
                 })}
 
             <Bookmarks>
-                <span>Earnings based on bookmarks so far: {bookmarkTotal} gm$</span>
+                <span>
+                    Earnings so far, based on bookmarks: <b>{bookmarkTotal}</b> gm$
+                </span>
                 <ResetButton onClick={resetBookmarks}>{Object.keys(bookmarks).length ? 'Clear' : 'Reset'} Bookmarks</ResetButton>
             </Bookmarks>
         </div>
