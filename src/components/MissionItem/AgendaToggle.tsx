@@ -3,7 +3,7 @@ import { useBookmarkContext } from '../../context/BookmarkContext'
 
 const AgendaButton = styled.button`
     position: absolute;
-    bottom: 70px;
+    bottom: 55px;
     right: 30px;
     width: 184px;
     z-index: 30;

@@ -26,6 +26,9 @@ const Bookmarks = styled.div`
     align-items: center;
 `
 const ResetButton = styled.button``
+const StyledNavLinky = styled(StyledNavLink)`
+    color: black;
+`
 const AllMissions = () => {
     const [alphaOrder, setAlphaOrder] = useState<boolean>(false)
     const { bookmarks, resetBookmarks } = useBookmarkContext()
@@ -54,9 +57,9 @@ const AllMissions = () => {
                         <label htmlFor="themeDark">Dark</label>
                     </div>
                     <div>
-                        <StyledNavLink to={'../PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                        <StyledNavLinky to={'../PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                             Permitted Ammo Tool
-                        </StyledNavLink>
+                        </StyledNavLinky>
                     </div>
                 </TopSection>
             </MissionSetRow>

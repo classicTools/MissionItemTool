@@ -1,7 +1,7 @@
 # Todos
 
+agenda image buttons hover conflict
 allow hiding mission sets
-check missionmap in agenda e.g. roe 3
 agenda item order
 portal image transition
 missionset 'wik ordering'
@@ -14,7 +14,7 @@ hint check
 
 
 
-# DONE
+# Done
 agenda item image portal
 (Single Player)
 add new animals, ammo, missions:
@@ -23,3 +23,4 @@ add new animals, ammo, missions:
 	Wood Grouse: 3 / 10
 include map images for travel locations
 agenda scroll
+check missionmap in agenda e.g. roe 3

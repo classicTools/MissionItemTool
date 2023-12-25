@@ -90,8 +90,8 @@ const Info = styled.div`
     min-width: 400px;
 `
 export const HintImage = styled.img<{ show: boolean }>`
-    max-width: 95vw;
-    max-height: 95vh;
+    max-width: 90vw;
+    max-height: 90vh;
     margin: auto;
     padding: 10px;
     border-radius: 25px;

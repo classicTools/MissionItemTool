@@ -15,7 +15,7 @@ const AmmoGroup = styled.div<{ narrow?: boolean }>`
     display: flex;
     flex-direction: column;
     gap: 3px;
-    width: ${({ narrow }) => (narrow ? '135px' : '160px')};
+    width: ${({ narrow }) => (narrow ? '135px' : '175px')};
     white-space: nowrap;
 `
 const TypeHeader = styled.div`
@@ -23,7 +23,7 @@ const TypeHeader = styled.div`
     line-height: 30px;
     text-align: right;
 `
-const replacements = [' Ammunition', ' Partition', ' Ballistic Tip', ' Shells', ' Sporting', ' Handgun', ' Arrows', ' Magnum', ' AccuBond']
+const replacements = [' Ammunition', ' Partition', ' Ballistic Tip', ' Shells', ' Sporting', ' Handgun', ' Magnum', ' AccuBond']
 const regex = new RegExp(replacements.join('|'), 'g')
 
 let ammoDataSimple = AmmoData.map((am) => ({

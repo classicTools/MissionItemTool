@@ -1,11 +1,6 @@
 import styled from 'styled-components'
 
-const KofiBox = styled.div`
-    .btn-container {
-        left: unset;
-        right: 160px !important;
-    }
-`
+const KofiBox = styled.div``
 
 const GreenKofi = () => {
     return (

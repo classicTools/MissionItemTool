@@ -18,6 +18,11 @@ const AgendaContainer = styled.div<{ show: boolean }>`
     left: 350px;
     width: 800px;
 
+    @media (max-width: 1250px) {
+        left: 0;
+        width: 92vw;
+    }
+
     padding: 0 40px;
     z-index: 20;
     overflow-y: auto;

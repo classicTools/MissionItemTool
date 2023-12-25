@@ -19,7 +19,8 @@ const HeaderCellCenter = styled.div`
     text-align: center;
 `
 const HeaderCellRight = styled.div`
-    text-align: right;
+    justify-self: end;
+    width: 20px; //hack
 `
 const ItemListDiv = styled.div`
     max-height: calc(100vh - 160px);

@@ -15,12 +15,20 @@ button{
   border-radius:8px;
   cursor:pointer;
 }
-.kofi-button{
-  z-index:999;
-}
+
+.btn-container:has(.kofi-button) {
+		z-index: 100;
+  position: fixed;
+  bottom: 15px;
+  right: 30px;
+    }
 `
 export const StyledNavLink = styled(NavLink)`
     font-size: 16px;
     font-weight: bold;
+
+    &:hover {
+        color: darkorange;
+    }
 `
 export default GlobalStyle

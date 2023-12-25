@@ -10,7 +10,7 @@ import { useMissionsContext } from '../../context/MissionContext'
 
 export const MissionSetRow = styled.div`
     display: grid;
-    grid-template-columns: 180px 500px;
+    grid-template-columns: 160px 500px;
     gap: 5px;
     height: 27px;
 `
@@ -26,6 +26,7 @@ interface MissionSetProps {
 
 const SetPic = styled.img`
     height: 16px;
+    max-width: 30px;
 `
 const SetLabel = styled.label`
     text-align: right;
