@@ -82,10 +82,10 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
     transition: opacity 100ms, visibility 100ms, position 100ms; */
     return (
         <BookmarkContainer>
-            <Details open={showAll && missionReady} showingImage={hover && image} {...hoverFunctions}>
+            <Details open={showAll && missionReady} showingImage={hover && image}>
                 <summary>
                     <BookmarkHead>
-                        <Title ready={missionReady}>
+                        <Title ready={missionReady} {...hoverFunctions}>
                             <FirstSpan>
                                 <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b>
                                 <MissionName className="missionName">
@@ -111,7 +111,7 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                 <span dangerouslySetInnerHTML={{ __html: objectives }} />
                 {hover && image && (
                     <Portal portalId={HintImagePortal}>
-                        <HintImage src={image} show={hover}></HintImage>
+                        <HintImage src={image} show={hover} {...hoverFunctions}></HintImage>
                     </Portal>
                 )}
             </Details>

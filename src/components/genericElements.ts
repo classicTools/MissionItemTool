@@ -10,4 +10,5 @@ export const Tooltip = styled.div`
     border-radius: 8px;
     font-size: 13px;
     padding: 10px;
+    border: solid 2px grey;
 `

@@ -10,7 +10,7 @@ import { Anchor } from '../genericElements'
 
 const ReserveDiv = styled.div`
     position: absolute;
-    bottom: 1080px;
+    bottom: 1180px;
     left: 800px;
     width: 250px;
     user-select: none;

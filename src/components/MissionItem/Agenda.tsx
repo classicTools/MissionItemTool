@@ -46,6 +46,7 @@ const Please = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    gap: 5px;
 `
 const Agenda = () => {
     const { bookmarks, showAgenda } = useBookmarkContext()
@@ -79,7 +80,8 @@ const Agenda = () => {
                     </>
                 ) : (
                     <Please>
-                        Please bookmark some missions & choose a reserve to see its agenda... <Arrow toLeft={false} />
+                        <span>Please bookmark some missions & choose a reserve to see its agenda </span>
+                        <Arrow toLeft={false} />
                         <Arrow toLeft={false} />
                         <Arrow toLeft={false} />{' '}
                     </Please>

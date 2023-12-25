@@ -17,13 +17,15 @@ const SyncBox = styled.div`
         border-radius: 8px;
     }
     button {
-        //padding:0 40px;
         width: 100%;
     }
 `
 
 const Tip = styled(Tooltip)`
     width: 200px;
+    top: 32px;
+    left: 15px;
+    text-align: left;
 `
 
 const Sync = () => {
@@ -37,22 +39,22 @@ const Sync = () => {
     }
     return (
         <SyncBox>
-            <a href="https://www.thehunter.com/#missions" target="_blank">
-                Regular Missions Page
-            </a>
-
             <textarea value={syncText} onChange={({ target: { value } }) => setSyncText(value)} placeholder="Paste mission page here"></textarea>
             <Anchor>
                 <button onClick={onSyncBookmarks} {...hoverFunctions}>
                     Synchronise Bookmarks
+                    {syncButtonHovered && (
+                        <Tip>
+                            Synchronise your mission progress! Go to your{' '}
+                            <a href="https://www.thehunter.com/#missions" target="_blank">
+                                Regular Missions Page
+                            </a>{' '}
+                            via launcher or browser, don't click anywhere, press ctrl+A followed by ctrl+C to select & copy everything on the page, then paste
+                            it into the textbox, click the button and your mission bookmarks here will be synchronised. Purchased items will be synchronised
+                            where possible. NOTE: Only works in English!
+                        </Tip>
+                    )}
                 </button>
-                {syncButtonHovered && (
-                    <Tip>
-                        Synchronise your mission progress! Go to your Regular Missions Page via launcher or browser, don't click anywhere, press ctrl+A followed
-                        by ctrl+C to select & copy everything on the page, then paste it into the textbox, click the button and your mission bookmarks here will
-                        be synchronised. Purchased items will be synchronised where possible. NOTE: Only works in English!
-                    </Tip>
-                )}
             </Anchor>
             {/* <Loader /> */}
         </SyncBox>

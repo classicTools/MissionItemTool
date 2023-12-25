@@ -70,7 +70,7 @@ const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
 const Tip = styled(Tooltip)<{ left: boolean }>`
     width: fit-content;
     text-align: left;
-    border: solid 2px black;
+
     padding-bottom: 0;
 
     /* Position the tooltip */
@@ -122,7 +122,7 @@ const Mission = ({ mission }: MissionProps) => {
 
     const requiresItems = missionItems.length > 0
     const containsHoveredItem = itemHovered !== null && simpleMissionItems[pk]?.includes(itemHovered)
-    const flash = containsHoveredItem && !missionHovered && [MissionState.Locked, MissionState.PartlyLocked].includes(state)
+    const flash = containsHoveredItem && !missionHovered
 
     const inSelectedMap = map ? missionMap[map].includes(pk) : false
 
