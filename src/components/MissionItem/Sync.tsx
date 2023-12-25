@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { useState } from 'react'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import { Anchor, Tooltip } from '../genericElements'
+import { Anchor, Button, Tooltip } from '../genericElements'
 import { useHover } from '../../hooks'
 
 const SyncBox = styled.div`
@@ -24,7 +24,7 @@ const SyncBox = styled.div`
 const Tip = styled(Tooltip)`
     width: 200px;
     top: 32px;
-    left: 15px;
+    left: 10px;
     text-align: left;
 `
 
@@ -41,7 +41,7 @@ const Sync = () => {
         <SyncBox>
             <textarea value={syncText} onChange={({ target: { value } }) => setSyncText(value)} placeholder="Paste mission page here"></textarea>
             <Anchor>
-                <button onClick={onSyncBookmarks} {...hoverFunctions}>
+                <Button onClick={onSyncBookmarks} {...hoverFunctions}>
                     Synchronise Bookmarks
                     {syncButtonHovered && (
                         <Tip>
@@ -54,7 +54,7 @@ const Sync = () => {
                             where possible. NOTE: Only works in English!
                         </Tip>
                     )}
-                </button>
+                </Button>
             </Anchor>
             {/* <Loader /> */}
         </SyncBox>

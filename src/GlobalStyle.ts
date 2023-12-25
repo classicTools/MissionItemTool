@@ -9,13 +9,6 @@ const GlobalStyle = createGlobalStyle`
     margin:0;
 }
 
-button{
-  border:none;
-  padding:8px 20px;
-  border-radius:8px;
-  cursor:pointer;
-}
-
 .btn-container:has(.kofi-button) {
 		z-index: 100;
   position: fixed;

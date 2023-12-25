@@ -7,6 +7,7 @@ import { ItemData, ItemId, RawItemData } from '../../types'
 import { useItemsContext } from '../../context/ItemContext'
 import { calculateGain, useMissionsContext } from '../../context/MissionContext'
 import { pointerCss } from '../../CommonStyles'
+import { Button } from '../genericElements'
 
 export const essentialItems: ItemId[] = missionItemData
     .filter((mi) => mi.any === false && mi.group === null)
@@ -43,7 +44,7 @@ const ItemSummary = styled.div`
     justify-items: center;
     margin: 8px 0 10px;
 `
-const ResetButton = styled.button`
+const ResetButton = styled(Button)`
     width: 150px;
 `
 const ItemList = () => {

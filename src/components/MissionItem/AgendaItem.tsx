@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { ThemeContext } from 'styled-components'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import { useMissionsContext } from '../../context/MissionContext'
@@ -7,6 +7,8 @@ import { HintImage } from './Mission'
 import { getMissionImage, useHover, useImage } from '../../hooks'
 import ImageIcon from '../ImageIcon'
 import Portal, { HintImagePortal } from '../../Portal'
+import { Button } from '../genericElements'
+import { useContext } from 'react'
 const BookmarkContainer = styled.div`
     details {
         display: flex;
@@ -34,13 +36,13 @@ const BookmarkNav = styled.span`
     right: 30px;
 `
 export const Arrow = styled.i<{ toLeft: boolean }>`
-    border: solid black;
+    border: solid ${({ theme }) => theme.fontColor};
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(${({ toLeft }) => (toLeft ? 135 : -45)}deg);
 `
-const ArrowButton = styled.button`
+const ArrowButton = styled(Button)`
     height: 25px;
     width: 70px;
     border-radius: 7px;
@@ -80,6 +82,7 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
      opacity: ${({ show }) => (show ? 1 : 0)};
     visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
     transition: opacity 100ms, visibility 100ms, position 100ms; */
+    let theme = useContext(ThemeContext)
     return (
         <BookmarkContainer>
             <Details open={showAll && missionReady} showingImage={hover && image}>
@@ -92,7 +95,7 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                                     {order} - {name}
                                 </MissionName>
                                 {!missionReady && ' (BLOCKED)'}
-                                {image && <ImageIcon height={15} width={18} />}
+                                {image && <ImageIcon height={15} width={18} fill={theme.fontColor} />}
                             </FirstSpan>
                             <span>
                                 <b>{reward}</b> gm${' '}

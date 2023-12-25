@@ -18,7 +18,7 @@ export type MissionKeyItemType = {
 const Container = styled.div`
     padding: 10px;
     width: 150px;
-    background-color: #e9e9ed;
+    background-color: ${({ theme }) => theme.buttonColor};
     border-radius: 10px;
 `
 const StyledSketchPicker = styled(SketchPicker)`

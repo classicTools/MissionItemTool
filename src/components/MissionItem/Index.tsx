@@ -15,11 +15,11 @@ import { HintImagePortal } from '../../Portal'
 const MissionItemGrid = styled.div`
     display: grid;
     grid-template-columns: 440px auto;
-    height: calc(100vh);
+    height: 100vh;
     width: calc(100vw - 10px);
-    overflow: hidden;
-    margin-top: 8px;
+    padding-top: 8px;
     margin-left: 8px;
+    overflow: hidden;
 `
 const Col = styled.div`
     max-height: 99vh;

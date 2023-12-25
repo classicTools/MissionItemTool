@@ -48,6 +48,7 @@ export enum LocalStorageVars {
     Ammo = 'ammo',
     Animal = 'animal',
     AlphaOrder = 'alphaOrder',
+    DarkMode = 'darkMode',
 }
 export enum AssetFolder {
     Missions = 'missions',

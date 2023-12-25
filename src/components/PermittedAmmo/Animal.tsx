@@ -61,6 +61,7 @@ const Tip = styled(Tooltip)`
     h4 {
         line-height: 7px;
     }
+    background-color: lightyellow;
 `
 const Animal = ({ pk, name, order, image_url, score_min, score_max, weight_max, rares, other_furs, tax, css_max }: AnimalData) => {
     const { hoverAmmo, hoverAnimal, hoverMap, setHoverAnimal } = useAmmoContext()

@@ -3,8 +3,8 @@ import styled from 'styled-components'
 const L = styled.div`
     height: 35px;
     width: 35px;
-    border-top: 15px solid orange;
-    border-right: 15px solid orange;
+    border-top: 15px solid ${({ theme }) => theme.boughtItemHighlight};
+    border-right: 15px solid ${({ theme }) => theme.boughtItemHighlight};
     border-radius: 50%;
 
     animation: spin 1s linear infinite;

@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler, FocusEventHandler, KeyboardEventHandler, Ref, RefObject, memo, useEffect, useRef, useState } from 'react'
+import React, { ChangeEventHandler, FocusEventHandler, KeyboardEventHandler, RefObject, useEffect, useRef, useState } from 'react'
 import styled, { FlattenSimpleInterpolation, css } from 'styled-components'
 
 /**
@@ -209,3 +209,16 @@ const Autocomplete = ({
     )
 }
 export default Autocomplete
+
+// const [value, setValue] = useState('')
+// let test = ['dgfg', 'dhggth', 'dghdtghf', ',dththf,', 'dth,srgdthdth', 'd,gd']
+// {/* <ACBlock>
+//     <Autocomplete
+//         items={test.map((i) => ({ label: i, value: i }))}
+//         value={value}
+//         onInputChange={(e) => setValue(e.target.value)}
+//         onSelect={(val) => setValue(val.label)}
+//         width={100}
+//         onlyAllowItemFromDropDown={true}
+//     />
+// </ACBlock> */}

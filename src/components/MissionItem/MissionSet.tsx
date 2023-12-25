@@ -32,7 +32,7 @@ const SetLabel = styled.label`
     text-align: right;
     ${pointerCss}
 `
-const missionSetHighlight = 'gold'
+
 export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>`
     ${flexR}
     justify-content:flex-end;
@@ -44,7 +44,7 @@ export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>
         color: DarkOrange;
     }
     ${({ bold }) => bold && 'font-weight:bold'}
-    ${(props) => props.inSelectedMap && `background-color:${missionSetHighlight}`}
+    ${({ inSelectedMap, theme }) => inSelectedMap && `background-color:${theme.missionSetHighlight}`}
 `
 
 const MissionSet = ({ missionSet }: MissionSetProps) => {

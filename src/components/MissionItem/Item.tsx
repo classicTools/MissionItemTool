@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components'
-import { profitColor } from '../../CommonStyles'
 import { useItemsContext } from '../../context/ItemContext'
 import { useItemHoverContext } from '../../context/ItemHover'
 import { ItemData } from '../../types'
@@ -23,10 +22,10 @@ export const ItemRow = styled.div<{ bought?: boolean }>`
         font-weight: bold;
     }
 
-    ${({ bought }) =>
+    ${({ bought, theme }) =>
         bought &&
         css`
-            background-color: orange;
+            background-color: ${theme.boughtItemHighlight};
             //color: black;
         `};
 `
@@ -36,7 +35,7 @@ const IntCell = styled.div`
 `
 
 const ProfitCell = styled(IntCell)<{ flash: boolean }>`
-    color: ${profitColor};
+    color: ${({ theme }) => theme.profitColor};
 
     @keyframes flash {
         0%,

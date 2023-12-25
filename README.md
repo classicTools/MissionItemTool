@@ -1,12 +1,11 @@
 # Todos
 themes
 allow hiding mission sets
-portal image transition
-speed up item hover flash
-
-
 hint check
 
+# meh
+speed up item hover flash
+portal image transition
 
 
 # Done

@@ -24,7 +24,7 @@ const flashMission = css`
         }
     } */
     animation: flash 3s linear 0s infinite;
-    color: black;
+    color: ${({ theme }) => theme.fontColor};
 `
 const MissionBox = styled.div<{
     flash: boolean
@@ -42,19 +42,19 @@ const MissionBox = styled.div<{
     ${pointerCss}
     display: grid;
 
-    background-color: ${({ containsBoughtItem, state, customColors }) => {
+    background-color: ${({ containsBoughtItem, state, customColors, theme }) => {
         let c
-        if (containsBoughtItem) c = 'orange'
+        if (containsBoughtItem) c = theme.boughtItemHighlight
 
-        if (state === MissionState.Ready) c = customColors.ready // 'lightgreen'
-        else if (state === MissionState.Blocked) c = customColors.blocked //'green'
-        else if (state === MissionState.PartlyLocked) c = customColors.partlyLocked //'yellow'
+        if (state === MissionState.Ready) c = customColors.ready
+        else if (state === MissionState.Blocked) c = customColors.blocked
+        else if (state === MissionState.PartlyLocked) c = customColors.partlyLocked
         //else c = 'white'
 
         return c
     }};
 
-    ${({ inSelectedMap }) => inSelectedMap && 'box-shadow: inset 0 0 1px 4px orange'}
+    ${({ inSelectedMap, theme }) => inSelectedMap && `box-shadow: inset 0 0 1px 4px ${theme.missionHighlight};`}
     ${({ flash }) => flash && flashMission}
 `
 const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
@@ -64,7 +64,7 @@ const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
     font-weight: ${(props) => (props.requiresItems ? 'bold' : 'normal')};
     justify-self: center;
     align-self: end;
-    ${(props) => props.bookmarked && 'color: red; font-weight: bold;'}
+    ${(props) => props.bookmarked && `color: ${props.theme.bookmarkColor}; font-weight: bold;`}
 `
 
 const Tip = styled(Tooltip)<{ left: boolean }>`

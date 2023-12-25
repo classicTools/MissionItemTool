@@ -1,20 +1,39 @@
 import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
 import { useLocalStorage } from '../hooks'
 import { AmmoId, AnimalId, LocalStorageVars, MapId, bareFn } from '../types'
+import { ThemeProvider } from 'styled-components'
 
-export const lightMode = {
+const lightModeSet = {
     bgColor: 'FloralWhite',
     fontColor: 'black',
-    dotColor: 'black',
-    profit: 'green',
-    bgColorGlance: '#lightyellow',
+    profitColor: 'green',
+    tooltipColor: 'lightyellow',
+    buttonColor: '#e9e9ed',
+    missionSetHighlight: 'gold',
+    missionHighlight: 'gold',
+    boughtItemHighlight: 'orange',
+    bookmarkColor: 'red',
+
+    //can be overridden by customColors
+    ready: 'lightgreen',
+    blocked: 'green',
+    partlyLocked: 'yellow',
 }
-export const darkMode = {
-    bgColor: '#444444',
+const darkModeSet = {
+    bgColor: '#222222',
     fontColor: '#FFF8DC',
-    dotColor: 'grey',
-    profit: 'springgreen',
-    bgColorGlance: '#333333',
+    profitColor: '#85FFDC',
+    tooltipColor: '#123F31',
+    buttonColor: '#436356',
+    missionSetHighlight: '#004f39',
+    missionHighlight: '#ABB0B0',
+    boughtItemHighlight: '#53796A',
+    bookmarkColor: '#85FFDC',
+
+    //can be overridden by customColors
+    ready: '#004F39',
+    blocked: '#686E6E',
+    partlyLocked: '#09716A',
 }
 
 export interface CustomColors {
@@ -39,6 +58,8 @@ interface SettingsContext {
     setAnimal: (animalId: AnimalId | null) => void
     alphaOrder: boolean
     setAlphaOrder: (alphaOrder: boolean) => void
+    darkMode: boolean
+    toggleDarkMode: () => void
 }
 
 const defaultSettings = {
@@ -52,19 +73,34 @@ const defaultSettings = {
     setAnimal: bareFn,
     alphaOrder: false,
     setAlphaOrder: bareFn,
+    darkMode: false,
+    toggleDarkMode: bareFn,
 }
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {
-    const [colors, setColors] = useState(lightMode)
+    const [darkMode, setDarkMode] = useLocalStorage<boolean>(LocalStorageVars.DarkMode)
+    const [colors, setColors] = useState(lightModeSet)
     const [customColors, setCustomColors] = useLocalStorage<CustomColors>(LocalStorageVars.CustomColors, defaultCustomColors)
     const [map, setMap] = useLocalStorage<MapId | null>(LocalStorageVars.Reserve)
     const [ammo, setAmmo] = useLocalStorage<AmmoId | null>(LocalStorageVars.Ammo)
     const [animal, setAnimal] = useLocalStorage<AnimalId | null>(LocalStorageVars.Animal)
     const [alphaOrder, setAlphaOrder] = useLocalStorage<boolean>(LocalStorageVars.AlphaOrder, false)
 
+    const toggleDarkMode = () => setDarkMode(!darkMode)
+
+    useEffect(() => {
+        setCustomColors({ ...customColors, ready: colors.ready, blocked: colors.blocked, partlyLocked: colors.partlyLocked })
+    }, [colors])
+
+    useEffect(() => {
+        setColors(darkMode ? darkModeSet : lightModeSet)
+    }, [darkMode])
+
     return (
-        <SettingsContext.Provider value={{ customColors, setCustomColors, map, setMap, ammo, setAmmo, animal, setAnimal, alphaOrder, setAlphaOrder }}>
-            {children}
+        <SettingsContext.Provider
+            value={{ customColors, setCustomColors, map, setMap, ammo, setAmmo, animal, setAnimal, alphaOrder, setAlphaOrder, darkMode, toggleDarkMode }}
+        >
+            <ThemeProvider theme={colors}>{children}</ThemeProvider>
         </SettingsContext.Provider>
     )
 }

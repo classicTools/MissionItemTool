@@ -6,8 +6,8 @@ import sortBy from 'sort-by'
 import { useBookmarkContext } from '../../context/BookmarkContext'
 import { StyledNavLink } from '../../GlobalStyle'
 import { useSettingsContext } from '../../context/SettingsContext'
+import { Button } from '../genericElements'
 
-let theme = () => {}
 const TopSection = styled.div`
     display: grid;
     grid-template-columns: 400px 200px 200px 200px;
@@ -25,12 +25,12 @@ const Bookmarks = styled.div`
     gap: 10px;
     align-items: center;
 `
-const ResetButton = styled.button``
+const ResetButton = styled(Button)``
 const StyledNavLinky = styled(StyledNavLink)`
-    color: black;
+    color: ${({ theme }) => theme.fontColor};
 `
 const AllMissions = () => {
-    const { alphaOrder, setAlphaOrder } = useSettingsContext()
+    const { alphaOrder, setAlphaOrder, darkMode, toggleDarkMode } = useSettingsContext()
     const { bookmarks, resetBookmarks } = useBookmarkContext()
 
     const bookmarkTotal = missionsData.reduce((acc: number, cur) => {
@@ -51,10 +51,10 @@ const AllMissions = () => {
                         <label htmlFor="sortByAlpha">A-Z</label>
                     </div>
                     <div>
-                        <input id="themeLight" type="radio" name="theme" onChange={theme} />
-                        <label htmlFor="themeLight">Light</label>
-                        <input id="themeDark" type="radio" name="theme" onChange={theme} />
-                        <label htmlFor="themeDark">Dark</label>
+                        <label>
+                            <input type="checkbox" checked={darkMode} onClick={toggleDarkMode} />
+                            Dark Mode
+                        </label>
                     </div>
                     <div>
                         <StyledNavLinky to={'../PermittedAmmo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>

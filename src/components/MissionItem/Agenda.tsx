@@ -9,9 +9,10 @@ import { missionMap, missionSetMap, missionSetMissions, missionSetObject } from 
 import AgendaItem, { Arrow } from './AgendaItem'
 import mapsData from '../../data/MissionItem/lookups/Map.json'
 import sortBy from 'sort-by'
+import { Button } from '../genericElements'
 
 const AgendaContainer = styled.div<{ show: boolean }>`
-    background-color: lightyellow;
+    background-color: ${({ theme }) => theme.tooltipColor};
     position: fixed;
     top: 0;
     height: 100vh;
@@ -88,7 +89,7 @@ const Agenda = () => {
                     <>
                         <Header>
                             <h2>{mapsData.find((m) => m.pk === map)?.name}</h2>
-                            <button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</button>
+                            <Button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</Button>
                         </Header>
 
                         {agendaMissions.map((m: MissionData) => (
