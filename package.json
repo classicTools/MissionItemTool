@@ -19,7 +19,9 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -44,6 +46,7 @@
         "@types/react-color": "^3.0.6",
         "@types/sort-by": "^1.2.0",
         "@types/styled-components": "^5.1.26",
+        "gh-pages": "^6.1.1",
         "husky": "^8.0.0",
         "lint-staged": "^13.1.0",
         "pre-commit": "^1.2.2",

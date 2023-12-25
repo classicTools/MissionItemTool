@@ -1,12 +1,11 @@
-# Todos
-themes
+# Ideas
 allow hiding mission sets
 hint check
 
-# meh
-speed up item hover flash
+# Maybe
+speed up item hover flash on firefox
 portal image transition
-
+review missionset 'wiki ordering'
 
 # Done
 agenda item image portal
@@ -21,4 +20,5 @@ check missionmap in agenda e.g. roe 3
 agenda image buttons hover conflict
 update rares/furs
 reword repeated list items in objectives
-agenda item order. missionset 'wik ordering'
+agenda item order. 
+themes
