@@ -57,7 +57,7 @@ const AllMissions = () => {
                         </label>
                     </div>
                     <div>
-                        <StyledNavLinky to={'../MissionItemTool/Ammo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                        <StyledNavLinky to={'./Ammo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                             Permitted Ammo
                         </StyledNavLinky>
                     </div>

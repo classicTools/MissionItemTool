@@ -52,7 +52,7 @@ const PermittedAmmo = () => {
             <WithAmmoContext>
                 <Header>
                     <MapList />
-                    <NavLinky to={'../MissionItemTool'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                    <NavLinky to={'..'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                         Mission Item Tool
                     </NavLinky>
                 </Header>

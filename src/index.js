@@ -26,11 +26,11 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             {
-                path: 'MissionItemTool',
+                path: '',
                 element: <MissionItemTool />,
             },
             {
-                path: 'MissionItemTool/Ammo',
+                path: 'Ammo',
                 element: <PermittedAmmo />,
             },
             {
