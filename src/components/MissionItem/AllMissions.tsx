@@ -26,7 +26,7 @@ const Bookmarks = styled.div`
     align-items: center;
 `
 const ResetButton = styled(Button)``
-const StyledNavLinky = styled(StyledNavLink)`
+const NavLinky = styled(StyledNavLink)`
     color: ${({ theme }) => theme.fontColor};
 `
 const AllMissions = () => {
@@ -57,9 +57,9 @@ const AllMissions = () => {
                         </label>
                     </div>
                     <div>
-                        <StyledNavLinky to={'./Ammo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
+                        <NavLinky to={'/Ammo'} className={({ isActive }) => (isActive ? 'isActive' : '')}>
                             Permitted Ammo
-                        </StyledNavLinky>
+                        </NavLinky>
                     </div>
                 </TopSection>
             </MissionSetRow>

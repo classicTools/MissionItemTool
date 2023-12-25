@@ -15,35 +15,38 @@ import Loader from './components/Loader'
 
 const MissionItemTool = React.lazy(() => import('./components/MissionItem/Index'))
 
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: (
-            <Suspense fallback={<Loader />}>
-                <App />
-            </Suspense>
-        ),
-        errorElement: <ErrorPage />,
-        children: [
-            {
-                path: '',
-                element: <MissionItemTool />,
-            },
-            {
-                path: 'Ammo',
-                element: <PermittedAmmo />,
-            },
-            {
-                path: '*',
-                element: <MissionItemTool />,
-            },
-            {
-                path: '',
-                element: <MissionItemTool />,
-            },
-        ],
-    },
-])
+const router = createBrowserRouter(
+    [
+        {
+            path: '/',
+            element: (
+                <Suspense fallback={<Loader />}>
+                    <App />
+                </Suspense>
+            ),
+            errorElement: <ErrorPage />,
+            children: [
+                {
+                    path: '',
+                    element: <MissionItemTool />,
+                },
+                {
+                    path: 'Ammo',
+                    element: <PermittedAmmo />,
+                },
+                {
+                    path: '*',
+                    element: <MissionItemTool />,
+                },
+                {
+                    path: '',
+                    element: <MissionItemTool />,
+                },
+            ],
+        },
+    ],
+    { basename: '/MissionItemTool/' }
+)
 
 const rootElement = document.getElementById('root')
 if (rootElement) {
