@@ -30,7 +30,7 @@ const router = createBrowserRouter([
                 element: <MissionItemTool />,
             },
             {
-                path: 'PermittedAmmo',
+                path: 'MissionItemTool/Ammo',
                 element: <PermittedAmmo />,
             },
             {

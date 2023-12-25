@@ -58,10 +58,10 @@ const Guide = () => {
                     </li>
                     <li>If you happen to find a mistake or have any feedback or suggestions let me know. My in-game name is Brutus969. Kak2R is my discord.</li>
                     <li>
-                        Shoutout & thanks to the following for their help with keeping this tool somewhat alive whilst I had a job lmao:
+                        Shoutout & thanks to these guys for their help with keeping this tool somewhat alive whilst I was away
                         <ul>
                             <li>
-                                <b>Zulgeteb</b> (Discord: zulgeteb){' '}
+                                <b>Zulgeteb</b> (Discord: zulgeteb)
                             </li>
                             <li>
                                 <b>Aciel </b>(Discord:acielgaming)

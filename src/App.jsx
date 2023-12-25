@@ -11,6 +11,9 @@ const AppDiv = styled.div`
     a:visited {
         color: ${(props) => props.theme.fontColor};
     }
+    a:hover {
+        color: darkorange;
+    }
 
     background-color: ${({ theme }) => theme.bgColor};
     color: ${({ theme }) => theme.fontColor};

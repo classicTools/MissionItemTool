@@ -42,6 +42,9 @@ const Header = styled.div`
 `
 const NavLinky = styled(StyledNavLink)`
     color: white !important;
+    &:hover {
+        color: darkorange !important;
+    }
 `
 const PermittedAmmo = () => {
     return (
