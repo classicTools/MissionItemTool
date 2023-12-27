@@ -101,7 +101,7 @@ const Agenda = () => {
                             <h2>{mapsData.find((m) => m.pk === map)?.name}</h2>
                             <Block>
                                 <p>
-                                    Total rewards: <b>{totalRewards}</b> gm$
+                                    Total: <b>{totalRewards}</b> gm$
                                 </p>
                                 <Button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</Button>
                             </Block>

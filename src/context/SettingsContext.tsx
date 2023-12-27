@@ -52,8 +52,9 @@ interface SettingsContext {
     setCustomColors: Dispatch<SetStateAction<CustomColors>>
     map: MapId | null
     setMap: (mapId: MapId | null) => void
-    ammo: AmmoId | null
-    setAmmo: (ammoId: AmmoId | null) => void
+    ammo: AmmoId[]
+    toggleAmmo: (ammo: AmmoId) => void
+    resetAmmo: () => void
     animal: AnimalId | null
     setAnimal: (animalId: AnimalId | null) => void
     alphaOrder: boolean
@@ -67,8 +68,9 @@ const defaultSettings = {
     setCustomColors: bareFn,
     map: null,
     setMap: bareFn,
-    ammo: null,
-    setAmmo: bareFn,
+    ammo: [],
+    toggleAmmo: bareFn,
+    resetAmmo: bareFn,
     animal: null,
     setAnimal: bareFn,
     alphaOrder: false,
@@ -82,11 +84,14 @@ const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const [colors, setColors] = useState(lightModeSet)
     const [customColors, setCustomColors] = useLocalStorage<CustomColors>(LocalStorageVars.CustomColors, defaultCustomColors)
     const [map, setMap] = useLocalStorage<MapId | null>(LocalStorageVars.Reserve)
-    const [ammo, setAmmo] = useLocalStorage<AmmoId | null>(LocalStorageVars.Ammo)
+    const [ammo, setAmmo] = useLocalStorage<AmmoId[] | null>(LocalStorageVars.AmmoIds)
     const [animal, setAnimal] = useLocalStorage<AnimalId | null>(LocalStorageVars.Animal)
     const [alphaOrder, setAlphaOrder] = useLocalStorage<boolean>(LocalStorageVars.AlphaOrder, false)
 
+    const safeAmmo = ammo ?? [] // will be null if it's user's 1st visit, or they last used the site before plural ammo replaced singular ammo
     const toggleDarkMode = () => setDarkMode(!darkMode)
+    const toggleAmmo = (ammoId: AmmoId) => setAmmo(safeAmmo.includes(ammoId) ? safeAmmo.filter((a) => a !== ammoId) : [...safeAmmo, ammoId])
+    const resetAmmo = () => setAmmo([])
 
     useEffect(() => {
         setCustomColors({ ...customColors, ready: colors.ready, blocked: colors.blocked, partlyLocked: colors.partlyLocked })
@@ -98,7 +103,21 @@ const WithSettingsContext = ({ children }: PropsWithChildren) => {
 
     return (
         <SettingsContext.Provider
-            value={{ customColors, setCustomColors, map, setMap, ammo, setAmmo, animal, setAnimal, alphaOrder, setAlphaOrder, darkMode, toggleDarkMode }}
+            value={{
+                customColors,
+                setCustomColors,
+                map,
+                setMap,
+                ammo: safeAmmo,
+                toggleAmmo,
+                resetAmmo,
+                animal,
+                setAnimal,
+                alphaOrder,
+                setAlphaOrder,
+                darkMode,
+                toggleDarkMode,
+            }}
         >
             <ThemeProvider theme={colors}>{children}</ThemeProvider>
         </SettingsContext.Provider>

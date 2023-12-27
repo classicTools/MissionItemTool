@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { AnimalData, AssetFolder } from '../../types'
+import { AnimalData, AnimalId, AssetFolder } from '../../types'
 import { useImage } from '../../hooks'
 import { Anchor, Tooltip } from '../genericElements'
 import { useAmmoContext } from '../../context/AmmoContext'
@@ -70,7 +70,7 @@ const Animal = ({ pk, name, order, image_url, score_min, score_max, weight_max, 
 
     let outlineMap = hoverMap ? mapAnimal[hoverMap].includes(pk) : false
     let outlineAmmo = hoverAmmo ? ammoAnimal[hoverAmmo].includes(pk) : false
-    let inAmmo = ammo ? ammoAnimal[ammo].includes(pk) : false
+    let inAmmo = ammo.reduce((acc: AnimalId[], ammoId) => [...acc, ...ammoAnimal[ammoId]], []).includes(pk)
     let inMap = map ? !mapAnimal[map].includes(pk) : false
     let siblingAnimalHovered = hoverAnimal ? JSON.stringify(animalAmmo[hoverAnimal]) === JSON.stringify(animalAmmo[pk]) : false
     return (

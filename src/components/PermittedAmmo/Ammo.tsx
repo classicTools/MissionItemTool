@@ -22,7 +22,7 @@ const AmmoEntry = styled.div<{ inAnimal: boolean; outline: boolean; selected: bo
 
 const Ammo = ({ pk, name }: AmmoData) => {
     const { hoverAnimal, hoverAmmo, setHoverAmmo } = useAmmoContext()
-    const { animal, ammo, setAmmo } = useSettingsContext()
+    const { animal, ammo, toggleAmmo } = useSettingsContext()
 
     let outline = false
     if (hoverAnimal) outline = animalAmmo[hoverAnimal].includes(pk)
@@ -32,10 +32,10 @@ const Ammo = ({ pk, name }: AmmoData) => {
         <AmmoEntry
             onMouseEnter={() => setHoverAmmo(pk)}
             onMouseLeave={() => setHoverAmmo(null)}
-            onClick={() => setAmmo(ammo === pk ? null : pk)}
+            onClick={() => toggleAmmo(pk)}
             outline={outline || !hoverAnimal}
             inAnimal={inAnimal}
-            selected={ammo === pk}
+            selected={ammo.includes(pk)}
             siblingAmmo={siblingAmmoHovered}
         >
             {name}

@@ -3,11 +3,14 @@ import sortBy from 'sort-by'
 import AmmoData from '../../data/PermittedAmmo/Ammo.json'
 import styled from 'styled-components'
 import Ammo from './Ammo'
+import { useSettingsContext } from '../../context/SettingsContext'
+import { Button } from '../genericElements'
 const AmmoBox = styled.div`
+    width: 450px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 700px;
+    height: 630px;
     gap: 10px;
     font-size: 14px;
 `
@@ -23,21 +26,27 @@ const TypeHeader = styled.div`
     line-height: 30px;
     text-align: right;
 `
-const replacements = [' Ammunition', ' Partition', ' Ballistic Tip', ' Shells', ' Sporting', ' Handgun', ' Magnum', ' AccuBond']
-const regex = new RegExp(replacements.join('|'), 'g')
+const ClearButton = styled(Button)`
+    margin-top: auto;
+`
 
-let ammoDataSimple = AmmoData.map((am) => ({
-    ...am,
-    name: am.name.replace(regex, ''),
-}))
+const declutteredAmmo = () => {
+    const replacements = [' Ammunition', ' Partition', ' Ballistic Tip', ' Shells', ' Sporting', ' Handgun', ' Magnum', ' AccuBond']
+    const regex = new RegExp(replacements.join('|'), 'g')
+    return AmmoData.map((am) => ({
+        ...am,
+        name: am.name.replace(regex, ''),
+    }))
+}
 
 const AmmoList = () => {
+    const { resetAmmo } = useSettingsContext()
     return (
         <AmmoBox>
             {AmmoTypeData.sort(sortBy('order')).map((ammotype) => (
                 <AmmoGroup narrow={[1, 2, 3].includes(ammotype.pk)} key={ammotype.pk}>
                     <TypeHeader>{ammotype.name}</TypeHeader>
-                    {ammoDataSimple
+                    {declutteredAmmo()
                         .filter((ammo) => ammo.ammotype === ammotype.pk)
                         .sort(sortBy('name'))
                         .map((ammoData) => (
@@ -45,6 +54,7 @@ const AmmoList = () => {
                         ))}
                 </AmmoGroup>
             ))}
+            <ClearButton onClick={resetAmmo}>Clear Ammo Selection</ClearButton>
         </AmmoBox>
     )
 }

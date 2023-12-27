@@ -51,7 +51,6 @@ export const mapAnimal: MapAnimal = animalMapData.reduce((acc: AnimalMap, cur: {
 }, {})
 
 type AmmoAnimal = { [index: AmmoId]: AnimalId[] }
-
 export const ammoAnimal: AmmoAnimal = animalAmmoData.reduce((acc: AmmoAnimal, cur: { animal: AnimalId; ammo: AmmoId }) => {
     if (!acc[cur.ammo]) acc[cur.ammo] = []
     acc[cur.ammo].push(cur.animal)

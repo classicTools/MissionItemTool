@@ -45,7 +45,8 @@ export enum LocalStorageVars {
     Items = 'items',
     Reserve = 'reserve',
     CustomColors = 'customColors',
-    Ammo = 'ammo',
+    Ammo = 'ammo', //deprecated
+    AmmoIds = 'ammoIds',
     Animal = 'animal',
     AlphaOrder = 'alphaOrder',
     DarkMode = 'darkMode',

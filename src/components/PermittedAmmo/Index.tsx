@@ -18,12 +18,13 @@ const Container = styled.div`
 `
 const Body = styled.div`
     display: grid;
-
-    grid-template-columns: repeat(2, 50%);
-
+    grid-template-columns: 100vw;
     justify-items: center;
-    justify-content: center;
 
+    gap: 20px;
+`
+const InnerBody = styled.div`
+    display: flex;
     gap: 20px;
 `
 
@@ -57,8 +58,10 @@ const PermittedAmmo = () => {
                     </NavLinky>
                 </Header>
                 <Body>
-                    <AnimalGrid />
-                    <AmmoList />
+                    <InnerBody>
+                        <AnimalGrid />
+                        <AmmoList />
+                    </InnerBody>
                 </Body>
             </WithAmmoContext>
             <Guide />

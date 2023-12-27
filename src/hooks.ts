@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { AssetFolder, MissionData, MissionId } from './types'
+import { AssetFolder, LocalStorageVars, MissionData, MissionId } from './types'
 import { missionSetObject } from './data/MissionItem/Data'
 
 export function useDebounce(value: any, delay: number) {
@@ -26,7 +26,7 @@ export function useDebounce(value: any, delay: number) {
     return debouncedValue
 }
 
-const localStorageSet = (varName: string, value: any) => {
+const localStorageSet = (varName: LocalStorageVars, value: any) => {
     localStorage.setItem(varName, JSON.stringify(value))
 }
 const localStorageGet = (varName: string) => {
@@ -40,7 +40,7 @@ const localStorageGet = (varName: string) => {
  * @param defaultValue
  * @returns
  */
-export const useLocalStorage = <T>(name: string, defaultValue: any = null): [T, React.Dispatch<React.SetStateAction<T>>] => {
+export function useLocalStorage<T>(name: LocalStorageVars, defaultValue: any = null): [T, React.Dispatch<React.SetStateAction<T>>] {
     const [value, setValue] = useState<T>(localStorageGet(name) ?? defaultValue)
 
     useEffect(() => {
@@ -50,10 +50,8 @@ export const useLocalStorage = <T>(name: string, defaultValue: any = null): [T, 
     return [value, setValue]
 }
 
-export const getMissionImage = ({ mission_set, order }: MissionData) => {
-    //return `https://raw.githubusercontent.com/andrewsosa/starlink-tracker/master/src/assets/mission-set/${missionSetId}/${order}.webp`
-    return `${missionSetObject[mission_set].name.toLowerCase().replaceAll(' ', '_')}_${order}`
-}
+export const getMissionImage = ({ mission_set, order }: MissionData) => `${missionSetObject[mission_set].name.toLowerCase().replaceAll(' ', '_')}_${order}`
+
 export const useImage = (folder: AssetFolder, pk: MissionId | string): any => {
     const [image, setImage] = useState(null)
 
