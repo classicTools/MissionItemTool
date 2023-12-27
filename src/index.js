@@ -45,7 +45,7 @@ const router = createBrowserRouter(
             ],
         },
     ],
-    { basename: '/MissionItemTool/' }
+    { basename: '/MissionItemTool' }
 )
 
 const rootElement = document.getElementById('root')

@@ -75,7 +75,7 @@ const getBookmarkFromText = (pk: number, missionSetName: string, text: string) =
 
 const WithBookmarkContext = ({ children }: PropsWithChildren) => {
     const [bookmarks, setBookmarks] = useLocalStorage<Bookmarks>(LocalStorageVars.Bookmarks, {})
-    const [showAgenda, setShowAgenda] = useState(false)
+    const [showAgenda, setShowAgenda] = useLocalStorage<boolean>(LocalStorageVars.ShowAgenda, false)
     const { syncItems } = useItemsContext()
 
     const toggleBookmark = ({ mission_set: ms, order }: MissionDataPlus, alreadyBookmarked: boolean) => {

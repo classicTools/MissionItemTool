@@ -49,6 +49,7 @@ export enum LocalStorageVars {
     Animal = 'animal',
     AlphaOrder = 'alphaOrder',
     DarkMode = 'darkMode',
+    ShowAgenda = 'showAgenda',
 }
 export enum AssetFolder {
     Missions = 'missions',

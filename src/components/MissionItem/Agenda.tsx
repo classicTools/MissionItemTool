@@ -67,6 +67,12 @@ const getBookmarkedMissionsByMap =
             (missionsByMap.includes(pk) || (setsByMap.includes(mission_set) && !missionSetMissions[mission_set].some((msm) => missionsByMap.includes(msm))))
         )
     }
+
+const Block = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 35px;
+`
 const Agenda = () => {
     const { bookmarks, showAgenda } = useBookmarkContext()
     const { map, alphaOrder } = useSettingsContext()
@@ -81,6 +87,10 @@ const Agenda = () => {
         }))
         .sort(sortBy(alphaOrder ? 'set_name' : 'set_order'))
 
+    let totalRewards = agendaMissions.reduce((acc, mission) => {
+        return (acc += mission.reward)
+    }, 0)
+
     return (
         <>
             <AgendaToggle />
@@ -89,7 +99,12 @@ const Agenda = () => {
                     <>
                         <Header>
                             <h2>{mapsData.find((m) => m.pk === map)?.name}</h2>
-                            <Button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</Button>
+                            <Block>
+                                <p>
+                                    Total rewards: <b>{totalRewards}</b> gm$
+                                </p>
+                                <Button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</Button>
+                            </Block>
                         </Header>
 
                         {agendaMissions.map((m: MissionData) => (
