@@ -1,5 +1,5 @@
-import { createContext, useContext, useState, PropsWithChildren, SetStateAction, Dispatch, useEffect } from 'react'
-import { ItemData, ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, bareFn } from '../types'
+import { createContext, useContext, useState, PropsWithChildren } from 'react'
+import { bareFn } from '../types'
 interface AmmoContext {
     hoverMap: number | null
     hoverAnimal: number | null
@@ -17,8 +17,6 @@ const defaultAmmo = {
     setHoverAmmo: bareFn,
 }
 const AmmoContext = createContext<AmmoContext>(defaultAmmo)
-
-type HoverType = 'animal' | 'ammo' | 'map'
 
 const WithAmmoContext = ({ children }: PropsWithChildren) => {
     const [hoverMap, setHoverMap] = useState<number | null>(null)

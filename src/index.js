@@ -1,15 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import GlobalStyle from './GlobalStyle'
 import reportWebVitals from './reportWebVitals'
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ErrorPage from './components/ErrorPage'
-
-//import MissionItem from './components/MissionItem/Index'
 import PermittedAmmo from './components/PermittedAmmo/Index'
-
 import { Suspense } from 'react'
 import Loader from './components/Loader'
 

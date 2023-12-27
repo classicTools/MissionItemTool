@@ -94,7 +94,7 @@ const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const resetAmmo = () => setAmmo([])
 
     useEffect(() => {
-        setCustomColors({ ...customColors, ready: colors.ready, blocked: colors.blocked, partlyLocked: colors.partlyLocked })
+        setCustomColors({ ready: colors.ready, blocked: colors.blocked, partlyLocked: colors.partlyLocked })
     }, [colors])
 
     useEffect(() => {

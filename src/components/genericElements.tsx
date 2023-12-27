@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { hoveringCss } from './PermittedAmmo/Animal'
 
 export const Anchor = styled.div`
     position: relative;
