@@ -138,7 +138,7 @@
     { "pk": 57, "name": "Hemmeldal", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/f/ff/Hemmeldal_Icon.png", "order": 2950 },
     { "pk": 58, "name": "Rougarou Bayou", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/c9/Rougarou_Icon.png", "order": 3000 },
     { "pk": 59, "name": "Redfeather Falls", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/b/bc/RFF_icon2.png", "order": 2850 },
-    { "pk": 60, "name": "Whitehart", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a5/Whitehart_icon.png", "order": 2750 },
+    { "pk": 60, "name": "Whitehart Island", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/a/a5/Whitehart_icon.png", "order": 2750 },
     { "pk": 61, "name": "Shotgun", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/6/6a/Shells_16ga_buckshot.png", "order": 2650 },
     { "pk": 62, "name": "Puma", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/6/67/Puma_male_common.png", "order": 1525 },
     { "pk": 63, "name": "Timbergold Trails", "image_url": "https://static.wikia.nocookie.net/thehuntergame/images/c/ce/TT_icon.png", "order": 3100 },

@@ -73,6 +73,10 @@ const Block = styled.div`
     align-items: center;
     gap: 35px;
 `
+
+const ShowAllButton = styled(Button)`
+    width: 110px;
+`
 const Agenda = () => {
     const { bookmarks, showAgenda } = useBookmarkContext()
     const { map, alphaOrder } = useSettingsContext()
@@ -103,7 +107,7 @@ const Agenda = () => {
                                 <p>
                                     Total: <b>{totalRewards}</b> gm$
                                 </p>
-                                <Button onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</Button>
+                                <ShowAllButton onClick={() => setShowAll(!showAll)}>{showAll ? 'Collapse All' : 'Expand All'}</ShowAllButton>
                             </Block>
                         </Header>
 

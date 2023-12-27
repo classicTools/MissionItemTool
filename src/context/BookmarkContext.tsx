@@ -39,13 +39,14 @@ const getMissionNumbers = (text: string) => {
     }
     return { missionNumber, totalMissions }
 }
+const declutterMissionPage = (text: string) => text.replaceAll(' (Single Player)\n', '').replaceAll(' Missions\n', '').replaceAll('Progress:', ':')
 
-type NameEW = 'Duck' | 'Whitehart Travel' | 'The Boone And Crockett Club'
-type NameHere = 'All Ducks' | 'Whitehart' | 'B&C Club'
+type NameEW = 'Duck' | 'Whitehart Travel' | 'The Boone And Crockett Club' | 'Whitehart Sightseeing'
+type NameHere = 'All Ducks' | 'B&C Club' | 'Whitehart Island' | 'Whitehart Sights'
 type MissionNameExceptions = { [K in NameHere]: NameEW }
 const missionSetExceptions: MissionNameExceptions =
     // mission name in my database vs on Regular Missions Page
-    { 'All Ducks': 'Duck', Whitehart: 'Whitehart Travel', 'B&C Club': 'The Boone And Crockett Club' }
+    { 'All Ducks': 'Duck', 'Whitehart Island': 'Whitehart Travel', 'B&C Club': 'The Boone And Crockett Club', 'Whitehart Sights': 'Whitehart Sightseeing' }
 
 const missionTextStart = 'Mission Packs'
 const missionTextEnd = 'DEVELOPED BY'
@@ -109,7 +110,7 @@ const WithBookmarkContext = ({ children }: PropsWithChildren) => {
     const syncBookmarks = (text: string) => {
         let start = text.indexOf(missionTextStart)
         let end = text.indexOf(missionTextEnd)
-        let missionText = text.slice(start, end).replaceAll(' (Single Player)\n', '').replaceAll(' Missions\n', '').replaceAll('Progress:', ':')
+        let missionText = declutterMissionPage(text.slice(start, end))
 
         if (start !== -1 && missionText.length > 20) {
             let newBookmarks = missionSetsData.reduce((acc: Bookmarks, { pk, name }) => ({ ...acc, ...getBookmarkFromText(pk, name, missionText) }), {})
