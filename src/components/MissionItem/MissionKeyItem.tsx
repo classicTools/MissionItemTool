@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 import { MissionKeyItemType } from './MissionKey'
+import { pointerCss } from '../../CommonStyles'
 
 const KeyItemContainer = styled.div<{ selected: boolean }>`
     display: flex;
     align-items: center;
-    cursor: pointer;
-    user-select: none;
+    ${pointerCss}
     font-weight: ${({ selected }) => (selected ? 'bold' : 'normal')};
 `
 

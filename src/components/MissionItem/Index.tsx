@@ -22,8 +22,8 @@ const MissionItemGrid = styled.div`
     overflow: hidden;
 `
 const Col = styled.div`
-    max-height: 99vh;
-    overflow-y: auto;
+    position: relative;
+    overflow: scroll;
 `
 
 const ImagePortal = styled.div`

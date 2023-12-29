@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import styled, { createGlobalStyle } from 'styled-components'
+import { pointerCss } from './CommonStyles'
 
 const GlobalStyle = createGlobalStyle`
   body {  
@@ -14,6 +15,14 @@ const GlobalStyle = createGlobalStyle`
   position: fixed;
   bottom: 15px;
   right: 30px;
+    }
+
+    svg{
+        ${pointerCss}
+        
+    &:hover {
+        fill: DarkOrange;
+    }
     }
 `
 export const StyledNavLink = styled(NavLink)`

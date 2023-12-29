@@ -51,6 +51,7 @@ export enum LocalStorageVars {
     AlphaOrder = 'alphaOrder',
     DarkMode = 'darkMode',
     ShowAgenda = 'showAgenda',
+    HideMissionSets = 'hideMissionSets',
 }
 export enum AssetFolder {
     Missions = 'missions',

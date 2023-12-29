@@ -1,12 +1,20 @@
-import styled from 'styled-components'
+import styled, { ThemeContext } from 'styled-components'
+import HideIcon from '../HideIcon'
+import { useContext } from 'react'
 const GuideDiv = styled.div`
-    max-width: 1000px;
+    max-width: 750px;
 `
-const GuideUL = styled.ul``
+const GuideUL = styled.ul`
+    li svg {
+        position: relative;
+        top: 3px;
+    }
+`
 const NotesUL = styled.ul`
     list-style-type: circle;
 `
 const Guide = () => {
+    const theme = useContext(ThemeContext)
     return (
         <GuideDiv>
             <div>
@@ -40,8 +48,12 @@ const Guide = () => {
                         currently active mission in the mission pack.
                     </li>
                     <li>
-                        Hover over a mission pack name to see its currently unlocked gm$. Click on it to select/deselect all the items <em>absolutely</em>{' '}
-                        required for that pack. Requirements that state "either this item or that" are left to you.
+                        Hover over a mission pack name to see its total gm$. Click on it to select/deselect all the items <em>absolutely</em> required for that
+                        pack. Requirements that state "either this item or that" are left to you.
+                    </li>
+                    <li>
+                        You can hide mission packs by clicking the <HideIcon height={17} fill={theme.fontColor} /> icon. This will update everything as if it
+                        doesn't exist.
                     </li>
                     <li>Mainly for desktop use, but if you are viewing on a phone, tap and hold briefly to 'hover'.</li>
                 </GuideUL>

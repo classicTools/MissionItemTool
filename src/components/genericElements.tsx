@@ -6,7 +6,6 @@ export const Anchor = styled.div`
 
 export const Tooltip = styled.div`
     position: absolute;
-    //background-color: lightyellow;
     background-color: ${({ theme }) => theme.tooltipColor};
     z-index: 100;
     border-radius: 8px;
@@ -15,7 +14,6 @@ export const Tooltip = styled.div`
     border: solid 2px grey;
 `
 export const Button = styled.button`
-    //font-weight: bold;
     border: none;
     padding: 8px 20px;
     border-radius: 8px;

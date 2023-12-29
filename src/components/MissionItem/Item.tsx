@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 import { useItemsContext } from '../../context/ItemContext'
 import { useItemHoverContext } from '../../context/ItemHover'
 import { ItemData } from '../../types'
-import { essentialItems } from './ItemList'
+import { useMissionsContext } from '../../context/MissionContext'
 
 export const itemRowCSS = css`
     display: grid;
@@ -64,6 +64,7 @@ interface ItemProps {
 const Item = ({ item: { pk, name, missions, cost, wouldGive } }: ItemProps) => {
     const { itemsBought, toggleItemBought } = useItemsContext()
     const { itemHovered, setItemHovered } = useItemHoverContext()
+    const { essentialItems } = useMissionsContext()
     const bought = itemsBought.includes(pk)
     return (
         <ItemRow onMouseEnter={() => setItemHovered(pk)} onClick={() => toggleItemBought(pk)} bought={bought} lastHovered={pk === itemHovered}>

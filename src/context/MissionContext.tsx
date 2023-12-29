@@ -2,15 +2,16 @@ import missionsData from '../data/MissionItem/lookups/Mission.json'
 import missionItemData from '../data/MissionItem/mappings/MissionItem.json'
 import sortBy from 'sort-by'
 import { createContext, useContext, PropsWithChildren } from 'react'
-import { ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionSetId } from '../types'
+import { ItemId, MissionItemData, MissionDataPlus, MissionState, MissionData, MissionSetId, LocalStorageVars } from '../types'
 import { useItemsContext } from './ItemContext'
 import { missionSetMissions } from '../data/MissionItem/Data'
+import { useLocalStorage } from '../hooks'
 
 type RequirementGroups = { [index: string]: MissionItemData[] }
 
 export const calculateGain = (missionDataState: MissionDataPlus[], itemsBought: ItemId[], itemId: number): number => {
     const relevantMissions = missionItemData.filter((mi) => mi.item === itemId).map((mi) => mi.mission)
-    const missionSets = new Set(missionsData.filter((m) => relevantMissions.includes(m.pk)).map((m) => m.mission_set))
+    const missionSets = new Set(missionDataState.filter((m) => relevantMissions.includes(m.pk)).map((m) => m.mission_set))
     const lockedMissionsInRelevantSets = missionDataState.filter((mi) => missionSets.has(mi.mission_set) && mi.state !== MissionState.Ready)
 
     const gainState: MissionDataPlus[] = getMissionStates(lockedMissionsInRelevantSets, [...itemsBought, itemId])
@@ -107,7 +108,7 @@ const getMissionStates = (md: MissionData[], itemsBought: ItemId[]): MissionData
     })
     return missionDataState
 }
-export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => MissionContext = (md, itemsBought) => {
+export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => StateAndTotals = (md, itemsBought) => {
     const missionDataState: MissionDataPlus[] = getMissionStates(md, itemsBought)
     const readyMissions = missionDataState.filter((mi) => mi.state === MissionState.Ready)
     const unlockedMissions = readyMissions.length
@@ -124,11 +125,19 @@ export const getStatesAndTotals: (md: MissionData[], itemsBought: ItemId[]) => M
     return { missionDataState, unlockedMissions, unlockedRewards, unlockedMissionSets }
 }
 
-interface MissionContext {
+interface StateAndTotals {
     missionDataState: MissionDataPlus[]
     unlockedRewards: number
     unlockedMissions: number
     unlockedMissionSets: number
+}
+
+interface MissionContext extends StateAndTotals {
+    hiddenMissionSets: MissionSetId[]
+    hideMissionSet: (missionSet: MissionSetId) => void
+    unhideAllMissionSets: () => void
+    essentialItems: ItemId[]
+    unhideMissionSet: (missionSet: MissionSetId) => void
 }
 
 const defaultMissions = {
@@ -136,13 +145,52 @@ const defaultMissions = {
     unlockedRewards: 0,
     unlockedMissions: 0,
     unlockedMissionSets: 0,
+    hiddenMissionSets: [],
+    hideMissionSet: () => {},
+    unhideMissionSet: () => {},
+    unhideAllMissionSets: () => {},
+    essentialItems: [],
 }
-const MissionContext = createContext<MissionContext>(defaultMissions)
+const MissionContextValue = createContext<MissionContext>(defaultMissions)
 const WithMissionsContext = ({ children }: PropsWithChildren) => {
+    const [hiddenMissionSets, setHiddenMissionSets] = useLocalStorage<MissionSetId[]>(LocalStorageVars.HideMissionSets, [])
+    const safeHiddenMissionSets = hiddenMissionSets ?? []
+    let filteredMissions: MissionData[] = missionsData.filter((md) => !safeHiddenMissionSets.includes(md.mission_set))
     const { itemsBought } = useItemsContext()
-    const { missionDataState, unlockedMissions, unlockedRewards, unlockedMissionSets } = getStatesAndTotals(missionsData, itemsBought)
+    const { missionDataState, unlockedMissions, unlockedRewards, unlockedMissionSets } = getStatesAndTotals(filteredMissions, itemsBought)
+    const hideMissionSet = (missionSet: MissionSetId) => {
+        setHiddenMissionSets([...safeHiddenMissionSets, missionSet])
+    }
+    const unhideMissionSet = (missionSet: MissionSetId) => {
+        setHiddenMissionSets(safeHiddenMissionSets.filter((hms) => hms !== missionSet))
+    }
+    const unhideAllMissionSets = () => {
+        setHiddenMissionSets([])
+    }
 
-    return <MissionContext.Provider value={{ missionDataState, unlockedRewards, unlockedMissions, unlockedMissionSets }}>{children}</MissionContext.Provider>
+    const essentialItems: ItemId[] = missionItemData
+        .filter((mi) => missionDataState.map((mds) => mds.pk).includes(mi.mission) && mi.any === false && mi.group === null)
+        .reduce((acc: ItemId[], cur) => {
+            if (!acc.includes(cur.item)) acc.push(cur.item)
+            return acc
+        }, [])
+    return (
+        <MissionContextValue.Provider
+            value={{
+                missionDataState,
+                unlockedRewards,
+                unlockedMissions,
+                unlockedMissionSets,
+                hiddenMissionSets: safeHiddenMissionSets,
+                hideMissionSet,
+                unhideMissionSet,
+                unhideAllMissionSets,
+                essentialItems,
+            }}
+        >
+            {children}
+        </MissionContextValue.Provider>
+    )
 }
 export default WithMissionsContext
-export const useMissionsContext = () => useContext(MissionContext)
+export const useMissionsContext = () => useContext(MissionContextValue)

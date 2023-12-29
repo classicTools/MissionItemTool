@@ -3,18 +3,11 @@ import itemData from '../../data/MissionItem/lookups/Item.json'
 import Item, { itemRowCSS } from './Item'
 import styled from 'styled-components'
 import sortBy from 'sort-by'
-import { ItemData, ItemId, RawItemData } from '../../types'
+import { ItemData, RawItemData } from '../../types'
 import { useItemsContext } from '../../context/ItemContext'
 import { calculateGain, useMissionsContext } from '../../context/MissionContext'
 import { pointerCss } from '../../CommonStyles'
 import { Button } from '../genericElements'
-
-export const essentialItems: ItemId[] = missionItemData
-    .filter((mi) => mi.any === false && mi.group === null)
-    .reduce((acc: ItemId[], cur) => {
-        if (!acc.includes(cur.item)) acc.push(cur.item)
-        return acc
-    }, [])
 
 const HeaderCellCenter = styled.div`
     text-align: center;
@@ -49,8 +42,8 @@ const ResetButton = styled(Button)`
 `
 const ItemList = () => {
     const { itemsBought, setItemsBought } = useItemsContext()
-    const { missionDataState } = useMissionsContext()
-
+    const { missionDataState, essentialItems } = useMissionsContext()
+    const filteredMissionItemData = missionItemData.filter((mi) => missionDataState.map((m) => m.pk).includes(mi.mission))
     const itemDataPlus: ItemData[] = itemData
         .sort(sortBy('name'))
         .map((i: RawItemData) => {
@@ -61,7 +54,7 @@ const ItemList = () => {
             return {
                 ...i,
                 wouldGive,
-                missions: missionItemData.filter((mi) => mi.item === i.pk).length,
+                missions: filteredMissionItemData.filter((mi) => mi.item === i.pk).length,
             }
         })
         .filter((i) => i.missions > 0)

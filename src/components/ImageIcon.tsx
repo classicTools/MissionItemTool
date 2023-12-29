@@ -3,7 +3,6 @@ const ImageIcon = (props: SVGProps<SVGSVGElement>) => {
     return (
         <svg
             height="512px"
-            id="Layer_1"
             //style="enable-background:new 0 0 512 512;"
             version="1.1"
             viewBox="0 0 512 512"

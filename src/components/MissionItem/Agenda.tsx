@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import { useState } from 'react'
 import { useSettingsContext } from '../../context/SettingsContext'
 import AgendaToggle from './AgendaToggle'
@@ -10,6 +9,7 @@ import AgendaItem, { Arrow } from './AgendaItem'
 import mapsData from '../../data/MissionItem/lookups/Map.json'
 import sortBy from 'sort-by'
 import { Button } from '../genericElements'
+import { useMissionsContext } from '../../context/MissionContext'
 
 const AgendaContainer = styled.div<{ show: boolean }>`
     background-color: ${({ theme }) => theme.tooltipColor};
@@ -81,8 +81,9 @@ const Agenda = () => {
     const { bookmarks, showAgenda } = useBookmarkContext()
     const { map, alphaOrder } = useSettingsContext()
     const [showAll, setShowAll] = useState(true)
+    const { missionDataState } = useMissionsContext()
 
-    const agendaMissions: AgendaMissionData[] = missionsData
+    const agendaMissions: AgendaMissionData[] = missionDataState
         .filter(getBookmarkedMissionsByMap(map, bookmarks))
         .map((m) => ({
             ...m,

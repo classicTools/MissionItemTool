@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import missionsData from '../../data/MissionItem/lookups/Mission.json'
 import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import MissionSet, { MissionSetRow, SetHeader } from './MissionSet'
 import sortBy from 'sort-by'
@@ -7,6 +6,7 @@ import { useBookmarkContext } from '../../context/BookmarkContext'
 import { StyledNavLink } from '../../GlobalStyle'
 import { useSettingsContext } from '../../context/SettingsContext'
 import { Button } from '../genericElements'
+import { useMissionsContext } from '../../context/MissionContext'
 
 const TopSection = styled.div`
     display: grid;
@@ -32,8 +32,9 @@ const NavLinky = styled(StyledNavLink)`
 const AllMissions = () => {
     const { alphaOrder, setAlphaOrder, darkMode, toggleDarkMode } = useSettingsContext()
     const { bookmarks, resetBookmarks } = useBookmarkContext()
+    const { hiddenMissionSets, missionDataState } = useMissionsContext()
 
-    const bookmarkTotal = missionsData.reduce((acc: number, cur) => {
+    const bookmarkTotal = missionDataState.reduce((acc: number, cur) => {
         const bookmarkedMission = bookmarks[cur.mission_set]
         if (!bookmarkedMission || (cur.mission_set in bookmarks && cur.order < bookmarkedMission)) return (acc += cur.reward)
         return acc
@@ -63,7 +64,8 @@ const AllMissions = () => {
                     </div>
                 </TopSection>
             </MissionSetRow>
-            {missionSetsData //.map(ms=>({...ms, order:animalData.find(a=>a.name===ms.name)?.order??ms.order}))
+            {missionSetsData
+                .filter((ms) => !hiddenMissionSets.includes(ms.pk)) //.map(ms=>({...ms, order:animalData.find(a=>a.name===ms.name)?.order??ms.order}))
                 .sort(sortBy(alphaOrder ? 'name' : 'order'))
                 .map((ms) => {
                     return <MissionSet missionSet={ms} key={ms.pk}></MissionSet>

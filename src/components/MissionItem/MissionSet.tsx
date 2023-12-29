@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { ThemeContext } from 'styled-components'
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
 import { flexR, pointerCss } from '../../CommonStyles'
 import { ItemId, MissionDataPlus, MissionSetData } from '../../types'
@@ -7,10 +7,15 @@ import { useSettingsContext } from '../../context/SettingsContext'
 import { useItemsContext } from '../../context/ItemContext'
 import { missionSetMap, missionSetMissions } from '../../data/MissionItem/Data'
 import { useMissionsContext } from '../../context/MissionContext'
+import HideIcon from '../HideIcon'
+import { useContext } from 'react'
+import { Anchor, Tooltip } from '../genericElements'
+import { useHover } from '../../hooks'
 
 export const MissionSetRow = styled.div`
     display: grid;
-    grid-template-columns: 160px 500px;
+    grid-template-columns: 160px 20px 500px;
+    align-items: center;
     gap: 5px;
     height: 27px;
 `
@@ -37,25 +42,34 @@ export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>
     ${flexR}
     justify-content:flex-end;
     align-items: center;
+    height: 100%;
     gap: 5px;
-    cursor: pointer;
-    user-select: none;
+    ${pointerCss}
     &:hover {
         color: DarkOrange;
     }
     ${({ bold }) => bold && 'font-weight:bold'}
     ${({ inSelectedMap, theme }) => inSelectedMap && `background-color:${theme.missionSetHighlight}`}
 `
+const Tip = styled(Tooltip)`
+    top: -20px;
+    left: 5px;
+    color: ${({ theme }) => theme.fontColor};
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+`
 
-const MissionSet = ({ missionSet }: MissionSetProps) => {
+const MissionSet = ({ missionSet: { pk, name, image_url } }: MissionSetProps) => {
     const { map } = useSettingsContext()
-    const { missionDataState } = useMissionsContext()
+    const { missionDataState, hideMissionSet } = useMissionsContext()
     const { setItemsBought } = useItemsContext()
-    const inSelectedMap: boolean = map ? missionSetMap[map].includes(missionSet.pk) : false
-
+    const { hover, hoverFunctions } = useHover()
+    const inSelectedMap: boolean = map ? missionSetMap[map].includes(pk) : false
+    const theme = useContext(ThemeContext)
     const toggleMustHaves = (): void => {
         const mustHaves: ItemId[] = missionItemData
-            .filter((mi) => !mi.any && mi.group === null && missionSetMissions[missionSet.pk].includes(mi.mission))
+            .filter((mi) => !mi.any && mi.group === null && missionSetMissions[pk].includes(mi.mission))
             .map((mi) => mi.item)
 
         setItemsBought((itemsBought) => {
@@ -72,13 +86,23 @@ const MissionSet = ({ missionSet }: MissionSetProps) => {
 
     return (
         <MissionSetRow>
-            <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves} title="Click to toggle all required items">
-                <SetLabel> {missionSet.name}</SetLabel>
-                <SetPic src={missionSet.image_url} />
+            <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves} {...hoverFunctions}>
+                <SetLabel> {name}</SetLabel>
+                <SetPic src={image_url} />
+                {hover && (
+                    <Anchor>
+                        <Tip>
+                            <span>
+                                Total: <b>{missionDataState.filter((m) => m.mission_set === pk).reduce((a, b) => a + b.reward, 0)}</b> gm$
+                            </span>
+                        </Tip>
+                    </Anchor>
+                )}
             </SetHeader>
+            <HideIcon onClick={() => hideMissionSet(pk)} height={17} fill={theme.fontColor} color={theme.fontColor} />
             <MissionsContainer>
                 {missionDataState
-                    .filter((m) => m.mission_set === missionSet.pk)
+                    .filter((m) => m.mission_set === pk)
                     .map((m: MissionDataPlus) => {
                         return <Mission mission={m} key={m.pk} />
                     })}

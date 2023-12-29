@@ -1,11 +1,5 @@
 import styled from 'styled-components'
-import missions from '../../data/MissionItem/lookups/Mission.json'
-import missionSetsData from '../../data/MissionItem/lookups/MissionSet.json'
 import { useMissionsContext } from '../../context/MissionContext'
-const missionRewardTotal = missions.reduce((acc, cur) => {
-    acc += cur.reward
-    return acc
-}, 0)
 
 const UnlocksDiv = styled.div`
     display: grid;
@@ -28,7 +22,11 @@ const Unit = styled.div`
     text-align: left;
 `
 const Unlocks = () => {
-    const { unlockedRewards, unlockedMissions, unlockedMissionSets } = useMissionsContext()
+    const { missionDataState, unlockedRewards, unlockedMissions, unlockedMissionSets } = useMissionsContext()
+    const missionRewardTotal = missionDataState.reduce((acc, cur) => {
+        acc += cur.reward
+        return acc
+    }, 0)
     return (
         <UnlocksDiv>
             <LabelDiv>Unlocks:</LabelDiv>
@@ -39,11 +37,11 @@ const Unlocks = () => {
             <Unit> gm$</Unit>
 
             <Value>
-                {unlockedMissions} / {missions.length}
+                {unlockedMissions} / {missionDataState.length}
             </Value>
             <Unit>missions</Unit>
             <Value>
-                {unlockedMissionSets} / {missionSetsData.length}
+                {unlockedMissionSets} / {new Set(missionDataState.map((mds) => mds.mission_set)).size}
             </Value>
             <Unit>mission packs</Unit>
         </UnlocksDiv>
