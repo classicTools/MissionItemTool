@@ -26,7 +26,7 @@ const MissionTooltip = ({ mission }: { mission: MissionDataPlus }) => {
     return (
         <Anchor>
             <Tip left={order < 6}>
-                <MissionInfo mission={mission} showImage />
+                <MissionInfo mission={mission} showExtraInfo />
             </Tip>
         </Anchor>
     )

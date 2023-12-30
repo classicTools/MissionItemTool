@@ -23,10 +23,10 @@ const MissionHintImage = styled(HintImage)`
 `
 interface MissionInfo {
     mission: MissionDataPlus
-    showImage?: boolean
+    showExtraInfo?: boolean
 }
 
-const MissionInfo = ({ mission, showImage }: MissionInfo) => {
+const MissionInfo = ({ mission, showExtraInfo }: MissionInfo) => {
     const { pk, objectives, order, name } = mission
     const image = useImage(AssetFolder.Missions, getMissionImage(mission))
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === pk)
@@ -39,9 +39,9 @@ const MissionInfo = ({ mission, showImage }: MissionInfo) => {
                     {order} - {name}
                 </span>
                 <div dangerouslySetInnerHTML={{ __html: objectives }}></div>
-                {requiresItems && <MissionItems missionItems={missionItems} />}
+                {showExtraInfo && requiresItems && <MissionItems missionItems={missionItems} />}
             </Info>
-            {showImage && image && <MissionHintImage src={image} show></MissionHintImage>}
+            {showExtraInfo && image && <MissionHintImage src={image} show></MissionHintImage>}
         </>
     )
 }
