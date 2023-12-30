@@ -11,7 +11,7 @@ import { useContext } from 'react'
 
 const UnhideAll = styled.div`
     width: 184px;
-    z-index: 30;
+    z-index: 20;
     background-color: ${({ theme }) => theme.buttonColor};
     padding: 10px;
     border-radius: 5px;

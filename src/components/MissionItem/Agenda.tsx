@@ -3,7 +3,7 @@ import { useBookmarkContext } from '../../context/BookmarkContext'
 import { useState } from 'react'
 import { useSettingsContext } from '../../context/SettingsContext'
 import AgendaToggle from './AgendaToggle'
-import { Bookmarks, MapId, MissionData } from '../../types'
+import { Bookmarks, MapId, MissionData, MissionDataPlus } from '../../types'
 import { missionMap, missionSetMap, missionSetMissions, missionSetObject } from '../../data/MissionItem/Data'
 import AgendaItem, { Arrow } from './AgendaItem'
 import mapsData from '../../data/MissionItem/lookups/Map.json'
@@ -50,9 +50,10 @@ const Please = styled.div`
     font-size: 16px;
     gap: 5px;
 `
-interface AgendaMissionData extends MissionData {
+export interface AgendaMissionData extends MissionData {
     set_name: string
     set_order: number
+    next_mission: MissionDataPlus | undefined
 }
 
 const getBookmarkedMissionsByMap =
@@ -89,6 +90,7 @@ const Agenda = () => {
             ...m,
             set_name: missionSetObject[m.mission_set].name,
             set_order: missionSetObject[m.mission_set].order,
+            next_mission: missionDataState.find((m2) => m2.mission_set === m.mission_set && m2.order === m.order + 1),
         }))
         .sort(sortBy(alphaOrder ? 'set_name' : 'set_order'))
 
@@ -112,7 +114,7 @@ const Agenda = () => {
                             </Block>
                         </Header>
 
-                        {agendaMissions.map((m: MissionData) => (
+                        {agendaMissions.map((m: AgendaMissionData) => (
                             <AgendaItem mission={m} showAll={showAll} key={m.pk} />
                         ))}
                         <Spacer />

@@ -1,28 +1,15 @@
 import missionItemData from '../../data/MissionItem/mappings/MissionItem.json'
-import { MissionState, MissionItemData, MissionDataPlus, AssetFolder } from '../../types'
+import { MissionState, MissionItemData, MissionDataPlus } from '../../types'
 import styled, { css } from 'styled-components'
-import MissionItems from './MissionItems'
 import { CustomColors, useSettingsContext } from '../../context/SettingsContext'
 import { missionMap, simpleMissionItems } from '../../data/MissionItem/Data'
-
 import { useItemHoverContext } from '../../context/ItemHover'
 import { useBookmarkContext } from '../../context/BookmarkContext'
-import { getMissionImage, useHover, useImage } from '../../hooks'
-import { Anchor, Tooltip } from '../genericElements'
+import { useHover } from '../../hooks'
 import { pointerCss } from '../../CommonStyles'
+import MissionTooltip from './MissionTooltip'
 
 const flashMission = css`
-    /* @keyframes flashMission {
-        0%,
-        50%,
-        100% {
-            opacity: 1;
-        }
-        25%,
-        75% {
-            opacity: 0;
-        }
-    } */
     animation: flash 3s linear 0s infinite;
     color: ${({ theme }) => theme.fontColor};
 `
@@ -49,7 +36,6 @@ const MissionBox = styled.div<{
         if (state === MissionState.Ready) c = customColors.ready
         else if (state === MissionState.Blocked) c = customColors.blocked
         else if (state === MissionState.PartlyLocked) c = customColors.partlyLocked
-        //else c = 'white'
 
         return c
     }};
@@ -67,45 +53,7 @@ const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
     ${(props) => props.bookmarked && `color: ${props.theme.bookmarkColor}; font-weight: bold;`}
 `
 
-const Tip = styled(Tooltip)<{ left: boolean }>`
-    width: fit-content;
-    text-align: left;
-
-    padding-bottom: 0;
-
-    /* Position the tooltip */
-    display: flex;
-    flex-direction: row;
-
-    ${({ left }) =>
-        left
-            ? css`
-                  left: -165px;
-              `
-            : css`
-                  left: -415px;
-              `}
-`
-const Info = styled.div`
-    min-width: 500px;
-`
-export const HintImage = styled.img<{ show: boolean }>`
-    max-width: 90vw;
-    max-height: 90vh;
-    margin: auto;
-    padding: 10px;
-    border-radius: 25px;
-
-    opacity: ${({ show }) => (show ? 1 : 0)};
-    visibility: ${({ show }) => (show ? 'visible' : 'hidden')};
-    transition: all 0.5s ease;
-`
-const MissionHintImage = styled(HintImage)`
-    max-width: 500px;
-    max-height: 750px;
-`
-
-interface MissionProps {
+export interface MissionProps {
     mission: MissionDataPlus
 }
 
@@ -114,8 +62,7 @@ const Mission = ({ mission }: MissionProps) => {
     const { itemHovered } = useItemHoverContext()
     const { hover: missionHovered, hoverFunctions } = useHover()
     const { bookmarks, toggleBookmark } = useBookmarkContext()
-    const { pk, objectives, state, reward, order, name, mission_set } = mission
-    const image = useImage(AssetFolder.Missions, getMissionImage(mission))
+    const { pk, state, reward, order, mission_set } = mission
     const missionItems: MissionItemData[] = missionItemData.filter((mi) => mi.mission === pk)
 
     const bookmarked = bookmarks[mission_set] === order
@@ -132,8 +79,6 @@ const Mission = ({ mission }: MissionProps) => {
             onClick={() => toggleBookmark(mission, bookmarked)}
             flash={flash}
             containsBoughtItem={containsHoveredItem}
-            // flash={false}
-            // containsBoughtItem={false}
             inSelectedMap={inSelectedMap}
             state={state}
             customColors={customColors}
@@ -141,21 +86,7 @@ const Mission = ({ mission }: MissionProps) => {
             <Reward requiresItems={requiresItems} bookmarked={bookmarked}>
                 {reward}
             </Reward>
-            {missionHovered && (
-                <Anchor>
-                    <Tip left={order < 6}>
-                        <Info>
-                            <span>
-                                {order} - {name}
-                            </span>
-                            <div dangerouslySetInnerHTML={{ __html: objectives }}></div>
-                            {requiresItems && <MissionItems missionItems={missionItems} />}
-                        </Info>
-
-                        {image && <MissionHintImage src={image} show></MissionHintImage>}
-                    </Tip>
-                </Anchor>
-            )}
+            {missionHovered && <MissionTooltip mission={mission} />}
         </MissionBox>
     )
 }
