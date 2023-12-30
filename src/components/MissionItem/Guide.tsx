@@ -21,19 +21,19 @@ const Guide = () => {
                 <h4>Guide to Kak2R's Mission Item Tool for theHunter Classic</h4>
                 <GuideUL>
                     <li>
-                        This tool presents mission information in a highly accessible way and help players maximise their in-game currency earnings from
-                        missions by showing them the most profitable items to buy, personalised according to what a player has already bought. In a nutshell,
-                        click on the items that you have already purchased on the left and you'll be shown what you can earn from other items. You can also
-                        easily keep track of the missions you are on by using the bookmarking feature.
+                        This tool presents mission information in a highly accessible way & help players maximise their in-game currency earnings from missions
+                        by showing them the most profitable items to buy, personalised according to what a player has already bought. In a nutshell, click on
+                        the items that you have already purchased on the left & you'll be shown what you can earn from other items. You can also easily keep
+                        track of the missions you are on by using the bookmarking feature.
                     </li>
                     <li>Hover over an item on the left to show missions that must use it or can use it. "Uses" is the number of those missions.</li>
                     <li>
-                        Click on an item to count it as 'purchased' and see what missions will be unlocked. The earnings of unselected items will be
-                        recalculated every time.
+                        Click on an item to count it as 'purchased' & see what missions will be unlocked. The earnings of unselected items will be recalculated
+                        every time.
                     </li>
                     <li>
                         "Earns" is the extra unlocked amount which you will currently be able to earn from having that item, both from the accessible missions
-                        requiring it and from the missions after it which were already ready. It flashes if the amount is greater than the cost of the item, and
+                        requiring it & from the missions after it which were already ready. It flashes if the amount is greater than the cost of the item, and
                         its value depends on what other items you have already clicked. The amount does not include rewards from later missions which also
                         require the item but which are blocked by the unfulfilled requirements of a previous mission. Those will be included in the earnings of
                         future items. Remember that an item purchased now might not help you complete any missions, but when purchased later after other items,
@@ -44,18 +44,18 @@ const Guide = () => {
                         without them.
                     </li>
                     <li>
-                        Hover over the mission rewards to see objectives and required items. Click on a mission reward to 'bookmark' that mission as the
-                        currently active mission in the mission pack.
+                        Hover over the mission rewards to see objectives & required items. Click on a mission reward to 'bookmark' that mission as the currently
+                        active mission in the mission pack.
                     </li>
                     <li>
                         Hover over a mission pack name to see its total gm$. Click on it to select/deselect all the items <em>absolutely</em> required for that
                         pack. Requirements that state "either this item or that" are left to you.
                     </li>
                     <li>
-                        You can hide mission packs by clicking the <HideIcon height={17} fill={theme.fontColor} /> icon. This will update everything as if it
-                        doesn't exist.
+                        You can hide mission packs by hovering over the title & clicking the <HideIcon height={17} fill={theme.fontColor} /> icon. This will
+                        update everything as if it doesn't exist.
                     </li>
-                    <li>Mainly for desktop use, but if you are viewing on a phone, tap and hold briefly to 'hover'.</li>
+                    <li>Mainly for desktop use, but if you are viewing on a phone, tap & hold briefly to 'hover'.</li>
                 </GuideUL>
 
                 <NotesUL>
@@ -79,7 +79,7 @@ const Guide = () => {
                         </ul>
                     </li>
                     <li>
-                        All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to <b>HooCairs</b> and any
+                        All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to <b>HooCairs</b> & any other
                         contributors for putting it there in the first place! Long live this great game.
                     </li>
                 </NotesUL>

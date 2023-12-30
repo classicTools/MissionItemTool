@@ -65,7 +65,7 @@ const AllMissions = () => {
                 </TopSection>
             </MissionSetRow>
             {missionSetsData
-                .filter((ms) => !hiddenMissionSets.includes(ms.pk)) //.map(ms=>({...ms, order:animalData.find(a=>a.name===ms.name)?.order??ms.order}))
+                .filter((ms) => !hiddenMissionSets.includes(ms.pk))
                 .sort(sortBy(alphaOrder ? 'name' : 'order'))
                 .map((ms) => {
                     return <MissionSet missionSet={ms} key={ms.pk}></MissionSet>

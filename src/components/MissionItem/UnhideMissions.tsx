@@ -18,6 +18,7 @@ const UnhideAll = styled.div`
     text-align: center;
 `
 const UnhideAllButton = styled(Button)`
+    margin-top: 10px;
     width: 170px;
     padding: 10px 0px;
 `
@@ -35,6 +36,8 @@ const HiddenSet = styled.div`
 `
 const Tip = styled(Tooltip)`
     top: 10px;
+    width: 184px;
+    left: -10px;
     max-height: 400px;
     white-space: nowrap;
     display: flex;

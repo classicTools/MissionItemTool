@@ -51,7 +51,6 @@ const Value = styled.span`
 const Tip = styled(Tooltip)`
     white-space: nowrap;
     width: fit-content;
-    //max-width: 300px;
     padding: 0 15px 15px;
     font-size: 15px;
     color: black;

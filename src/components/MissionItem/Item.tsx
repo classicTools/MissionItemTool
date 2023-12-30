@@ -28,7 +28,6 @@ export const ItemRow = styled.div<{ bought?: boolean; lastHovered: boolean }>`
         bought &&
         css`
             background-color: ${theme.boughtItemHighlight};
-            //color: black;
         `};
 `
 

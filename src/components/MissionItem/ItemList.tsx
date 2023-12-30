@@ -18,7 +18,6 @@ const HeaderCellRight = styled.div`
 `
 const ItemListDiv = styled.div`
     max-height: calc(100vh - 160px);
-    //position:static;
     margin: 0 20px 0 0;
     padding: 0 20px 0 0;
     overflow-y: auto;

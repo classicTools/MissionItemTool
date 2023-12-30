@@ -5,6 +5,7 @@ import MapList from './MapList'
 import AmmoList from './AmmoList'
 import WithAmmoContext from '../../context/AmmoContext'
 import { StyledNavLink } from '../../GlobalStyle'
+import { flexR } from '../../CommonStyles'
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -29,8 +30,7 @@ const InnerBody = styled.div`
 `
 
 const Header = styled.div`
-    display: flex;
-    flex-direction: row;
+    ${flexR}
     gap: 20px;
     margin: 0;
     padding: 20px;

@@ -14,7 +14,7 @@ import { useHover } from '../../hooks'
 
 export const MissionSetRow = styled.div`
     display: grid;
-    grid-template-columns: 160px 20px 500px;
+    grid-template-columns: 160px 500px;
     align-items: center;
     gap: 5px;
     height: 27px;
@@ -53,11 +53,11 @@ export const SetHeader = styled.div<{ bold?: boolean; inSelectedMap?: boolean }>
 `
 const Tip = styled(Tooltip)`
     top: -20px;
-    left: 5px;
+
     color: ${({ theme }) => theme.fontColor};
     white-space: nowrap;
     display: flex;
-    flex-direction: column;
+    align-items: center;
 `
 
 const MissionSet = ({ missionSet: { pk, name, image_url } }: MissionSetProps) => {
@@ -89,9 +89,11 @@ const MissionSet = ({ missionSet: { pk, name, image_url } }: MissionSetProps) =>
             <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves} {...hoverFunctions}>
                 <SetLabel> {name}</SetLabel>
                 <SetPic src={image_url} />
+
                 {hover && (
                     <Anchor>
                         <Tip>
+                            <HideIcon onClick={() => hideMissionSet(pk)} height={17} fill={theme.fontColor} color={theme.fontColor} />
                             <span>
                                 Total: <b>{missionDataState.filter((m) => m.mission_set === pk).reduce((a, b) => a + b.reward, 0)}</b> gm$
                             </span>
@@ -99,7 +101,6 @@ const MissionSet = ({ missionSet: { pk, name, image_url } }: MissionSetProps) =>
                     </Anchor>
                 )}
             </SetHeader>
-            <HideIcon onClick={() => hideMissionSet(pk)} height={17} fill={theme.fontColor} color={theme.fontColor} />
             <MissionsContainer>
                 {missionDataState
                     .filter((m) => m.mission_set === pk)
