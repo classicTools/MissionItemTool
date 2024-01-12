@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { CommonGuide } from '../MissionItem/Guide'
 
 const GuideBox = styled.div`
     max-width: 900px;
@@ -16,14 +17,7 @@ const Guide = () => (
                 are just suggestions. Tax whatever you like :)
             </li>
             <li>Hover over ammo to see its permitted species, and, ammo with the same permitted species. Click to highlight them.</li>
-            <li>
-                Shoutout thanks to the following people for their help with keeping this tool alive whilst I had a job lmao:
-                <ul>
-                    <li>Zulgeteb (Discord: zulgeteb) </li>
-                    <li>Aciel (Discord:acielgaming)</li>
-                </ul>
-            </li>
-            <li>If you happen to find a mistake or have any feedback or suggestions let me know. My in-game name is Brutus969. Kak2R is my discord.</li>
+            <CommonGuide />
         </ul>
     </GuideBox>
 )

@@ -1,6 +1,27 @@
 import styled, { ThemeContext } from 'styled-components'
 import HideIcon from '../HideIcon'
 import { useContext } from 'react'
+
+export const CommonGuide = () => (
+    <>
+        <li>If you happen to find a mistake or have any feedback or suggestions let me know. My in-game name is Brutus969. Kak2R is my discord.</li>
+        <li>
+            Shoutout & thanks to these guys for their help with keeping this tool somewhat alive whilst I was away
+            <ul>
+                <li>
+                    <b>Zulgeteb</b> (Discord: zulgeteb)
+                </li>
+                <li>
+                    <b>Aciel </b>(Discord: acielgaming)
+                </li>
+            </ul>
+        </li>
+        <li>
+            All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to <b>HooCairs</b> & any other contributors
+            for putting it there in the first place! Long live this great game.
+        </li>
+    </>
+)
 const GuideDiv = styled.div`
     max-width: 750px;
 `
@@ -66,22 +87,7 @@ const Guide = () => {
                         for it - so this tool assumes you will already have something suitable by then. Highly probable. (The most inexpensive choices are the
                         .30-06 Stutzen, .300 or .340 Weatherby, the only moose permitted rifles that can take the 4x32mm starting scope.)
                     </li>
-                    <li>If you happen to find a mistake or have any feedback or suggestions let me know. My in-game name is Brutus969. Kak2R is my discord.</li>
-                    <li>
-                        Shoutout & thanks to these guys for their help with keeping this tool somewhat alive whilst I was away
-                        <ul>
-                            <li>
-                                <b>Zulgeteb</b> (Discord: zulgeteb)
-                            </li>
-                            <li>
-                                <b>Aciel </b>(Discord:acielgaming)
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        All the raw data comes from the <a href="https://thehunter.fandom.com/wiki/Missions">wiki</a>, credit to <b>HooCairs</b> & any other
-                        contributors for putting it there in the first place! Long live this great game.
-                    </li>
+                    <CommonGuide />
                 </NotesUL>
             </div>
         </GuideDiv>
