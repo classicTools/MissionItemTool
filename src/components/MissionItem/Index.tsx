@@ -21,6 +21,10 @@ const MissionItemGrid = styled.div`
     margin-left: 8px;
     overflow: hidden;
 `
+const ItemCol = styled.div`
+    position: relative;
+    overflow: hidden;
+`
 const Col = styled.div`
     position: relative;
     overflow: scroll;
@@ -45,10 +49,10 @@ function App() {
             <WithItemsContext>
                 <WithItemHoverContext>
                     <WithMissionsContext>
-                        <Col>
+                        <ItemCol>
                             <ItemList />
                             <Unlocks />
-                        </Col>
+                        </ItemCol>
                         <Col>
                             <WithBookmarkContext>
                                 <AllMissions />
