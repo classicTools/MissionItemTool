@@ -1171,7 +1171,7 @@
         "pk": 147,
         "mission_set": 14,
         "name": "What We Do For Science",
-        "objectives": "<ul><li>ID droppings tracks from 3 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in the same hunt.</li></ul>",
+        "objectives": "<ul><li>ID droppings tracks from 3 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in Redfeather Falls in the same hunt.</li></ul>",
         "reward": 100,
         "order": 1
     },
@@ -1179,7 +1179,7 @@
         "pk": 148,
         "mission_set": 14,
         "name": "Mercy Cull",
-        "objectives": "<ul><li>Harvest the infected <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> chocolate</a> colored male <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest the infected male <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in Redfeather Falls.</li></ul>",
         "reward": 200,
         "order": 2
     },
@@ -1187,7 +1187,7 @@
         "pk": 149,
         "mission_set": 14,
         "name": "Coat of Many Colors",
-        "objectives": "<ul><li>Spot a <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Cinnamon</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a>.</li><li>Spot 2 <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\"> Chocolate</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a><li>Spot 4 <a href=\"https://thehunter.fandom.com/wiki/Animal_Fur_Variations#Black_Bear\" title=\"Animal Fur Variations\">Common</a> colored <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a>.</li></ul>",
+        "objectives": "<ul><li>Spot 7 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in Redfeather Falls.</li></ul>",
         "reward": 300,
         "order": 3
     },
@@ -1195,7 +1195,7 @@
         "pk": 150,
         "mission_set": 14,
         "name": "Swamp Thing (Single Player)",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> on the mysterious island (x: -13582, y: -3293) west of the swamp.</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> on the mysterious island (x: -13582, y: -3293) west of the swamp in Redfeather Falls.</li></ul>",
         "reward": 400,
         "order": 4
     },
@@ -1203,7 +1203,7 @@
         "pk": 151,
         "mission_set": 14,
         "name": "Bear Hug",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> weighing less than 100kg (approx. 220lbs.) from less than 30m (approx. 99ft.).</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in Redfeather Falls weighing less than 100kg (approx. 220lbs.) from less than 30m (approx. 99ft.).</li></ul>",
         "reward": 600,
         "order": 5
     },
@@ -1211,7 +1211,7 @@
         "pk": 152,
         "mission_set": 14,
         "name": "Aftershock",
-        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> scoring at least 18 using a <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest 3 <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bears</a> in Redfeather Falls scoring at least 18 using a <a href=\"https://thehunter.fandom.com/wiki/.300_Bolt_Action_Rifle\" title=\".300 Bolt Action Rifle\"> .300 Rifle</a>.</li></ul>",
         "reward": 800,
         "order": 6
     },
@@ -1219,7 +1219,7 @@
         "pk": 153,
         "mission_set": 14,
         "name": "Lead N Fur",
-        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> scoring at least 20 using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> slug</a> from more than 50m (approx. 164ft.).</li></ul>",
+        "objectives": "<ul><li>Harvest a <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> scoring at least 20 using a <a href=\"https://thehunter.fandom.com/wiki/12_GA_Shells_(Slug)\" title=\"12 GA Shells (Slug)\"> slug</a> from more than 50m (approx. 164ft.) in Redfeather Falls.</li></ul>",
         "reward": 1000,
         "order": 7
     },
@@ -1235,7 +1235,7 @@
         "pk": 155,
         "mission_set": 14,
         "name": "Getting Closer",
-        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> weighing more than 200kg (approx. 441lbs.) using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> Snakebite Compound Bow</a>.</li></ul>",
+        "objectives": "<ul><li>Harvest a male <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in Redfeather Falls weighing more than 200kg (approx. 441lbs.) using the <a href=\"https://thehunter.fandom.com/wiki/Compound_Bow_Snakebite\" title=\"Compound Bow Snakebite\"> Snakebite Compound Bow</a>.</li></ul>",
         "reward": 1800,
         "order": 9
     },
@@ -1243,7 +1243,7 @@
         "pk": 156,
         "mission_set": 14,
         "name": "Illegally Blonde (Single Player)",
-        "objectives": "<ul><li>Harvest the angry blond <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in the northwest corner (x: -12614, y: -6282).</li></ul>",
+        "objectives": "<ul><li>Harvest the angry blond <a href=\"https://thehunter.fandom.com/wiki/Black_Bear\" title=\"Black Bear\">Black Bear</a> in the northwest corner (x: -12614, y: -6282) in Redfeather Falls.</li></ul>",
         "reward": 3600,
         "order": 10
     },
