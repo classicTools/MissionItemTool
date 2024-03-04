@@ -367,5 +367,11 @@
     { "mission": 1336, "map": 9 },
     { "mission": 1337, "map": 12 },
     { "mission": 1338, "map": 11 },
-    { "mission": 1339, "map": 10 }
+    { "mission": 1339, "map": 10 },
+    { "mission": 1460, "map": 2 },
+    { "mission": 1461, "map": 7 },
+    { "mission": 1462, "map": 4 },
+    { "mission": 1463, "map": 3 },
+    { "mission": 1464, "map": 5 },
+    { "mission": 1465, "map": 6 }
 ]
