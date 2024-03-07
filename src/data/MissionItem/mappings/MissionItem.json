@@ -703,5 +703,6 @@
     { "mission": 1336, "item": 26, "any": false, "group": null },
     { "mission": 1336, "item": 27, "any": false, "group": null },
     { "mission": 1460, "item": 36, "any": false, "group": null },
-    { "mission": 1460, "item": 67, "any": false, "group": null }
+    { "mission": 1460, "item": 67, "any": false, "group": null },
+    { "mission": 1231, "item": 88, "any": false, "group": null }
 ]
