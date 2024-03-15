@@ -121,8 +121,6 @@
     { "mission": 234, "item": 87, "any": true, "group": 0 },
     { "mission": 234, "item": 85, "any": true, "group": 0 },
     { "mission": 235, "item": 26, "any": false, "group": null },
-    { "mission": 236, "item": 65, "any": true, "group": 0 },
-    { "mission": 236, "item": 66, "any": true, "group": 0 },
     { "mission": 241, "item": 4, "any": true, "group": 0 },
     { "mission": 241, "item": 5, "any": true, "group": 0 },
     { "mission": 242, "item": 75, "any": true, "group": 0 },

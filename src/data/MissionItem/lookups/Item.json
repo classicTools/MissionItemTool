@@ -90,5 +90,7 @@
     { "pk": 89, "name": "Tripod stand", "cost": 11050 },
     { "pk": 90, "name": "Waterfowl blind", "cost": 7650 },
     { "pk": 91, "name": ".22 \"Plinkington\" Semi-Automatic Rifle", "cost": 9350 },
-    { "pk": 92, "name": "Maisto 12 GA Semi-Automatic Shotgun", "cost": 11050 }
+    { "pk": 92, "name": "Maisto 12 GA Semi-Automatic Shotgun", "cost": 11050 },
+    { "pk": 93, "name": "Deployable Hunting Tower ", "cost": 10540 },
+    { "pk": 94, "name": "Ground Blind", "cost": 7140 }
 ]

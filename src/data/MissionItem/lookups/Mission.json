@@ -1883,7 +1883,7 @@
         "pk": 236,
         "mission_set": 22,
         "name": "Taking Down the Bearkiller Goat (Single Player)",
-        "objectives": "<ul><li>Harvest the last Bearkiller Alpine Ibex using <a href=\"https://thehunter.fandom.com/wiki/7mm_Magnum\" title=\"7mm Magnum\"> 7 mm ammunition</a> at the Devil's Teapot in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> (X: 3078, Y: -2169).</li></ul>",
+        "objectives": "<ul><li>Harvest the last Bearkiller Alpine Ibex at the Devil's Teapot in <a href=\"https://thehunter.fandom.com/wiki/Val-des-Bois\" title=\"Val-des-Bois\">Val-des-Bois</a> (X: 3078, Y: -2169).</li></ul>",
         "reward": 3600,
         "order": 10
     },

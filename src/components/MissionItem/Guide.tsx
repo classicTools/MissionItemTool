@@ -80,7 +80,11 @@ const Guide = () => {
                 </GuideUL>
 
                 <NotesUL>
-                    <li> This tool assumes that you already have the .243 rifle, 4x32mm scope, 12GA single shot shotgun & ground blind.</li>
+                    <li>
+                        {' '}
+                        This tool assumes that you already have the .243 rifle, 4x32mm scope, 12GA single shot shotgun &{' '}
+                        <a href="https://steamcommunity.com/app/253710/discussions/0/1489992713696959988/">free ground blind</a>.
+                    </li>
                     <li> For Red Kangaroo mission 10 I have only specified scopes which all the Anschütz rifles can use.</li>
                     <li>
                         B&C Club mission 5 requires you use any scoped weapon for a moose. As there are many possibilities here, I have not bothered accounting
