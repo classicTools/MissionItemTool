@@ -344,7 +344,7 @@
         "image_url": "",
         "score_min": "14",
         "score_max": "17",
-        "weight_max": "90",
+        "weight_max": "91",
         "rares": "Albino, Melanistic, Leucistic",
         "other_furs": "",
         "tax": "16.7",
@@ -400,7 +400,7 @@
         "rares": "Albino, Melanistic",
         "other_furs": "Grey",
         "tax": "9.3",
-        "css_max": "140"
+        "css_max": "150"
     },
     {
         "pk": 32,
