@@ -3,6 +3,18 @@ import { useLocalStorage } from '../hooks'
 import { AmmoId, AnimalId, LocalStorageVars, MapId, bareFn } from '../types'
 import { ThemeProvider } from 'styled-components'
 
+const defaultCustomColors: CustomColors = {
+    ready: 'lightgreen',
+    blocked: 'green',
+    partlyLocked: 'yellow',
+    bookmarkColor: 'red',
+}
+const defaultDarkCustomColors: CustomColors = {
+    ready: '#004F39',
+    blocked: '#686E6E',
+    partlyLocked: '#09716A',
+    bookmarkColor: '#85FFDC',
+}
 const lightModeSet = {
     bgColor: 'FloralWhite',
     fontColor: 'black',
@@ -12,12 +24,9 @@ const lightModeSet = {
     missionSetHighlight: 'gold',
     missionHighlight: 'gold',
     boughtItemHighlight: 'orange',
-    bookmarkColor: 'red',
 
     //can be overridden by customColors
-    ready: 'lightgreen',
-    blocked: 'green',
-    partlyLocked: 'yellow',
+    ...defaultCustomColors,
 }
 const darkModeSet = {
     bgColor: '#222222',
@@ -28,28 +37,22 @@ const darkModeSet = {
     missionSetHighlight: '#004f39',
     missionHighlight: '#ABB0B0',
     boughtItemHighlight: '#53796A',
-    bookmarkColor: '#85FFDC',
 
     //can be overridden by customColors
-    ready: '#004F39',
-    blocked: '#686E6E',
-    partlyLocked: '#09716A',
+    ...defaultDarkCustomColors,
 }
 
 export interface CustomColors {
     ready: string
     blocked: string
     partlyLocked: string
-}
-const defaultCustomColors: CustomColors = {
-    ready: 'lightgreen',
-    blocked: 'green',
-    partlyLocked: 'yellow',
+    bookmarkColor: string
 }
 
 interface SettingsContext {
     customColors: CustomColors
     setCustomColors: Dispatch<SetStateAction<CustomColors>>
+    resetCustomColors: () => void
     map: MapId | null
     setMap: (mapId: MapId | null) => void
     ammo: AmmoId[]
@@ -66,6 +69,7 @@ interface SettingsContext {
 const defaultSettings = {
     customColors: defaultCustomColors,
     setCustomColors: bareFn,
+    resetCustomColors: bareFn,
     map: null,
     setMap: bareFn,
     ammo: [],
@@ -78,6 +82,12 @@ const defaultSettings = {
     darkMode: false,
     toggleDarkMode: bareFn,
 }
+
+const defaultsReady = [defaultDarkCustomColors.ready, defaultCustomColors.ready]
+const defaultsBlocked = [defaultDarkCustomColors.blocked, defaultCustomColors.blocked]
+const defaultsPartlyLocked = [defaultDarkCustomColors.partlyLocked, defaultCustomColors.partlyLocked]
+const defaultsBookmarkColor = [defaultDarkCustomColors.bookmarkColor, defaultCustomColors.bookmarkColor]
+
 const SettingsContext = createContext<SettingsContext>(defaultSettings)
 const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const [darkMode, setDarkMode] = useLocalStorage<boolean>(LocalStorageVars.DarkMode)
@@ -94,18 +104,26 @@ const WithSettingsContext = ({ children }: PropsWithChildren) => {
     const resetAmmo = () => setAmmo([])
 
     useEffect(() => {
-        setCustomColors({ ready: colors.ready, blocked: colors.blocked, partlyLocked: colors.partlyLocked })
-    }, [colors])
-
-    useEffect(() => {
         setColors(darkMode ? darkModeSet : lightModeSet)
+
+        const { ready, blocked, partlyLocked, bookmarkColor } = darkMode ? defaultDarkCustomColors : defaultCustomColors
+        const { ready: customReady, blocked: customBlocked, partlyLocked: customPartlyLocked, bookmarkColor: customBookmarkColor } = customColors
+        setCustomColors({
+            ready: defaultsReady.includes(customReady) ? ready : customReady,
+            blocked: defaultsBlocked.includes(customBlocked) ? blocked : customBlocked,
+            partlyLocked: defaultsPartlyLocked.includes(customPartlyLocked) ? partlyLocked : customPartlyLocked,
+            bookmarkColor: defaultsBookmarkColor.includes(customBookmarkColor) ? bookmarkColor : customBookmarkColor,
+        })
     }, [darkMode])
+
+    const resetCustomColors = () => setCustomColors(darkMode ? defaultDarkCustomColors : defaultCustomColors)
 
     return (
         <SettingsContext.Provider
             value={{
                 customColors,
                 setCustomColors,
+                resetCustomColors,
                 map,
                 setMap,
                 ammo: safeAmmo,

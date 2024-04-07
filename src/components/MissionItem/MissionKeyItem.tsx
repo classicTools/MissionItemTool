@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { MissionKeyItemType } from './MissionKey'
 import { pointerCss } from '../../CommonStyles'
+import { transitionCss } from '../PermittedAmmo/Animal'
 
 const KeyItemContainer = styled.div<{ selected: boolean }>`
     display: flex;
@@ -18,6 +19,7 @@ const ColorThumb = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    ${transitionCss}
 `
 interface MissionKeyItemProps extends MissionKeyItemType {
     onClick: () => void

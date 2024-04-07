@@ -8,6 +8,7 @@ import { useBookmarkContext } from '../../context/BookmarkContext'
 import { useHover } from '../../hooks'
 import { pointerCss } from '../../CommonStyles'
 import MissionTooltip from './MissionTooltip'
+import { transitionCss } from '../PermittedAmmo/Animal'
 
 const flashMission = css`
     animation: flash 3s linear 0s infinite;
@@ -42,15 +43,17 @@ const MissionBox = styled.div<{
 
     ${({ inSelectedMap, theme }) => inSelectedMap && `box-shadow: inset 0 0 1px 4px ${theme.missionHighlight};`}
     ${({ flash }) => flash && flashMission}
+    ${transitionCss}
 `
-const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean }>`
+const Reward = styled.div<{ requiresItems: boolean; bookmarked?: boolean; color: string }>`
     height: 20px;
     width: 40px;
     min-width: 40px;
     font-weight: ${(props) => (props.requiresItems ? 'bold' : 'normal')};
     justify-self: center;
     align-self: end;
-    ${(props) => props.bookmarked && `color: ${props.theme.bookmarkColor}; font-weight: bold;`}
+    ${(props) => props.bookmarked && `color: ${props.color || props.theme.bookmarkColor}; font-weight: bold;`}
+    ${transitionCss}
 `
 
 export interface MissionProps {
@@ -83,7 +86,7 @@ const Mission = ({ mission }: MissionProps) => {
             state={state}
             customColors={customColors}
         >
-            <Reward requiresItems={requiresItems} bookmarked={bookmarked}>
+            <Reward requiresItems={requiresItems} bookmarked={bookmarked} color={customColors.bookmarkColor}>
                 {reward}
             </Reward>
             {missionHovered && <MissionTooltip mission={mission} />}
