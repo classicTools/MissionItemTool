@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2984],{2984:function(e,s,c){e.exports=c.p+"static/media/Grizzly Bear.7092c3c07d90b18aeb69.webp"}}]);

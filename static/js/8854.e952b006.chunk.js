@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8854],{8854:(e,s,a)=>{e.exports=a.p+"static/media/Feral Goat.4fcc15437ef124e6819b.webp"}}]);

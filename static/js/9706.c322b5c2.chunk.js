@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9706],{9706:function(e,c,s){e.exports=s.p+"static/media/Blacktail Deer.0f98657275c177afcd2c.webp"}}]);

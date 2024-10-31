@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8788],{8788:(e,s,p)=>{e.exports=p.p+"static/media/Rusa Deer.13e95e778d9fc9907693.webp"}}]);

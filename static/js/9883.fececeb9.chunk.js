@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9883],{9883:function(e,s,a){e.exports=a.p+"static/media/Snowshoe Hare.e61b19857890b087b3ad.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7135],{7135:(e,s,a)=>{e.exports=a.p+"static/media/black_bear_4.8c6059674eaa0ff0ecb5.webp"}}]);

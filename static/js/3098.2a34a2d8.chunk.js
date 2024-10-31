@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[3098],{3098:(e,s,p)=>{e.exports=p.p+"static/media/grey_wolf_10.8fb41837c96e185db43f.webp"}}]);

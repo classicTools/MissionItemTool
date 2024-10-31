@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7420],{7420:function(e,s,f){e.exports=f.p+"static/media/Wild Boar.6ef16705cf001f62fd09.webp"}}]);

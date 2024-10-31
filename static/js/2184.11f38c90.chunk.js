@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2184],{2184:(e,s,a)=>{e.exports=a.p+"static/media/Canada Goose.9447040ecec361596d97.webp"}}]);

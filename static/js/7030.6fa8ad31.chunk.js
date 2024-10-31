@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7030],{7030:(e,s,a)=>{e.exports=a.p+"static/media/Moose.68d2a5183970287eab5b.webp"}}]);

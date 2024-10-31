@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[1279],{1279:function(e,s,a){e.exports=a.p+"static/media/val-des-bois_4.ac334ef66b8935176a0c.webp"}}]);

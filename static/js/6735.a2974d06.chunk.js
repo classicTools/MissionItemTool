@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6735],{6735:function(e,s,p){e.exports=p.p+"static/media/Alpine Ibex.1ea83b7d83e764c1af84.webp"}}]);

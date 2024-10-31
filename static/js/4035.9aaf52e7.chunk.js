@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4035],{4035:function(e,s,b){e.exports=b.p+"static/media/pheasant_9.78d1b8eb4168bf3d5b6b.webp"}}]);

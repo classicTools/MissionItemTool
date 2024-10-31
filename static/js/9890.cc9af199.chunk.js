@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9890],{9890:(e,s,a)=>{e.exports=a.p+"static/media/whitehart_island_9.541a52203668e6f346c9.webp"}}]);

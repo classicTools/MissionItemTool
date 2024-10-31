@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[5321],{5321:(e,s,b)=>{e.exports=b.p+"static/media/Wood Grouse.082abb7b71e5d4ba365b.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7227],{7227:(e,a,s)=>{e.exports=s.p+"static/media/Sambar Deer.1a44a33065192a04efe8.webp"}}]);

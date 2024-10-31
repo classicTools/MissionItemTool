@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7476],{7476:(e,s,i)=>{e.exports=i.p+"static/media/whiterime_ridge_8.f0ac61636fef2e1e1dd3.webp"}}]);

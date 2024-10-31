@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6879],{6879:(e,s,a)=>{e.exports=a.p+"static/media/Reindeer.4d7cd18c9763aa681976.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8228],{8228:(e,s,c)=>{e.exports=c.p+"static/media/Bison.06a601c9fdc25292439b.webp"}}]);

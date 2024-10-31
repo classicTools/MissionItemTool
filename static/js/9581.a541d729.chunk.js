@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9581],{9581:(e,c,s)=>{e.exports=s.p+"static/media/American Black Duck.648284c373c66434ae9d.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2569],{2569:(e,s,p)=>{e.exports=p.p+"static/media/Dall Sheep.e95ef78685ba41773376.webp"}}]);

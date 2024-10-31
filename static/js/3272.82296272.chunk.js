@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[3272],{3272:(e,s,t)=>{e.exports=t.p+"static/media/Whitehart Island.1037d4802c0059729064.webp"}}]);

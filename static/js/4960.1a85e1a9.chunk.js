@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4960],{4960:(e,s,p)=>{e.exports=p.p+"static/media/European Rabbit.d89c23e5281eef11126b.webp"}}]);

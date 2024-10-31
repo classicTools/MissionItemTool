@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4015],{4015:function(e,s,a){e.exports=a.p+"static/media/Willow Ptarmigan.c3580f696e2ba2d778be.webp"}}]);

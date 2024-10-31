@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[5687],{5687:function(e,s,a){e.exports=a.p+"static/media/piccabeen_bay_9.948b363ab9e975493653.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7395],{7395:(e,s,a)=>{e.exports=a.p+"static/media/rougarou_bayou_10.6931e0a3d80da9e8e744.webp"}}]);

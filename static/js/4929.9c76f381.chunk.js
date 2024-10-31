@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4929],{4929:function(e,t,c){e.exports=c.p+"static/media/cottontail_rabbit_5.63589f4cce0e0d0ec1b2.webp"}}]);

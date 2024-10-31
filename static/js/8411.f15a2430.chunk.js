@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8411],{8411:function(e,s,b){e.exports=b.p+"static/media/sitka_deer_10.2dfe6a303bb283db9be7.webp"}}]);

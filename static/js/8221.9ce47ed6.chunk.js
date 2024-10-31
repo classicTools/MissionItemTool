@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8221],{8221:function(e,s,a){e.exports=a.p+"static/media/european_rabbit_10.ab42ab52947c2e41486b.webp"}}]);

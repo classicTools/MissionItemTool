@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4405],{4405:function(e,s,a){e.exports=a.p+"static/media/Rock Ptarmigan.ca1a514725746339f811.webp"}}]);

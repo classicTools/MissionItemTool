@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2783],{2783:(e,s,a)=>{e.exports=a.p+"static/media/water_buffalo_1.53eae6c5388d9f0cb8f8.webp"}}]);

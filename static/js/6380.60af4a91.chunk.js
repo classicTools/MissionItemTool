@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6380],{6380:(e,s,a)=>{e.exports=a.p+"static/media/Bobcat.3c8aaf1b9e12dfe71d56.webp"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6911],{2762:function(e,s,p){e.exports=p.p+"static/media/puma_5.1bc7990487a2b4541726.webp"}}]);

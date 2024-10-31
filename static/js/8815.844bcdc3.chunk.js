@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8815],{8815:(e,s,t)=>{e.exports=t.p+"static/media/whitehart_sights_3.9478f39565b51646ea7c.webp"}}]);

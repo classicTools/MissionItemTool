@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2717],{2717:(e,c,s)=>{e.exports=s.p+"static/media/Piccabeen Bay.c29b08089bcaccf2807d.webp"}}]);

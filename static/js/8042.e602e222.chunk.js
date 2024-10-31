@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8042],{8042:(e,s,p)=>{e.exports=p.p+"static/media/hemmeldal_2.f51bc931404779502725.webp"}}]);

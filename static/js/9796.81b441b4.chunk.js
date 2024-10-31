@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9796],{9796:(e,s,a)=>{e.exports=a.p+"static/media/Whitetail Deer.64e7220d7b55ea0ade5a.webp"}}]);

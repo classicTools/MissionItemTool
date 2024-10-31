@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8887],{8887:(e,s,p)=>{e.exports=p.p+"static/media/Bighorn Sheep.55d33e21b66e0c7e7528.webp"}}]);

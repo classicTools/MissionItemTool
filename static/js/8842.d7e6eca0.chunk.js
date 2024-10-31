@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8842],{8842:function(e,s,a){e.exports=a.p+"static/media/Polar Bear.3242eb431768a86cd71a.webp"}}]);

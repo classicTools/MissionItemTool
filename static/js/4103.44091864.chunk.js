@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4103],{4103:function(e,s,c){e.exports=c.p+"static/media/Eurasian Lynx.bac96f52b2311c2cca3e.webp"}}]);

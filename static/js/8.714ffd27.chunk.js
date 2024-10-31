@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8],{8:(e,s,a)=>{e.exports=a.p+"static/media/banteng_4.70406a877307f5ef6487.webp"}}]);

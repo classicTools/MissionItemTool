@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[4276],{4276:(e,s,c)=>{e.exports=c.p+"static/media/Mallard.c557fac163ffd2fb43cc.webp"}}]);

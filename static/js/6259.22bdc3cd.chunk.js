@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[6259],{6259:(e,s,a)=>{e.exports=a.p+"static/media/hirschfelden_5.48a43631c4e3ea2b812d.webp"}}]);

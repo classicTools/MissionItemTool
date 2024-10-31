@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[234],{1257:function(e,s,c){e.exports=c.p+"static/media/coyote_9.35b6cea1a758f8e9e70b.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[5112],{5112:(e,s,a)=>{e.exports=a.p+"static/media/Roosevelt Elk.20d5a08eee734baadc27.webp"}}]);

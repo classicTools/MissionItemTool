@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7600],{7600:function(e,s,c){e.exports=c.p+"static/media/Red Fox.ef6557151c700d0f440d.webp"}}]);

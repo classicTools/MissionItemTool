@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[7288],{7288:function(e,s,c){e.exports=c.p+"static/media/bushrangers_run_5.49df795157cb5fced30f.webp"}}]);

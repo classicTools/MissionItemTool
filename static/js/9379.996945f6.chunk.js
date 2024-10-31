@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[9379],{9379:function(e,c,s){e.exports=s.p+"static/media/Turkey.0c1dbacc732573ac1f6e.webp"}}]);

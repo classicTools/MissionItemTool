@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2497],{2497:(e,s,a)=>{e.exports=a.p+"static/media/Logger's Point.c5cb7bea8b09407a0100.webp"}}]);

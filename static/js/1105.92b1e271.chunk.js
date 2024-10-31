@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[1105],{1105:function(e,s,c){e.exports=c.p+"static/media/Red Deer.463496a8c26b94484f92.webp"}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[8229],{8229:(e,s,a)=>{e.exports=a.p+"static/media/Timbergold Trails.f5a739e80f350990d205.webp"}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgems=self.webpackChunkgems||[]).push([[2781],{2781:function(e,t,s){e.exports=s.p+"static/media/Cottontail Rabbit.4183f5fcdbbad8064093.webp"}}]);
