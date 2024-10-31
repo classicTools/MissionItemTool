@@ -1,5 +1,4 @@
 # Ideas
-allow hiding mission sets
 hint check
 
 # Maybe
@@ -7,6 +6,7 @@ portal image transition
 review missionset 'wiki ordering'
 
 # Done
+allow hiding mission sets
 agenda item image portal
 (Single Player)
 add new animals, ammo, missions:

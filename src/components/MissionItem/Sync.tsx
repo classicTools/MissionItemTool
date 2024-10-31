@@ -41,7 +41,12 @@ const Sync = () => {
     }
     return (
         <SyncBox>
-            <textarea value={syncText} onChange={({ target: { value } }) => setSyncText(value)} placeholder="Paste mission page here"></textarea>
+            <textarea
+                name="pasteArea"
+                value={syncText}
+                onChange={({ target: { value } }) => setSyncText(value)}
+                placeholder="Paste mission page here"
+            ></textarea>
             <Button onClick={onSyncBookmarks} {...hoverFunctions}>
                 Synchronise Bookmarks
             </Button>

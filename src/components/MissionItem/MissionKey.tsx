@@ -53,6 +53,7 @@ const MissionKey = () => {
                         {...info}
                         onClick={() => info.key && handleMissionKeyItemClick(info.key)}
                         selected={info.key !== null && info.key === selectedKey}
+                        key={info.key}
                     />
                 ))}
                 {selectedKey && (

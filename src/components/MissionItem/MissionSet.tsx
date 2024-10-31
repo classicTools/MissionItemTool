@@ -33,7 +33,7 @@ const SetPic = styled.img`
     height: 16px;
     max-width: 30px;
 `
-const SetLabel = styled.label`
+const SetLabel = styled.span`
     text-align: right;
     ${pointerCss}
 `
@@ -88,7 +88,7 @@ const MissionSet = ({ missionSet: { pk, name, image_url } }: MissionSetProps) =>
         <MissionSetRow>
             <SetHeader inSelectedMap={inSelectedMap} onClick={toggleMustHaves} {...hoverFunctions}>
                 <SetLabel> {name}</SetLabel>
-                <SetPic src={image_url} />
+                <SetPic src={image_url} title={name} />
 
                 {hover && (
                     <Anchor>

@@ -53,7 +53,7 @@ const AllMissions = () => {
                     </div>
                     <div>
                         <label>
-                            <input type="checkbox" checked={darkMode} onClick={toggleDarkMode} />
+                            <input name="themeToggle" type="checkbox" checked={darkMode} onChange={toggleDarkMode} />
                             Dark Mode
                         </label>
                     </div>
