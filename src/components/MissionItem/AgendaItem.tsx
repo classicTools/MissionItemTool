@@ -11,11 +11,31 @@ import { useContext } from 'react'
 
 import { AgendaMissionData } from './Agenda'
 import MissionInfo, { HintImage } from './MissionInfo'
+
+const noSelect = `    
+-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    ::selection {
+        background: transparent;
+        color: inherit;
+    }
+    ::-moz-selection {
+        background: transparent;
+        color: inherit;
+    }
+
+    img, svg {
+        -webkit-user-drag: none;
+        user-drag: none;
+    }`
+
 const BookmarkContainer = styled.div`
     details {
-        display: flex;
-        align-items: center;
-        justify-items: center;
+        display: block;
         width: 100%;
     }
     summary {
@@ -34,7 +54,6 @@ const Title = styled.span<{ ready: boolean }>`
 `
 
 const BookmarkNav = styled.span`
-    position: absolute;
     right: 30px;
 `
 export const Arrow = styled.i<{ toLeft: boolean }>`
@@ -57,6 +76,7 @@ const FirstSpan = styled.span`
 `
 const MissionName = styled.span`
     margin: 0 5px;
+    ${noSelect}
 `
 const Details = styled.details<{ open: boolean; showingImage: boolean }>`
     &:hover {
@@ -64,6 +84,15 @@ const Details = styled.details<{ open: boolean; showingImage: boolean }>`
             text-decoration: ${({ showingImage }) => showingImage && 'underline'};
         }
     }
+`
+const Reward = styled.span`
+    position: relative;
+    right: 10px;
+`
+const Summary = styled.summary``
+const Objectives = styled.div``
+const SetName = styled.b`
+    ${noSelect}
 `
 const Tip = styled(Tooltip)`
     text-align: left;
@@ -92,20 +121,20 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
     return (
         <BookmarkContainer>
             <Details open={showAll && missionReady} showingImage={hoverTitle && image}>
-                <summary>
+                <Summary>
                     <BookmarkHead>
                         <Title ready={missionReady} {...hoverFunctionsTitle}>
                             <FirstSpan>
-                                <b>{missionSetsData.find((s) => s.pk === mission_set)?.name}</b>
+                                <SetName>{missionSetsData.find((s) => s.pk === mission_set)?.name}</SetName>
                                 <MissionName className="missionName">
                                     {order} - {name}
                                 </MissionName>
                                 {!missionReady && ' (BLOCKED)'}
                                 {image && <ImageIcon height={15} width={18} fill={theme.fontColor} />}
                             </FirstSpan>
-                            <span>
+                            <Reward>
                                 <b>{reward}</b> gm${' '}
-                            </span>
+                            </Reward>
                         </Title>
                         <BookmarkNav>
                             <ArrowButton disabled={onFirstMission} onClick={() => bookmarkPrevMission(mission_set)}>
@@ -123,8 +152,8 @@ const AgendaItem = ({ mission, showAll }: BookmarkProps) => {
                             )}
                         </BookmarkNav>
                     </BookmarkHead>
-                </summary>
-                <span dangerouslySetInnerHTML={{ __html: objectives }} />
+                </Summary>
+                <Objectives dangerouslySetInnerHTML={{ __html: objectives }} />
                 {hoverTitle && image && (
                     <Portal portalId={HintImagePortal}>
                         <HintImage src={image} show={hoverTitle} {...hoverFunctionsTitle}></HintImage>
