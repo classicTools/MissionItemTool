@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/MissionItemTool/static/js/main.afac1675.js",
+    "main.js": "/MissionItemTool/static/js/main.38289edf.js",
     "static/js/9993.0bf93806.chunk.js": "/MissionItemTool/static/js/9993.0bf93806.chunk.js",
     "static/js/632.001bc84e.chunk.js": "/MissionItemTool/static/js/632.001bc84e.chunk.js",
     "static/js/9581.a541d729.chunk.js": "/MissionItemTool/static/js/9581.a541d729.chunk.js",
@@ -421,12 +421,12 @@
     "static/media/Fallow Deer.webp": "/MissionItemTool/static/media/Fallow Deer.ebe262508985919ed148.webp",
     "static/media/Northern Pintail.webp": "/MissionItemTool/static/media/Northern Pintail.ab02b962a18f4e3d0f33.webp",
     "index.html": "/MissionItemTool/index.html",
-    "main.afac1675.js.map": "/MissionItemTool/static/js/main.afac1675.js.map",
+    "main.38289edf.js.map": "/MissionItemTool/static/js/main.38289edf.js.map",
     "9993.0bf93806.chunk.js.map": "/MissionItemTool/static/js/9993.0bf93806.chunk.js.map",
     "6453.93d36b7d.chunk.js.map": "/MissionItemTool/static/js/6453.93d36b7d.chunk.js.map",
     "9478.f749d9cc.chunk.js.map": "/MissionItemTool/static/js/9478.f749d9cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.afac1675.js"
+    "static/js/main.38289edf.js"
   ]
 }
